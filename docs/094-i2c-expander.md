@@ -2,27 +2,28 @@
 
 Make sure to use lox.begin after each time you call a new device.
 
- \#include "Wire.h"
+```
+include "Wire.h"
 
 extern "C" {
 
-\#include "utility/twi.h"  // from Wire library, so we can do bus scanning
+include "utility/twi.h"  // from Wire library, so we can do bus scanning
 
 }
 
-\#include "Adafruit\_VL53L0X.h"
+include "Adafruit_VL53L0X.h"
 
-Adafruit\_VL53L0X lox = Adafruit\_VL53L0X();
+Adafruit_VL53L0X lox = Adafruit_VL53L0X();
 
-\#define TCAADDR 0x70
+define TCAADDR 0x70
 
-void tcaselect(uint8\_t i) {
+void tcaselect(uint8_t i) {
 
-  if (i \> 7) return;
+  if (i > 7) return;
 
   Wire.beginTransmission(TCAADDR);
 
-  Wire.write(1 \<\< i);
+  Wire.write(1 << i);
 
   Wire.endTransmission();
 
@@ -34,31 +35,31 @@ void setup()
 
 {
 
-  while (\!Serial);
+  while (!Serial);
 
   delay(1);
 
   Serial.begin(115200);
 
-  Serial.println(F("VL53L0X API Simple Ranging example\\n\\n"));
+  Serial.println(F("VL53L0X API Simple Ranging example\n\n"));
 
-  Serial.println("\\nTCAScanner ready\!");
+  Serial.println("\nTCAScanner ready!");
 
   Wire.begin();
 
-  for (uint8\_t t = 0; t \< 8; t++) {
+  for (uint8_t t = 0; t < 8; t++) {
 
     tcaselect(t);
 
-    Serial.print("TCA Port \#"); Serial.println(t);
+    Serial.print("TCA Port #"); Serial.println(t);
 
-    for (uint8\_t addr = 0; addr \<= 127; addr++) {
+    for (uint8_t addr = 0; addr <= 127; addr++) {
 
       if (addr == TCAADDR) continue;
 
-      uint8\_t data;
+      uint8_t data;
 
-      if (\! twi\_writeTo(addr, \&data, 0, 1, 1)) {
+      if (! twi_writeTo(addr, &data, 0, 1, 1)) {
 
         Serial.print("Found I2C 0x");  Serial.println(addr, HEX);
 
@@ -68,7 +69,7 @@ void setup()
 
   }
 
-  Serial.println("\\ndone");
+  Serial.println("\ndone");
 
 }
 
@@ -76,11 +77,11 @@ void loop()
 
 {
 
-  for (uint8\_t x = 1; x \< 5; x++) {
+  for (uint8_t x = 1; x < 5; x++) {
 
     tcaselect(x);
 
-    if (\!lox.begin()) {
+    if (!lox.begin()) {
 
       Serial.println(F("Failed to boot VL53L0X"));
 
@@ -88,13 +89,13 @@ void loop()
 
     }
 
-    VL53L0X\_RangingMeasurementData\_t measure;
+    VL53L0X_RangingMeasurementData_t measure;
 
     //Serial.print("Reading a measurement... ");
 
-    lox.rangingTest(\&measure, false); // pass in 'true' to get debug data printout\!
+    lox.rangingTest(&measure, false); // pass in 'true' to get debug data printout!
 
-    if (measure.RangeStatus \!= 4) {  // phase failures have incorrect data
+    if (measure.RangeStatus != 4) {  // phase failures have incorrect data
 
       Serial.print("sensor "); Serial.print(x);
 
@@ -109,6 +110,7 @@ void loop()
   }
 
 }
+```
 
 CLI RPI PROGRAMMING
 
@@ -116,7 +118,7 @@ DEBOUNCE BUTTONS
 
 3.  Add a second button and modify your code from exercise three so that the LED turns off when the second button is pressed.
 
-6\. TEACHER CHECK \_\_\_\_
+6. TEACHER CHECK \_\_\_\_
 
 4.  Modify your code use a single button to turn on and off the LED.
 
