@@ -8,13 +8,14 @@ for i, page in enumerate(contents, start=1):
     # use lowercase
     title = title.lower()
 
-    # get rid of spaces
-    fname = title.replace(' ', '-')
+    # get rid of spaces and format as filename base
+    fname = '{:03d}-{}'.format(i, title.replace(' ', '-'))
+    print(fname)
 
     page = '\n'.join(page.split('\n')[3:])
 
     # write the page to a file
-    with open('docs/{:03d}-{}.md'.format(i, fname), 'w') as f:
+    with open('docs/{}.md'.format(fname), 'w') as f:
         f.write('# {}\n\n#'.format(title.title()))
         f.write(page)
 
