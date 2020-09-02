@@ -9,7 +9,9 @@ Welcome to MVTHS Engineering Wiki's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
+   
+   001-simple-circuit
+   002-breadboard-circuit
 
 
 Indices and tables
