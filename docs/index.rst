@@ -7,7 +7,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
 ==================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents
    
    001-simple-circuit
