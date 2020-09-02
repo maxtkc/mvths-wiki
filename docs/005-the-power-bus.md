@@ -1,4 +1,6 @@
-# Overview
+# The Power Bus
+
+## Overview
 
 Connect power to your power bus and measure the voltage on your breadboard using a multimeter.
 

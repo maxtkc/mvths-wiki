@@ -1,4 +1,6 @@
-# Overview
+# Command Line Navigation And Editing
+
+## Overview
 
 So far you have just written a few commands at the command line to log into and set up your Raspberry Pi. The command line also offers complete access to the computer’s file system and programs. Just as with a graphical user interface (GUI), you can complete all standard user operations of file navigation and creation, install and run software and much more.
 

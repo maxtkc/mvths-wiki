@@ -1,4 +1,6 @@
-# Overview
+# Lcd Display Control
+
+## Overview
 
 In order to make the best use of your LCD display, it is important to know how to format text and ensure that the display is easily visible.
 

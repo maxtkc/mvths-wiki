@@ -1,4 +1,6 @@
-# Overview
+# Photo Reflector Module
+
+## Overview
 
 In this lesson, you will learn how to use an infrared (IR) reflective sensor to distinguish between light and dark areas. Specifically, these sensors are used to detect lines for line tracking robots and to count lines on rotary encoders as shown below.
 

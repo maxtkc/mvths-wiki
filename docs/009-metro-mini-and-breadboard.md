@@ -1,4 +1,6 @@
-# Overview
+# Metro Mini And Breadboard
+
+## Overview
 
 In order to do something more interesting with your Metro Mini, you will need to connect it to a breadboard.
 

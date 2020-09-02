@@ -1,4 +1,6 @@
-# Overview
+# Complex Logic Circuits
+
+## Overview
 
 By combining logic gates it is possible to be create increasingly sophisticated circuits than can perform task from  adding two numbers together to processing a video image. It is exactly these sorts of complex sets of logic gates make up every modern computer based device.
 

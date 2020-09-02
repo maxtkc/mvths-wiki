@@ -1,4 +1,6 @@
-# Overview
+# Variables
+
+## Overview
 
 Variables are placeholders used to store values that can be modified.
 

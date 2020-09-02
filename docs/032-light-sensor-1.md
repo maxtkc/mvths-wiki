@@ -1,4 +1,6 @@
-# Overview
+# Light Sensor 1
+
+## Overview
 
 In this lesson you will be measuring the light level in the room using a photocell. A photocell is a resistor that varies the value of its resistance based on the level of light that strikes its surface.
 

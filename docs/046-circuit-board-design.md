@@ -1,4 +1,6 @@
-# Overview
+# Circuit Board Design
+
+## Overview
 
 Once you have finished the tutorials, you are ready to design your circuit using Eagle. Follow the steps below when designing your board.
 

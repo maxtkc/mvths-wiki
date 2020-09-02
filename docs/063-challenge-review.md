@@ -1,4 +1,6 @@
-# Overview
+# Challenge Review
+
+## Overview
 
 In this challenge you will use what you learned about motor control, potentiometers and switches.
 

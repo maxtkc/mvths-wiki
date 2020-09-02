@@ -1,4 +1,6 @@
-# Overview
+# Measuring Voltage
+
+## Overview
 
 Being able to measure voltage is extremely helpful for troubleshooting a circuit. A voltage level can indicate if a circuit is correctly powered. A voltage level can also indicate if a logic level is correct.
 

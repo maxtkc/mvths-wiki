@@ -1,4 +1,6 @@
-# Overview
+# Hall Effect Sensor
+
+## Overview
 
 Hall effect sensors are designed to detect the presence of a magnetic field. They are used in a variety of applications included detecting if a door is open or closed, and counting rotations of a motor. The hall effect sensor you will be using is the US5881. You can find a datasheet for this device [here](https://www.google.com/url?q=https://cdn-shop.adafruit.com/datasheets/US5881_rev007.pdf&sa=D&ust=1587613173981000). IMPORTANT: THIS IS A UA PACKAGE. THERE ARE TWO TYPES OF PACKAGES (UA AND SE) SHOWN ON THE DATASHEET.
 

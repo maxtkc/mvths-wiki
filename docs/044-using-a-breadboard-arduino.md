@@ -1,4 +1,6 @@
-# Overview
+# Using A Breadboard Arduino
+
+## Overview
 
 There are a few differences between using a breadboard-based Arduino versus a Metromini or Arduino Uno. One is that the ATMega328 does not have the pin names conveniently labeled on the IC. The second is that it cannot be directly powered without by a USB cable. Both issues are addressed below.
 

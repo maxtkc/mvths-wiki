@@ -1,4 +1,6 @@
-# Overview
+# Mcp9808 Temperature Sensor
+
+## Overview
 
 In this lesson you will learn to use the MCP9808 temperature sensor. The MCP9808 is a digital sensor that produces the temperature natively in Celsius. It communicates with a microcontroller using the I2C protocol which is one of many [communication protocols](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.zbv2l6wpi6ec&sa=D&ust=1587613173970000) you will use.
 

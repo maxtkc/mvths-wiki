@@ -1,4 +1,6 @@
-# Overview
+# Real Time Clock
+
+## Overview
 
 In this lesson, you will learn how to use an external real time clock (RTC) to create a clock circuit. The IC you will be using is a [DS1307](https://www.google.com/url?q=https://datasheets.maximintegrated.com/en/ds/DS1307.pdf&sa=D&ust=1587613174000000) made by Dallas Semiconductor. The device can keep track of time, date and day of week. It can automatically adjust for days in a month (30 vs 31) and can account for leap year. It can also be used with a low power battery backup to keep time during loss of power. This device also uses I2C as its communication protocol.
 

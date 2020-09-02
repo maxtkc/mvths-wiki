@@ -1,4 +1,6 @@
-# Overview
+# Battery Control
+
+## Overview
 
 Batteries offer a great way to power mobile robotic devices. Many are easily rechargeable and can provide large amounts of current for motors and other high current devices.
 

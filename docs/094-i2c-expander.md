@@ -1,4 +1,6 @@
-Make sure to use lox.begin after each time you call a new device.
+# I2C Expander
+
+#Make sure to use lox.begin after each time you call a new device.
 
  \#include "Wire.h"
 

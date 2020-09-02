@@ -1,4 +1,6 @@
-# Overview
+# Program Arduino From Rpi
+
+## Overview
 
 In this lesson, you will learn how to program your Arduino directly from the RPI. This will make working with both devices together much easier\!
 

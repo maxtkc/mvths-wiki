@@ -1,4 +1,6 @@
-# Overview
+# Breadboard Circuit
+
+## Overview
 
 Breadboards provide a convenient way to connect components together to make a circuit.
 

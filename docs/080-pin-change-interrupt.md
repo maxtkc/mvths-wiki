@@ -1,4 +1,6 @@
-# Overview
+# Pin Change Interrupt
+
+## Overview
 
 The ATMega328 is capable of calling an interrupt based on input change on most of its i/o pins. For example, you could use an interrupt to check if a user pressed a button. You can, of course, simply check and read any pin in your code to determine if a button is pressed. The advantage of using interrupts is that you do not need to constantly check the pin in your code. This is an advantage particularly if you have delays in your code, where the cannot check the pin. The interrupt happens in the background and is immediate….well actually within four clock cycles. You can calculate how long that is if you want.
 

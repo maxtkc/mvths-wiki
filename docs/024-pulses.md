@@ -1,4 +1,6 @@
-# Overview
+# Pulses
+
+## Overview
 
 Pulses are used in everything from communication signals to controlling the speed of a motor. A pulse can be created on a microcontroller by simply setting a pin HIGH and then LOW in an infinite loop.
 

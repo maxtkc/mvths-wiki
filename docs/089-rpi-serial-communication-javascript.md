@@ -1,4 +1,6 @@
-# Test Serial for Node
+# Rpi Serial Communication Javascript
+
+## Test Serial for Node
 
 Create a javascript file with the following code. In your Arduino write a program that sends a data value and the data value that it receives. After running the file, you should see the serial data from your Arduino show up in the console.
 

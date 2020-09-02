@@ -1,4 +1,6 @@
-# Overview
+# Challenge Review
+
+## Overview
 
 In this challenge you will construct an LED clock using the DS1307 real time clock and the seven segment display. This will require you to combine the code from each file into one file. A recommendation is to start with the simplest version of one of the two code files and slowly (one line at a time) add code from the other file. You should test the code every time you add a new line. Here are some additional suggestions:
 

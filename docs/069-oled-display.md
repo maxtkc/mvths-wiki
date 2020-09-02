@@ -1,4 +1,6 @@
-# Overview
+# Oled Display
+
+## Overview
 
 OLED displays provide excellent contrast for small screens. The do not require much power but are a bit more complicated to use than other displays.
 

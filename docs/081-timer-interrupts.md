@@ -1,4 +1,6 @@
-# Overview
+# Timer Interrupts
+
+## Overview
 
 Timer interrupts can be used to execute code at exact intervals in the background of your code and to create precise waveforms external to your device. The ATMega328 contains three separate timers. Timer0 and Timer2 are 8-bit timers. Timer1 is a 16-bit timer. 8-bit timers can count to a maximum of 255...as should be obvious to anyone who has gotten this far in the guide. You can figure out the maximum count of a 16-bit timer. These timers are not running by default. Using registers you can turn them on, set the frequency of their count with a pre-scaler, and when the call interrupts.
 

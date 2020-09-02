@@ -1,4 +1,6 @@
-[One](https://www.google.com/url?q=https://www.instructables.com/id/How-to-build-your-own-LED-Color-Organ-Arduino-MSGE/&sa=D&ust=1587613174378000)
+# Equalizer
+
+#[One](https://www.google.com/url?q=https://www.instructables.com/id/How-to-build-your-own-LED-Color-Organ-Arduino-MSGE/&sa=D&ust=1587613174378000)
 
 [Two](https://www.google.com/url?q=http://www.whatimade.today/graphic-equalizer-using-esp8266-msgeq7-ws2812/&sa=D&ust=1587613174378000)
 

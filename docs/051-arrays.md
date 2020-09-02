@@ -1,4 +1,6 @@
-# Overview
+# Arrays
+
+## Overview
 
 Arrays provide a way to store multiple variables under a single variable name. This is very convenient for sets of variables that need to be accessed sequentially.
 

@@ -1,4 +1,6 @@
-# Overview
+# Analog To Digital Conversion
+
+## Overview
 
 In order to convert an analog signal to a digital signal the microcontroller on the Metro Mini has an internal analog to digital converter (ADC) which is accessible on six pins labeled A0 through A5.
 

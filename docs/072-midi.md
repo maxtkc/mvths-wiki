@@ -1,4 +1,6 @@
-# Overview
+# Midi
+
+## Overview
 
 MIDI is a communication and file format that can be used to control specific instruments and devices
 

@@ -1,4 +1,6 @@
-# Overview
+# Setting Up Serial On Rpi
+
+## Overview
 
 In this lesson, you will set up the serial communication drivers on your RPI. Using serial communication, your RPI can directly communicate with as well as program an Arduino over the USB port.
 

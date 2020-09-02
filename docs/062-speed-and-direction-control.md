@@ -1,4 +1,6 @@
-# Overview
+# Speed And Direction Control
+
+## Overview
 
 This is the second part of a two part motor control lesson. In the previous lesson you wrote a function for controlling the direction of a motor. In this lesson you will add speed control to your function. Controlling the speed of your motor is typically done using PWM. If you are not familiar PWM consult the previous lesson on PWM.
 

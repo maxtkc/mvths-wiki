@@ -1,4 +1,6 @@
-# Overview
+# Resistors And Leds
+
+## Overview
 
 In this lesson you will learn how to determine the correct value of a resistor to limit current in an LED circuit. The amount of current flowing through an LED determines its brightness. If too much current flows through an LED it will burn out. If too little current flows through an LED it will be impossible to see.
 

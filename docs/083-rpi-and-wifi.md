@@ -1,4 +1,6 @@
-# Steps
+# Rpi And Wifi
+
+## Steps
 
 From the command line on your RPI run the following command to list all available wireless networks. You should see OpenWrt as the ESSID of one of the options.
 

@@ -1,4 +1,6 @@
-# Overview
+# Keypads
+
+## Overview
 
 Keypads are another common interface found on electronic devices and provide an easy way to enter numbers as well as provide convenient control when more than one or two buttons are needed.
 

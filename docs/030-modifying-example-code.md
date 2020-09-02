@@ -1,4 +1,6 @@
-# Overview
+# Modifying Example Code
+
+## Overview
 
 The purpose of example code is mostly to confirm that a new device works correctly. Once you know that the device works it is best to make a copy of the example code and modify it to suit your needs. In this lesson we will use the example code from the previous lesson a our model.
 

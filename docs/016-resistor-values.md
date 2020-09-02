@@ -1,4 +1,6 @@
-# Overview
+# Resistor Values
+
+## Overview
 
 The value of any through-hole resistor can be determined by the color bands on the resistor. While you should be able to work out the resistance value for any resistor based on color, you should be able to identify a  330 Ohm, 1K and 10K resistor on site.
 

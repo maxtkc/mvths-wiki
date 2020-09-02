@@ -1,4 +1,6 @@
-# Overview
+# Motor Speed Control
+
+## Overview
 
 In this lesson you will combine your knowledge of pulse width modulation (PWM) and motor control to control the speed of your motor. PWM is the most common method used to control DC motors such as those in electric drills or electric cars.
 

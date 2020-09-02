@@ -1,4 +1,6 @@
-# Overview
+# Raspberry Pi
+
+## Overview
 
 In this lesson, you will learn to set up a Raspberry Pi (RPI) single board computer.
 

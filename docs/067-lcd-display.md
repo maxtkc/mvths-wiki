@@ -1,4 +1,6 @@
-# Overview
+# Lcd Display
+
+## Overview
 
 Liquid Crystal Displays (LCDs) are a common interface on many electronic devices as they are low cost and fairly easy to use. The ones we will be using are alphanumeric which means that they can display letters and numbers and some custom characters.
 

@@ -1,4 +1,6 @@
-# Overview
+# Hobby Servo Motors
+
+## Overview
 
 In this lesson you will learn how to drive a standard hobby servo motor. Hobby servo motors are designed primarily for controlling remote control boats, aircraft and cars. The include gear reduction and their own internal drive circuitry making them easy to control directly from a microcontroller.
 

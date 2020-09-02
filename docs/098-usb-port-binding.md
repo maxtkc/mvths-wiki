@@ -1,4 +1,6 @@
-# Ports
+# Usb Port Binding
+
+## Ports
 
 What ports are in use? Test by plugging and unplugging the USB device.
 

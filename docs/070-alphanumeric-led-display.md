@@ -1,4 +1,6 @@
-# Overview
+# Alphanumeric Led Display
+
+## Overview
 
 The four digit alphanumeric LED display allows you to easily display both numbers and letters on a bright LED display that can be seen from many feet away. You will note that it has 14 segments that allow it to display all of the letters and numbers. Also note that it displays upper case letters in a far more readable format than lower case.
 

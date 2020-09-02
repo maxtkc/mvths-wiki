@@ -1,4 +1,6 @@
-# Overview
+# Building A Breadboard Arduino
+
+## Overview
 
 In this lesson you are going to construct a Metromini/Arduino Uno on your breadboard. The advantage of building a the Arduino on a breadboard is that:
 

@@ -1,4 +1,6 @@
-# Overview
+# Photo Reflector Pair
+
+## Overview
 
 Photo reflector pairs are commonly used in all sorts of applications from sensing the amount of paper in a printer to tracking the rotation of a mouse wheel.
 

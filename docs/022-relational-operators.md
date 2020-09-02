@@ -1,4 +1,6 @@
-# Overview
+# Relational Operators
+
+## Overview
 
 In this lesson you will learn to use the greater than and less than logical operators. The greater than operator checks if the value of a variable is greater than a compared value and the less than operator checks if the value of a variable is less than a compared value.
 

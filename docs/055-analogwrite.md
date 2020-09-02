@@ -1,4 +1,6 @@
-# Overview
+# Analogwrite
+
+## Overview
 
 In addition to creating a PWM signal using delays, you can set up a PWM signal using the analogWrite command which runs a pulse in the background of your code. This is a very useful function because it does not tie up your code looping through delay routines.
 

@@ -1,4 +1,6 @@
-Install mido
+# Python Mido
+
+#Install mido
 
 Install python-rtmidi
 

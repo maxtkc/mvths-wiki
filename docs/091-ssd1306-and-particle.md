@@ -1,4 +1,6 @@
-YOU MUST CONNECT MOSI (DATA) and CLK  
+# Ssd1306 And Particle
+
+#YOU MUST CONNECT MOSI (DATA) and CLK  
   
 // use hardware SPI  
 // OLED\_D0 -\> A3 (SPI CLK)  

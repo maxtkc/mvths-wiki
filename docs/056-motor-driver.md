@@ -1,4 +1,6 @@
-# Overview
+# Motor Driver
+
+## Overview
 
 In this lesson you will learn how to drive a small DC motor using a transistor. It is important to note that you CANNOT drive a DC motor directly from a microcontroller. The digital pins on your microcontroller pins can only provide about 20mA of current. This is enough to drive an LED and nothing more powerful. Even a small DC motor will draw at least 50mA of current. Using a pin on your microcontroller to drive more than 20mA of current will permanently damage your microcontroller.
 

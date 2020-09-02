@@ -1,4 +1,6 @@
-# Overview
+# Loops
+
+## Overview
 
 Up until this point all of your code has been placed in your setup function. As you have probably noted, this function only runs once. The loop function is designed to run continuously. Any code place in this function will run continuously until power is removed from the Metro Mini.
 

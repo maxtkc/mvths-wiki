@@ -1,4 +1,6 @@
-# Overview
+# Serial Communication
+
+## Overview
 
 Serial communication provides an excellent way to send data to and get data from your microcontroller. It can be used as a way to provide a human interface to your device allowing the user to type commands on the computer that control operations on your device. It is also commonly used to debug a problem in your device by providing a way to visualize what is happening in your code.
 

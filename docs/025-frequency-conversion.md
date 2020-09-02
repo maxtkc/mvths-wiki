@@ -1,4 +1,6 @@
-# Overview
+# Frequency Conversion
+
+## Overview
 
 Frequency is a primary measurement of pulses and measures the waves that pass a point over time. Frequency is often used to measure the speed of a  CPU as in a 3Ghz processor. Your home router most likely supports 2.4Ghz and 5.0Ghz. The microcontroller that you are using runs at 16Mhz. The frequency of middle C on a piano is 261.6Hz.
 

@@ -1,4 +1,6 @@
-# Overview
+# Microcontrollers
+
+## Overview
 
 Microcontrollers are complex integrated circuits that can be programmed to perform automated tasks like a computer. They are used in everything from cars to microwave ovens. You will be using microcontrollers in most of your projects for the next four years. Since microcontrollers generally do not have keyboards and screens, engineers generally write programs on a desktop computer and then download the compiled code to the microcontroller through a programming cable as shown below.
 

@@ -1,4 +1,6 @@
-# Overview
+# Analog Temperature Sensor
+
+## Overview
 
 In this lesson you will learn how to use an analog temperature sensor. Analog temperature sensors are generally lower cost, easier to use and fairly accurate as compared with digital sensors.
 

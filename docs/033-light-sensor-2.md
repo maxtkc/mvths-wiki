@@ -1,4 +1,6 @@
-# Overview
+# Light Sensor 2
+
+## Overview
 
 In this lesson you will use a TEMT6000 breakout board for measuring light levels in the classroom. The TEMT6000 is designed to produce and analog signal proportional to the level of ambient light.
 

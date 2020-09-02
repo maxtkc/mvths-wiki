@@ -1,4 +1,6 @@
-# Overview
+# Low Latency Video
+
+## Overview
 
 Possibly the best way to get low latency video streaming from a Raspberry Pi is to use netcat and mplayer on the client and raspivid on the server.
 

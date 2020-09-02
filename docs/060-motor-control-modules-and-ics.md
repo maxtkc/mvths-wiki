@@ -1,4 +1,6 @@
-# Overview
+# Motor Control Modules And Ics
+
+## Overview
 
 Since setting up bi-directional motor control using discrete components is difficult there are huge variety of motor control modules and integrated circuits. Many of these devices work in a similar manner so knowing how to use the ones included here will make it easy for you to learn how to use just about any motor module.
 

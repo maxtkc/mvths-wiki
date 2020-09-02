@@ -1,4 +1,6 @@
-# Overview
+# Comparator
+
+## Overview
 
 Comparators provide a way to set a threshold voltage for reading an analog signal. The diagram below shows an example comparator circuit with the comparator labeled A. The comparator has two inputs. One input is the reference which sets the threshold value in volts. The threshold voltage in the circuit below is on the - (minus) pin of the comparator and is created with a voltage divider. The second input is the voltage being measured or compared. The comparator has one output. The output is either HIGH or LOW based on the comparison between the voltage reference input and the input voltage being measured.
 

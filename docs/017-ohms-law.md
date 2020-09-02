@@ -1,4 +1,6 @@
-Overview
+# Ohms Law
+
+#Overview
 
 [Ohms law](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.t5bxsyeu98j2&sa=D&ust=1587613173894000) describes an important relationship between [voltage, current and resistance](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.7g89z82u0oqw&sa=D&ust=1587613173895000). Ohm’s law you can correctly specify the proper resistor for limiting current to any device. Most often in the shop, we are using resistors to limit current to LEDs. Driving an LED without a resistor will invariably lead to failure of the LED due to too much current. Driving an LED with too large an LED will result in no light from the LED.
 

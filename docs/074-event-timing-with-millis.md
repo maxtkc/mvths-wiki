@@ -1,4 +1,6 @@
-# Overview
+# Event Timing With Millis
+
+## Overview
 
 A common task for a microcontroller is to run an event at a regular and precise interval. A simple example is flashing an LED. In some cases the event timing interval is very short as in moving a character in a game or controlling the frequency of a stepper motor. In some cases the interval is very long as in feeding fish every eight hours.
 

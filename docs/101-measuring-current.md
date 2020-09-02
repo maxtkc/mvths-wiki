@@ -1,4 +1,6 @@
-# Overview
+# Measuring Current
+
+## Overview
 
 Being able to measure current is extremely helpful for troubleshooting a circuit.
 

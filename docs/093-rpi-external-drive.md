@@ -1,4 +1,6 @@
-https://www.raspberrypi-spy.co.uk/2014/05/how-to-mount-a-usb-flash-disk-on-the-raspberry-pi/
+# Rpi External Drive
+
+#https://www.raspberrypi-spy.co.uk/2014/05/how-to-mount-a-usb-flash-disk-on-the-raspberry-pi/
 
 RPI VIDEO AUDIO
 

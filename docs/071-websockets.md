@@ -1,4 +1,6 @@
-# Overview
+# Websockets
+
+## Overview
 
 Websockets provide an excellent way to perform real time communication between a server and client. The following example demonstrates using a websocket to communicate between a PC client connected to a joystick and a RPI connected to an Arduino and display. The PC yoystick client sends the data from the joystick. The PC web client gets data from the Arduino.
 

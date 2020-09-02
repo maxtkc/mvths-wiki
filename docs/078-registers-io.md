@@ -1,4 +1,6 @@
-# Overview
+# Registers Io
+
+## Overview
 
 In this section you will learn how to directly control the ATMega328 (the microcontroller on the Arduino board) using registers. Every function or command you have written using the Arduino libraries can be accomplished by directly writing to registers. In fact, this is exactly what is behind all of the Arduino libraries you have used so far.
 

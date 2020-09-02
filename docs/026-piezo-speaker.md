@@ -1,4 +1,6 @@
-# Overview
+# Piezo Speaker
+
+## Overview
 
 In this lesson you will learn to drive a piezo speaker to make notes and sound effects. Piezo speakers are found in lots of common devices such as microwave ovens or cell phones. A tone from a piezo speaker can be used to indicate a button press or play a tune letting you know your friend has called.
 

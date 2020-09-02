@@ -1,4 +1,6 @@
-# Overview
+# De-Bounce Button
+
+## Overview
 
 Imagine pressing a momentary button like one on a keypad. The time during which it is pressed seems to be so short as to be irrelevant, yet microcontrollers process information at an incredibly fast rate, 16 million cycles per second in the case of the Arduino or one cycle every 62.5 nanoseconds. By this measure our fingers are very slow.
 

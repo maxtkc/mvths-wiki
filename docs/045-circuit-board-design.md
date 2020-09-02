@@ -1,4 +1,6 @@
-# Overview
+# Circuit Board Design
+
+## Overview
 
 While breadboards are good for initial prototyping of an electronic circuit, they are terrible for any sort of permanent design due to loose wires and poor connections. Using the instructions linked below, you will learn how to design and fabricate your own circuit boards.
 

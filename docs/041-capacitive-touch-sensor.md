@@ -1,4 +1,6 @@
-# Overview
+# Capacitive Touch Sensor
+
+## Overview
 
 In this lesson, you will learn how design and read a 12 input capacitive keypad. Capacitive touch keypads are often found on computer screens allowing the user to just touch the screen to trigger a key. The work by responding to the electric charge in human skin.
 

@@ -1,4 +1,6 @@
-# Overview
+# Voltage Dividers
+
+## Overview
 
 Voltage dividers are use commonly used as way produce a variable voltage from a resistance-based sensor.
 

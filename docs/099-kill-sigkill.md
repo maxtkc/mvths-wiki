@@ -1,3 +1,5 @@
-Do not use sudo with kill
+# Kill Sigkill
+
+#Do not use sudo with kill
 
 Ttymidi sets up a

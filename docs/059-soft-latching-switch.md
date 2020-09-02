@@ -1,4 +1,6 @@
-# Overview
+# Soft Latching Switch
+
+## Overview
 
 A soft latching switch provides an elegant and safe way to control power to your circuit. Unlike a mechanical latching switch which physically disconnects power from your circuit, the soft switch is controlled by a simple momentary switch. Press once and power is applied to the circuit. Press again and power is removed from the circuit. This is the sort of switch you find on most modern electronic devices. Notice that on your cell phone there is a momentary power switch.
 

@@ -1,4 +1,6 @@
-# Overview
+# Motor Direction Control Functions
+
+## Overview
 
 Writing good functions for motor control are critical to effectively driving motors. A good motor control function can control both motor direction and speed. In this lesson, you will start with just controlling the direction of your motor.  If you need more information about functions, you can consult [concepts](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.45j551ci2de&sa=D&ust=1587613174178000).
 

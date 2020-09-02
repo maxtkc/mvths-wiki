@@ -1,4 +1,6 @@
-# Overview
+# Accelerometer
+
+## Overview
 
 In this lesson you will use and accelerometer to measure tilt in three axis. The LIS3DH is a 3-axis accelerometer which can sense tilt in a three coordinate system as shown below. This devices uses the I2C protocol to communicate with your microcontroller.
 

@@ -1,4 +1,6 @@
-# Overview
+# Using An Oscilloscope
+
+## Overview
 
 An oscilloscope is a tool that can be used to visualize electronic signals in your circuit.
 

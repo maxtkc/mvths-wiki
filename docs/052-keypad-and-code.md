@@ -1,4 +1,6 @@
-# Overview
+# Keypad And Code
+
+## Overview
 
 In this lesson you will you use your knowledge of keypads and arrays to make keypad security software.
 
