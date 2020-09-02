@@ -4,7 +4,7 @@
 
 In this lesson, you will set up the serial communication drivers on your RPI. Using serial communication, your RPI can directly communicate with as well as program an Arduino over the USB port.
 
-# Enable Serial
+## Enable Serial
 
 In order to use serial communication with your RPI, you must enable the serial communication on your RPI.
 
@@ -14,7 +14,7 @@ In order to use serial communication with your RPI, you must enable the serial c
 4.  At the second dialog box, “Would you like the serial port hardware enabled?” select Yes.
 5.  Select OK and Finish.
 
-# Get Port Address
+## Get Port Address
 
 In order to use your serial port you will need to know the address assigned to it by the RPI.
 
@@ -25,11 +25,11 @@ In order to use your serial port you will need to know the address assigned to i
 
 SERIAL (ARDUINO TO RPI)
 
-# Overview
+## Overview
 
 In this lesson you will learn how to send and receive data using the serial port.
 
-# Arduino Code
+## Arduino Code
 
 The first step is to program your Arduino to send a repeated value to the RPI using 9600 baud rate.
 
@@ -52,17 +52,17 @@ The first step is to program your Arduino to send a repeated value to the RPI us
 
 #### }
 
-# (Virtual Environment)
+## (Virtual Environment)
 
 If you have not already done so, set up a virtual environment for this new Python project. If you are not familiar with virtual environments check out the previous lesson on setting up virtual environments.
 
-# Installing pySerial
+## Installing pySerial
 
 If you have not already done so, install pyserial into your virtual environment using pip.
 
 #### (env) $ pip install pyserial
 
-# Python
+## Python
 
 Create the following code file and store it in your virtual environment.
 
@@ -80,7 +80,7 @@ At the command line run the file and you should see the data from the Arduino di
 
 SERIAL (RPI TO SERIAL)
 
-# Arduino
+## Arduino
 
 In order to view what you are sending to the Arduino, it will be helpful to have a display. In the following example you will be using a 7-segment matrix display. You can find more information about how to use under matrix display in this guide.
 
@@ -148,7 +148,7 @@ In order to view what you are sending to the Arduino, it will be helpful to have
 
 #### }                                                                  
 
-# RPI
+## RPI
 
 The following is the python code that will send a number to your Arduino that increments by one every half second. For more information about how to format serial strings read [here](https://www.google.com/url?q=https://pyformat.info/&sa=D&ust=1587613174445000).
 
@@ -170,7 +170,7 @@ The following is the python code that will send a number to your Arduino that in
 
 ####     time.sleep(.5)  
 
-# 
+## 
 
 TSP
 
@@ -229,13 +229,13 @@ TSP
 1.  :%s/.\\{50}/&\\r/g (place hard return at 50)
 2.  :%s/\\n//g (remove all line breaks)
 
-# 
+## 
 
-# 
+## 
 
-# 
+## 
 
-# Javascript
+## Javascript
 
 Javascript is a powerful language for controlling devices.
 
@@ -247,7 +247,7 @@ npm init --yes
 
 sudo npm install serialport --unsafe-perm --build-from-source
 
-# Particle CLI
+## Particle CLI
 
 As root:
 
@@ -259,11 +259,11 @@ As root:
 
 #### npm install -g particle-cli
 
-# Update
+## Update
 
 When you first log into your RPI, you should run the following commands to make sure it is up to date.
 
-# INSTALL VIM
+## INSTALL VIM
 
 LEARN VIM
 
@@ -279,7 +279,7 @@ Modify
 
 #### Particle flash name-of-photon name-of-file.bin
 
-# Install Cert
+## Install Cert
 
 In order to access sites outside the school using any communication protocol, you will need to install a certificate.
 
@@ -290,7 +290,7 @@ In order to access sites outside the school using any communication protocol, yo
 
 sudo update-ca-certificates –-fresh
 
-# Install Nodejs (optional)
+## Install Nodejs (optional)
 
 Nodejs is useful for running many javascript packages.
 
@@ -327,9 +327,9 @@ formated\_data = data\['data'\]\[0\]\['attributes'\]\['color'\]
 
 print(formated\_data)
 
-# 
+## 
 
-# RPI to Arduino (Arduino side)
+## RPI to Arduino (Arduino side)
 
 In order to view what you are sending to the Arduino, it will be helpful to have a display. In the following example you will be using a 7-segment matrix display. You can find more information about how to use under matrix display in this guide.
 
@@ -399,7 +399,7 @@ void loop() {                                             
 
 7.  Download code to Arduino.
 
-# RPI to Arduino (RPI side)
+## RPI to Arduino (RPI side)
 
 The following is the python code that will send a number to your Arduino that increments by one every half second. For more information about how to format serial strings read [here](https://www.google.com/url?q=https://pyformat.info/&sa=D&ust=1587613174460000).
 

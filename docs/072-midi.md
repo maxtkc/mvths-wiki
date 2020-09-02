@@ -4,7 +4,7 @@
 
 MIDI is a communication and file format that can be used to control specific instruments and devices
 
-# ttyMIDI
+## ttyMIDI
 
 ttyMIDI is a command line tool that creates a ports for connecting MIDI to external devices and internal players.
 

@@ -16,7 +16,7 @@ This second command might need to be run twice. You need to confirm the disk loc
 
  
 
-# Overview
+## Overview
 
 1.  Follow the above guide for installing an OS, with the only exception you will be installing the version of Raspian with desktop.
 2.  Connect RPI to monitor, keyboard, and mouse.
@@ -42,7 +42,7 @@ aplay test.wav
 
 EAGLE
 
-# Trace width
+## Trace width
 
 Drill: 40
 

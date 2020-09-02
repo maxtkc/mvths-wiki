@@ -10,7 +10,7 @@ A better approach for timing regular events is to use the internal timers of the
 
 The millis function returns the number of milliseconds passed since your Arduino began running its current program i.e. when power was applied to the controller or the program was reset or uploaded. The value of millis is stored as an unsigned long which is four bytes or a top value of 4,294,967,296. Yes, that is over 4 billion milliseconds or almost 50 days. When the count reaches this top value it returns to zero and continues counting.
 
-# Read Millis
+## Read Millis
 
 You can read the value of millis() by simply calling the function. Remember that millis returns an unsigned long so it is generally useful to store the result of the call in an unsigned long. For short timing intervals though this is not absolutely necessary.
 
@@ -20,7 +20,7 @@ You can read the value of millis() by simply calling the function. Remember that
 
 Use the delay function to display the value of millis roughly every 500 milliseconds in your terminal window. Generally, you would not use a delay and millis together this way, but this challenge is just for demonstrations purposes. In your loop function, you should include both a 500 ms delay and Serial.print function to display the value of millis. Since delay stops the loop function every 500 ms, the value of millis displayed in your terminal window should increase by 500 each time it is printed.
 
-# Time Interval
+## Time Interval
 
 Below is sample code for using millis to create a timed interval in the loop function. The function is designed to print “count” exactly every 1000 ms. It does this without using a delay and without blocking the code (sitting in a state where no other code can be executed).
 

@@ -69,7 +69,7 @@ DC = D3
 
 #### echo $SHELL
 
-# Recording Sound
+## Recording Sound
 
 The following is example code that can be used to record the duration of button presses and play them back. The example code is can only record five durations, but the code can be set to record any number.
 

@@ -4,7 +4,7 @@
 
 Variables are placeholders used to store values that can be modified.
 
-# Initializing
+## Initializing
 
 In order to use a variable you must first initialize it. Initially you will do this at the top of your code file outside of both the loop and setup functions. This will make the variable available everywhere in your code or globally. Check out Lessons for more information about [variables](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.vbe1wov8lque&sa=D&ust=1587613173882000).
 

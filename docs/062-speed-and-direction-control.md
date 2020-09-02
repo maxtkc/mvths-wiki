@@ -4,7 +4,7 @@
 
 This is the second part of a two part motor control lesson. In the previous lesson you wrote a function for controlling the direction of a motor. In this lesson you will add speed control to your function. Controlling the speed of your motor is typically done using PWM. If you are not familiar PWM consult the previous lesson on PWM.
 
-# Basic Speed Control
+## Basic Speed Control
 
 The following is an example of a function that could be used for basic speed control assuming you are using pins 10 and 11 for controlling your motor module. Note that you will need to pass a second argument to control direction.
 

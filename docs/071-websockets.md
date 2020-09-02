@@ -4,7 +4,7 @@
 
 Websockets provide an excellent way to perform real time communication between a server and client. The following example demonstrates using a websocket to communicate between a PC client connected to a joystick and a RPI connected to an Arduino and display. The PC yoystick client sends the data from the joystick. The PC web client gets data from the Arduino.
 
-# Server
+## Server
 
 The following is an example of the server code that would run on the RPI.
 
@@ -58,7 +58,7 @@ asyncio.get\_event\_loop().run\_until\_complete(start\_server)
 asyncio.ensure\_future(world())  
 asyncio.get\_event\_loop().run\_forever()  
 
-# Client (joystick)
+## Client (joystick)
 
 The following is an example of client code that would reside on a PC. This client sends data in real time from a joystick to the server.
 
@@ -102,7 +102,7 @@ async def joy():
 asyncio.get\_event\_loop().run\_until\_complete(joy())  
 pygame.joystick.quit()  
 
-# Client (browser)
+## Client (browser)
 
 The following is client code that allows you to use a browser to see data sent from the server.
 
@@ -127,7 +127,7 @@ The following is client code that allows you to use a browser to see data sent f
    \</body\>  
 \</html\>  
 
-# Arduino
+## Arduino
 
 The following is coordinated code that runs on the Arduino.
 

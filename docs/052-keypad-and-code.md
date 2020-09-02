@@ -42,7 +42,7 @@ TEACHER CHECK \_\_\_\_
 
 IR REMOTE CONTROL
 
-# Overview
+## Overview
 
 Infrared remotes are commonly used to control consumer audio and video devices. They can also be used for cameras and household appliances such as air conditioners. Unlike the previous user interface devices you have learned about, remotes are not physically connected to the device they are controlling. In the case of IR remotes they communicate with the device by using a signal composed of infrared light.
 

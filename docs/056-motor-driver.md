@@ -6,7 +6,7 @@ In this lesson you will learn how to drive a small DC motor using a transistor. 
 
 In addition motors can often require 12 volts or more. Your microcontroller will be damaged if its supply voltage goes over 5.5V. When setting up circuits to control motors, you will often need to set up two voltages on your board.
 
-# Direct Drive
+## Direct Drive
 
 In this initial step, you will be driving the motor directly from your bench power supply.
 
@@ -31,7 +31,7 @@ In this initial step, you will be driving the motor directly from your bench pow
 
 TEACHER CHECK \_\_\_\_
 
-# Transistor Drive
+## Transistor Drive
 
 In order to drive your motor using a low current control signal, you will need to add a transistor to your circuit. A transistor is a device that allows you to drive a large amount of current with a small amount of current.
 
@@ -64,7 +64,7 @@ TEACHER CHECK \_\_\_\_
 
 Rewire the circuit to reverse the direction of the motor.
 
-# MOSFET Drive
+## MOSFET Drive
 
 Using a MOSFET to drive your motor is very similar to using a transistor. The difference is that the MOSFET is a voltage driven device and the transistor is a current driven device. For this reason, the MOSFET does not need a resistor.
 
@@ -72,7 +72,7 @@ Using a MOSFET to drive your motor is very similar to using a transistor. The di
 
 TEACHER CHECK \_\_\_\_
 
-# MCU Drive
+## MCU Drive
 
 Now that you have confirmed that you can turn your motor on and off using the same logic level that is used to control your MCU, you should be able to directly drive your transistor using your microcontroller.
 

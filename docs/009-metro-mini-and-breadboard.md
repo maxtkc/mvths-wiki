@@ -4,13 +4,13 @@
 
 In order to do something more interesting with your Metro Mini, you will need to connect it to a breadboard.
 
-# Power and Ground
+## Power and Ground
 
 The Metro Mini can supply power to your breadboard through its pins 5V and GND. These will provide power supplied by the computer through the USB cable. Note that there are two pins for ground. You only need to connect one of the pins.
 
 ![](images/image51.png)
 
-# Digital Pins
+## Digital Pins
 
 The Metro Mini has 14 digital pins (labeled 0 through 13 as shown below) that can be used to control external devices from a simple LED to a complex robot. IMPORTANT: Generally you want to avoid using pins 0 and 1 if possible. Using these pins might interfere with the programming of your device.
 

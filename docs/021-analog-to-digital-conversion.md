@@ -12,7 +12,7 @@ For example, if your analog device had a voltage range of 0 volts to 5 volts tha
 
 ![](images/image109.png)
 
-# Code
+## Code
 
 In order to use the analog to digital converter (ADC) on your Metro Mini you will need to use the following command.
 

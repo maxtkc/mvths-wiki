@@ -4,7 +4,7 @@
 
 In order to make the best use of your LCD display, it is important to know how to format text and ensure that the display is easily visible.
 
-# Backlight
+## Backlight
 
 The LCD includes a backlight that makes it more visible in high light conditions. The trade off is that the backlight uses more power. Intelligent displays use a light sensor to turn on the backlight in high light conditions and off when the viewing environment is dark. The following is the command for turning the backlight on.
 
@@ -14,7 +14,7 @@ lcd.setBacklight(HIGH);
 
 Write a program that turns the backlight on and off every second on your LCD screen.
 
-# LCD Cursor
+## LCD Cursor
 
 The LCD cursor sets the location of the where any subsequent text command will print. As shown below the command takes two arguments.  The first argument sets the column of the screen. The first column is set to 0. The second argument sets the row of the screen, either 0 for the top row or 1 for the bottom row. The following command would set the cursor on the second row at the 6th column,
 
@@ -32,7 +32,7 @@ Write a program that writes the word “Pies: “ on the first column and then a
 
  TEACHER CHECK \_\_\_\_
 
-# LCD Clear
+## LCD Clear
 
 The following command will allow you to clear the entire LCD screen. This is particularly necessary when you have character overwrite.
 

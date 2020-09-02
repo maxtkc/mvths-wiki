@@ -4,7 +4,7 @@
 
 Up until this point all of your code has been placed in your setup function. As you have probably noted, this function only runs once. The loop function is designed to run continuously. Any code place in this function will run continuously until power is removed from the Metro Mini.
 
-# Code
+## Code
 
 1.  Using a delay and your loop function, write a program to make your LED blink (on for one second and off for one second) continuously.
 
@@ -14,23 +14,23 @@ TEACHER CHECK \_\_\_\_\_
 
 TEACHER CHECK \_\_\_\_\_
 
-# 
+## 
 
 INPUT PINS
 
-# Overview
+## Overview
 
 The digital pins on the Metro Mini can also be set as inputs. As an input, the Metro Mini can read the value of a pin, i.e. if the pin is externally driven as HIGH (5V) or LOW (0V). Generally inputs are used for receiving information from the outside world, such a reading the value of a sensor or getting data from a robotic device.
 
 Setting up software and hardware to test an input is a little more complicated than setting up software and hardware to test an output.
 
-# Schematic
+## Schematic
 
 Set up the following circuit on your breadboard. Make sure to use a long jump wire for the connection between pin 9 and ground. You will be moving this pin between power and ground so using a long jump wire will make this much easier. By moving the long jump wire between GND and power you will be setting the input of pin 9 as HIGH and LOW. This wire will essentially act as a crude switch.
 
 ![](images/image101.png)
 
-# Code
+## Code
 
 1.  In your  setup function, insert the following two lines to ensure that that pin 6 is an OUTPUT and pin 9 is an INPUT.
 

@@ -4,7 +4,7 @@
 
 An oscilloscope is a tool that can be used to visualize electronic signals in your circuit.
 
-# Connections
+## Connections
 
 In order to test a a signal on your circuit with an oscilloscope you must connect it to your circuit.
 

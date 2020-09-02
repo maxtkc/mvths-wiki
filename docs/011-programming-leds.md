@@ -4,7 +4,7 @@
 
 LEDs are a good example of the kinds of devices you can drive with a microcontroller. LEDs also provide an easy way to indicate if a microcontroller pin is set to HIGH or LOW. IMPORTANT to use a resistor in series with any LED so you do not use too much current. Driving too much current through and LED will damage the LED and the microcontroller.
 
-# Schematic
+## Schematic
 
 The following is the schematic for the circuit you need to construct on your breadboard.
 
@@ -14,7 +14,7 @@ It is important that your LED and resistor are not placed directly next to your 
 
 TEACHER CHECK \_\_\_\_\_
 
-# Code
+## Code
 
 1.  Write a program to turn on the LED. NOTE: In this lesson you will be choosing which digital pin to use with you LED. You may use any of the digital pins (0 -13) but you should generally avoid using digital pins 0 and 1 as using these pins might interfere with the programming of your device.
 
@@ -33,7 +33,7 @@ TEACHER CHECK \_\_\_\_\_
 
 DELAYS
 
-# Overview
+## Overview
 
 Delays are used in code to freeze the state of the controller for a specified amount of time. The delay function we are using is measured in milliseconds and have a [range](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.7lc2dw9cimru&sa=D&ust=1587613173867000) from 0 to 10,000 milliseconds.
 
@@ -43,7 +43,7 @@ Below is an example of the delay command. In this example, the delay is set for
 
         delay(1500);
 
-# Code
+## Code
 
 1.  Write a program to turn your LED on and off and on again. The program should turn your LED on for two seconds and then off for one second and then back on. This code should again be placed in your setup function.
 

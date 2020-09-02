@@ -6,7 +6,7 @@ In this lesson you will use and accelerometer to measure tilt in three axis. The
 
 ![](images/image6.png)
 
-# Setup
+## Setup
 
 1.  Collect an LIS3DH from the grey bins.
 2.  Disconnect your breadboard from power (USB cable).
@@ -21,7 +21,7 @@ In this lesson you will use and accelerometer to measure tilt in three axis. The
 
 TEACHER CHECK \_\_\_\_
 
-# Software
+## Software
 
 1.  Open File/Examples/Adafruit LIS3DH/acceldemo
 2.  Compile code. If you code does not compile than you may need to install the Adafruit Unified Sensor library.
@@ -30,7 +30,7 @@ TEACHER CHECK \_\_\_\_
 
  TEACHER CHECK \_\_\_\_
 
-# Modify
+## Modify
 
 1.  Make copy of the example file and modify it so that it displays only the values for the X axis as raw data. Make sure you remove or comment out all the code that you do not need for this purpose.
 

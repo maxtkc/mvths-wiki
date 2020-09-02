@@ -18,7 +18,7 @@ for i, page in enumerate(contents, start=1):
     page = '\n'.join(page.split('\n')[3:])
 
     # Demote all of the h1's to h2's to avoid showing up as pages
-    page = re.sub(r'^\# ', '## ', page)
+    page = re.sub(r'^# ', '## ', page, flags=re.MULTILINE)
 
     # write the page to a file
     with open('docs/{}.md'.format(fname), 'w') as f:

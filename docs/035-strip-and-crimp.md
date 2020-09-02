@@ -15,7 +15,7 @@ Crimp a wire and show your work to your teacher. Repeat until you get it right.
 
 TACHOMETER CHALLENGE
 
-# Overview
+## Overview
 
 In this challenge you will measure the speed of a motor using a magnet, hall effect sensor and oscilloscope. Placing a magnet on the shaft of a motor, the hall effect will detect every time the shaft turns one revolution. Using an oscilloscope, you can measure the time it takes for each revolution.
 
@@ -52,7 +52,7 @@ Exercise:
 
 SEVEN SEGMENT DISPLAY
 
-# Overview
+## Overview
 
 The four digit seven segment display provides an easy and quick way to display numbers. It is also highly visible from a distance. The display can display numbers in both decimal and [hexadecimal](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.r9xkk2b3evb&sa=D&ust=1587613173990000) since it can display the characters A-F. It can be used as clock display since it contains a colon between the two pairs of digits.
 

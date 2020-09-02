@@ -6,7 +6,7 @@ In this lesson you will learn how to drive a standard hobby servo motor. Hobby s
 
 Hobby servo motors are positioning motors and can only rotate approximately 180 degrees. They can be set to an exact position based on a control signal that can be provided by your microcontroller.  
 
-# Servo Connections
+## Servo Connections
 
 The three wires from your servo motor are color coded orange, red and brown. The red wire provides power to the servo motor and internal circuitry. The brown wire is the ground lead. The orange wire is for the control signal that drives the motor to the specified position.
 
@@ -25,7 +25,7 @@ IMPORTANT: DO NOT CONNECT YOUR BENCH SUPPLY TO THE POWER BUS OF YOUR BREADBOARD\
 
 TEACHER CHECK \_\_\_\_
 
-# Servo Pulse
+## Servo Pulse
 
 As mentioned above hobby servo motors can be controlled directly from a microcontroller pin. To control a servo motor you must provide a pulse every 20 ms and the pulse must be between 1ms and 2ms. The length of the pulse determines the angle of the motor shaft. As shown below a 1ms pulse will turn the motor shaft to the 90 degree position and a 2ms pulse will turn the motor shaft to a -90 degree position.
 

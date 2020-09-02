@@ -4,7 +4,7 @@
 
 Batteries offer a great way to power mobile robotic devices. Many are easily rechargeable and can provide large amounts of current for motors and other high current devices.
 
-# Danger
+## Danger
 
 We will mostly be using Lithium Polymer (LiPo) batteries. The advantage of these sorts of batteries are that they can provide a large amount of power for their size and weight. They can be recharged quickly and can last much longer than other types of storage batteries. The disadvantage is that if they are not managed carefully they can catch fire or even explode.
 
@@ -22,7 +22,7 @@ It is important to make sure that the voltage in a battery never reaches below t
 
 Before returning a battery to storage it should be correctly discharged to a storage state selecting the Storage Charge state on the battery charger.
 
-# Connectors
+## Connectors
 
 It is very important to only use polarized connectors with the LiPo batteries. These batteries are very powerful and can easily cause a fire and destroy your circuit in the following situations.
 

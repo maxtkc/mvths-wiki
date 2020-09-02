@@ -12,7 +12,7 @@ NOTE: Most surfaces offer some reflectivity though the surface needs to be fairl
 
 All phototransistors are designed to be sensitive to a specific wavelength of light. The most common phototransistors are designed to be sensitive to a wavelengths in the infrared (IR) spectrum. When building a photosensor circuit, It is important to make sure that your LED also emits light in a similar wavelength. For example, if your phototransistor is sensitive to a wavelength of 800nm than you should select an LED that emits at 800nm.
 
-# IR Photo Emitter
+## IR Photo Emitter
 
 In this first part of the project you will build the photo emitter circuit. The photo emitter is a simple LED designed to emit infrared light. You will be using an LTE-4208 IR emitter made by Lite-On Inc. You can find the datasheet by searching for “LTE-4208 and Datasheet”. Use the datasheet to answer the following questions.
 
@@ -24,7 +24,7 @@ Construct the IR emitter circuit as shown below. Using the LTE-4208 as the emitt
 
  TEACHER CHECK \_\_\_\_
 
-# IR Photo-sensor
+## IR Photo-sensor
 
 In this second part of the project, you will build the photosensor circuit. You will be using the LTR-3208E as your phototransistor. The diagram below shows a schematic for a sensor circuit using an phototransistor. The flow of current through this circuit is determined by the amount of infrared light striking the surface of the phototransistor. This light is represented by the two arrows. The more infrared light that strikes the phototransistor the more the current flows.
 

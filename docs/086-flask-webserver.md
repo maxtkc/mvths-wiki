@@ -6,17 +6,17 @@ A good first project for your using Python with your RPI is to set up your own w
 
 Flask is a easy-to-use Python based webserver that will allow you have your RPI displaying web pages anywhere in your network.
 
-# (Virtual Environment)
+## (Virtual Environment)
 
 If you have not already done so, set up a virtual environment for your first Python projects. If you are not familiar with virtual environments check out the previous lesson.
 
-# Install Flask
+## Install Flask
 
 The first step in using Flask is to install it on your RPI. Log into your RPI. Activate your virtual environment. At the command prompt use pip to install Flask. Note that pip is a package manager for Python i.e. you use pip to install packages for Python. This is analogous to how you have used apt to install packages for Linux
 
 #### $ pip install flask
 
-# Set Up Directories
+## Set Up Directories
 
 When you start a new project it is useful to create a folder where to have your files organized. For example:
 
@@ -36,7 +36,7 @@ Running the command ls from within the rpiWebServer directory should produce the
 
 #### 
 
-# Write Server
+## Write Server
 
 Using Vim create a new file called helloWorld.py. Copy the following code into the file and save it in your rpiWebServer directory.
 
@@ -76,7 +76,7 @@ The final two lines make sure the server starts to “listen” on port 80 and r
 
 ####   app.run(debug=True, port=80, host='0.0.0.0')
 
-# Running the Application
+## Running the Application
 
 To run the application you simply need to type the following at the command prompt.
 
@@ -86,7 +86,7 @@ If there are no errors in your code, your terminal window should return text sim
 
 ![](images/image53.png)
 
-# Connecting to the Server
+## Connecting to the Server
 
 To connect to the server, you need to open a new tab on your web browser and type in the address (in the address window) for your RPI. The address is simply the four numbers you used to SSH into the RPI.  See the example below.
 
@@ -94,7 +94,7 @@ To connect to the server, you need to open a new tab on your web browser and typ
 
 If your code is correct “Hello World” should appear in your browser.
 
-# Tracking Connections
+## Tracking Connections
 
 Every time you attempt to make a connection to the server, the server returns the status of that connection. A status of 200 indicates that the connection was OK, as seen below. It also returns the IP address of the client (your computer). Again, see below. Check [here](https://www.google.com/url?q=https://www.restapitutorial.com/httpstatuscodes.html&sa=D&ust=1587613174414000) for a list of other possible status code definitions. Check out status code 418. Yeah, it is real.
 
@@ -102,11 +102,11 @@ Every time you attempt to make a connection to the server, the server returns th
 
 Try logging into your server from a different computer in the lab and note the response from the server.
 
-# Templates and CSS
+## Templates and CSS
 
 In this next step you will add an HTML template and CSS file to your server.
 
-# HTML
+## HTML
 
 Start by creating a file called index.html that includes the following text and save it in your templates directory.
 
@@ -130,7 +130,7 @@ Start by creating a file called index.html that includes the following text and 
 
 Note that anything in double curly braces {{}} within the HTML template is interpreted as a variable that would be passed to it from the Python script via the render\_template function that you will add to your Python server script.
 
-# New Flask Server
+## New Flask Server
 
 Create a new file in your main project directory using the following code. Save it as helloWorldTemplate.py.
 
@@ -186,7 +186,7 @@ In the next line, the python script passes the dictionary called templateData to
 
 #### return render\_template('index.html', \*\*templateData)
 
-# Run the Code
+## Run the Code
 
 Run your new python code by typing the following at the command line.
 
@@ -194,7 +194,7 @@ Run your new python code by typing the following at the command line.
 
 Open any web browser and enter with your RPI’s IP address. Note that the page’s content changes dynamically each time the page is refreshed. The title remains a fixed value but the time changes every second.
 
-# CSS
+## CSS
 
 The next step is to include some styling on the page using a CSS file. Create a new file titled style.css with the following code. Save it to the static directory.
 
@@ -230,6 +230,6 @@ The next step is to modify index.html as shown below, so that it knows to look f
 
 Note that index.html is in the template directory and style.css is in the static directory.
 
-# Dynamic Content
+## Dynamic Content
 
 In this step you will add the ability to send data to the server and modify what it returns. Follow the guide [here](https://www.google.com/url?q=https://projects.raspberrypi.org/en/projects/python-web-server-with-flask/6&sa=D&ust=1587613174422000).

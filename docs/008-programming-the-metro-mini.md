@@ -6,7 +6,7 @@ In this lesson you will learn how to use a [Metro Mini](https://www.google.com/u
 
 ![](images/image46.png)
 
-# USB Connection
+## USB Connection
 
 In addition to a microcontroller, the Metro Mini includes a micro USB header which allows you to connect the Metro Mini to a computer. The USB cable enables the following:
 
@@ -16,7 +16,7 @@ In addition to a microcontroller, the Metro Mini includes a micro USB header whi
 
 ![](images/image47.png)
 
-# Programming
+## Programming
 
 You will program your Metro Mini using the Arduino Integrated Development Environment (IDE). An IDE is an editor where you can write, compile and download your code to your microcontroller.
 

@@ -4,11 +4,11 @@
 
 Since setting up bi-directional motor control using discrete components is difficult there are huge variety of motor control modules and integrated circuits. Many of these devices work in a similar manner so knowing how to use the ones included here will make it easy for you to learn how to use just about any motor module.
 
-# Current Rating
+## Current Rating
 
 One of the most important features of a motor control module is the current rating. This the amount of current that the motor driver can handle. For example, if you motor draws up to 2 Amps of current than you will need a motor driver that can handle more than 2 Amps of current. Generally, the more current a motor driver can handle the more expensive it is.
 
-# L293D OR SN754410NE
+## L293D OR SN754410NE
 
 The L293D or similar SN764410NE are the only motor driver ICs that we will cover. They are dual motor drivers meaning that each IC can drive two motors and they can handle about 600 mA per motor.
 
@@ -34,7 +34,7 @@ IMPORTANT: If you plan to use an Arduino Uno to control the motor module, consul
 
 TEACHER CHECK \_\_\_\_
 
-# MD17A
+## MD17A
 
 The MD17A is a small dual motor control module made by Pololu and based on the DRV8833 motor driver IC. Below is a diagram of the motor module and a table describing the proper connections for your board.
 

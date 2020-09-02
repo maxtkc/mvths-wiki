@@ -6,7 +6,7 @@ Microcontrollers are complex integrated circuits that can be programmed to perfo
 
 ![](images/image61.png)
 
-# Circuit Diagram
+## Circuit Diagram
 
 The following is the [schematic](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.r3k5lvbeyva&sa=D&ust=1587613174595000) for a basic microcontroller circuit. At the heart of the schematic is the [ATMega328](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.bk51dfzckrxr&sa=D&ust=1587613174595000) which is the microcontroller in the circuit. It is important to note how [pins](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.76esoxh2cjn0&sa=D&ust=1587613174595000) are ordered on every IC.
 
@@ -18,7 +18,7 @@ Complete the above circuit as shown. Make sure to remove all previously used com
 
 TEACHER CHECK \_\_\_\_\_
 
-# Programming Cable
+## Programming Cable
 
 The programming cable connects your microcontroller to the computer and allows you to send code compiled on the computer to your microcontroller. The code you write in C is first compiled into a [HEX file](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.4towx11oahq6&sa=D&ust=1587613174596000) that is then downloaded to your computer via the USB cable. The cable communicates with your controller via the TXD, RXD and optionally Reset) pins on your microcontroller.
 

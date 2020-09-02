@@ -4,7 +4,7 @@
 
 The four digit alphanumeric LED display allows you to easily display both numbers and letters on a bright LED display that can be seen from many feet away. You will note that it has 14 segments that allow it to display all of the letters and numbers. Also note that it displays upper case letters in a far more readable format than lower case.
 
-# Set Up
+## Set Up
 
 Connect the alphanumeric display to your Metromini following the markings for the five pins on the upper portion of your display. Note that this device like many of the devices you have used communicates with your Metromini via I2C. A guide is provided below.
 
@@ -18,7 +18,7 @@ D: This is the data pin for the I2C connection. It is often denoted as SDA on ot
 
 \+: The second + pin is for logic level for the I2C. This is in case you have a different logic level for your I2C connection from your voltage level. If your entire board is working 5 volts just connect this to the 5 volt rail as well.
 
-# Program
+## Program
 
 Open the file, File/Examples/Adafruit LED Backpack/quadalphanum and program your device. You should see a demo set of characters display. Note that once the demo is complete, you can use your Serial Monitor to send text strings to the display.
 
@@ -30,7 +30,7 @@ Write a function for scrolling an text across your alphanumeric display. Your fu
 
 Note that in within the example code there is code for scrolling text from the serial port. You will need to isolate this code and move it into a separate function. Then you will need to learn how to pass a string to a function and how to iterate through that string.
 
-# Switching Modules
+## Switching Modules
 
 Switching modules are modules designed around switching regulators. Switching regulators are much more efficient than linear regulators. The only disadvantage is that they are exclusively designed on surface mount technology, so we can only use them as modules.
 
@@ -52,7 +52,7 @@ TEACHER CHECK \_\_\_\_
 
 INTRO TO VERSION CONTROL
 
-# Overview
+## Overview
 
 Version control is required as a way to ensure that:
 
@@ -72,11 +72,11 @@ Losing a file on your PC is file is very easy and can happen for many reasons in
 
 As shown in the diagram above, you can also pull your repository to another computer, such as you home computer. Make changes to your files. Commit them and then pull these changes down to your computer at school.
 
-# Create Account
+## Create Account
 
 In this step, you will create an account on Github. Navigate to github.com using any browser. Create a user account following the directions provided. Do NOT use your school email address, because github will need to send you an email to confirm your account creation and your school email address will not accept email from outside the school domain. Additionally, you will use your github account long after you leave high school. Make sure to check your email and confirm you account creation.
 
-# Create Repository
+## Create Repository
 
 In this step, you will create a new remote repository on Github and an identical local repository on your computer. Files you stored in your local repository will be mirrored on your remote repository.
 
@@ -123,6 +123,6 @@ In this step, you will create a new remote repository on Github and an identical
 3.  Select Commit to Master
 4.  Select Publish.
 
-# Daily
+## Daily
 
 Each day make sure to save your code and CAD files in your repository. At the end of the day, make sure to commit and publish all changes.

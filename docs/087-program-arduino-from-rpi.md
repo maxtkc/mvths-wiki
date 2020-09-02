@@ -4,7 +4,7 @@
 
 In this lesson, you will learn how to program your Arduino directly from the RPI. This will make working with both devices together much easier\!
 
-# Installing Arduino-CLI
+## Installing Arduino-CLI
 
 The easiest way to get and install the latest version of the Arduino CLI on any supported platform is using  curl with an install script.
 
@@ -19,7 +19,7 @@ The easiest way to get and install the latest version of the Arduino CLI on any 
 
 #### $ curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
 
-# Path to Arduino
+## Path to Arduino
 
 In order for you to be able to run arduino-cli from any directory, you will need to record a path to arduino-cli in your .bashrc.
 
@@ -44,7 +44,7 @@ In order for you to be able to run arduino-cli from any directory, you will need
 
 #### $ arduino-cli
 
-# Configuration Script
+## Configuration Script
 
 The next step is to install a configuration script for the arduino-cli. Depending on which board you are using you may or may not need to use this file, but it is best to install it anyway.
 
@@ -53,7 +53,7 @@ The next step is to install a configuration script for the arduino-cli. Dependin
 
 #### $ arduino-cli config init
 
-# Installing your Board File
+## Installing your Board File
 
 The next step is to install the correct board file for your arduino-cli. If you are using an Arduino Uno or another standard Arduino branded board the process is fairly simple. If you are using an off-brand Arduino device such as the Metro Mini, the process takes a few more steps.
 
@@ -119,13 +119,13 @@ The following steps are specifically for the Meto Mini but should work with othe
 
 #### $ arduino-cli board list
 
-# Creating a New Sketch
+## Creating a New Sketch
 
 Now you are ready to create your first sketch. This can be accomplished with the simple command shown below. You may place your sketches wherever you like, but I recommend creating a directory Documents for all of your Arduino sketches.
 
 #### $ arduino-cli sketch new MyFirstSketch
 
-# Compiling and Programming
+## Compiling and Programming
 
 To compile your program, first make sure you are in the same directory as the code file you just created. Then run the following. Note that the arguments for the --fqbn flag will depend on your device.
 
@@ -135,7 +135,7 @@ To program your device run the following command. Again, adjust the arguments fo
 
 $ arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:metro
 
-# Port Permissions
+## Port Permissions
 
 If you run into permission problems with accessing your port you will need to do the following. The first step is to determine which groups the port you are using belongs to. Note that the ls command is for listing details. The l flag is for long format and the a flag makes sure to list hidden files.
 
@@ -161,7 +161,7 @@ Write a program to count up by one every second on a four digit LED display.
 
 TEACHER CHECK \_\_\_\_
 
-# Adding Libraries
+## Adding Libraries
 
 Many of the advanced programs you write or the advanced components will need custom libraries that are not pre-installed. In order to install a custom library, you will need to first find the name of the library. For example to search for all libraries including the word LED, you would enter the following command in any directory.
 

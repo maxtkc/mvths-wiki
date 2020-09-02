@@ -6,7 +6,7 @@ What ports are in use? Test by plugging and unplugging the USB device.
 
 #### $ ls /dev/tty\*
 
-# Killing a Process
+## Killing a Process
 
 In order to determine what process is using a tty port you run the command.
 
@@ -14,7 +14,7 @@ In order to determine what process is using a tty port you run the command.
 
 This will list the process that is using the tty port. If the owner of the process is root, you must kill the process as root.
 
-# Port Permissions
+## Port Permissions
 
 It is possible that you need to remove binding to a USB port. The following is helpful if you have USB1 and USB0 does not show up.
 

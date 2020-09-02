@@ -4,7 +4,7 @@
 
 Imagine pressing a momentary button like one on a keypad. The time during which it is pressed seems to be so short as to be irrelevant, yet microcontrollers process information at an incredibly fast rate, 16 million cycles per second in the case of the Arduino or one cycle every 62.5 nanoseconds. By this measure our fingers are very slow.
 
-# Button Pulse
+## Button Pulse
 
 In order to write code to read a button press, you will need to understand the length of the average button press. If you wire your button so that it defaults to LOW, when the button is pressed the output goes HIGH and when it is released the output goes LOW. This results in a pulse as shown below.
 

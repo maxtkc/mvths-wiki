@@ -40,7 +40,7 @@ Once you have finished the tutorials, you are ready to design your circuit using
 17. Make sure your board is designed with the minimal use of material.
 18. Your board must include dimensions for the overall length and width of the board. Dimension units should be mils and in an unused layer such as info.
 
-# Top Traces
+## Top Traces
 
 In some cases a board cannot be routed on a single side. In this case, there are three options depending on the number of traces that are unable to route. If you have three or less wires airwires, you can simply create connections with top wires (see below) as as described below. For boards with more than three airwires you can trace vias (see below) and route wires on the top side. For very complex boards you can fully route a two sided (see below) board. This option adds a lot of complexity to the design and should only be attempted in cases where absolutely necessary.
 

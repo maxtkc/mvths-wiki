@@ -40,11 +40,11 @@ TEACHER CHECK \_\_\_\_
 
  VOLTAGE REGULATION
 
-# Overview
+## Overview
 
 Almost every circuit you design will need some sort of voltage regulation. Most integrated circuits are designed to work within a narrow voltage range and almost all circuits require a voltage that is stable. Logic circuits typically work at either 5.0V, 3.3V or 1.8V. Almost all of the circuits you will create in this class will run on either 5.0V or 3.3V
 
-# USB Power
+## USB Power
 
 Small logic devices that do not require much power can be driven by the power from the USB port. The USB port provides 5V for circuits but is limited to about 500mA. This is how your USB port is able to charge your phone.
 
@@ -52,7 +52,7 @@ Small logic devices that do not require much power can be driven by the power fr
 
 Using a multimeter, measure the voltage on your  USB hub. You will need to connect a programming cable to your hub and measure the voltage at the working end of the programming cable.
 
-# Linear regulators
+## Linear regulators
 
 Linear regulators are low cost and easy to use voltage regulators. The downside is that they are not very efficient wasting a lot of power.
 

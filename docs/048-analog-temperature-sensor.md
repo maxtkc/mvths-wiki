@@ -4,7 +4,7 @@
 
 In this lesson you will learn how to use an analog temperature sensor. Analog temperature sensors are generally lower cost, easier to use and fairly accurate as compared with digital sensors.
 
-# LM35
+## LM35
 
 The LM35 is simple analog temperature sensor that is designed to provide results that are directly compatible with the Centigrade scale. The device is made by Texas Instruments (TI) and the [datasheet](https://www.google.com/url?q=http://www.ti.com/lit/ds/symlink/lm35.pdf&sa=D&ust=1587613174074000) for the device can easily be found on line.
 
@@ -24,7 +24,7 @@ Low Temperature: \_\_\_\_\_\_\_ Fahrenheit        High Temperature: \_\_
 
 TEACHER CHECK \_\_\_\_
 
-# Circuit Testing
+## Circuit Testing
 
 In order to test this circuit, you will need to test the voltage output from the LM35. The voltage output of the LM35 is proportional to the temperature in Celsius. The conversion factor is 10mV per degree Celsius. For example, 10mV would be equivalent to 1 degree Celsius and 130mV would be equivalent to 13 degrees Celsius.
 
@@ -52,7 +52,7 @@ Body\* temperature: \_\_\_\_\_\_\_\_\_ millivolts         \_\_\_\_ Celsi
 
 TEACHER CHECK \_\_\_\_
 
-# Software
+## Software
 
 Using your microcontroller you can read the voltage values from the sensor and display the temperature from your LM35 without the use of a multimeter.
 

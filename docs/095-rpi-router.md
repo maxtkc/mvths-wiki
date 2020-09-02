@@ -257,11 +257,11 @@ iwinfo wlan0 assoclist
 
 U4VL WEBRTC
 
-# Overview
+## Overview
 
 U4VL is a method for video capture and streaming that works with WebRTC.
 
-# Set Up
+## Set Up
 
 Use the following curl command to get access to the packages.
 
@@ -277,7 +277,7 @@ Next run an update and upgrade to make sure you have all the latest resources
 
 #### $ sudo apt upgrade
 
-# Install
+## Install
 
 The following installs the base packages and can be used to for taking snapshots and maybe other purposes. Not sure. Should be tested.
 
@@ -303,7 +303,7 @@ This last installs a WebRTC. This provides GUI access but I think also makes it 
 
 #### $ sudo apt uv4l-webrtc
 
-# Configuration
+## Configuration
 
 In order to configure the settings you can edit the /etc/uv4l/uv4l-raspicam.conf file. The following changes to the settings seemed to work. Also, you can establish settings at the command line.
 

@@ -23,7 +23,7 @@ Above is a diagram of the Metro Mini broken down into functional groups of compo
 7.  Filter: This is a capacitor that is being used to filter or clean the power supply against voltage spikes. (C2)
 8.  Pullup: This is a resistor that is used to prevent the microcontroller from going into the reset state.  (R2)
 
-# Collecting components
+## Collecting components
 
 You will now build a working version of the Metromini or Arduino Uno using individual components and on a breadboard. Below are the components you need to collect. You will only need one of each.
 
@@ -36,7 +36,7 @@ You will now build a working version of the Metromini or Arduino Uno using indiv
 | 4.7K Resistor              | ![](images/image63.png) |
 | Momentary switch           | ![](images/image12.png) |
 
-# Breadboard Schematic
+## Breadboard Schematic
 
 The following is the basic microcontroller circuit. Carefully construct this circuit on your breadboard. Make sure to use short wires for your all your connections. Neatness counts\! Check [here](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.bk51dfzckrxr&sa=D&ust=1587613174049000) for a reminder on how to determine pin numbers on an integrated circuit.
 
@@ -52,7 +52,7 @@ The following is the basic microcontroller circuit. Carefully construct this cir
 
  TEACHER CHECK \_\_\_\_
 
-# Programming Cable
+## Programming Cable
 
 The programming cable connects your microcontroller to the computer and allows you to send code compiled on the computer to your microcontroller. The cable communicates with your controller via the TXD, RXD and includes circuitry for converting USB signals from the computer to USART signals that the microcontroller can understand.
 
@@ -75,7 +75,7 @@ Using the table below connect the programming cable to your microcontroller.
 
  TEACHER CHECK \_\_\_\_
 
-# Uploading Code
+## Uploading Code
 
 Uploading code to the microcontroller with the cable is slightly more complicated as compared with using a Metromini or Arduino Uno. The following are two steps you will need to take.
 

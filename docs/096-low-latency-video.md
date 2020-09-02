@@ -4,7 +4,7 @@
 
 Possibly the best way to get low latency video streaming from a Raspberry Pi is to use netcat and mplayer on the client and raspivid on the server.
 
-# Raspivid
+## Raspivid
 
 Raspivid is installed by default with Raspian. It is very easy to use. The following command provides a number of options allowing you to save a video to your drive on the RPI.
 
@@ -12,7 +12,7 @@ Raspivid is installed by default with Raspian. It is very easy to use. The follo
 
 The o flag allows you to store the video at the specified file name. The t flag determines on long in milliseconds the player will record. The a flag inserts a time date on your video. The video will be stored in the h264 format. You view this format using a VLC viewer but will need to look up option settings. You can also look up how to convert the h264 format to mpeg.
 
-# Viewer
+## Viewer
 
 In order to connect to the raspivid player on the RPI you will be using netcat and mplayer on your linux computer. If you are not running linux, I can’t help you. The following command will start netcat to connect to the RPI and pipe the output to mplayer.
 
@@ -80,7 +80,7 @@ Supercapacitors
 
 ULTRASONIC SENSOR
 
-# Overview
+## Overview
 
 In this lesson you will use an ultrasonic sensor to measure distance. Ultrasonic sensors include both a sender
 
@@ -92,11 +92,11 @@ out
 
 BASIC LOGIC CIRCUIT
 
-# Overview
+## Overview
 
 Logic gates form the basis of all modern computers. A small [integrated circuit](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.sbb7uw38pmd5&sa=D&ust=1587613174525000) no bigger than your fingernail may contain millions of [logic gates](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.tclufllpksfy&sa=D&ust=1587613174525000). There are also small integrated circuits (ICs) that contain only a few logic gates. In the really old days, computers were made completely from these sorts of ICs. They are seldom used in modern circuits, but provide a good exercise in learning about digital electronics.
 
-# AND Gate
+## AND Gate
 
 Below is the schematic symbol for an AND gate. Note that it has two inputs and one output. The value of the output is determined by the combined values of the inputs.
 

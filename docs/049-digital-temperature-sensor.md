@@ -4,7 +4,7 @@
 
 In this project you will be using a digital sensor to read temperature. Digital sensors are often more accurate but more complex to use as compared with analog sensors. The BS18B20 made by Dallas Semiconductor is a commonly used digital temperature sensor that can be networked with over 100 devices on a single wire.  The 1-Wire protocol which was developed by Dallas Semiconductor and is one of many [communication protocols](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.zbv2l6wpi6ec&sa=D&ust=1587613174080000) you will learn how to use to communicate with a variety of devices.
 
-# Circuit Testing
+## Circuit Testing
 
 In this section, you will connect your digital sensor to your microcontroller so that you can display the data from the sensor on your serial monitor.
 

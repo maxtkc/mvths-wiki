@@ -6,13 +6,13 @@ Before writing your first code file, you should learn how to create a virtual en
 
 The main purpose of Python virtual environments is to create an isolated environment for different Python projects. This way you can install a specific version of a module on a per project basis without worrying that it will affect your other Python projects.
 
-# Install Venv
+## Install Venv
 
 Use the command below to install the python3-venv package that provides the venv module which will allow you to create a virtual environment.
 
 #### $ sudo apt install python3-venv
 
-# Create Environment
+## Create Environment
 
 Switch to the directory where you would like to store your Python 3 virtual environments. Within the directory run the following command to create your new virtual environment:
 
@@ -34,7 +34,7 @@ Now that the virtual environment is activated, you can start installing, upgradi
 
 VIM PYTHON SPACE CONVERSION
 
-# Overview
+## Overview
 
 It is sometimes helpful to be able to quickly convert a large python file that uses spaces to tabs. Best to do the following with list set so you can see all the punctuation marks.
 

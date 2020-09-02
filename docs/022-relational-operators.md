@@ -8,7 +8,7 @@ x \> 23 //If x is greater than 23 this returns true
 
 X \< 23 //If x is less than 23 this returns true
 
-# Conditionals
+## Conditionals
 
 In this lesson you will again need to use conditionals. Note you last used a conditional in the lesson on Inputs and you can read more about conditionals [here](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.o11qq65yx4ek&sa=D&ust=1587613173938000) in concepts.
 

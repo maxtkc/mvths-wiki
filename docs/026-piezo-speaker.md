@@ -12,7 +12,7 @@ A piezo speaker is essentially a thin piece of metal that can make sounds by vib
 
 ![](images/image32.png)
 
-# Piezo Circuit
+## Piezo Circuit
 
 Driving a piezo speaker only requires a single pin that can produce a pulse.
 
@@ -35,7 +35,7 @@ TEACHER CHECK \_\_\_\_
 | Highest Frequency | Lowest Frequency |
 |                   |                  |
 
-# Tone Function
+## Tone Function
 
 The tone function provides an easy way to send notes to a piezo speaker. The tone function can be used to set which pin will produce the tone, the frequency of the tone and duration of the tone. The last argument, duration is optional.
 

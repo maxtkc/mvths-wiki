@@ -4,7 +4,7 @@
 
 Serial communication provides an excellent way to send data to and get data from your microcontroller. It can be used as a way to provide a human interface to your device allowing the user to type commands on the computer that control operations on your device. It is also commonly used to debug a problem in your device by providing a way to visualize what is happening in your code.
 
-# Reading Data
+## Reading Data
 
 Serial communication can be used to read the value a variable or the state of a sensor attached to a computer.
 
@@ -23,7 +23,7 @@ Serial communication can be used to read the value a variable or the state of a 
 
 TEACHER CHECK \_\_\_\_\_
 
-# Looping Data
+## Looping Data
 
 You can use the loop function to send data repeatedly to the terminal window.
 
@@ -35,11 +35,11 @@ TEACHER CHECK \_\_\_\_\_
 
 FORMATING SERIAL COMMUNICATION
 
-# Overview
+## Overview
 
 In order to make the information you are sending to the terminal window readable, it is important to know how to format the text.
 
-# Column and Separators
+## Column and Separators
 
 As you may have noted in the previous lesson, the word “cat” was displayed across the screen making it difficult to read. You can display text in a column by simply adding a carriage return at the end of each line using the following command.
 

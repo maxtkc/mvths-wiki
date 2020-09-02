@@ -6,11 +6,11 @@ In this section you will learn how to directly control the ATMega328 (the microc
 
 The following sections will require you to use the [ATMega328 datasheet](https://www.google.com/url?q=http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf&sa=D&ust=1587613174384000)...which is over 600 pages\! In addition to the on-line version referenced above, I highly recommend using a printed version we have in the classroom.
 
-# Registers
+## Registers
 
 Registers are 8-bit memory locations that can be used to control any function on your microcontroller. Check out the section in concepts on [Registers](https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.f13ytdd3fjv&sa=D&ust=1587613174385000).
 
-# Setting Pin Values
+## Setting Pin Values
 
 There are two registers involved in setting pin values. One register is used to control the direction of the pin (input or output). The other register is used to set the value of the pin. Setting these two registers would be equivalent to using the following commands in the Arduino library.
 

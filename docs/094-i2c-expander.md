@@ -130,15 +130,15 @@ DEBOUNCE BUTTONS
 
 7\. TEACHER CHECK \_\_\_\_
 
-# 
+## 
 
 BASIC COMMAND LINE
 
-# Overview
+## Overview
 
 You will be using cmder to run command line operations.
 
-# Command Overview
+## Command Overview
 
 The following are a list of seven commands that you can used to get started with using the command line. Note that the λ represents the command prompt of your shell and you will not type this when entering commands. Command prompts vary by shell and include \# $ \>\> λ
 
@@ -174,7 +174,7 @@ The following are a list of seven commands that you can used to get started with
 
 Open cmder and test out the above commands.
 
-# Create Code Directory
+## Create Code Directory
 
 In this lesson you will create a new directory for storing your code. Note that when you first open cmder you should find yourself in the following directory.
 
@@ -190,7 +190,7 @@ Confirm the existence of your new directory using the Windows Explorer
 
 1.  TEACHER CHECK \_\_\_\_
 
-# Set IDE Path
+## Set IDE Path
 
 In this lesson, you will set the path of your Arduino IDE so that it stores your code the directory you just created.
 
@@ -216,13 +216,13 @@ https://pythonprogramming.net/tkinter-python-3-tutorial-adding-buttons/?complete
 
 TOF VL53L0X SENSOR
 
-# Overview
+## Overview
 
 In this lesson, you will learn how to setup and use a VL53L0X time of flight (TOF) sensor to measure distance.
 
 ![](images/image78.png)
 
-# Wiring
+## Wiring
 
 Above is a picture of the VL53L0X  module. Wire the module as follows.
 
@@ -234,7 +234,7 @@ SCL pin to A5 on your Arduino or Metro
 
 SDA pin to A4 on your Arduino or Metro
 
-# Initial Test
+## Initial Test
 
 Follow the instructions below to test that you have wired your module correctly.
 
@@ -253,7 +253,7 @@ VL53L0X API Simple Ranging example
 
 ...and then a set of distance readings in mm.
 
-# Range Testing
+## Range Testing
 
 The following code should provide feedback if the object being measured is between 50mm and 100mm from the sensor.
 
