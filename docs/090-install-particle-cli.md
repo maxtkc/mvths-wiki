@@ -1,6 +1,6 @@
 # Install Particle Cli
 
-#Linux
+Linux
 
 Install Latest version of node
 

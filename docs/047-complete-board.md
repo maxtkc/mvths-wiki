@@ -1,6 +1,6 @@
 # Complete Board
 
-#Scotch bright board
+Scotch bright board
 
 Solder parts
 

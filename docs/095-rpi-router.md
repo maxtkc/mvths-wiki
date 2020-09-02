@@ -1,6 +1,6 @@
 # Rpi Router
 
-#1.  Download image
+1.  Download image
 
 <!-- end list -->
 
