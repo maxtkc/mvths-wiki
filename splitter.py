@@ -26,3 +26,6 @@ for i, page in enumerate(contents, start=1):
         f.write(page)
 
 # pandoc LessonsElectronicsandCS.html -o all.md -f html-native_divs-native_spans-raw_html-auto_identifiers -t gfm-raw_html-auto_identifiers --wrap=none
+
+# Convert all to rst
+# for f in *.md ; do pandoc -s $f -o ${f%.*}.rst ; done ; rm *.md
