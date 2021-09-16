@@ -7,7 +7,7 @@ Overview
 A circuit is simply a series of components connected in a way that
 current can flow from the positive terminal on a voltage source to the
 negative terminal on a voltage source. One of the simplest examples of a
-circuit is one designed to light an LED.
+circuit is one designed to light an LED. Test
 
 Exercise:
 ~~~~~~~~~
