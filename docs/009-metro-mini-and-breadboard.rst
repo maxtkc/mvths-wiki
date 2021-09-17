@@ -11,9 +11,13 @@ Power and Ground
 ----------------
 
 The Metro Mini can supply power to your breadboard through its pins 5V
-and GND. These will provide power supplied by the computer through the
-USB cable. Note that there are two pins for ground. You only need to
-connect one of the pins.
+and GND. The `USB cable <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.r1bkd5j08r0y>`__
+that connects your Metro Mini to the computer 
+has four wires that provide data as well as power (+5V) and ground. 
+This is why you can use your USB cable to charge your phone. YOU WILL 
+NO LONGER NEED YOUR POWER SUPPLY to supply 5V to your breadboard. 
+These will provide power supplied by the computer through the
+USB cable. 
 
 .. figure:: images/image51.png
    :alt: 
@@ -36,11 +40,12 @@ Exercise:
 1. Insert the Metro Mini into your breadboard. Make sure to remove all
    of your previous circuits before starting this step.
 2. Connect the 5V pin from your Metro Mini to the power bus (red) of
-   your breadboard.
+   your breadboard. Use a short wire.
 3. Connect one of the GND pins from your Metro Mini to the ground bus
-   (blue) of your breadboard.
-4. Connect the power buses on your breadboard together and the ground
-   buses on your breadboard together.
+   (blue) of your breadboard. You will only need to connect one of 
+   the two GND pins.
+4. If you have not already done so, connect the power buses on your 
+   breadboard together and the ground buses on your breadboard together.
 
 .. raw:: html
 
