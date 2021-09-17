@@ -37,8 +37,8 @@ TEACHER CHECK \_\_\_\_\_
 TEACHER CHECK \_\_\_\_\_
 
 3. Set up the following LED circuit on your board, but this time 
-   connect one lead of the resistor to the red (power) bus and
-   one lead of the LED to the blue (ground) bus.
-
+   carefully read the  `good practices <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.f8f0p8y93bxg>`__,
+   setting up a breadboard and follow these guidelines.
+   
 .. figure:: images/image96.png
    :alt:
