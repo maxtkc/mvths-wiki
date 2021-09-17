@@ -36,7 +36,9 @@ TEACHER CHECK \_\_\_\_\_
 
 TEACHER CHECK \_\_\_\_\_
 
-3. Set up the following LED circuit on your board.
+3. Set up the following LED circuit on your board, but this time 
+   connect one lead of the resistor to the red (power) bus and
+   one lead of the LED to the blue (ground) bus.
 
 .. figure:: images/image96.png
    :alt:
