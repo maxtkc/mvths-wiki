@@ -29,7 +29,10 @@ Exercise:
 TEACHER CHECK \_\_\_\_\_
 
 2. Add a couple of wires to bring power and ground to both sides of your
-   board and confirm with a multimeter.
+   board and confirm with a multimeter. One wire should connect the red
+   bus on the top of your board to the red bus on the bottom. The other
+   wire should connect the blue (ground) bus on the top of your 
+   board to the blue (ground) bus on the bottom of your board.
 
 TEACHER CHECK \_\_\_\_\_
 
