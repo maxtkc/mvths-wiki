@@ -17,7 +17,10 @@ disconnected. Below is a picture of a momentary switch.
 Momentary Switch
 
 Below are two diagrams from the datasheet for a momentary switch. Note
-how the four pins are connected in the circuit diagram.
+how the four pins are connected in the circuit diagram. The circuit diagram
+has only two connections and yet the button itself has four leads. In the
+picture below you can see that pins 1 and 2 act as a single pin and pins
+3 and 4 act as a single pin.
 
 |image0|\ |image1|
 
