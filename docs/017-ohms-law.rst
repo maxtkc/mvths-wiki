@@ -52,6 +52,7 @@ Using Ohm’s law calculate the missing value in the table below for the
 example circuit.
 
 
+
 | circuit | voltage | current | resistance |
 |---------|---------|---------|------------|
 | 1       |         |         |            |
@@ -62,14 +63,20 @@ example circuit.
 | 6       |         |         |            |
 
 
+
 Circuit
 
 Voltage
+
+
 
 | Command | Description |
 | --- | --- |
 | git status | List all new or modified files |
 | git diff | Show file differences that haven't been staged |
+
+
+
 
 Current
 
