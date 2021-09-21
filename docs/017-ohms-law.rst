@@ -76,6 +76,15 @@ Voltage
 | git diff | Show file differences that haven't been staged |
 
 
+| circuit | voltage | current | resistance |
+|---------|---------|---------|------------|
+| 1       |         |         |            |
+| 2       |         |         |            |
+| 3       |         |         |            |
+| 4       |         |         |            |
+| 5       |         |         |            |
+| 6       |         |         |            |
+
 
 
 Current
