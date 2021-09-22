@@ -43,7 +43,10 @@ digitalWrite(8, HIGH);
 
 4. Use a multimeter to confirm that the voltage on pin 8 is 5V (or close
    to 5V). Connect the black lead to ground on your circuit and touch
-   the red lead to pin 8 on your Metro Mini.
+   the red lead to pin 8 on your Metro Mini. Read this section on 
+   how best to use  `leads <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.w8fwz347yb2x>`__.
+   to measure points on your circuit.
+   
 
 TEACHER CHECK \_\_\_\_\_
 
