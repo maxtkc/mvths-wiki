@@ -23,7 +23,8 @@ cable enables the following:
 
 -  Power Supply: The Metro Mini can get its power (5V and Ground) from
    the host computer and through the USB cable. NOTE: When using a Metro Mini, 
-   you will no longer need your bench to power your circuit.
+   you will no longer need your bench to power your circuit. So you can 
+   REMOVE your bench supply from the circuit.
 -  Programming: Code written on your computer is uploaded to the Metro
    Mini through the USB cable.
 -  Data Communication: The USB cable can also be used to send data to
