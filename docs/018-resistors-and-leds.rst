@@ -22,55 +22,47 @@ across the resistor.
 2. Use Ohm’s law to determine the correct resistor value for the target
    current you are trying to achieve in the circuit.
 
-Supply Voltage
+.. list-table:: Resistor Selection
+   :widths: 25 25 50 50
+   :header-rows: 1
 
-LED Voltage Drop
+   * - Supply Voltage
+     - LED Voltage Drop
+     - Target Current
+     - Resistor Value
+   * - 5 Volts
+     - 2.3 Volts
+     - .005 Amps
+     - 
+   * - 5 Volts
+     - 1.8 Volts
+     - .002 Amps
+     - 
+   * - 3 Volts
+     - 2.0 Volts 
+     - .040 Amps
+     - 
+   * - 7 Volts
+     - 3.00 Volts
+     - .003 Amps
+     - 
+   * - 12 Volts
+     - 1.80 Volts
+     - .015
+     - 
+   * - 3 Volts
+     - 2.0 Volts
+     - .008 Amps
+     - 
+   * - 2 Volts
+     - 2.4 Volts
+     - .008 Amps
+     - 
+   
 
-Target Current
-
-Resistor Value
 
 .. figure:: images/image22.png
    :alt: 
 
-5 Volts
 
-2.3 Volts
 
-.005 A
-
-5 Volts
-
-1.8 Volts
-
-.002 A
-
-3 Volts
-
-2.0 Volts
-
-.040 A
-
-7 Volts
-
-3.0 Volts
-
-.003 A
-
-12 Volts
-
-1.8 Volts
-
-.015 A
-
-3 Volts
-
-2.0 Volts
-
-.008 A
-
-6 Volts
-
-3.0 Volts
-
-.003 A
