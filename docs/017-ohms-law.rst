@@ -51,83 +51,41 @@ Challenge
 Using Ohm’s law calculate the missing value in the table below for the
 example circuit.
 
+.. list-table:: Ohms Law
+   :widths: 25 25 50 50
+   :header-rows: 1
 
-
-| circuit | voltage | current | resistance |
-|---------|---------|---------|------------|
-| 1       |         |         |            |
-| 2       |         |         |            |
-| 3       |         |         |            |
-| 4       |         |         |            |
-| 5       |         |         |            |
-| 6       |         |         |            |
-
-
-
-Circuit
-
-Voltage
-
-
-
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
-
-
-| circuit | voltage | current | resistance |
-|---------|---------|---------|------------|
-| 1       |         |         |            |
-| 2       |         |         |            |
-| 3       |         |         |            |
-| 4       |         |         |            |
-| 5       |         |         |            |
-| 6       |         |         |            |
-
-
-
-Current
-
-Resistance
+   * - Circuit
+     - Voltage
+     - Resistance
+     - Current
+   * - 1
+     - 5.00 Volts
+     - 
+     - 100 Ohms
+   * - 2
+     - 3.00 Volts
+     - .020 Amps
+     - 
+   * - 3
+     - 
+     - .005 Amps
+     - 330 Ohms
+   * - 4
+     - 12.00 Volts
+     - .400 Amps
+     - 
+   * - 5
+     - 1.80 Volts
+     - 
+     - 470 Ohms
+   * - 6
+     - 
+     - .250 Amps
+     - 1000 Ohms
 
 .. figure:: images/image86.png
    :alt: 
 
-1
-
-5.00 Volts
-
-100 ohms
-
-2
-
-3.00 Volts
-
-.020 Amps
-
-3
-
-.005 Amps
-
-330 ohms
-
-4
-
-12.00 Volts
-
-.400 Amps
-
-5
-
-1.80 Volts
-
-470 ohms
-
-6
-
-.250 Amps
-
-1000 ohms
 
 TEACHER CHECK \_\_\_\_\_
