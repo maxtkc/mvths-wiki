@@ -6,8 +6,9 @@ Overview
 
 The digital pins on the Metro Mini can also be set as inputs. As an
 input, the Metro Mini can read the value of a pin, i.e. if the pin is
-externally driven as HIGH (5V) or LOW (0V). Generally inputs are used
-for receiving information from the outside world, such a reading the
+externally driven as HIGH (5V) or LOW (0V), that is the pin is tied 
+(connected) to either 5V or ground. Generally inputs are used for 
+receiving information from the outside world, such a reading the 
 value of a sensor or getting data from a robotic device.
 
 Setting up software and hardware to test an input is a little more
@@ -16,12 +17,12 @@ complicated than setting up software and hardware to test an output.
 Schematic
 ---------
 
-Set up the following circuit on your breadboard. Make sure to use a long
+Set up the following circuit on your breadboard. MAKE SURE to use a long
 jump wire for the connection between pin 9 and ground. You will be
-moving this pin between power and ground so using a long jump wire will
-make this much easier. By moving the long jump wire between GND and
-power you will be setting the input of pin 9 as HIGH and LOW. This wire
-will essentially act as a crude switch.
+moving one end of this long jump wire between power and ground while 
+the other end remains connected to pin 9. By moving the wire between
+power (5V) and ground you will be setting the input of pin 9 as HIGH 
+and LOW respectively. This wire will essentially act as a crude switch.
 
 .. figure:: images/image101.png
    :alt: 
