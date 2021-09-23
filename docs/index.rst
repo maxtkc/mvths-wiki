@@ -21,6 +21,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    009-metro-mini-and-breadboard
    010-output-pins
    011-programming-leds
+   011a-delays
    012-loops
    013-challenge-review
    014-serial-communication
