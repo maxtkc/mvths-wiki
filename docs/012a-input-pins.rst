@@ -1,4 +1,5 @@
-INPUT PINS
+Simple Switch
+=============
 
 Overview
 --------
