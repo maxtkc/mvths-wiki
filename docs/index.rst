@@ -23,7 +23,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    011-programming-leds
    011a-delays
    012-loops
-   012a-input=pins
+   012a-input-pins
    013-challenge-review
    014-serial-communication
    015-variables
