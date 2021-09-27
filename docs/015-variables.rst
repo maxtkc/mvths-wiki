@@ -15,11 +15,10 @@ store the number of times a button was pressed in that variable.
 Initializing
 ------------
 
-In order to use a `variables <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.vbe1wov8lque&sa=D&ust=1587613173882000>`__.
- you must first tell the program you are 
-going to use it. We call this initializing a variable. For the time 
-being, you will initalize variables at the top of your code file, that is
-outside of both the loop and setup functions.  Check out Lessons for more information about
+In order to use a `variable <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.vbe1wov8lque&sa=D&ust=1587613173882000>`__ you must set up the variable so the program
+knows the type and name of the variable. We call this initializing a variable. For the time 
+being, you will initalize variables at the top of your code file, that is place the initialization of your variable above and 
+outside of both the loop and setup functions.  
 
 Exercise:
 ~~~~~~~~~
@@ -32,8 +31,7 @@ Exercise:
    <!-- end list -->
 
 2. Print the variable to your terminal window using the following
-   command.
-
+   command::
 Serial.print(z);
 
 TEACHER CHECK \_\_\_\_\_
