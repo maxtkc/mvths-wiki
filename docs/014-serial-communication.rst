@@ -30,7 +30,9 @@ microcontroller and set the transmission rate to 9600 bps. This
 command only needs to be run once in your code so where should 
 you put it?
 
-                Serial.begin(9600);
+.. code-block:: c
+
+   Serial.begin(9600);
 
 2. Use the following command to send the word "cat" to your terminal
    window. This command also only needs to be run once. NOTE: If you 
@@ -38,7 +40,9 @@ you put it?
    quotation marks with ones typed from your keyboard. The characters 
    on the page in your guide are different from the characters in your IDE.
 
-                Serial.print("cat");
+.. code-block:: c
+
+   Serial.print("cat");
 
 3. Upload the code to the microcontroller.
 4. Open the  `terminal window <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.t0c1bmp6om>`__. 
