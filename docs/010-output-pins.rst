@@ -27,12 +27,12 @@ microcontroller as an output pin and then set that pin to HIGH.
    `function <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.45j551ci2de&sa=D&ust=1587613173861000>`__.
    The first line sets pin 8 on your microcontroller as an output pin.
    The second line sets the value of pin 8 to HIGH.
-
-pinMode(8, OUTPUT);
-
-digitalWrite(8, HIGH);
-
-        
+   
+.. code-block:: c
+   
+   pinMode(8, OUTPUT);
+   
+   digitalWrite(8, HIGH);
 
 3. Compile and download your code. If you have errors, ask your teacher
    for help.
