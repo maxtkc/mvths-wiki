@@ -7,16 +7,15 @@ Overview
 law <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.t5bxsyeu98j2&sa=D&ust=1587613173894000>`__ describes
 an important relationship between `voltage, current and
 resistance <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.7g89z82u0oqw&sa=D&ust=1587613173895000>`__.
-Ohm’s law you can correctly specify the proper resistor for limiting
+Usinng Ohm’s law you can correctly specify the proper resistor for limiting
 current to any device. Most often in the shop, we are using resistors to
-limit current to LEDs. Driving an LED without a resistor will invariably
+limit current to LEDs. Driving an LED with too low a value resistor (or no resistor) will invariably
 lead to failure of the LED due to too much current. Driving an LED with
-too large an LED will result in no light from the LED.
+too large a value resistor will result in no light from the LED.
 
-For each type of LED there is a maximum safe current. The following is a
+For each type of LED there is a maximum safe current. While you have been using LEDs as generic devices each one has an exact model number and cooresponding datasheet. The following is a
 table from the datasheet for the 334-15/T1C1-4WYA which an Everlight 5mm
-Round White LED (T-1 3/4). There are literally millions of different
-types of LEDs and each has its own datasheet.
+Round White LED (T-1 3/4). 
 
 .. figure:: images/image94.png
    :alt: 
