@@ -33,6 +33,7 @@ Exercise:
 2. Print the variable to your terminal window using the following
    command.
 .. code-block:: c
+
    Serial.print(z);
 
 TEACHER CHECK \_\_\_\_\_
