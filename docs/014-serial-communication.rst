@@ -4,7 +4,8 @@ Serial Communication
 Overview
 --------
 
-Serial communication provides an excellent way to send data from your 
+`Serial communication <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.drcn0pnn5flp>`__
+provides an excellent way to send data from your 
 computer to your microcontroller and to send data from your 
 microcontroller to your computer. It can be used as a way to provide a
 human interface to your device allowing the user to type commands on the
@@ -17,7 +18,7 @@ Reading Data
 
 Using the serial command you will send data (numbers and text) from
 your microcontroller to your computer. Serial data must be tranmitted
-at a specific speed or `baud rate <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.akrmhbnr74pi>`__. . The baud is named for Jean-Maurice-Emile 
+at a specific speed or `baud rate <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.akrmhbnr74pi>`__. The baud is named for Jean-Maurice-Emile 
 Baudot and is measured is bits per second (bps). The computer must
 also be set up to receive the serial data at the same baud rate.
 
@@ -41,8 +42,7 @@ you put it?
 
 3. Upload the code to the microcontroller.
 4. Open the  `terminal window <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.t0c1bmp6om>`__. 
-If you are successful the word "cat" should
-   be displayed in your terminal window.
+If you are successful the word "cat" should be displayed in your terminal window.
 
 TEACHER CHECK \_\_\_\_\_
 
