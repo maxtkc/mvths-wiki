@@ -6,9 +6,9 @@ Overview
 
 The digital pins on the Metro Mini can also be set as inputs. As an
 input, the Metro Mini can read the value of a pin, i.e. if the pin is
-externally driven as HIGH (5V) or LOW (0V), that is the pin is tied 
-(connected) to either 5V or ground. Generally inputs are used for 
-receiving information from the outside world, such a reading the 
+externally driven as HIGH (5 Volts) or LOW (0 Volts), that is the pin 
+is tied (connected) to either 5V or ground. Generally inputs are used 
+for receiving information from the outside world, such a reading the 
 value of a sensor or getting data from a robotic device.
 
 Setting up software and hardware to test an input is a little more
