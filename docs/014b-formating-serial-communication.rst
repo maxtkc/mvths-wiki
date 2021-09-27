@@ -1,5 +1,5 @@
 Formating Serial Communication
-------------
+==============================
 
 Overview
 --------
