@@ -26,6 +26,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    012a-input-pins
    013-challenge-review
    014-serial-communication
+   014a-looping-data
    015-variables
    016-resistor-values
    017-ohms-law
