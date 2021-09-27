@@ -27,6 +27,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    013-challenge-review
    014-serial-communication
    014a-looping-data
+   014b-formating-serial-communication
    015-variables
    016-resistor-values
    017-ohms-law
