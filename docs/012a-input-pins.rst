@@ -32,10 +32,11 @@ Code
 
 1. In your  setup function, insert the following two lines to ensure
    that that pin 6 is an OUTPUT and pin 9 is an INPUT.
+.. code-block:: c
 
-pinMode(9, INPUT);        
+   pinMode(9, INPUT);        
 
-pinMode(6, OUTPUT):
+   pinMode(6, OUTPUT):
 
 2. Type the following code inside of the loop function. This code is set
    in the loop function because it needs to repeatedly check the value
@@ -43,9 +44,16 @@ pinMode(6, OUTPUT):
    review
    `conditionals <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.o11qq65yx4ek&sa=D&ust=1587613173872000>`__ in
    concepts.
+   
+.. code-block:: c
 
-.. figure:: images/image52.png
-   :alt: 
+   int x = digitalRead(9);    //Reads value of pin 9 and stores value in x
+   if (x == HIGH) {           //Checks if value of x equals HIGH. Note double equals sign
+      digitalWrite(6, HIGH);  //If the conditional is true than this line is executed.
+   }
+   else {
+      digitalWrite(6, LOW);   //If the conditional is false than this line is executed.
+   }
 
 3. Compile and download your code.
 4. Connect pin 9 to the power bus (HIGH). The LED should be lit.
