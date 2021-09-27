@@ -37,7 +37,7 @@ you put it?
    quotation marks as the characters on the page are different from the
    characters in your IDE.
 
-                Serial.print(“cat”);
+                Serial.print("cat");
 
 3. Download your code to the microcontroller.
 4. Open the terminal window. If you are successful the word “cat” should
