@@ -32,15 +32,15 @@ you put it?
                 Serial.begin(9600);
 
 2. Use the following command to send the word "cat" to your terminal
-   window. This command should be placed in your setup function. NOTE:
-   If you cut and paste the code below you will need to replace the
-   quotation marks as the characters on the page are different from the
-   characters in your IDE.
+   window. This command also only needs to be run once. NOTE: If you 
+   cut and paste the code below you will need to replace the
+   quotation marks with ones typed from your keyboard. The characters 
+   on the page in your guide are different from the characters in your IDE.
 
                 Serial.print("cat");
 
-3. Download your code to the microcontroller.
-4. Open the terminal window. If you are successful the word “cat” should
+3. Upload the code to the microcontroller.
+4. Open the terminal window. If you are successful the word "cat" should
    be displayed in your terminal window.
 
 TEACHER CHECK \_\_\_\_\_
