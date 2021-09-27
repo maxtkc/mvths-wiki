@@ -5,14 +5,21 @@ Overview
 --------
 
 Variables are placeholders used to store values that can be modified.
+Just as you use x or y to represent a number in algebra, you can use
+x or y as a place holder for a number in your code. This is particularly
+useful if you want a number to change in your code. For example, if
+you wanted to keep track of the number of times a user pressed a
+button you could create a variable and call it "x" or "button" and 
+store the number of times a button was pressed in that variable.
 
 Initializing
 ------------
 
-In order to use a variable you must first initialize it. Initially you
-will do this at the top of your code file outside of both the loop and
-setup functions. This will make the variable available everywhere in
-your code or globally. Check out Lessons for more information about
+In order to use a variable you must first tell the program you are 
+going to use it. We call this initializing a variable. For the time 
+being, you will initalize variables at the top of your code file. This
+will be outside of both the loop and setup functions. This will make the 
+variable available everywhere in your code or globally. Check out Lessons for more information about
 `variables <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.vbe1wov8lque&sa=D&ust=1587613173882000>`__.
 
 Exercise:
