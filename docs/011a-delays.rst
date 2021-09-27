@@ -13,7 +13,9 @@ from 0 to 10,000 milliseconds.
 Below is an example of the delay command. In this example, the delay is
 set for 1500 milliseconds (or 1.5 seconds).
 
-        delay(1500);
+.. code-block::
+
+   delay(1500);
 
 Code
 ----
