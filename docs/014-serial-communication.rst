@@ -35,10 +35,7 @@ you put it?
    Serial.begin(9600);
 
 2. Use the following command to send the word "cat" to your terminal
-   window. This command also only needs to be run once. NOTE: If you 
-   cut and paste the code below you will need to replace the
-   quotation marks with ones typed from your keyboard. The characters 
-   on the page in your guide are different from the characters in your IDE.
+   window. This command also only needs to be run once.
 
 .. code-block:: c
 
