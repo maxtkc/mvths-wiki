@@ -17,7 +17,7 @@ Reading Data
 
 Using the serial command you will send data (numbers and text) from
 your microcontroller to your computer. Serial data must be tranmitted
-at a specific speed or baud rate. The baud is named for Jean-Maurice-Emile 
+at a specific speed or `baud rate <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.akrmhbnr74pi>`__. . The baud is named for Jean-Maurice-Emile 
 Baudot and is measured is bits per second (bps). The computer must
 also be set up to receive the serial data at the same baud rate.
 
