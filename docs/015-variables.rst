@@ -15,12 +15,11 @@ store the number of times a button was pressed in that variable.
 Initializing
 ------------
 
-In order to use a variable you must first tell the program you are 
+In order to use a `variables <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.vbe1wov8lque&sa=D&ust=1587613173882000>`__.
+ you must first tell the program you are 
 going to use it. We call this initializing a variable. For the time 
-being, you will initalize variables at the top of your code file. This
-will be outside of both the loop and setup functions. This will make the 
-variable available everywhere in your code or globally. Check out Lessons for more information about
-`variables <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.vbe1wov8lque&sa=D&ust=1587613173882000>`__.
+being, you will initalize variables at the top of your code file, that is
+outside of both the loop and setup functions.  Check out Lessons for more information about
 
 Exercise:
 ~~~~~~~~~
