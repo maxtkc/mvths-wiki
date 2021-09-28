@@ -21,6 +21,7 @@ across the resistor.
    exact voltage across the resistor.
 2. Use Ohm’s law to determine the correct resistor value for the target
    current you are trying to achieve in the circuit.
+3. Complete the following table in your notebook.
 
 .. list-table:: Resistor Selection
    :widths: 25 25 50 50
@@ -48,7 +49,7 @@ across the resistor.
      - 
    * - 12 Volts
      - 1.80 Volts
-     - .015
+     - .015 Amps
      - 
    * - 3 Volts
      - 2.0 Volts
