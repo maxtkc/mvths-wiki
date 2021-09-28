@@ -34,7 +34,7 @@ Voltage represents a pressure driving current. Resistance represents a
 pressure limiting current. In other words, the ratio of voltage (V) over
 resistance (R) is directly proportional to current (I) or (V/R = I).
 More generally this relationship is represented at V = IR. In this
-lesson, round your measurements for current to the nearest thousandth.
+lesson, round your measurements for current to the nearest thousandth. Copy and complete the following table in your notebook.
 
 .. figure:: images/image35.png
    :alt: 
@@ -48,7 +48,7 @@ Challenge
 ---------
 
 Using Ohm’s law calculate the missing value in the table below for the
-example circuit.
+example circuit. Copy and complete the following table in your notebook.
 
 .. list-table:: Ohms Law
    :widths: 25 25 50 50
