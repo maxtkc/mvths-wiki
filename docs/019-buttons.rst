@@ -27,17 +27,22 @@ into voltage levels that the microcontroller can use.
 
 Above are two examples of the same circuit. On the left the switch is
 open and on the right the switch is closed. When the switch is open, the
-circuit is tied to ground through a resistor so the voltage level at the
-mid-point is 0 Volts or ground. When the switch is closed, the circuit
-is tied directly to 5 V. Even though it is also tied to GND through a
+circuit produces a voltage level of 0 Volts or LOW as represented in your code. When the switch is closed, the circuit
+produces 5 Volts or HIGH as represented in your code. 
+
+The value of 0 Volts or 5 Volts is measured at the line of the diagram labled "input" or where the wire connects the button to the microcontroller.
+Note that voltage is always measured as a potential between two points. Most often one point is ground. In this case, the voltage is 
+meausred between "input" and ground.
+
+Note that in diagram on the right (labeled closed switch) even though the input is also tied to GND through a
 resistor, the voltage is pulled almost completely to 5 Volts.
 
 Exercise
 ~~~~~~~~
 
 Construct the circuit shown below on your breadboard. Using a multimeter
-record the output voltage for the circuit with the button pressed and
-not pressed. Make sure to include your units.
+measure the input voltage (between Point A and ground) for the circuit with the button pressed and
+not pressed. Make sure to include your units. Complete the following table in your notebook.
 
 .. figure:: images/image15.png
    :alt: 
@@ -55,8 +60,11 @@ TEACHER CHECK \_\_\_\_
 Exercise:
 ~~~~~~~~~
 
-Construct a circuit that with a button connected to one pin of your
-microcontroller and a LED connected to another pin. Write code to make
-the LED turn on when the button is pressed.
+Construct a circuit that uses a button to turn on an LED. Unlike in previous circuits, the button should not be directly connected to the LED circuit. 
+The button should be connected to your microcontroller as shown above. Connect an LED to a separate pin on your microcontroller. Write a program to read the 
+value of the button press (either HIGH or LOW). When the button is pressed, the LED should turn on. If you need help with this exercise, review the lesson "Input Pins" 
+
+https://mvths-wiki.readthedocs.io/en/latest/012a-input-pins.html#
+
 
 TEACHER CHECK \_\_\_\_
