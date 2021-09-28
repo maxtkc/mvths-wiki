@@ -6,7 +6,7 @@ Overview
 
 Buttons represent the most common form of input found on electronic
 devices and are used for everything from turning on the device to
-sending the letter ‘s’ to the computer screen. All buttons have exactly
+controlling the sound level on your phone. All buttons have exactly
 two states. The button is either pressed or it is not pressed. There are
 no states in between. For this reason they can be categorized as binary
 devices.
