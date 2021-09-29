@@ -23,17 +23,19 @@ of the resistance value between W and A.
 
 |image0|\ |image1|
 
-On the right is a schematic symbol for a potentiometer. Connecting pins
-A and B to 5V and ground (the order does not matter) creates a voltage
-divider whose output value at W varies with the position of the
-potentiometer.
+On the right is a schematic symbol for a potentiometer. Note the three leads marked A, B and W. Connecting pins
+A and B to 5V and ground (the order does not matter) creates what is called a voltage
+divider. This allows the voltage measured at W (between W and gound) to vary between the high voltage on your circuit (5 Volts) and ground.
 
 Exercise
 ~~~~~~~~
 
-Construct the following circuit on your breadboard. Connect the output
-to a multimeter. Record the highest and lowest voltage by turning the
-potentiometer all the way to the right or left.
+Construct the following circuit on your breadboard and measure at W (output). This will require you to use a multimeter. Remember to measure voltate at a point in 
+your circuit you need to use your multimeter to measure between that point and ground. If you need help refer back to the 
+section on multimeter. Record the highest and lowest voltage by turning the
+potentiometer all the way to the right or left. Since you will need to measure two points and move the potentiometer, I recommend using alligator leads with your multimeter so your hands are free to turn the potentiometer.
+
+https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=kix.53hctxuwjhmw
 
 .. figure:: images/image60.png
    :alt: 
