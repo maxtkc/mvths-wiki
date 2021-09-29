@@ -62,9 +62,9 @@ Exercise:
 
 Construct a circuit that uses a button to turn on an LED. Unlike in previous circuits, the button should not be directly connected to the LED circuit. 
 The button should be connected to your microcontroller as shown above. Connect an LED to a separate pin on your microcontroller. Write a program to read the 
-value of the button press (either HIGH or LOW). When the button is pressed, the LED should turn on. If you need help with this exercise, review the lesson "Input Pins" 
+value of the button press (either HIGH or LOW). When the button is pressed, the LED should turn on. If you need help with this exercise, review the lesson `Input Pins <https://mvths-wiki.readthedocs.io/en/latest/012a-input-pins.html#>`__.
 
-https://mvths-wiki.readthedocs.io/en/latest/012a-input-pins.html#
+
 
 
 TEACHER CHECK \_\_\_\_
