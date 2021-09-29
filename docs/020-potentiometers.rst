@@ -33,9 +33,9 @@ Exercise
 Construct the following circuit on your breadboard and measure at W (output). This will require you to use a multimeter. Remember to measure voltate at a point in 
 your circuit you need to use your multimeter to measure between that point and ground. If you need help refer back to the 
 section on multimeter. Record the highest and lowest voltage by turning the
-potentiometer all the way to the right or left. Since you will need to measure two points and move the potentiometer, I recommend using alligator leads with your multimeter so your hands are free to turn the potentiometer.
+potentiometer all the way to the right or left. Since you will need to measure two points and move the potentiometer, I recommend using  `alligator leads <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=kix.53hctxuwjhmw>`__ with your multimeter so your hands are free to turn the potentiometer.
 
-https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=kix.53hctxuwjhmw
+
 
 .. figure:: images/image60.png
    :alt: 
