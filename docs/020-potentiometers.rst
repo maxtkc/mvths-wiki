@@ -16,9 +16,9 @@ Potentiometer Design
 
 All potentiometers have three leads as shown in the diagram below. The
 two outside leads (A and B) form a fixed value resistor (i.e. the value
-of resistance between A and B is fixed). The wiper (W) shorts the
-resistor. The value between W and B varies depending on the placement of
-the wiper. Note that the resistance value between W and B is the inverse
+of resistance between A and B is fixed) and is based on the length of the resistive element between A and B. The wiper (W) shorts the
+resistor, so the distance between W and A (and W and B) varies as the wiper is turned. Resistance is based on the distance between W and A.
+A shorter distance results in less resistance between these two points. Note that the resistance value between W and B is the inverse
 of the resistance value between W and A.
 
 |image0|\ |image1|
