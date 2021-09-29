@@ -40,7 +40,7 @@ resistor, the voltage is pulled almost completely to 5 Volts.
 Exercise
 ~~~~~~~~
 
-Construct the circuit shown below on your breadboard. Using a multimeter
+Construct the circuit shown below on your breadboard. Using a `multimeter <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.j0omxa6kuin>`__
 measure the input voltage (between Point A and ground) for the circuit with the button pressed and
 not pressed. Make sure to include your units. Complete the following table in your notebook.
 
