@@ -13,10 +13,11 @@ Exercise:
 ~~~~~~~~~
 
 1. With a potentiometer and at least one LED on your board, write a
-   program to turn on the LED with the value of the potentiometer is
-   above 600 or below 400.
-2. Add a button on your board (see the section on inputs above for
-   details). Write a program that turns on the LED when the value of the
+   program to turn on the LED when the value of the potentiometer is
+   above 600 or below 400. Note that both of these conditions must be met for the
+   LED to turn on.
+   
+2. Add a button on your board. If you have forgotten how to correctly add a button see the section on inputs for a refresher. Write a program that turns on the LED when the value of the
    potentiometer is between 200 and 400 and the button is pressed.
 
 TEACHER CHECK \_\_\_\_\_
