@@ -4,6 +4,14 @@ Analog To Digital Conversion
 Overview
 --------
 
+The potentiometer we learned about in the previous section represents our first introduction to an analog signal. An analog signal is one 
+that varies infinitely over time. As you saw with your multimeter, the potentiometer can be used to produce ANY voltage between zero and
+five volts on your device. This is a BIG jump over the button which can only produce zero volts or five volts. 
+
+The button is considered a binary device. The prefix bi means two. The button only has two states, either on (5 volts) or off (0 volts). This makes
+it perfectly compatible with a microcontroller or any computing device. Computing devices store ALL information from data used to represent a single 
+letter to a full-length movie in millions of transistors which each are capable of respesently only two states on or off. 
+
 In order to convert an analog signal to a digital signal the
 microcontroller on the Metro Mini has an internal analog to digital
 converter (ADC) which is accessible on six pins labeled A0 through A5.
