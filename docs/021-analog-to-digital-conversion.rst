@@ -90,7 +90,7 @@ TEACHER CHECK \_\_\_\_
    and 5 (or maybe just 4 depending on your potentiometer) representing
    the voltage produced by your potentiometer.
 
-TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
 
    d. The voltage range 0 - 5 is a very crude representation of the
    voltage. Modify your code to display a voltage to a hundredth of a
