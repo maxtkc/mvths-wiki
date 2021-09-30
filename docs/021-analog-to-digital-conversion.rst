@@ -73,43 +73,36 @@ Exercise
 
 TEACHER CHECK \_\_\_\_
 
-3. Modify your code to display the voltage at the output from your
-   potentiometer. In order to do this you will need to multiply the Volts per Step you calculated in the last row
-   (above) by the result from your ADC. For example, if you calculated .2 volts per step than if your ADC
-   returned 1 you would calculate .2 Volts.
+3. Following the steps below, modify your code to display the voltage at the output from your
+   potentiometer. 
 
-.. raw:: html
-
-   <!-- end list -->
-
-1. Copy the conversion factor from your table above. (i.e. How many
+   a. Copy the conversion factor from the last row of the table above. (i.e. How many
    volts is each step of the A/D converter): \_\_\_\_\_
-2. In your code multiply this factor by the results of the A/D
+   
+   b. In your code multiply this factor by the results of the A/D
    converter. (i.e. if you are using the variable x to store the results
    of the A/D conversion than you would multiply this number by the
    conversion factor from above before printing the result). You can
    find information about how to multiply a variable
    `here <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.j1vujjth5hql&sa=D&ust=1587613173936000>`__.
-3. If you did this correctly, you should see the results vary between 0
+   
+   c. If you did this correctly, you should see the results vary between 0
    and 5 (or maybe just 4 depending on your potentiometer) representing
    the voltage produced by your potentiometer.
 
 TEACHER CHECK \_\_\_\_
 
-4. The voltage range 0 - 5 is a very crude representation of the
+   d. The voltage range 0 - 5 is a very crude representation of the
    voltage. Modify your code to display a voltage to a hundredth of a
    volt (2 decimal places).
 
-.. raw:: html
-
-   <!-- end list -->
-
-1. In order to store a number with a range of less than one (2 decimal
+   c. In order to store a number with a range of less than one (2 decimal
    place) you will need to initialize your variable as a
    `float <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.86fwcjklmgvf&sa=D&ust=1587613173937000>`__ instead
    of an int.
-2. Confirm you results by connecting a multimeter to the output of your
-   potentiometer and measuring voltage. The results from the multimeter
+   
+   d. Confirm you results by connecting a multimeter to the output of your
+   potentiometer and measuring voltage while at the same time reading the results in your serial monitor. The results from the multimeter
    should match fairly closely the results in your serial monitor.
 
 TEACHER CHECK \_\_\_\_
