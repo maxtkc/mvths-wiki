@@ -4,16 +4,17 @@ Analog To Digital Conversion
 Overview
 --------
 
-The potentiometer we learned about in the previous section represents our first introduction to an analog signal. An analog signal is one 
+The potentiometer you learned about in the previous section represents your first introduction to an analog signal. An analog signal is one 
 that varies infinitely over time. As you saw with your multimeter, the potentiometer can be used to produce ANY voltage between zero and
-five volts on your device. This is a BIG jump over the button which can only produce zero volts or five volts. 
+five volts on your device. This is in contrast to the button which can only produce two distinct voltage levels, zero volts or five volts. 
 
 The button is considered a binary device. The prefix bi means two. The button only has two states, either on (5 volts) or off (0 volts). This makes
 it perfectly compatible with a microcontroller or any computing device. Computing devices store ALL information from data used to represent a single 
-letter to a full-length movie in millions of transistors which each are capable of respesently only two states on or off. 
+letter to a full-length movie in millions of transistors which each are capable of respesently only two states on or off. In the case of your microcontroller
+they are represented as 0 Volts (off) and 5 Volts (on).
 
-In order to convert an analog signal to a digital signal the
-microcontroller on the Metro Mini has an internal analog to digital
+In order for your microcontroller to make use of an analog signal, it must first be converted to a digital signal.
+The microcontroller on the Metro Mini has an internal analog to digital
 converter (ADC) which is accessible on six pins labeled A0 through A5.
 
 The ADC has 1024 states so that any analog voltage applied to an ADC pin
@@ -28,7 +29,7 @@ correspond to a state of 1023, and each voltage level in between would
 correspond to exactly one of the 1024 states (0 - 1023). The diagram
 below shows an example. You can read more about analog conversion in
 analog section of
-`concepts <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.vhex7ebzcaik&sa=D&ust=1587613173930000>`__.
+`concepts <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.kxihcorejof7>`__.
 
 .. figure:: images/image109.png
    :alt: 
