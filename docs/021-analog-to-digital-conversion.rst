@@ -46,9 +46,10 @@ you will need to use the following command.
 Exercise
 ~~~~~~~~
 
-1. Connect the output of one of your potentiometers to an ADC port on
-   your microcontroller. Write a program to read the value from this
-   port and display the value in a column on your serial monitor. The
+1. Add a potentiometer to your board if you do not already have one set up. See the 
+   previous section for how to set up a potentiometer. Connect the output of your potentiometers to an ADC port on
+   your microcontroller. Remember there are five ADC ports (A0 - A5). Use the command above to read a value 
+   from this port and display the value in a column on your serial monitor. The
    value should range from 0 to 1023.
 
 2. TEACHER CHECK \_\_\_\_
