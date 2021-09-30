@@ -54,10 +54,9 @@ Exercise
 
 2. TEACHER CHECK \_\_\_\_
 
-2. Calculate the number of volts for each step of the ADC in the
-   following table.  For example, if the range of voltage is 0 volts to
-   6 volts and there were 3 steps (as shown below) than each step would
-   be 2 volts.
+2. Complete the following table in your notebook by calculating the volts per step for the 
+   last two rows. In row 2 imagine that your ADC only has 10 possible states. The last row represents the 
+   ADC on your microcontroller which has 1024 possible states. 
 
 .. figure:: images/image17.png
    :alt: 
