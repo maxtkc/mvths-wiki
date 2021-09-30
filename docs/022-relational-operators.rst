@@ -36,9 +36,11 @@ Exercise:
 TEACHER CHECK \_\_\_\_\_
 
 3. Add two more LEDs to your board. Write a program that turns on the
-   first led when the value of the pot is greater than 400, the second
-   LED when the value of the pot is greater than 600 and the third LED
-   when the value of the pot is greater than 800.
+   first LED when the value of the potentiometer is greater than 400, the second
+   LED when the value of the potentiometer is greater than 600 and the third LED
+   when the value of the potentiometer is greater than 800. Note that the order in which you check the value of
+   the potentiometer in your code is important.
+   
 4. Modify your code so that the respective LEDs turn off when they are
    below the values given above. (i.e. the third LED turns on when the
    pot is greater than 800 and off when it is less than 800).
