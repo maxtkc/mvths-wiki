@@ -74,8 +74,9 @@ Exercise
 TEACHER CHECK \_\_\_\_
 
 3. Modify your code to display the voltage at the output from your
-   potentiometer. Now that you have calculated the Volts per Step
-   (above) you should be able to convert steps (0 - 1023) to volts.
+   potentiometer. In order to do this you will need to multiply the Volts per Step you calculated in the last row
+   (above) by the result from your ADC. For example, if you calculated .2 volts per step than if your ADC
+   returned 1 you would calculate .2 Volts.
 
 .. raw:: html
 
