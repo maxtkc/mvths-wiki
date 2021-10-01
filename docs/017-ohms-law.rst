@@ -56,8 +56,8 @@ example circuit. Copy and complete the following table in your notebook.
 
    * - Circuit
      - Voltage
-     - Resistance
      - Current
+     - Resistance
    * - 1
      - 5.00 Volts
      - 
