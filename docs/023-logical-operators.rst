@@ -17,7 +17,8 @@ Exercise:
    above 600 or below 400. Note that both of these conditions must be met for the
    LED to turn on.
    
-2. Add a button on your board. If you have forgotten how to correctly add a button see the section on inputs for a refresher. Write a program that turns on the LED when the value of the
+2. Add a button on your board. If you have forgotten how to correctly add a button see the section on `inputs <https://mvths-wiki.readthedocs.io/en/latest/019-buttons.html>`__for a refresher. Write a program that turns on the LED when the value of the
    potentiometer is between 200 and 400 and the button is pressed.
 
 TEACHER CHECK \_\_\_\_\_
+
