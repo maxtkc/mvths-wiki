@@ -8,12 +8,21 @@ The potentiometer you learned about in the previous section represents your firs
 that varies infinitely over time. As you saw with your multimeter, the potentiometer can be used to produce ANY voltage between zero and
 five volts on your device. This is in contrast to the button which can only produce two distinct voltage levels, zero volts or five volts. 
 
-The button is considered a binary device. The prefix bi means two. The button only has two states, either on (5 volts) or off (0 volts). This makes
-it perfectly compatible with a microcontroller or any computing device. Computing devices store ALL information from data used to represent a single 
-letter to a full-length movie in millions of transistors which each are capable of respesently only two states on or off. In the case of your microcontroller
-they are represented as 0 Volts (off) and 5 Volts (on).
+Your microcontroller has two types of input pins. One set are called digital pins and the other are called analog pins. The digital pins are represented
+on your controller by D0 through D13. The analog pins are represented as A0 - A5. While these are defined as two separate types of pins it might be
+better to consider then only different by degree. Digital pins read the world in only two states, either HIGH (5V) or LOW (0V). You could input any voltage between 
+5V and 0V (for example using a potentiometer) to a digital pin but it would only read the voltage as either a HIGH or LOW. Generally anything 
+above 3V would be read as HIGH and anything below 2V would be read as LOW. Voltages between 2V and 3V would be indeterminite. 
 
-In order for your microcontroller to make use of an analog signal, it must first be converted to a digital signal.
+While digital pins can only read two states. The analog pins on your microcontroller can read 1024 different states. 
+
+
+In order for your microcontroller to make use of an analog signal, it must first convert the analog signal to a digital signal. 
+
+All digital signals have
+discrete steps. The button has only two discrete steps (0 volts and 5 volts). This works well with the digital pins on your microcontroller which can 
+only read two states (HIGH and LOW). In addition to the dozen or so digital pins on your micrcontroller, it has six "analog" pins which can read exactly 1024 states.
+
 The microcontroller on the Metro Mini has an internal analog to digital
 converter (ADC) which is accessible on six pins labeled A0 through A5.
 
