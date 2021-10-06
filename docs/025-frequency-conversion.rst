@@ -4,11 +4,14 @@ Frequency Conversion
 Overview
 --------
 
-Frequency is a primary measurement of pulses and measures the waves that
-pass a point over time. Frequency is often used to measure the speed of
-a  CPU as in a 3Ghz processor. Your home router most likely supports
-2.4Ghz and 5.0Ghz. The microcontroller that you are using runs at 16Mhz.
-The frequency of middle C on a piano is 261.6Hz.
+Frequency is a measurement of the speed of pulses or number of pulses over time. The unit of measurement for 
+frequency is Hertz which is defined as cycles (pulses) per second. A fast CPU might have a frequency of 3Ghz. That is the processor can
+run calculations at 3 billion cycles per second. By contrast the microcontroller that you are using runs at only 16Mhz, or 16 million cycles per second. 
+Your home router most likely supports 2.4Ghz and 5.0Ghz or a communication wavelength of 2.4 and 5.0 billion cycles per second respectively. At the lower 
+end of the spectrum, the frequency of middle C on a piano is 261.6Hz. That is the string inside of the piano is vibrating at 261.6 cycles per second resulting
+in your ear hearing the note middle C.
+
+Period is the measurement of the length in time of a single pulse or cycle. 
 
 In the following exercise, you will convert between frequency and
 period. Read the section on
