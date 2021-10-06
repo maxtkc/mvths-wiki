@@ -37,8 +37,8 @@ TEACHER CHECK \_\_\_\_
 2. Reduce the delay in your code until you can no longer see that the LED is flashing. Essentially, it is flashing so quickly (on and off) that
    your eye can no longer perceive the individual pulses of the LED.
    
-3. Write the value of this delay value in your notebook. Make sure to use the correct units. This is the rate of your CFF or critical flicker-fusion
-   frequency, the fastest flash you can perceive. This is very different for different animals. Read an article about CFF `here <https://www.google.com/url?q=https://www.economist.com/news/science-and-technology/21586532-small-creatures-fast-metabolisms-see-world-action-replay-slo-mo&sa=D&ust=1587613173941000>`__.
+3. Write the value of this delay value in your notebook. Make sure to use the correct units. This is the rate of your critical flicker-fusion
+   frequency (CFFF), the fastest flash you can perceive. This is very different for different animals. Read an article about CFFF `here <https://www.google.com/url?q=https://www.economist.com/news/science-and-technology/21586532-small-creatures-fast-metabolisms-see-world-action-replay-slo-mo&sa=D&ust=1587613173941000>`__.
    It is pretty cool.
 
 TEACHER CHECK \_\_\_\_
