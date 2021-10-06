@@ -12,15 +12,15 @@ represent letters, text or other sorts of data.
    :alt: 
 
 Pulses can also be used to directly control the speed of a motor or the brightness of a light using what is called pulse
-width modulation (PWM) used in everything from communication signals to controlling
-the speed of a motor. A pulse can be created on a microcontroller by
-simply setting a pin HIGH and then LOW in an infinite loop.
-.. figure:: images/pulses.png
+width modulation (PWM). Note in the diagram below the proportion of time the pulse is on versus off determines the speed of 
+a motor or the brightness of a light.
+
+.. figure:: images/dutycycle.png
    :alt: 
 
-The following shows an example of a code that creates an infinite set of
-pulses. To the right of the code is a diagram of the pulses showing how
-each line of code creates one section of the pulse.
+The following shows an example of how you can write code to create an infinite set of
+pulses on a single digital pin on your microcontroller. The diagram shows how each line of code
+corresponds to each part of the pulse.
 
 .. figure:: images/image80.png
    :alt: 
