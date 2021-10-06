@@ -4,17 +4,16 @@ Frequency Conversion
 Overview
 --------
 
-Frequency is a measurement of the speed of pulses or number of pulses over time. The unit of measurement for 
+**Frequency** is a measurement of the speed of pulses or number of pulses over time. The unit of measurement for 
 frequency is Hertz which is defined as cycles (pulses) per second. A fast CPU might have a frequency of 3Ghz. That is the processor can
 run calculations at 3 billion cycles per second. By contrast the microcontroller that you are using runs at only 16Mhz, or 16 million cycles per second. 
 Your home router most likely supports 2.4Ghz and 5.0Ghz or a communication wavelength of 2.4 and 5.0 billion cycles per second respectively. At the lower 
 end of the spectrum, the frequency of middle C on a piano is 261.6Hz. That is the string inside of the piano is vibrating at 261.6 cycles per second resulting
 in your ear hearing the note middle C.
 
-Period is the measurement of the length in time of a single pulse or cycle. 
+**Period** is the measurement of the length in time of a single pulse or cycle. 
 
-In the following exercise, you will convert between frequency and
-period. Read the section on
+In the following exercise, you will use values of frequency for a wave form to determine its period and vice versa. Read the section on
 `waves <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.r3kc4sg9zrj4&sa=D&ust=1587613173942000>`__ in
 concepts to learn more about frequency conversion
 
