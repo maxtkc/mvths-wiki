@@ -5,14 +5,18 @@ Overview
 --------
 
 Pulses are simply voltage values that range from HIGH to LOW as shown in the below diagram. These pulses can be used to represent data. For
-example a high pulse might represent a 1 and a low pulse might represent a zero, as shown in the diagram below.
+example a high pulse might represent a 1 and a low pulse might represent a zero, as shown in the diagram below. These ones and zeros can in turn 
+represent letters, text or other sorts of data.
 
 .. figure:: images/pulses.png
    :alt: 
 
-used in everything from communication signals to controlling
+Pulses can also be used to directly control the speed of a motor or the brightness of a light using what is called pulse
+width modulation (PWM) used in everything from communication signals to controlling
 the speed of a motor. A pulse can be created on a microcontroller by
 simply setting a pin HIGH and then LOW in an infinite loop.
+.. figure:: images/pulses.png
+   :alt: 
 
 The following shows an example of a code that creates an infinite set of
 pulses. To the right of the code is a diagram of the pulses showing how
