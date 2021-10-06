@@ -25,7 +25,7 @@ concepts.
 Exercise:
 ~~~~~~~~~
 
-1. Set up your board with an LED and a potentiometer. Note the LED should be connected to a digital port and the
+1. Set up your board with an LED as an output and a potentiometer as an input. Note the LED should be connected to a digital port and the
    potentiometer should be connected to an ADC port. Write a program
    that reads the value of the potentiometer and stores it in a variable. Add a conditional to check if the value
    from the potentiometer is greater than
