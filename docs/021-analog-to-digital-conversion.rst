@@ -8,35 +8,25 @@ The potentiometer you learned about in the previous section represents your firs
 that varies infinitely over time. As you saw with your multimeter, the potentiometer can be used to produce ANY voltage between zero and
 five volts on your device. This is in contrast to the button which can only produce two distinct voltage levels, zero volts or five volts. 
 
-Your microcontroller has two types of input pins. One set are called digital pins and the other are called analog pins. The digital pins are represented
-on your controller by D0 through D13. The analog pins are represented as A0 - A5. While these are defined as two separate types of pins it might be
-better to consider then only different by degree. Digital pins read the world in only two states, either HIGH (5V) or LOW (0V). You could input any voltage between 
-5V and 0V (for example using a potentiometer) to a digital pin but it would only read the voltage as either a HIGH or LOW. Generally anything 
-above 3V would be read as HIGH and anything below 2V would be read as LOW. Voltages between 2V and 3V would be indeterminite. 
+Your microcontroller has two types of input pins, digital and analog. The digital pins are assigned D0 - D13 and the analog pins are assigned A0 - A5. 
+While these pins have very different uses, it may help to understand them better if we consider then only different by degree. Digital pins can represent
+voltages as one of only two states, either 0 (LOW) or 1 (HIGH) regardless of the voltage input. The datasheet for your device states that any 
+voltage between 0V and 1.5V will be presented as a 0 (LOW) and any voltage between 3V and 5V will be repsented as a 1 (HIGH). Voltages inbetween are 
+indeterminate, but will be represented as either 0 or 1. 
 
-While digital pins can only read two states. The analog pins on your microcontroller can read 1024 different states. 
+You could use a potentiomenter with a digital pin instead of a button, but it would not be all that useful since it would only represent either a 0 or 1
+over the whole range of the potentiometer.
 
-
-In order for your microcontroller to make use of an analog signal, it must first convert the analog signal to a digital signal. 
-
-All digital signals have
-discrete steps. The button has only two discrete steps (0 volts and 5 volts). This works well with the digital pins on your microcontroller which can 
-only read two states (HIGH and LOW). In addition to the dozen or so digital pins on your micrcontroller, it has six "analog" pins which can read exactly 1024 states.
-
-The microcontroller on the Metro Mini has an internal analog to digital
-converter (ADC) which is accessible on six pins labeled A0 through A5.
-
-The ADC has 1024 states so that any analog voltage applied to an ADC pin
-is converted to one of 1024 different states.
+By comparison, an analog pin can read 1024 different states (0 - 1023) instead of just two, based on the voltage input. The analog ports divide voltage input into much 
+finer increments. A voltage of 0V to .005V would be represented as a 0, .005V to .010V would be represented as a 1, .010V to .015V would be represented as a 2 and so on to 
+1023. This makes analog ports much more useful with potentiometers. While the analog port (ADC) can not read an infinite varation of voltages produced by a potentiometer, it can
+read 1023 different states.
 
 .. figure:: images/image122.png
    :alt: 
 
-For example, if your analog device had a voltage range of 0 volts to 5
-volts than 0 volts would correspond to a state of 0 and 5 volts would
-correspond to a state of 1023, and each voltage level in between would
-correspond to exactly one of the 1024 states (0 - 1023). The diagram
-below shows an example. You can read more about analog conversion in
+The diagram below shows more detail about how an analog voltage would be converted to number on the analog port (ADC) of your
+microcontroller. You can read more about analog conversion in
 analog section of
 `concepts <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.kxihcorejof7>`__.
 
