@@ -7,7 +7,7 @@ Overview
 Pulses are simply voltage values that range from HIGH to LOW as shown in the below diagram. These pulses can be used to represent data. For
 example a high pulse might represent a 1 and a low pulse might represent a zero, as shown in the diagram below.
 
-.. figure:: images/image80.png
+.. figure:: images/pulses.png
    :alt: 
 
 used in everything from communication signals to controlling
