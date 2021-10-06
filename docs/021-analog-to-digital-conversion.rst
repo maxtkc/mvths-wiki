@@ -45,14 +45,23 @@ you will need to use the following command.
 Exercise
 ~~~~~~~~
 
-1. Add a potentiometer to your board if you do not already have one set up. See the 
+1. **Reading a Potentiometer**: Add a potentiometer to your board if you do not already have one set up. See the 
    previous section for how to set up a potentiometer. Connect the output of your potentiometers to an ADC port on
-   your microcontroller. Remember there are five ADC ports (A0 - A5). Use the command above to read a value 
-   from this port and display the value in a column on your serial monitor. The
-   value should range from 0 to 1023.
+   your microcontroller. Remember there are five ADC ports (A0 - A5). 
+   
+2. Use the command above to read a value from this port. Make sure to place this line in your code where
+   it will be read continously. 
+   
+3. Display the value from your potentiometer in a column on your serial monitor.  Note this value is stored 
+   in the variable x. You will need a serial command to print the value of the variable in your serial monitor. The
+   value you see should range from 0 to 1023 proportional to how you turn the potentiometer.
 
-2. TEACHER CHECK \_\_\_\_
+4. TEACHER CHECK \_\_\_\_
 
+1. **Converting the reading from the potentiometer to voltage**: As you learned with your multimeter, when you turn the potentiometer
+   the voltage output changes from 0 to 5 volts. As you saw above, your microcontroller converts this voltage to the numbers 0 to
+   1023. In this challenge, you will convert the numbers 0 to 1023 back into the voltages that the represent.
+   
 2. Complete the following table in your notebook by calculating the volts per step for the 
    last two rows. In row 2 imagine that your ADC only has 10 possible states. The last row represents the 
    ADC on your microcontroller which has 1024 possible states. 
@@ -76,7 +85,7 @@ TEACHER CHECK \_\_\_\_
    potentiometer. 
 
    a. Copy the conversion factor from the last row of the table above. (i.e. How many
-   volts is each step of the A/D converter): \_\_\_\_\_
+   volts is each step of the A/D converter)
    
    b. In your code multiply this factor by the results of the A/D
    converter. (i.e. if you are using the variable x to store the results
