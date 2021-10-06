@@ -24,7 +24,8 @@ Exercise:
 3. Modify your program so that the LED is only on between the values of 123 and 200, and the values of 456 and 601. 
 
    
-4. Add a button on your board. If you have forgotten how to correctly add a button see the section on `inputs <https://mvths-wiki.readthedocs.io/en/latest/019-buttons.html>`__for a refresher. Write a program that turns on the LED when the value of the
+4. Add a button on your board. If you have forgotten how to correctly add a button see the section on `inputs <https://mvths-wiki.readthedocs.io/en/latest/019-buttons.html>`__ 
+   for a refresher. Write a program that turns on the LED when the value of the
    potentiometer is between 200 and 400 and the button is pressed.
 
 TEACHER CHECK \_\_\_\_\_
