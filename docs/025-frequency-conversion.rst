@@ -13,14 +13,16 @@ in your ear hearing the note middle C.
 
 **Period** is the measurement of the length in time of a single pulse or cycle. 
 
-In the following exercise, you will use values of frequency for a wave form to determine its period and vice versa. Read the section on
-`waves <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.r3kc4sg9zrj4&sa=D&ust=1587613173942000>`__ in
-concepts to learn more about frequency conversion
+
 
 Exercise
 ~~~~~~~~
 
-Use the equation for conversion that you found in concepts to complete
+In the following exercise, you will use a waves frequency to determine its period and vice versa. Read the section on
+`waves <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.r3kc4sg9zrj4&sa=D&ust=1587613173942000>`__ in
+concepts to learn more about frequency conversion
+
+Using the equation for converting frequency to period complete
 the following two tables. Note that the units of Hertz are cycles per
 second and as a result the equation you are using produces units of
 seconds. Make sure to use CORRECT units and round to the nearest
