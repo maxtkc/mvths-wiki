@@ -13,16 +13,19 @@ division of variables. The following shows the operation of adding 4 to the orig
   
 In the above example if m was initially 3 than the value of m after the addition is 7. You might wonder why you cann not just write
 m + 4. In order to store a new value in a variable you must use the equals sign. Essentially, you need to add 4 to m and THEN put this
-new value into m. 
+new value into m. The following are examples of addition, subtraction, multipication and division.
 
-The 
+.. code-block:: c
+
+ x = x + 1;		//adds 1 to x
+ z = z - 9;		//subtracts 9 from x
+ y = y * 4;		//multiplies x by 4
+ x = x / 7;		//divides x by 7
 
 Exercise:
 ~~~~~~~~~
-
-1. Initialize the variable z at the top of your code file and set its
-   initial value to 9.
-
+Read the following code and determine the final value of r at the bottom of the code. Write this value
+in your notebook.
 
 .. code-block:: c
 
@@ -34,4 +37,25 @@ Exercise:
     r = z;        //Place the value of z into r
   }
 
+TEACHER CHECK \_\_\_\_\_
 
+ Modify your code so that the variable starts at the value 9 and
+   `counts
+   up <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.j1vujjth5hql&sa=D&ust=1587613173884000>`__ by
+   one every 500 milliseconds. It should display the values in a column
+   in your terminal window.
+
+TEACHER CHECK \_\_\_\_\_
+
+4. Modify your code so that the variable starts at the value 9 and
+   counts down by one every 500 milliseconds. It should display the
+   values in a column in your terminal window.
+
+TEACHER CHECK \_\_\_\_\_
+
+5. Modify your code so that there are two variables x and y. The
+   variable x should start at 6 and count up by 2. The variable y should
+   start at 50 and count down by 2. The variables should be displayed in
+   two columns in your terminal window.
+
+TEACHER CHECK \_\_\_\_\_
