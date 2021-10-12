@@ -82,7 +82,7 @@ Exercise
 TEACHER CHECK \_\_\_\_
 
 3. Following the steps below, modify your code to display the voltage at the output from your
-   potentiometer. rr
+   potentiometer. 
 
    a. Copy the conversion factor from the last row of the table above. (i.e. How many
    volts is each step of the A/D converter)
@@ -101,7 +101,7 @@ TEACHER CHECK \_\_\_\_
    TEACHER CHECK \_\_\_\_
 
    d. The voltage range 0 - 5 is a very crude representation of the
-   voltage. Modify your code to display a voltage to a hundredth of a
+   voltage. Following the steps below, modify your code to display a voltage to a hundredth of a
    volt (2 decimal places).
 
    c. In order to store a number with a range of less than one (2 decimal
