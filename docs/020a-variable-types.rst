@@ -6,8 +6,10 @@ Overview
 
 So far you have initialized all of your variables as int.
 
-int x;
-int counter = 9;
+.. code-block:: c
+
+  int x;
+  int counter = 9;
 
 Potentiometers are another common form of input for controlling an
 electronic device. They generally come in two forms: dials and sliders.
