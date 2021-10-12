@@ -45,23 +45,4 @@ Exercise:
 
 TEACHER CHECK \_\_\_\_\_
 
-3. Modify your code so that the variable starts at the value 9 and
-   `counts
-   up <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.j1vujjth5hql&sa=D&ust=1587613173884000>`__ by
-   one every 500 milliseconds. It should display the values in a column
-   in your terminal window.
-
-TEACHER CHECK \_\_\_\_\_
-
-4. Modify your code so that the variable starts at the value 9 and
-   counts down by one every 500 milliseconds. It should display the
-   values in a column in your terminal window.
-
-TEACHER CHECK \_\_\_\_\_
-
-5. Modify your code so that there are two variables x and y. The
-   variable x should start at 6 and count up by 2. The variable y should
-   start at 50 and count down by 2. The variables should be displayed in
-   two columns in your terminal window.
-
-TEACHER CHECK \_\_\_\_\_
+3.
