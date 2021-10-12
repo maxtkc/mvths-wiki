@@ -27,7 +27,8 @@ Exercise:
 ~~~~~~~~~
 
 1. Initialize a varible as each of the following types shown in the table below. Continously increment or decrement (add one or subtract one) from the variable in your 
-loop function and 
+loop function and print the value in your serial monitor. Use this code to determine the highest and lowest value for each variable type. Copy the table to your
+note book.
 
 
 .. list-table:: Ohms Law
