@@ -4,7 +4,7 @@ Math
 Overview
 --------
 
-It is possible to perform any mathematical operation in your code. The most common operations are addition, subtraction, multiplication and
+It is possible to perform any  `mathematical operation <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.j1vujjth5hql&sa=D&ust=1587613173884000>`__ in your code. The most common operations are addition, subtraction, multiplication and
 division of variables. The following shows the operation of adding 4 to the original value of m.
 
 .. code-block:: c
@@ -24,7 +24,7 @@ new value into m. The following are examples of addition, subtraction, multipica
 
 Exercise:
 ~~~~~~~~~
-Read the following code and determine the final value of r at the bottom of the code. Write this value
+1. Read the following code and determine the final value of r at the bottom of the code. Write this value
 in your notebook.
 
 .. code-block:: c
@@ -39,9 +39,11 @@ in your notebook.
 
 TEACHER CHECK \_\_\_\_\_
 
+2. Create a code file that counts up from 9.
+a. Initialize a variable to the value of 9. 
+ 
  Modify your code so that the variable starts at the value 9 and
-   `counts
-   up <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.j1vujjth5hql&sa=D&ust=1587613173884000>`__ by
+    by
    one every 500 milliseconds. It should display the values in a column
    in your terminal window.
 
