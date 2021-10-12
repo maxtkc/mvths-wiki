@@ -39,17 +39,19 @@ in your notebook.
 
 TEACHER CHECK \_\_\_\_\_
 
-2. Create a code file that counts up from 9.
-a. Initialize a variable to the value of 9. 
- 
- Modify your code so that the variable starts at the value 9 and
-    by
-   one every 500 milliseconds. It should display the values in a column
-   in your terminal window.
+2. Create a code file that prints a variable as it counts up from 5.
+
+   #. Initialize a variable to the value of 9. Make sure to place the initialization above your setup function.
+
+   #. Using the plus operator defined above, add one to the variable in your loop function. This way the variable will continue to count infinitely.
+
+   #. Print out the value of your variable using the serial function.
+
+   #. Add a half second delay in your loop so that it does not send data to the serial port too quickly.
 
 TEACHER CHECK \_\_\_\_\_
 
-4. Modify your code so that the variable starts at the value 9 and
+3. Modify your code so that the variable starts at the value 9 and
    counts down by one every 500 milliseconds. It should display the
    values in a column in your terminal window.
 
