@@ -82,7 +82,7 @@ Exercise
 TEACHER CHECK \_\_\_\_
 
 3. Following the steps below, modify your code to display the voltage at the output from your
-   potentiometer. 
+   potentiometer. rr
 
    a. Copy the conversion factor from the last row of the table above. (i.e. How many
    volts is each step of the A/D converter)
