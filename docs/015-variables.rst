@@ -16,8 +16,15 @@ Initializing
 ------------
 
 In order to use a `variable <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.vbe1wov8lque&sa=D&ust=1587613173882000>`__ you must set up the variable so the program
-knows the type and name of the variable. We call this initializing a variable. For the time 
-being, you will initalize variables at the top of your code file, that is place the initialization of your variable above and 
+knows the type and name of the variable. We call this initializing a variable. The following are three examples.
+
+.. code-block:: c
+
+   int x;         //A simple initialization with no initial value.
+   int y = 9;     //Initializing a variable with an initial value of 9
+   int dog = -2;  //Note that any set of characters can be usee for a variable name.
+
+For the time being, you will initalize variables at the top of your code file, that is above and 
 outside of both the loop and setup functions.  
 
 Exercise:
