@@ -35,7 +35,7 @@ Code
 
 1. Write a program to turn on the LED. NOTE: In this lesson you will be
    choosing which digital pin to use with you LED. You may use any of
-   the digital pins (0 -13) but you should generally avoid using digital
+   the digital pins (0 - 13) but you should generally avoid using digital
    pins 0 and 1 as using these pins might interfere with the programming
    of your device.
 
@@ -43,14 +43,14 @@ Code
 
    <!-- end list -->
 
-1. Set the pin you are using to control the LED as an output pin.
-2. Use digitalWrite to drive the pin to 5V.
+2. Set the pin you are using to control the LED as an output pin.
+3. Use digitalWrite to drive the pin to 5V.
 
 TEACHER CHECK \_\_\_\_\_
 
-2. Modify your program to turn off the LED.
-3. Change the LED to a different pin and turn it on.
-4. Add two more LEDs to two additional pins on your microcontroller and
+3. Modify your program to turn off the LED.
+4. Change the LED to a different pin and turn it on.
+5. Add two more LEDs to two additional pins on your microcontroller and
    turn them all on.
 
 TEACHER CHECK \_\_\_\_\_
