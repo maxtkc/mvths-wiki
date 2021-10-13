@@ -15,7 +15,7 @@ set for 1500 milliseconds (or 1.5 seconds).
 
 .. code-block:: c
 
-delay(1500);
+   delay(1500);
 
 Code
 ----
