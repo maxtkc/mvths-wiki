@@ -18,11 +18,9 @@ Schematic
 ---------
 
 Set up the following circuit on your breadboard. MAKE SURE to use a long
-jump wire for the connection between pin 9 and ground. You will be
-moving one end of this long jump wire between power and ground while 
-the other end remains connected to pin 9. By moving the wire between
-power (5V) and ground you will be setting the input of pin 9 as HIGH 
-and LOW respectively. This wire will essentially act as a crude switch.
+jump wire for the connection between pin 9 and ground. By moving one end of the wire between
+power (5V) and ground (leaving the other end in pin 9) you will be setting the input of pin 9 as HIGH 
+and LOW respectively. This wire will essentially act as a crude button.
 
 .. figure:: images/image101.png
    :alt: 
