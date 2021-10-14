@@ -8,7 +8,6 @@ In your loop function it is possible to write code that will turn your LED on an
 you must turn your LED on for a period of time and then off for a period of time. The loop function will repeat this action indefinitely. The longer the
 time your LED is on and off the slower the blink rate. The shorter time your LED is off and on the faster the blink rate.
 
-
 The following shows an example of how you can write code to create an infinite set of
 pulses on a single digital pin on your microcontroller. The diagram shows how each line of code
 corresponds to each part of the pulse.
@@ -19,8 +18,8 @@ corresponds to each part of the pulse.
 Exercise:
 ~~~~~~~~~
 
-1. Add an LED to your board if there is not already one on there. Write a
-   program to flash the LED using code to create a pulse. Use a delay that is 
+1. Add an LED to your board if there is not already one on there. Don't forget to use a resistor! Write a
+   program to blink the LED using code shown above. Use a delay that is 
    large enough that you can see the LED flash on and off.
 
 TEACHER CHECK \_\_\_\_
