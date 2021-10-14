@@ -21,7 +21,9 @@ across the resistor.
    exact voltage across the resistor.
 2. Use Ohm’s law to determine the correct resistor value for the target
    current you are trying to achieve in the circuit.
-3. Complete the following table in your notebook.
+3. Complete the following table in your notebook. NOTE: The circuit must supply
+   enough voltage to drive the LED forward. If it does not, indicate that in your
+   notebook.
 
 .. list-table:: Resistor Selection
    :widths: 25 25 50 50
