@@ -11,27 +11,28 @@ five volts on your device. This is in contrast to the button which can only prod
 Your microcontroller has two types of input pins, digital and analog. The digital pins are assigned D0 - D13 and the analog pins are assigned A0 - A5. 
 While these pins have very different uses, it may help to understand them better if we consider then only different by degree. Digital pins can represent
 voltages as one of only two states, either 0 (LOW) or 1 (HIGH) regardless of the voltage input. The datasheet for your device states that any 
-voltage between 0V and 1.5V will be presented as a 0 (LOW) and any voltage between 3V and 5V will be repsented as a 1 (HIGH). Voltages inbetween are 
-indeterminate, but will be represented as either 0 or 1. 
+voltage between 0V and 1.5V will be presented as a 0 (LOW) and any voltage between 3V and 5V will be repsented as a 1 (HIGH). Voltage values between 1.5V and 3V are 
+indeterminate and may be represented as either 0 or 1. 
 
-You could use a potentiomenter with a digital pin instead of a button, but it would not be all that useful since it would only represent either a 0 or 1
-over the whole range of the potentiometer.
-
-By comparison, an analog pin can read 1024 different states (0 - 1023) instead of just two, based on the voltage input. The analog ports divide voltage input into much 
-finer increments. A voltage of 0V to .005V would be represented as a 0, .005V to .010V would be represented as a 1, .010V to .015V would be represented as a 2 and so on to 
-1023. This makes analog ports much more useful with potentiometers. While the analog port (ADC) can not read an infinite varation of voltages produced by a potentiometer, it can
-read 1023 different states.
-
-.. figure:: images/image122.png
-   :alt: 
-
-The diagram below shows more detail about how an analog voltage would be converted to number on the analog port (ADC) of your
-microcontroller. You can read more about analog conversion in
-analog section of
-`concepts <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.kxihcorejof7>`__.
+By comparison, an analog pin can read 1024 different states (0 - 1023) instead of just two, based on the voltage input. Essentially, the analog ports 
+divide voltage input into much finer increments. The figure below shows how your microcontroller might read different input voltages on an analog pin. You can read more about analog pins `here <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.kxihcorejof7>`__.
 
 .. figure:: images/image109.png
    :alt: 
+
+Exercise
+~~~~~~~~
+
+1. If you connected a potentiometer to a digital pin on your microcontroller 
+   what would the microtroller read when you turned the dial of the potentiometer? Write your answer in your notebook.
+   
+2. If you connected a button to an analog pin on your microcontroller what would your microcontroller read when you
+   pressed the button? Write your answer in your notebook.
+   
+3. If you connected a potentiometer to an analog pin on your microcontroller and turned the dial half way, approximately what
+   value do you think you would read in your microcontroller? Write your answer in your notebook.
+  
+4. TEACHER CHECK \_\_\_\_
 
 Code
 ----
