@@ -42,7 +42,8 @@ Welcome to MVTHS Engineering Wiki's documentation!
    022-relational-operators
    023-logical-operators
    024-blinking-lights
-   025-frequency-conversion
+   025-frequency
+   025a-frequency-and-period
    026-piezo-speaker
    027-review-challenge
    028-using an-oscilloscope
