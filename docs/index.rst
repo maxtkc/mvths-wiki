@@ -41,7 +41,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    021a-analog-to-voltage
    022-relational-operators
    023-logical-operators
-   024-pulses
+   024-blinking-lights
    025-frequency-conversion
    026-piezo-speaker
    027-review-challenge
