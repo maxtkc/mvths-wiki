@@ -36,20 +36,20 @@ resistor, the voltage is pulled almost completely to 5 Volts.
 Exercise
 ~~~~~~~~
 
-1. Construct the circuit shown below on your breadboard. 
-Make sure to construct it exactly as shown below. 
+#. Construct the circuit shown below on your breadboard. 
+   Make sure to construct it exactly as shown below. 
 
-TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
 
-2. Set up a `multimeter <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.j0omxa6kuin>`__ to measure the 
-voltage at point labeled input (between the resistor and the switch). You may want to use leads with alligator clips so that you have a hand free 
-for the following steps. Remember to connect the black lead to ground (your reference) and the red lead to the point you are
-measuring.
+#. Set up a `multimeter <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.j0omxa6kuin>`__ to measure the 
+   voltage at point labeled input (between the resistor and the switch). You may want to use leads with alligator clips so that you have a hand free 
+   for the following steps. Remember to connect the black lead to ground (your reference) and the red lead to the point you are
+   measuring.
 
-TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
 
-3. Record the values on the multimeter for when the button is pressed and not pressed. 
-Make sure to include your units. Complete the following table in your notebook.
+#. Record the values on the multimeter for when the button is pressed and not pressed. 
+   Make sure to include your units. Complete the following table in your notebook.
 
 .. figure:: images/image15.png
    :alt: 
