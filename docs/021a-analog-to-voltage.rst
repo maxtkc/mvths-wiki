@@ -1,20 +1,38 @@
-1. **Converting the reading from the potentiometer to voltage**: As you learned with your multimeter, when you turn the potentiometer
-   the voltage output changes from 0 to 5 volts. As you saw above, your microcontroller converts this voltage to the numbers 0 to
-   1023. In this challenge, you will convert the numbers 0 to 1023 back into the voltages that the represent.
-   
-2. Complete the following table in your notebook by calculating the volts per step for the 
-   last two rows. In row 2 imagine that your ADC only has 10 possible states. The last row represents the 
-   ADC on your microcontroller which has 1024 possible states. 
+Analog To Voltage Conversion
+============================
+
+Overview
+--------
+In this lesson you will use what you learned in the previous lesson to convert a voltage to an analog value (0 - 1023) and then convert this value
+back to voltage. In the following diagram a range of 0V to 6V is divided into 3 steps. How many volts does each step represent?
+
 
 .. figure:: images/image17.png
    :alt: 
+
+Exercise
+~~~~~~~~
+
+1. As you learned with your multimeter, when you turn the potentiometer dial
+   the voltage output changes from 0 to 5 volts. As you saw above, your microcontroller converts this voltage to a range of values from 0 to
+   1023. In this challenge, you will convert the numbers 0 to 1023 back into the voltages that the values represent.
+   
+2. The first step is understanding how to divide voltages into discrete steps. The first two columns of following table list a set of possible high and low
+   voltages. The third column represents the number of steps of an analog converter. Assuming the voltage range given and the number of steps, determine
+   the volts per step for each row and recorde the entire table in your notebook. Note that the last row represents the actual values of your 
+   microcontroler with a high of 5 Volts. a low is 0 Volts, and 1024 steps.
+
 
 +---------------+----------------+---------+------------------+
 | Low Voltage   | High Voltage   | Steps   | Volts per Step   |
 +---------------+----------------+---------+------------------+
 | 0 Volts       | 6 Volts        | 3       | 2 Volts/Step     |
 +---------------+----------------+---------+------------------+
-| 0 Volts       | 5 Volts        | 10      |                  |
+| 0 Volts       | 8 Volts        | 10      |                  |
++---------------+----------------+---------+------------------+
+| 0 Volts       | 5 Volts        | 35      |                  |
++---------------+----------------+---------+------------------+
+| 0 Volts       | 5 Volts        | 200     |                  |
 +---------------+----------------+---------+------------------+
 | 0 Volts       | 5 Volts        | 1024    |                  |
 +---------------+----------------+---------+------------------+
