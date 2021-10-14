@@ -27,14 +27,10 @@ into voltage levels that the microcontroller can use.
 
 Above are two examples of the same circuit. On the left the switch is
 open and on the right the switch is closed. When the switch is open, the
-circuit produces a voltage level of 0 Volts or LOW as represented in your code. When the switch is closed, the circuit
-produces 5 Volts or HIGH as represented in your code. 
+circuit produces a voltage level of 0 Volts at the point labeled input. This is the point between the resistor and the switch.
+When the switch is closed, the circuit produces 5 Volts at the point labeled input.
 
-The value of 0 Volts or 5 Volts is measured at the line of the diagram labled "input" or where the wire connects the button to the microcontroller.
-Note that voltage is always measured as a potential between two points. Most often one point is ground. In this case, the voltage is 
-meausred between "input" and ground.
-
-Note that in diagram on the right (labeled closed switch) even though the input is also tied to GND through a
+IMPORTANT: In diagram on the right (labeled closed switch) even though the input is also tied to GND through a
 resistor, the voltage is pulled almost completely to 5 Volts.
 
 Exercise
