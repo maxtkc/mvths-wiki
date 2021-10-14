@@ -1,15 +1,20 @@
-Frequency Conversion
+Frequency
 ====================
 
 Overview
 --------
 
-**Frequency** is a measurement of the speed of pulses or number of pulses over time. The unit of measurement for 
-frequency is Hertz which is defined as cycles (pulses) per second. A fast CPU might have a frequency of 3Ghz. That is the processor can
+In the previous lesson you made an LED blink by turning it on and off repeatedly. The faster you turned the LED on and off the faster it blinked which
+in turn means a higher frequency. The slower you turned the LED off and on, the slower the frequency. Frequency is a measurement of the number of 
+blinks over a period of time. Again, more blinks represents a higher frequency.
+
+The unit of measurement for frequency is Hertz which is defined as cycles "blinks" per second. A fast CPU might have a frequency of 3Ghz. That is the processor can
 run calculations at 3 billion cycles per second. By contrast the microcontroller that you are using runs at only 16Mhz, or 16 million cycles per second. 
-Your home router most likely supports 2.4Ghz and 5.0Ghz or a communication wavelength of 2.4 and 5.0 billion cycles per second respectively. At the lower 
-end of the spectrum, the frequency of middle C on a piano is 261.6Hz. That is the string inside of the piano is vibrating at 261.6 cycles per second resulting
-in your ear hearing the note middle C.
+
+One cycle is represented by one HIGH state and one LOW state as shown in the figure below.
+
+.. figure:: images/waveforms-tim3.png
+   :alt: 
 
 **Period** is the measurement of the length in time of a single pulse or cycle. 
 
