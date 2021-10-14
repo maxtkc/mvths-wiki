@@ -24,8 +24,9 @@ new value into m. The following are examples of addition, subtraction, multipica
 
 Exercise:
 ~~~~~~~~~
-1. Read the following code and determine the final value of r at the bottom of the code. Write this value
-in your notebook.
+
+1. Read the following code and determine the final value of r at the bottom of the code. Write this value 
+   in your notebook.
 
 .. code-block:: c
 
@@ -37,7 +38,7 @@ in your notebook.
     r = z;        //Place the value of z into r
   }
 
-TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK \_\_\_\_\_
 
 2. Create a code file that prints a variable as it counts up from 5.
 
@@ -49,17 +50,17 @@ TEACHER CHECK \_\_\_\_\_
 
    #. Add a half second delay in your loop so that it does not send data to the serial port too quickly.
 
-TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK \_\_\_\_\_
 
 3. Modify your code so that the variable starts at the value 9 and
    counts down by one every 500 milliseconds. It should display the
    values in a column in your terminal window.
 
-TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK \_\_\_\_\_
 
-5. Modify your code so that there are two variables x and y. The
+4. Modify your code so that there are two variables x and y. The
    variable x should start at 6 and count up by 2. The variable y should
    start at 50 and count down by 2. The variables should be displayed in
    two columns in your terminal window.
 
-TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK \_\_\_\_\_
