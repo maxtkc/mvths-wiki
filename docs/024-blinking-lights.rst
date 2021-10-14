@@ -1,22 +1,13 @@
-Pulses
+Blinking Lights
 ======
 
 Overview
 --------
 
-Pulses are simply voltage values that range from HIGH to LOW as shown in the below diagram. These pulses can be used to represent data. For
-example a high pulse might represent a 1 and a low pulse might represent a zero, as shown in the diagram below. These ones and zeros can in turn 
-represent letters, text or other sorts of data.
+In your loop function it is possible to write code that will turn your LED on and then off repeatedly causing it to blink. In order for this to work
+you must turn your LED on for a period of time and then off for a period of time. The loop function will repeat this action indefinitely. The longer the
+time your LED is on and off the slower the blink rate. The shorter time your LED is off and on the faster the blink rate.
 
-.. figure:: images/pulses.png
-   :alt: 
-
-Pulses can also be used to directly control the speed of a motor or the brightness of a light using what is called pulse
-width modulation (PWM). Note in the diagram below the proportion of time the pulse is on versus off determines the speed of 
-a motor or the brightness of a light.
-
-.. figure:: images/dutycycle.png
-   :alt: 
 
 The following shows an example of how you can write code to create an infinite set of
 pulses on a single digital pin on your microcontroller. The diagram shows how each line of code
