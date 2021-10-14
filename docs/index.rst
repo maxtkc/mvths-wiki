@@ -22,6 +22,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    010-output-pins
    011-programming-leds
    011a-delays
+   011b-engineering-notation
    012-loops
    012a-input-pins
    013-challenge-review
