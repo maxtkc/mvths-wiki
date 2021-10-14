@@ -1,4 +1,4 @@
-Frequency
+Frequency and Period
 ====================
 
 Overview
