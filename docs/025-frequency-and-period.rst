@@ -11,17 +11,10 @@ blinks over a period of time. Again, more blinks represents a higher frequency.
 The unit of measurement for frequency is Hertz which is defined as cycles "blinks" per second. A fast CPU might have a frequency of 3Ghz. That is the processor can
 run calculations at 3 billion cycles per second. By contrast the microcontroller that you are using runs at only 16Mhz, or 16 million cycles per second. 
 
-One cycle is represented by one HIGH state and one LOW state as shown in the figure below.
-
-.. figure:: images/waveforms-tim3.png
-   :alt: 
-
-**Period** is the measurement of the length in time of a single pulse or cycle. 
-
-
-
 Exercise
 ~~~~~~~~
+
+In the following exercise
 
 In the following exercise, you will use a waves frequency to determine its period and vice versa. Read the section on
 `waves <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.r3kc4sg9zrj4&sa=D&ust=1587613173942000>`__ in
