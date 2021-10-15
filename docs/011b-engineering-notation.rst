@@ -20,27 +20,27 @@ The following is a table of the engineering prefixes that you are most likely to
    * - Mega
      - M
      - x 1000000
-     - 100 Ohms
+     - Move 6 left
    * - Kilo
      - K
      - x 1000
-     - 
+     - Move 3 left
    * - Milli
      - m
      - x .001
-     - 330 Ohms
+     - Move 3 right
    * - Micro
      - u
      - x .000001
-     - 
+     - Move 6 right
    * - Nano
      - n
      - x .000000001
-     - 470 Ohms
+     - Move 9 right
    * - Pico
      - p
      - x .000000000001
-     - 1000 Ohms
+     - Move 12 right
 
 
 
