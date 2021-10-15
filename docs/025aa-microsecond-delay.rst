@@ -41,4 +41,5 @@ Exercise:
      - 
      - 2350
 
- 2. What function would you write if you needed a .02 millisecond delay in your code? Write your answer in your note book.
+
+2. What function would you write if you needed a .02 millisecond delay in your code? Write your answer in your note book.
