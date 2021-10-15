@@ -54,7 +54,7 @@ In order to convert from one unit to another, you need to move the decimal place
 Challenge
 ---------
 
-Convert the following to the specified units. Place your answers in your notebook.
+Convert the following to the specified units. Place your answers in your notebook. As always, make sure to include units when you write any number.
 
 | 26ms to seconds
 | 4.5Khz to Hertz
