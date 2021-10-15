@@ -15,8 +15,23 @@ While a waves frequency is measured in Hertz (cycles/second), a waves period is 
 cycle in seconds. For example, if you created a wave with a HIGH of 10 ms and a LOW of 10 ms, the period of this wave would be
 20 ms or .02 seconds. 
 
+| **Converting between frequency and period**
+Frequency and period are the inverse of each other. For example, if a wave had a speed of three cycles (periods) per second that would mean that we could measure three
+periods in every second. So clearly, the period of the wave is 1/3 of a second or 1 over the frequency. 
+
+f = 1/T
+
+T = 1/f
+
+Note that (f) is the symbol for frequency while (T) is the symbol for period.
+
 Exercise
 ~~~~~~~~
+
+1. The following wave has a frequency of 8 cycles every one second or 8 Hertz. In your notebook write the period for this wave. Make sure to use correct units.
+
+.. figure:: images/period-wave2.png
+   :alt: 
 
 In the following exercise
 
