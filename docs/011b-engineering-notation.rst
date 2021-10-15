@@ -58,7 +58,7 @@ Convert the following to the specified units. Place your answers in your noteboo
 
 | 26ms to seconds
 | 4.5Khz to Hertz
-| .003s t0 milliseconds
+| .003s to milliseconds
 | 2.34mv to Volts
 
 
