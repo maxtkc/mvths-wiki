@@ -57,5 +57,5 @@ Exercise
    in the variable x. You will need a serial command to print the value of the variable in your serial monitor. The
    value you see should range from 0 to 1023 proportional to how you turn the potentiometer.
 
-4. TEACHER CHECK \_\_\_\_
+TEACHER CHECK \_\_\_\_
 
