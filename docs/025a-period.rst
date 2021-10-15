@@ -33,13 +33,9 @@ Exercise
 .. figure:: images/period-wave2.png
    :alt: 
 
-In the following exercise
 
-In the following exercise, you will use a waves frequency to determine its period and vice versa. Read the section on
-`waves <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.r3kc4sg9zrj4&sa=D&ust=1587613173942000>`__ in
-concepts to learn more about frequency conversion
 
-Using the equation for converting frequency to period complete
+2. Using the equations shown above for converting frequency to period and vice versa, complete
 the following two tables. Note that the units of Hertz are cycles per
 second and as a result the equation you are using produces units of
 seconds. Make sure to use CORRECT units and round to the nearest
