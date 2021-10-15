@@ -7,7 +7,8 @@ Engineering notation provides a way to easily talk about very big and very small
 2,800,000,000 Hertz, you can say it runs at 2.8 gigahertz. At the other end of the spectrum, instead of saying the wavelength of red light is .000000620 meters,
 you can say it is 620 nanometers. 
 
-The following is a table of the engineering prefixes that you are most likely to use in this class. 
+| **The Units**
+Below is a table that includes a range of engineering prefixes that you are likely to need in your work.
 
 .. list-table:: Engineering Prefixes
    :widths: 25 25 50 50
@@ -42,6 +43,22 @@ The following is a table of the engineering prefixes that you are most likely to
      - x .000000000001
      - Move 12 right
 
+| **Unit Conversions**
+In order to convert from one unit to another, you need to move the decimal place to the right or left. Below are some examples. 
 
+| 3Kg 	= 	3000g
+| 5ms 	= 	.005s
+| 34uV	= 	.034mV
+| 23Mc	=	23000Kc
+
+Challenge
+---------
+
+Convert the following to the specified units. Place your answers in your notebook.
+
+| 26ms to seconds
+| 4.5Khz to Hertz
+| .003s t0 milliseconds
+| 2.34mv to Volts
 
 
