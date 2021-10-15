@@ -17,7 +17,7 @@ you can find more on this in the lesson on engineering notation.
 Exercise:
 ~~~~~~~~~
 
-Complete the following table in your notebook.
+1. Complete the following table in your notebook.
 
 .. list-table:: Time Conversion
    :widths: 25 25 25
@@ -41,4 +41,4 @@ Complete the following table in your notebook.
      - 
      - 2350
 
- 
+ 2. What function would you write if you needed a .02 millisecond delay in your code? Write your answer in your note book.
