@@ -43,3 +43,5 @@ Exercise:
 
 
 2. What function would you write if you needed a .02 millisecond delay in your code? Write your answer in your note book.
+
+TEACHER CHECK \_\_\_\_
