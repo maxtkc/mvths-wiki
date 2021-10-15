@@ -4,8 +4,9 @@ Period
 Overview
 --------
 
-The unit of measurement for frequency is Hertz which is defined as cycles "blinks" per second. A fast CPU might have a frequency of 3Ghz. That is the processor can
-run calculations at 3 billion cycles per second. By contrast the microcontroller that you are using runs at only 16Mhz, or 16 million cycles per second. 
+As mentioned in the previous secton, the unit of measurement for frequency is Hertz which is defined as 
+cycles per second. One cycle is measured as one HIGH pulse and one LOW pulse or smallest section of a wave that could be
+repeated to make the entire wave.
 
 Exercise
 ~~~~~~~~
