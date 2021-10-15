@@ -19,11 +19,12 @@ A piezo speaker is essentially a thin piece of metal that can make
 sounds by vibrating at a very high rate or frequency. The following shows
 a  piezo speaker at rest (low pulse) and under voltage (high pulse). By
 applying pulses very rapidly to the piezo speaker, it can vibrate very
-quickly
+quickly. This is exactly the same sort of pulse you use to blink and LED.
 
 .. figure:: images/image32.png
    :alt: 
    
+You can play whatever note you want on a piezo speaker by send it a frequency in that exact note.
 
 
 Piezo Circuit
