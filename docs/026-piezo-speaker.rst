@@ -4,11 +4,9 @@ Piezo Speaker
 Overview
 --------
 
-In this lesson you will learn to drive a piezo speaker to make notes and
-sound effects. Piezo speakers are found in lots of common devices such
-as microwave ovens or cell phones. A tone from a piezo speaker can be
-used to indicate a button press or play a tune letting you know your
-friend has called.
+In this lesson you will use what you learned about frequency to make music with a piezo speaker. Piezo speakers are found in lots of common devices such
+as microwave ovens and cell phones and can be used to tell you if you have a phone call, let you know your pizza is hot or to confirm you pressed a button.
+
 
 Piezo speakers are normally formed around two metal plates as shown in
 the picture on the left. The picture on the right shows a piezo speaker
@@ -18,13 +16,15 @@ in a secure plastic housing.
    :alt: 
 
 A piezo speaker is essentially a thin piece of metal that can make
-sounds by vibrating at a very high rate (frequency). The following shows
+sounds by vibrating at a very high rate or frequency. The following shows
 a  piezo speaker at rest (low pulse) and under voltage (high pulse). By
 applying pulses very rapidly to the piezo speaker, it can vibrate very
 quickly
 
 .. figure:: images/image32.png
    :alt: 
+   
+
 
 Piezo Circuit
 -------------
