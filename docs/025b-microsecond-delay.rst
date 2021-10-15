@@ -1,7 +1,10 @@
-Programming The Metro Mini
+Microsecond Delays
 ==========================
 
 Overview
 --------
 
-In this les
+In addition to the standard delay function which is measured in milliseconds, there is also a microsecond delay measured in, you guessed it, microseconds.
+
+delayMicroseconds(300);
+
