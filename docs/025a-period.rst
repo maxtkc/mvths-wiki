@@ -36,13 +36,13 @@ Exercise
 
 
 2. Using the equations shown above for converting frequency to period and vice versa, complete
-the following two tables in your notebook. Note that the units of Hertz are cycles per
-second and as a result the equation you are using produces units of
-seconds. Make sure to use CORRECT units and round to the nearest
-thousandth. The table also includes a column for converting seconds to
-milliseconds. You can find information about converting between
-engineering units
-`here <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.77xfwnlk7wp2&sa=D&ust=1587613173943000>`__.
+   the following two tables in your notebook. Note that the units of Hertz are cycles per
+   second and as a result the equation you are using produces units of
+   seconds. Make sure to use CORRECT units and round to the nearest
+   thousandth. The table also includes a column for converting seconds to
+   milliseconds. You can find information about converting between
+   engineering units
+   `here <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-   Y/edit%23heading%3Dh.77xfwnlk7wp2&sa=D&ust=1587613173943000>`__.
 
 Find the period of the wave
 
