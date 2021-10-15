@@ -17,7 +17,9 @@ you can find more on this in the lesson on engineering notation.
 Exercise:
 ~~~~~~~~~
 
-.. list-table:: Ohms Law
+Complete the following table in your notebook.
+
+.. list-table:: Time Conversion
    :widths: 25 25 25
    :header-rows: 1
 
@@ -25,18 +27,18 @@ Exercise:
      - Milliseconds
      - Microseconds
      
-   * - 
+   * - .3
      - 
      - 
      
    * - 
+     - 45
      - 
-     - 
-   * - 
+   * - .020
      - 
      -
    * - 
      - 
-     - 
+     - 2350
 
  
