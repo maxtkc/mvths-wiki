@@ -29,8 +29,8 @@ Welcome to MVTHS Engineering Wiki's documentation!
    014-serial-communication
    014a-looping-data
    014b-formating-serial-communication
-   014c-printing-characters
    015-variables
+   015a-printing-characters
    015a-math
    016-resistor-values
    017-ohms-law
