@@ -4,10 +4,7 @@ Printing Characters
 Overview
 --------
 
-In the previous lesson, you learned about basic variable types for whole numbers. In addition, there are variable types for characters and fractional numbers. Below we will
-at the variable types, char, string, float and double. 
-
-| **char**
+In the previous lesson, you learned about the variable type int which is designed to store whole numbers. In addition, there are many other variable types including char.
 The variable type char is used to store characters. Characters used to represent text both letters, numbers and punctuation. The basic character set available to us is 
 represented by the (American Standard Code for Information Interchange) or ASCII table. This table was first established in 1961. 
 
