@@ -13,9 +13,21 @@ Column and Separators
 As you may have noted in the previous lesson, the word "cat" was
 displayed across the screen making it difficult to read. You can display
 text in a column by simply adding a carriage return at the end of each
-line using the following command.
+line using the following command. Note the addition of 'ln' at the end of the command.
+This stands for line as in new line.
 
-Serial.println();
+.. code-block:: c
+
+   Serial.println();
+   
+In addition, the following commands will produce a tab, a space and a colon respectively. 
+   
+.. code-block:: c
+
+   Serial.print('\t');		//produces a tab
+   Serial.print(' ');		//produces a space
+   Serial.print(':');		//produces a colon
+
 
 Exercise:
 ~~~~~~~~~
@@ -27,12 +39,12 @@ Exercise:
 TEACHER CHECK \_\_\_\_\_
 
 2. Modify your program so that it prints the word "robot" and the word
-   "engineer" in two columns and a space between the words. This should
-   be accomplished with at least three separate print statements. An
-   introduction to formating serial communication can be found `here <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.l7j52u85ivgp>`__.
+   "engineer" in two columns and a space between the words. Note that will want to print the word "robot" then print a space and then print the word
+   "engineer" with a line return.
+   
 3. Modify your program so that a colon separates the two columns.
+
 4. Modify your program so that a `tab
-   separates <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.idcad0tlxp8n&sa=D&ust=1587613173880000>`__ the
-   two columns.
+   separates the two columns.
 
 TEACHER CHECK \_\_\_\_\_
