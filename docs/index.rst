@@ -31,7 +31,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    014b-formating-serial-communication
    015-variables
    015a-printing-characters
-   015a-math
+   015b-math
    016-resistor-values
    017-ohms-law
    018-resistors-and-leds
