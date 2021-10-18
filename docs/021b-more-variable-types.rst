@@ -22,19 +22,30 @@ Note that characters are initialized using single quotes as in the following.
 
 .. code-block:: c
 
-  int x = 'a';
-  int myLetter = 'B';
+  char x = 'a';           //Stores an ASCII representation of a lower case 'a'.
+  char myLetter = 'B';    //Stores an ASCII representation of a lower case 'a'.
+  char num = '9';         //Stores an ASCII representation of the number 9.
+
+It is worth noting that the actual values of variables above (in decimal) are stored in their numeric equivalents 97, 66 and 57 repsectively. 
+
+.. code-block:: c
+
+  char x = 't';
+  char x = 116; //both are equivalent.
+  
 
 Exercise:
 ~~~~~~~~~
 
-1. Initialize a new variable using the char type and set it to a value in the ASCII table. Print this charater repeatedly in a column in you serial monitor. Make sure to
+1. Initialize a new variable using the char type and set it to a letter value in the ASCII table. Print this charater repeatedly in a column in you serial monitor. Make sure to
    include a short delay so that the serial monitor does not crash.
 
-2.
+2. Initialize a new variable using the char type and set it to a number value in the ASCII table. Again, print this character in a column.
+
+3. Initialize a new char and this time set it to the ASCII number value of a character. For example if you wanted to print 'W' you would set the value of your 
+   char to 87. Note there are no quotes. Print this value in a column.
+4. **Super Challenge** Modify your code file to print a letter in a single column in your serial monitor, but only using the Serial.print() function, 
+   NOT Serail.println(). A hint is that LINEFEED in the ASCII table sets a new line in your serial monitor.
 
 
-.. code-block:: c
 
-  int x;
-  int counter = 9;
