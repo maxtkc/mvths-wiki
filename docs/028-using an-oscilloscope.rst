@@ -7,50 +7,54 @@ Overview
 An oscilloscope is a tool that can be used to visualize electronic
 signals in your circuit.
 
-Connections
------------
-
-In order to test a a signal on your circuit with an oscilloscope you
-must connect it to your circuit.
-
 Initial Setup
 ~~~~~~~~~~~~~
 
-1. Set up a simple breadboard circuit with a Metro Mini.
-2. Turn on you oscilloscope. It takes a few seconds to warm up.
-3. Once the scope is on, press the Save/Recall button. On the screen you
-   will see Default Setup in the upper right. Press the button to enter
+1. Turn on you oscilloscope. It takes a few seconds to warm up.
+2. Once the scope is on, press the Save/Recall button. It is one of the buttons in the upper two rows of ten buttons.
+
+3. On the screen you will see "Default Setup" displayed in the upper right. Press the button to right of "Default Setup" to enter
    the default setup. This is generally useful to do any time you set up
    your scope or if you are having trouble reading a signal.
-4. Connect a scope lead to channel 1 (CH1) NOTE: Be careful with the
-   oscilloscope leads. They are fragile and expensive.
-5. Make sure your scope lead is set to 1X. There is a switch on the end
-   of the scope lead.
-6. Connect the ground lead (alligator clip).
+   
+4. Connect a scope lead (see image below) to channel 1 (CH1) NOTE: The channel one connector is toward the bottom of your scope. Be careful with the
+   oscilloscope leads. They are fragile and expensive. 
+   
+.. figure:: images/oscopelead.png
+   :alt: 
+   
+5. Make sure your scope lead is set to 1X . There is a switch on the end
+   of the scope lead.(see below, though the picture shows the lead set to 10X it should be set to 1X for this lesson)
+   
+.. figure:: images/x10.png
+   :alt: 
+   
+6. As with your multimeter, there is a ground lead and a test lead. Connect the ground lead (alligator clip) to ground on your breadboard.
 
 First Test
 ~~~~~~~~~~
 
-1. Connect the test lead (micro connector with the witches hat) to the
+1. Touch the test lead (micro connector with the witches hat) to the
    power bus (5V) of your board.
 2. At this point, the yellow line should disappear from your screen.
-3. Move the test lead to ground and the yellow line should reappear.
+3. Touch the test lead to ground and the yellow line should reappear.
+
+NOTE: You can remove the witches hat to reveal and test point which can be easier to use in some situations, but DO NOT LOSE it. These are expesensive!
 
 TEACHER CHECK \_\_\_\_\_
 
 Vertical Divisions
 ~~~~~~~~~~~~~~~~~~
 
-1. Notice that in the lower left corner of the screen the vertical
-   divisions of the screen for channel one are set to 2V per division (1
-   = 2V). Turn the VOLTS/DIV dial for channel so that the vertical
-   divisions are set to 5V per division.
+The scope is divided into a grid of vertical and horizontal divisions. The vertical divisions measure voltage and the horizontal divisions measure time. In the lower
+left corner of the screen there are two numbers, 1 in yellow and 2 in blue. These display the voltage per division for the grid. The yellow (1) is for channel one and 
+the blue (2) is for channel two. For now, we will only be using one channel. By default they are set to 2 volts each.
+
+1. Turn the VOLTS/DIV dial for channel one so that the vertical divisions are set to 5V per division.
 2. Move the test lead between ground and power. You should see the
-   yellow line jump exactly one vertical division. This should make
-   sense since one vertical division on the screen corresponds to
-   exactly 5V.
-3. Set the VOLTS/DIV back to 2V for channel one and make sure your test
-   lead is in the 5V bus. Now turn the Vertical control for channel one
+   yellow line jump exactly one vertical division. This is because you set the VOLTS/DIV so that one vertical division equals exactly 5 Volts.
+3. Set the VOLTS/DIV back to 2V for channel one. Touch you test
+   lead to the 5V bus. Now turn the Vertical control for channel one
    (it is the dial labeled with two up and down arrows) down until you
    can see the yellow line.
 
