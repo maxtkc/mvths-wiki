@@ -38,7 +38,7 @@ Code
 ----
 
 In order to use the analog to digital converter (ADC) on your Metro Mini
-you will need to use the following command.
+you will need to use the following command. Note that this function will return the values 0 to 1023 depending on the voltage it reads at the analog pin.
 
 .. figure:: images/image99.png
    :alt: 
