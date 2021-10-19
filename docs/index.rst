@@ -37,7 +37,8 @@ Welcome to MVTHS Engineering Wiki's documentation!
    018-resistors-and-leds
    019-buttons
    020-potentiometers
-   020a-variable-types.rst
+   020a-other-variables
+   020b-floats
    021-analog-to-digital-conversion
    021a-analog-to-voltage
    022-relational-operators
