@@ -53,18 +53,13 @@ the blue (2) is for channel two. For now, we will only be using one channel. By 
 1. Turn the VOLTS/DIV dial for channel one so that the vertical divisions are set to 5V per division.
 2. Move the test lead between ground and power. You should see the
    yellow line jump exactly one vertical division. This is because you set the VOLTS/DIV so that one vertical division equals exactly 5 Volts.
+   IMPORTANT: The yellow "1>" on the left of your screen remains in place. This represents the voltage reference or zero volts.
 3. Set the VOLTS/DIV back to 2V for channel one. Touch you test
    lead to the 5V bus. Now turn the Vertical control for channel one
    (it is the dial labeled with two up and down arrows) down until you
    can see the yellow line.
 
-.. raw:: html
-
-   <!-- end list -->
-
-4. How many divisions are there between the yellow 1 (the ground
-   reference for channel one on the screen) and the yellow line:
-   \_\_\_\_\_\_\_\_\_
+4. How many divisions are there between the voltage reference "1>" and the yellow line? And how many volts does this represent? Write your answers in your notebook.
 
 TEACHER CHECK \_\_\_\_\_
 
@@ -72,21 +67,21 @@ Pulse
 ~~~~~
 
 1. Return your scope to the Default Setup. (see above)
-2. Write a program to toggle pin 2 at so that it is HIGH for 10ms and
+2. Write a program on your microcontroller to make a pulse on pin 2 that is HIGH for 10ms and
    LOW for 5ms.
-3. Connect your test lead to pin 2 of the Metro Mini (the ground lead
+3. Connect your oscilloscope's test lead to pin 2 of the Metro Mini (the ground lead
    should remain on ground)
 4. Download your program and you should see the yellow line appear to
    flash on the screen. Actually, it is showing a pulse, but you cannot
    see the upper portion of the pulse because it is off the screen.
-5. Set your VOLTS/DIV to 5V (from 2V) and you should now be able to see
+5. Change your VOLTS/DIV to 5V from the default 2V and you should now be able to see
    the upper portion of the pulse, but you will still not see a pulse,
    just a line bouncing up and down.
 
 Horizontal Divisions
 ~~~~~~~~~~~~~~~~~~~~
 
-1. The reasons you cannot see the pulse is because the horizontal
+1. The reasons you cannot see the pulse is because the horizontal divisions which measure time are set by default to 
    divisions are too fine. Below is a an example of your scope and the
    pulse. Notice that you will only see either the top or bottom of the
    pulse, but not the whole pulse.
