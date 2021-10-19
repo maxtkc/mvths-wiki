@@ -1,4 +1,4 @@
-Variable Types
+Other Variables
 ==============
 
 Overview
