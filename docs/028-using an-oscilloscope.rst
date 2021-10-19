@@ -43,12 +43,18 @@ NOTE: You can remove the witches hat to reveal and test point which can be easie
 
 TEACHER CHECK \_\_\_\_\_
 
+
+Grid
+~~~~~~~~~~~~~~~~~~
+You will notice that the screen of your oscilloscope is divided into a grid. The **vertical divisions** measure voltage and the **horizontal divisions** measure 
+time. In the lowerleft corner of the screen there are two numbers, "1=2V" in yellow and "2=2V" in blue. These display the voltage per division for the vertical lines
+of the grid. The yellow is for channel one and the blue is for channel two. For now, we will only be using one channel. In lower 
+center of your screen you will see value 2.5us. This indicates the present number of microseconds per horizontal division on your scope. In your notebook, draw a grid
+and mark the horizontal and vertical divisions as defined by the default setup of your scope. Make sure to use correct units.
+
 Vertical Divisions
 ~~~~~~~~~~~~~~~~~~
 
-The scope is divided into a grid of vertical and horizontal divisions. The vertical divisions measure voltage and the horizontal divisions measure time. In the lower
-left corner of the screen there are two numbers, 1 in yellow and 2 in blue. These display the voltage per division for the grid. The yellow (1) is for channel one and 
-the blue (2) is for channel two. For now, we will only be using one channel. By default they are set to 2 volts each.
 
 1. Turn the VOLTS/DIV dial for channel one so that the vertical divisions are set to 5V per division.
 2. Move the test lead between ground and power. You should see the
