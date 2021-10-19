@@ -30,15 +30,14 @@ You can play whatever note you want on a piezo speaker by send it a frequency in
 Piezo Circuit
 -------------
 
-Driving a piezo speaker only requires a single pin that can produce a pulse. IMPORTANT: In the schematic below "TO MCU" can be any digital 
-pin on your microcontroller. Also, the potentiometer is not being used as a voltage divider
+Driving a piezo speaker only requires a single pin that can produce a pulse. IMPORTANT: In the schematic below the potentiometer is not being used as a voltage divider
 to provide input to an analog pin on your microcontroller, as in previous circuits. In the circuit below, the
 potentiometer is being us for volume control to the piezo speaker.
 
 Exercise
 ~~~~~~~~
 
-1. Construct the following circuit and connect the pulse lead to one of
+1. Construct the following circuit and connect the pulse lead (TO MCU) to any digital pin on
    your microcontroller pins. After you complete the circuit, write a
    program to drive your speaker with a frequency of 100 Hz. In order to determine the delays for your code, you will need to convert the frequency to a period.
    If you need help with this, you can refer to a previous lesson.
@@ -49,7 +48,7 @@ Exercise
 TEACHER CHECK \_\_\_\_
 
 2. Modify your code to produce a frequency of 1000Hz. Note you will need
-   to use a delayMicroseconds() in order to reach this frequency.
+   to use a delayMicroseconds() in order to reach this frequency. Confirm the frequency with your multimeter.
 
 TEACHER CHECK \_\_\_\_
 
@@ -61,36 +60,5 @@ TEACHER CHECK \_\_\_\_
 +---------------------+--------------------+
 +---------------------+--------------------+
 
-Tone Function
--------------
-
-The tone function provides an easy way to send notes to a piezo speaker.
-The tone function can be used to set which pin will produce the tone,
-the frequency of the tone and duration of the tone. The last argument,
-duration is optional.
-
-tone(pin, frequency, duration);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-In addition, there is a notone function that can be used to produce no
-sound. This function can be useful because sometimes even sending a
-frequency of 0 will result in the processor making some sound.
-
-        tone (pin);
-~~~~~~~~~~~~~~~~~~~
-
-Exercise:
-~~~~~~~~~
-
-Write a program to play a A4 (440Hz) for exactly half a second.
-
 TEACHER CHECK \_\_\_\_
 
-Exercise:
-~~~~~~~~~
-
-Search on the Internet to find software for the Arduino that can play a
-popular song or theme using a piezo speaker. Download the software and
-play the song for your teacher.
-
-TEACHER CHECK \_\_\_\_
