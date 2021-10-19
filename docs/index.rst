@@ -45,6 +45,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    023-logical-operators
    024-blinking-lights
    024a-microsecond-delay
+   025b-generating-frequency
    025-frequency
    025a-period
    026-piezo-speaker
