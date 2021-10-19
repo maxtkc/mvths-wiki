@@ -38,6 +38,33 @@ Since the delayMicroseconds function also only takes whole numbers we will need 
 
 Now we can use the resulting times for the two delays in our loop. 
 
+Exercise:
+~~~~~~~~~
+
+1. Initializ
+
+
+.. list-table:: Generating Frequencies
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Frequency
+     - Period (seconds)
+     - Delay value (us)
+   * - 345Hz
+     - 
+     - 
+   * - 2876Hz
+     - 
+     - 
+   * - 879Hz
+     - 
+     - 
+   * - 1390Hz
+     - 
+     - 
+  
+
 
 
 
