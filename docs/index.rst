@@ -49,6 +49,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    025-frequency
    025a-period
    026-piezo-speaker
+   026a-tone-function
    027-review-challenge
    028-using an-oscilloscope
    029-mcp9808-temperature-sensor
