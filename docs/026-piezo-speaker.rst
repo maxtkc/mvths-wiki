@@ -30,15 +30,18 @@ You can play whatever note you want on a piezo speaker by send it a frequency in
 Piezo Circuit
 -------------
 
-Driving a piezo speaker only requires a single pin that can produce a
-pulse.
+Driving a piezo speaker only requires a single pin that can produce a pulse. IMPORTANT: In the schematic below "TO MCU" can be any digital 
+pin on your microcontroller. Also, the potentiometer is not being used as a voltage divider
+to provide input to an analog pin on your microcontroller, as in previous circuits. In the circuit below, the
+potentiometer is being us for volume control to the piezo speaker.
 
 Exercise
 ~~~~~~~~
 
 1. Construct the following circuit and connect the pulse lead to one of
    your microcontroller pins. After you complete the circuit, write a
-   program to drive your speaker with a frequency of 100 Hz.
+   program to drive your speaker with a frequency of 100 Hz. In order to determine the delays for your code, you will need to convert the frequency to a period.
+   If you need help with this, you can refer to a previous lesson.
 
 .. figure:: images/image111.png
    :alt: 
