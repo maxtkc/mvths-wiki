@@ -41,7 +41,8 @@ Now we can use the resulting times for the two delays in our loop.
 Exercise:
 ~~~~~~~~~
 
-1. Initializ
+Complete the table below in your notebook. Write a program to generate each frequency and measure the frequency with your multimeter to confirm. Demonstrate
+one of these frequencies for your teacher. 
 
 
 .. list-table:: Generating Frequencies
@@ -64,7 +65,7 @@ Exercise:
      - 
      - 
   
-
+TEACHER CHECK \_\_\_\_\_
 
 
 
