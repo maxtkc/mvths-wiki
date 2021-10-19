@@ -18,13 +18,26 @@ the diagram below.
 
 But note that the cycle or pulse in your code is made up of two delays. One is for the high part of the pulse and the other is for the low part of the pulse.
 Since these two delays make up the period, you will need to divide the period in half. One half of the period will be the delay for the high part of the pulse
-and one half of the delay will be the period for the low part of the pulse.
+and one half of the delay will be the period for the low part of the pulse. For now we will assume these two delays are always equal, but in future lessons you will how making them unequal can be useful.
 
 0.000723589s/2 = 0.0003617945s
 
+The next step is creating a delay of .0003617945. As know the delay function takes an argument in milliseconds not seconds so a first step is convert the seconds to 
+milliseconds. Check the lesson on engineering notation if you need help with this conversion.
+
+0.0003617945s = 0.3617945ms
+
+From the lesson on the delay function we know that it only takes whole numbers, so will need to use the function delayMicroseconds() and now convert the milliseconds to
+microseconds. Again, check the lesson on engineering notation for help with this conversion.
+
+0.3617945ms = 361.7945us
+
+Since the delayMicroseconds function also only takes whole numbers we will need to round our result.
+
+361.7945us rounds to 362us. 
+
+Now we can use the resulting times for the two delays in our loop. 
 
 
-In order to generate a frequency, you need two delays. One for the high part of the pulse and one for the low part of 
-the pulse. This is shown in the diagram below. (For now we will assume these two delays are always equal, but in future lessons you will how making them unequal can be useful.) 
 
 
