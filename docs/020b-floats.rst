@@ -1,4 +1,4 @@
-Fractional Variable Types
+Floats
 ==============================
 
 Overview
