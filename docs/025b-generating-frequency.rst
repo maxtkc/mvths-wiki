@@ -32,7 +32,7 @@ microseconds. Again, check the lesson on engineering notation for help with this
 
 0.3617945ms = 361.7945us
 
-Since the delayMicroseconds function also only takes whole numbers we will need to round our result.
+Since the delayMicroseconds() function also only takes whole numbers we will need to round our result.
 
 361.7945us rounds to 362us. 
 
