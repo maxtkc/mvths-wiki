@@ -37,6 +37,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    018-resistors-and-leds
    019-buttons
    020-potentiometers
+   020i-voltage-dividers
    020a-other-variables
    020b-floats
    021-analog-to-digital-conversion
@@ -57,7 +58,6 @@ Welcome to MVTHS Engineering Wiki's documentation!
    028c-controlled-waveforms
    029-mcp9808-temperature-sensor
    030-modifying-example-code
-   031-voltage-dividers
    032-light-sensor-1
    033-light-sensor-2
    034-hall-effect-sensor
