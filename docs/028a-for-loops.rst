@@ -27,4 +27,14 @@ Exercise:
 
 TEACHER CHECK \_\_\_\_\_
 
-4. 
+4. Modify your code so that it starts counting from a differnt initial value.
+5. Modify your code so that it counts to a different final value.
+6. Mofify your code so that it counts by a different increment (not just one).
+
+TEACHER CHECK \_\_\_\_\_
+
+7. Modify your code so that it counts down by 1 from 94.
+
+TEACHER CHECK \_\_\_\_\_
+
+8. Place your for loop code into your loop() function and note the difference.
