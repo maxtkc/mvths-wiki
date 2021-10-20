@@ -41,7 +41,9 @@ Now we can use the resulting times for the two delays in our loop.
 Exercise:
 ~~~~~~~~~
 
-Complete the table below in your notebook. Write a program to generate each frequency and measure the frequency with your multimeter to confirm. Demonstrate
+Complete the table below in your notebook. Write a program to generate each frequency and measure the frequency with your multimeter to confirm. Note 
+that on the multimeter there is position labeled with Hz (Hertz) for frequency. You can tell you are on the correct setting if you see Hz on the screeen. 
+Again, connect the black lead to ground and the red lead to the pin you are measuring. Demonstrate
 one of these frequencies for your teacher. 
 
 
