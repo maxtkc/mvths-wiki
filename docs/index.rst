@@ -54,6 +54,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    028-using an-oscilloscope
    028a-for-loops
    28b-dynamic-waveforms
+   028c-controlled-waveforms
    029-mcp9808-temperature-sensor
    030-modifying-example-code
    031-voltage-dividers
