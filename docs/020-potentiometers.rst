@@ -27,6 +27,8 @@ On the right is a schematic symbol for a potentiometer. Note the three leads mar
 A and B to 5V and ground (the order does not matter) creates what is called a voltage
 divider. This allows the voltage measured at W (between W and gound) to vary between the high voltage on your circuit (5 Volts) and ground.
 
+Note that potentiometers are very much like voltage dividers except that you can vary the voltage by turning a knob.
+
 Exercise
 ~~~~~~~~
 
