@@ -16,9 +16,8 @@ Exercise
 
 In the following exercise you will create different frequencies with your microcontroller and measure them.
 
-#. Write a program that blinks and LED on for 10 milliseconds and off for 10 milliseconds. Using a multimeter measure the frequency. Note 
-   that on the meter there is position labeled with Hz (Hertz) for frequency. Again, connect the black lead to ground and the red lead to the 
-   pin you are measuring. Write the value you see on your meter in your notebook. Remember to use the correct units
+#. Write a program that blinks and LED on for 10 milliseconds and off for 10 milliseconds. Using a multimeter measure the frequency. 
+Write the value you see on your meter in your notebook. Remember to use the correct units
   
 #. Modify your code so that frequency you read on your meter is about 166Hz. Record the delay values you used in your notebook. 
 
