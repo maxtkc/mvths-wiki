@@ -1,4 +1,4 @@
-Changing Waveforms
+Dynamic Waveforms
 =========================
 
 Overview
