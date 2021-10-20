@@ -53,6 +53,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    027-review-challenge
    028-using an-oscilloscope
    028a-for-loops
+   28b-changing-waveforms
    029-mcp9808-temperature-sensor
    030-modifying-example-code
    031-voltage-dividers
