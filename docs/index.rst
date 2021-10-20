@@ -36,8 +36,8 @@ Welcome to MVTHS Engineering Wiki's documentation!
    017-ohms-law
    018-resistors-and-leds
    019-buttons
+   019a-voltage-dividers
    020-potentiometers
-   020i-voltage-dividers
    020a-other-variables
    020b-floats
    021-analog-to-digital-conversion
