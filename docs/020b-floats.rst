@@ -18,7 +18,7 @@ need. Floats use a lot of memory and memory gets used up fast in microcontroller
 Exercise:
 ~~~~~~~~~
 
-1. Write a program that displays a factional number in column your serial monitor.
+1. Write a program that displays a fractional number in column your serial monitor.
 2. Modify your program so that it repeatedly adds one one thousandth (.001) to your original number and
    displays that in a column in your serial monitor.
 3. Modify your code to include the name of your variable in your code with an equals sign. For example, if your variable name is
