@@ -52,7 +52,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    026a-tone-function
    027-review-challenge
    028-using an-oscilloscope
-   028a-advanced-scope
+   028a-advanced-waveforms
    029-mcp9808-temperature-sensor
    030-modifying-example-code
    031-voltage-dividers
