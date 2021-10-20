@@ -4,7 +4,7 @@ Dynamic Waveforms
 Overview
 --------
 
-In this lesson, using a for loop and a potentiometer you will create waves that move over time, display them on your scope and listen to them on a piezo speaker. 
+In this lesson, using a for loop you will create waves that change over time, display them on your scope and listen to them on a piezo speaker. 
 
 Exercise:
 ~~~~~~~~~
