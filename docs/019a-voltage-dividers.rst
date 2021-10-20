@@ -14,16 +14,23 @@ As you learned in a previous lesson, there is a voltage drop across any resistor
 measuring the voltage drop with your multimeter. In the example circuits below there are two resistors and therefor two voltage drops. The total of the two voltage drops
 must equal the total voltage or 5 volts. 
 
-For the examples below, use Ohms law to determine the voltage at the point between each of the two resistors. The first step is to use Ohms law to determine the current 
-flowing through each of the circuits. Remember current anywhere in a parallel circuit is the same. Also note that the total resistance of each of these circuits
-is the total of the two resistors in that circuit. Once you have the current flowing in the circuit, you can use Ohms law to determine the voltage drop across each 
-resistor. If you need a refresher refer to the lesson on Ohms Law and the les
-on Resistors and LEDs.
+Exercise
+~~~~~~~~
 
-Record your answers in your notebook.
+1. For the examples below, use Ohms law to determine the voltage at the point between each of the two resistors. The first step is to use Ohms law to determine the current 
+   flowing through each of the circuits. Remember current anywhere in a parallel circuit is the same. Also note that the total resistance of each of these circuits
+   is the total of the two resistors in that circuit. Once you have the current flowing in the circuit, you can use Ohms law to determine the voltage drop across each 
+   resistor. If you need a refresher refer to the lesson on Ohms Law and the les
+   on Resistors and LEDs.
+
+   Record your answers in your notebook.
 
 .. figure:: images/image8.png
    :alt: 
 
+
+TEACHER CHECK \_\_\_\_
+
+2. Construct one of the three circuits above and measure the voltage between the two resistors.
 
 TEACHER CHECK \_\_\_\_
