@@ -5,8 +5,20 @@ Overview
 --------
 
 In this lesson you will learn to use the MCP9808 temperature sensor. The
-MCP9808 is a digital sensor that produces the temperature natively in
-Celsius. It communicates with a microcontroller using the I2C protocol
+MCP9808 is a digital sensor that outputs temperature readings natively in
+Celsius. This is the first complex device (as opposed to an individual component) you will be adding to your breadboard.
+
+1. Always remove power from your board when setting up a complex device. This is generally a good idea when adding any component to your breadboard, but very important
+   when adding a complex device. These devices cost more than individual components and can be damaged more easily. The easiest way to remove power from your board
+   is to unplug the USB.
+   
+2. Carefully connect the device to your circuit following the schematic and instructions provided.
+
+3. MOST IMPORTANT: Make sure the power and ground are attached correctly. Reversing these two connections is the number one reason for damaging and complex device.
+
+4. Apply power to your board. If you see smoke or it gets hot, remove power immediately.
+
+It communicates with a microcontroller using the I2C protocol
 which is one of many `communication
 protocols <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.zbv2l6wpi6ec&sa=D&ust=1587613173970000>`__ you
 will use.
@@ -14,7 +26,7 @@ will use.
 Setup
 -----
 
-1. Find an MCP9808 in the bin labeled “Temperature Sensor”
+1. Find an MCP9808 in the bin labeled “Sensors(Light, Color and Temperature)”
 2. Remove the power (USB cable) from your breadboard.
 3. Insert the MCP9808 into your breadboard.
 4. Connect Vdd to power and Gnd to ground.
