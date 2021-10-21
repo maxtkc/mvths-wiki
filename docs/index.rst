@@ -63,7 +63,8 @@ Welcome to MVTHS Engineering Wiki's documentation!
    033-TEMT6000-light-sensor
    034-hall-effect-sensor
    035-strip-and-crimp
-   035b-seven-segment-display
+   035a-seven-segment-display
+   035b-seven-segment-challenges
    036-accelerometer
    037-neopixel-stick
    038-real-time-clock
