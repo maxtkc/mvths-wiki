@@ -1,4 +1,4 @@
-Light Sensor 1
+Resistive Light Sensor
 ==============
 
 Overview
