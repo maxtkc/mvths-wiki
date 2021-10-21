@@ -56,10 +56,10 @@ Welcome to MVTHS Engineering Wiki's documentation!
    028a-for-loops
    28b-dynamic-waveforms
    028c-controlled-waveforms
+   028i-resistive-light-sensor
    028d-complex-device-rules
    029-mcp9808-temperature-sensor
    030-modifying-example-code
-   032-light-sensor-1
    033-light-sensor-2
    034-hall-effect-sensor
    035-strip-and-crimp
