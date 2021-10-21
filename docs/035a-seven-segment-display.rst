@@ -36,9 +36,6 @@ TEACHER CHECK \_\_\_\_
 3. Now modify your new code file so that your displays counts from 0 to 120
    and repeats with a 10ms delay. You can do this using a for loop.
    
-4. Using the MCP9808 temperature sensor, display the temperature on the
-   LED display. In order to do this, you will need to combine minimal
-   code for the temperature sensor with minimal code for the LED
-   display.
+
 
  TEACHER CHECK \_\_\_\_
