@@ -1,4 +1,4 @@
-Light Sensor 2
+ TEMT6000 Light Sensor
 ==============
 
 Overview
