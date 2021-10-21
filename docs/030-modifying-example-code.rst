@@ -26,6 +26,7 @@ Exercise:
 3. Continue to comment out and test your code until you are left with just what you think you need to display just the temperature in a column in 
    your serial monitor window.
    
+TEACHER CHECK \_\_\_\_
    
 4. Add an LED to your board and modify the code so that the LED goes on
    when the temperature passes 26.25 degrees Celsius and turns off when
