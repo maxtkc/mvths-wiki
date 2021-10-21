@@ -14,12 +14,9 @@ and
 Exercise:
 ~~~~~~~~~
 
+Let your teacher know that you need to learn how to strip and crimp wires. Your teacher will find someone to guide you.
 Crimp a wire and show your work to your teacher. Repeat until you get it
 right.
 
--  Standard Molex connector
--  JST male and female connector
--  .. rubric:: Barrel connector
-      :name: barrel-connector
 
 
