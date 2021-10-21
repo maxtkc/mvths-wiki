@@ -5,7 +5,8 @@ Overview
 --------
 In the next section you will be adding your first complex device to your breadboard outside of the Metro Mini itself. So far you have only added individual components to
 your breadboard including, resistors, LEDs, potentiometers and a piezo speaker. I am defining a complex device as one that is made up of multiple components, such as the
-Metro mini itself. 
+Metro mini itself. Below is an image of the temperature sensor you will be using in the next lesson. Note that like all complex devices it has pins for power (Vdd) and ground.
+It also has pins for communicating with your microcontroller, the Metro Mini in your case. In the case of this device, the communication pins are SDA and SCL.
 
 .. figure:: images/TempSense.png
    :alt: 
