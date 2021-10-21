@@ -12,7 +12,7 @@ It also has pins for communicating with your microcontroller, the Metro Mini in 
    :alt: 
 
 
-Before adding a complex device to your breadboard make sure to follow the rules listed below. 
+Before adding a complex device to your breadboard **MAKE SURE** to follow the rules listed below. 
 
 1. Always remove power from your board when setting up a complex device. This is generally a good idea when adding any component to your breadboard, but very important
    when adding a complex device. These devices cost more than individual components and can be damaged more easily. The easiest way to remove power from your board
