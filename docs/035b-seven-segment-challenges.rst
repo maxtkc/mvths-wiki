@@ -4,9 +4,19 @@ Seven Segment Challenges
 Overview
 --------
 
-The four-digit seven segment display provides an easy and quick way to display numbers. It is also highly visible from a distance. Each segment can display the digits 
-0-9 as well as the characters A-F. It can also be used as clock display since it contains a colon between the two pairs of digits.
-
+In this lesson, you will use the seven-segment display to display values from a variety of inputs.
 
 Exercise:
 ~~~~~~~~~
+
+#. Set up an input button on your breadboard and connect it to a digital pin. Write a program to display the number of times the button has been pressed. You might need to use
+   a delay to prevent the button from over counting a single press. 
+
+#. Add a potentiometer to your breadboard. Write a program to display the value of the potentiometer in volts on the display. 
+ 
+#. Using the MCP9808 temperature sensor, display the temperature on the
+   LED display. In order to do this, you will need to combine minimal
+   code for the temperature sensor with minimal code for the LED
+   display.
+   
+TEACHER CHECK \_\_\_\_
