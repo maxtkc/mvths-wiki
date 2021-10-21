@@ -63,7 +63,6 @@ Welcome to MVTHS Engineering Wiki's documentation!
    033-TEMT6000-light-sensor
    034-hall-effect-sensor
    035-strip-and-crimp
-   035a-tachometer-challenge
    035b-seven-segment-display
    036-accelerometer
    037-neopixel-stick
@@ -86,6 +85,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    054-duty-cycle
    055-analogwrite
    056-motor-driver
+   056a-tachometer-challenge
    057-motor-speed-control
    058-battery-control
    059-soft-latching-switch
