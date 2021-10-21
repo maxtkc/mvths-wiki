@@ -60,7 +60,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    028d-complex-device-rules
    029-mcp9808-temperature-sensor
    030-modifying-example-code
-   033-light-sensor-2
+   033-TEMT6000-light-sensor
    034-hall-effect-sensor
    035-strip-and-crimp
    036-accelerometer
