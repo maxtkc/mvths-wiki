@@ -17,13 +17,11 @@ Setup
 -----
 
 1. Find an MCP9808 in the bin labeled “Sensors(Light, Color and Temperature)”
-2. Remove the power (USB cable) from your breadboard.
+2. Remove the power (USB cable) from your breadboard and follow all rules for complex devices.
 3. Insert the MCP9808 into your breadboard.
-4. Connect Vdd to power and Gnd to ground.
-5. Connect the SDA (data) and SCL (clock) communication pins to the SDA
-   and SCL pins on your microcontroller. You can locate the I2C pins
-   (SDA, SCL) on your Metro Mini from this
-   `diagram <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.m133u0p0njav&sa=D&ust=1587613173971000>`__.
+4. Provide power to your MCP9808. Connect Vdd of the MCP9808 to power and Gnd of the MCP9808 to ground.
+5. Enable the MCP9808 to communicate with your Metro Mini. Connect the SDA (data) and SCL (clock) communication pins to the SDA
+   and SCL pins on your microcontroller. On your Metro Mini or Arduino the SDA pin is A4 and the SCL pin is A5.
 
 TEACHER CHECK \_\_\_\_\_
 
@@ -32,9 +30,7 @@ Program
 
 1. Open the example file under File/Examples/Adafruit MCP9808
    Library/mcp9808test. If this file is not installed in your Examples
-   folder, you will need to install it using the `manage
-   libraries <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.5ie0wlz76yki&sa=D&ust=1587613173972000>`__ function.
-   Just search for “Adafruit MCP9808 Library” in library manager.
+   folder, ask your teacher for help.
 2. Download the file to your microcontroller.
 3. Open the Serial Monitor and view the results.
 
