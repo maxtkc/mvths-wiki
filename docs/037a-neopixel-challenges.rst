@@ -4,7 +4,12 @@ Neopixel Challenges
 Overview
 --------
 
-The neopixel st
+The following are a set of challenges using the neopixel stick.
+
+Exercise:
+~~~~~~~~~
+
+1. Using a for loop, write a program to make the neopixel 
 
 2. Add three potentiometers to your board and modify your code so that
    each potentiometer controls one of the three colors (red, green,
