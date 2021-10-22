@@ -54,7 +54,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    027-review-challenge
    028-using an-oscilloscope
    028a-for-loops
-   28b-dynamic-waveforms
+   028b-dynamic-waveforms
    028c-controlled-waveforms
    028i-resistive-light-sensor
    028d-complex-device-rules
