@@ -9,15 +9,29 @@ The following are a set of challenges using the neopixel stick.
 Exercise:
 ~~~~~~~~~
 
-1. Using a for loop, write a program to make the neopixel 
+1. Using a for loop, write a program to turn on each LED on the neopixel in order and then turn them all off. An example is shown in the gif below.
+   Note that you can use the following command to turn off all the LEDs.
+   
+.. code-block:: C
+   
+   pixels.clear();
 
-2. Add three potentiometers to your board and modify your code so that
-   each potentiometer controls one of the three colors (red, green,
-   blue).
+.. image:: images/ledup.gif
+
 
  TEACHER CHECK \_\_\_\_
 
-3. Modify your code so that a potentiometer can be used to control the
+2. Modify your code so that one LED lights as it moves up the Neopixel Stick. An example is shown below.
+   
+.. image:: images/updown2.gif
+
+ TEACHER CHECK \_\_\_\_
+
+3. Modify your code so that the one LED moves up AND down on the neopixel stick. Also increase the speed as shown in the example below.
+
+.. image:: images/fastUD.gif
+
+Modify your code so that a potentiometer can be used to control the
    number of LEDs that are lit on the neopixel strip. The more you turn
    the dial, the more LEDs are lit. Note that your analog input ranges
    from 0 to 1023 but you only have 8 leds (numbered 0 to 7) so you will
