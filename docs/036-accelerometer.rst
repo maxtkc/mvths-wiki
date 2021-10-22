@@ -42,12 +42,10 @@ Software
 Modify
 ------
 
-1. Make copy of the example file and modify it so that it displays only
-   the acceleration value (m/s2) for the X axis in your serial monitor. Again, remember to comment out lines of code until you are sure you do not need them.
-   Turn your board and note the change in
-   acceleration values. It should range from 0.0m/s2 to 9.8m/s2 which is the gravity at sea level.
-   You will need to carefully examine the original example code to find
-   out how to display your raw results in m/s2.
+1. Make copy of the example file and modify it so that it displays only the acceleration value (m/s2) for the X axis in your serial monitor. 
+   Again, remember to comment out lines of code until you are sure you do not need them. Turn your board and note the change in
+   acceleration values. It should range from 0.0m/s2 to 9.8m/s2 which is the gravity at sea level. Determine which axis on your breadboard is being displayed.
+   
 
  TEACHER CHECK \_\_\_\_
 
