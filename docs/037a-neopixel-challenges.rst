@@ -31,6 +31,16 @@ Exercise:
 
 .. image:: images/fastUD.gif
 
+4. Rewrite your code so that a single LED changes from full red (255) to yellow (red + green). You will need to use a for loop to increase the
+   value of green until it is the same as the value of the red.
+   
+.. image:: images/oneshift.gif
+
+4. Modify your code so that all eight LEDs changes from full red (255) to yellow. To do this correctly, you will need place a for loop inside of
+   your existing loop so that all LEDs are set instead of just one.
+   
+.. image:: images/eightshift.gif
+
 Modify your code so that a potentiometer can be used to control the
    number of LEDs that are lit on the neopixel strip. The more you turn
    the dial, the more LEDs are lit. Note that your analog input ranges
