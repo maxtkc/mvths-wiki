@@ -22,28 +22,25 @@ middle of the range for loudness, this converts to 5, the middle of LED range (6
 Exercise:
 ~~~~~~~~~
 
-.. list-table:: Ohms Law
+Determine the scale factor for the following ranges.
+
+.. list-table:: Scale Factor
    :widths: 25 25 50
    :header-rows: 1
 
-   * - Variable type
-     - Lowest value
-     - Highest value
-   * - byte
+   * - Source Range
+     - Target Range
+     - Scale Factor
+   * - 0 to 180
+     - 0 to 65
      - 
+   * - 0 to 45
+     - 0 to 220
      - 
-   * - int
+   * - 0 to 100
+     - 0 to 10
      - 
-     - 
-   * - unsigned int
-     - 
-     - 
-   * - long
-     - 
-     - 
-   * - unsigned long
-     -
-     - 
+ 
 
 
 
