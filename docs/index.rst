@@ -68,6 +68,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    036-accelerometer
    037-neopixel-stick
    037a-neopixel-challenges
+   037b-scaling-and-mapping
    037c-more-neopixel-challenges
    038-real-time-clock
    039-challenge-review
