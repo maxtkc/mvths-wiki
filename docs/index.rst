@@ -41,7 +41,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    020a-other-variables
    020b-floats
    021-analog-to-digital-conversion
-   021i-scaling-and-mapping
+   021i-scaling
    021a-analog-to-voltage
    022-relational-operators
    023-logical-operators
