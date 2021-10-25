@@ -41,6 +41,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    020a-other-variables
    020b-floats
    021-analog-to-digital-conversion
+   021i-scaling-and-mapping
    021a-analog-to-voltage
    022-relational-operators
    023-logical-operators
@@ -68,7 +69,6 @@ Welcome to MVTHS Engineering Wiki's documentation!
    036-accelerometer
    037-neopixel-stick
    037a-neopixel-challenges
-   037b-scaling-and-mapping
    037c-more-neopixel-challenges
    038-real-time-clock
    039-challenge-review
