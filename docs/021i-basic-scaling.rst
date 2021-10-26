@@ -1,4 +1,4 @@
-Scaling and Mapping
+Basic Scaling
 ==============
 
 Overview
