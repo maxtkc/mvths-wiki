@@ -59,3 +59,17 @@ Complete the following table in your notebook.
    * - 40 to 100
      - 0 to 10
      - 
+
+| **Map Function**
+
+It is also possible to use a map function provided in the Arduino library to easily map between two ranges. Below shows how the function interprets the values of each range.
+
+.. code-block::
+
+ map(value, fromLow, fromHigh, toLow, toHigh)
+
+Below is an example of the function mapping the source range (1 to 50) to (50 to 1). The value x from the source range is mapped to the value y in the target range.
+
+.. code-block::
+
+ y = map(x, 1, 50, 50, 1);
