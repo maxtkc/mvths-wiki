@@ -42,5 +42,3 @@ Determine the scale factor for the following ranges.
      - 
  
 
-
-
