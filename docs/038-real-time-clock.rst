@@ -4,14 +4,7 @@ Real Time Clock
 Overview
 --------
 
-In this lesson, you will learn how to use an external real time clock
-(RTC) to create a clock circuit. The IC you will be using is a
-`DS1307 <https://www.google.com/url?q=https://datasheets.maximintegrated.com/en/ds/DS1307.pdf&sa=D&ust=1587613174000000>`__ made
-by Dallas Semiconductor. The device can keep track of time, date and day
-of week. It can automatically adjust for days in a month (30 vs 31) and
-can account for leap year. It can also be used with a low power battery
-backup to keep time during loss of power. This device also uses I2C as
-its communication protocol.
+In this lesson, you will learn how to use an external real time clock (RTC) to create a clock circuit. The IC you will be using is a `DS1307 <https://www.google.com/url?q=https://datasheets.maximintegrated.com/en/ds/DS1307.pdf&sa=D&ust=1587613174000000>`__ made by Dallas Semiconductor. The device can keep track of time, date and day of week. It can automatically adjust for days in a month (30 vs 31) and can account for leap year. It can also be used with a low power battery backup to keep time during loss of power. This device also uses I2C as its communication protocol.
 
 |image0|\ |image1|
 
@@ -20,15 +13,11 @@ DS1307 IC (left) and 32.768Khz clock crystal (right)
 Circuit
 -------
 
-Below is the sample circuit diagram from the
-`DS1307 <https://www.google.com/url?q=https://datasheets.maximintegrated.com/en/ds/DS1307.pdf&sa=D&ust=1587613174001000>`__ datasheet.
-Use this diagram to complete the circuit on your breadboard. You will
-NEED to use the datasheet to determine which pin on the DS1307 is GND,
-SDA, SCL etc. You can find the DS1307 in the grey bins under ICs marked
-Misc IC. Notes:
+Below is the sample circuit diagram from the `DS1307 <https://www.google.com/url?q=https://datasheets.maximintegrated.com/en/ds/DS1307.pdf&sa=D&ust=1587613174001000>`__ datasheet. Use this diagram to complete the circuit on your breadboard. You will NEED to use the datasheet to determine which pin on the DS1307 is GND, SDA, SCL etc. You can find the DS1307 in the bin labeled Misc IC. Notes:
 
--  You do not need to connect SQWT/OUT or Vbat.
--  The crystal is  a 32.768Khz clock crystal.
+-  You do not need to connect SQWT/OUT
+-  Vbat should be connected to power directly (not through the battery as shown.)
+-  The crystal is  a 32.768Khz clock crystal and can be found under Microcontrollers, Crystals and EEPROMs.
 -  The pull-up resistors (Rpu) are both 10K
 -  Connect SCL from the DS1307 to SCL on the Metro Mini
 -  Connect SDA from the DS1307 to SDA on the Metro Mini
@@ -39,11 +28,7 @@ Misc IC. Notes:
 Code
 ----
 
-Open the file under Examples/Grove - RTC DS1307/SetTimeAndDisplay. If
-this file does not exist use the manage library function to find the
-Grove - RTC DS1307 library. Upload the code to the Metro Mini and open
-the Serial Monitor. You should see the time on the left and the date on
-the right.
+Open the file under Examples/Grove - RTC DS1307/SetTimeAndDisplay. If this file does not exist use the manage library function to find the Grove - RTC DS1307 library. Upload the code to the Metro Mini and open the Serial Monitor. You should see the time on the left and the date on the right.
 
 Set Time
 --------
@@ -72,20 +57,22 @@ time, by following the steps below to convert the library code itself.
 4. Scroll down to the function void DS1307::getTime
 5. As shown below comment out the first line and add the second line.
 
-//hour = bcdToDec(Wire.read() & 0x3f);// Need to change this if 12 hour am/pm
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. code-block::
 
-         hour = bcdToDec(Wire.read() & 0x1f);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ //hour = bcdToDec(Wire.read() & 0x3f); // Comment out this line for 12 hour time
+
+ hour = bcdToDec(Wire.read() & 0x1f); // Add this line for 12 hour time.
+
 
 6. Scroll down to the function void DS1307::setTime
 7. As shown below comment out the first line and add the second line.
 
-//Wire.write(decToBcd(hour)); // If you want 12 hour you need to set bit 6
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. code-block::
 
-    Wire.write(decToBcd(hour)\|0x40);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   //Wire.write(decToBcd(hour)); // If you want 12 hour you need to set bit 6
+   
+   Wire.write(decToBcd(hour)\|0x40);
+
 
 TEACHER CHECK \_\_\_\_
 
