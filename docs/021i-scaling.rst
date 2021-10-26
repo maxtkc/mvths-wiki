@@ -1,4 +1,4 @@
-Basic Scaling
+Scaling
 ==============
 
 Overview
@@ -22,7 +22,7 @@ middle of the range for loudness, this converts to 5, the middle of LED range (6
 Exercise:
 ~~~~~~~~~
 
-Determine the scale factor for the following ranges.
+Complete the following table in your notebook.
 
 .. list-table:: Scale Factor
    :widths: 25 25 50
@@ -41,4 +41,27 @@ Determine the scale factor for the following ranges.
      - 0 to 10
      - 
  
+| **Complex Scaling**
+In addition to creating a scale factor for ranges that begin with zero it is possible to create scales for ranges that do not begin with zero. For 
+example, let’s start with a source range of 10 to 50 and scale to a range of 0 to 90. You can find the scale factor using the same equation 
+you used above, but instead of using the 50 for the initial range, you would use 40 or the difference between the start of the range 10 and the end of the
+range 50.  Therefore the scale factor equals 90 divided by 40 or 2.25. 
 
+Complete the following table in your notebook.
+
+.. list-table:: Complex Scales
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Source Range
+     - Target Range
+     - Scale Factor
+   * - 10 to 180
+     - 0 to 65
+     - 
+   * - 5 to 45
+     - 0 to 220
+     - 
+   * - 40 to 100
+     - 0 to 10
+     - 
