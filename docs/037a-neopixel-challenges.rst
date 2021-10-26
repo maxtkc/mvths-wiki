@@ -1,4 +1,4 @@
-Neopixel Challenges
+Neopixel Challenge One
 ==============
 
 Overview
