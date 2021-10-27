@@ -21,18 +21,19 @@ Exercise
 
 Connect the output of a button circuit to your oscilloscope. Adjust the TIME/DIV on your oscilloscope so that you can see pulse like the one shown above when you press the button. 
 
-In order to capture the button press more easily you will need to use the Trigger feature of your scope. Notice on the right side of 
+In order to capture the button press more easily you will need to use the Trigger feature of your scope. Notice on the right side of your scope there is a section labeled trigger. In this section are a variety of controls that relate to the trigger. 
 
-For the length of the average button press, try to imagine you are using a gamepad device or your entering time on your microwave oven. Make sure to include the correct units.
+- **LEVEL**: This dial controls a small yellow arrow on the left side of your screen and cooresponds to the trigger level on your scope. The trigger level is the voltage level required for the scope to recognize a pulse. You generally want to set this level just below the voltage level of your pulse. So if you are looking for a pulse of 5 Volts then set the trigger level just below that. 
+- **Run/Stop**: This button allows you start and stop the trigger feature on your scope. In run, the scope is ready to accept signals. In stop, whatever is on the screen is frozen. This is useful for capturing continous waveforms that you want to read when a device is not running.
+- **MENU**: The menu button allows you to set various features of the trigger including the mode. Press the MENU button until you see the label Mode at the bottom right of the screen. Press the button next to the menu until the Mode changes from Auto to Normal. In the Normal Mode, the scope will wait for the trigger level to be tripped and then capture and hold just one pulse. 
 
-In order to do this easily, you will need to use the trigger on your
-scope.  
+Pressing the button, record the following in your notebook.
 
-        Length of shortest button press:         \_\_\_\_\_\_\_\_\_
+        Length of shortest button press:         
 
-        Length of average button press:        \_\_\_\_\_\_\_\_\_
+        Length of average button press:        
 
-2. TEACHER CHECK \_\_\_\_
+TEACHER CHECK \_\_\_\_
 
 Button Software
 ---------------
