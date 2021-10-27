@@ -4,33 +4,25 @@ Binary
 Overview
 --------
 
-Binary is a way of representing numbers in base-2. It is also one of the
-number
-`bases <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.r9xkk2b3evb&sa=D&ust=1587613174010000>`__ commonly
-used in writing code. Base-2 numbers have exactly two digits, 0 and 1.
-These digits can be used to directly represent the two possible states
-in your microcontroller (5V or HIGH) and (0V or LOW). In this way, all
-numbers stored inside your microcontroller are represented directly in
-binary.
+Binary is a way of representing numbers in base-2. It is also one of the number `bases <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.r9xkk2b3evb&sa=D&ust=1587613174010000>`__ commonly used in writing code. Base-2 numbers have exactly two digits, 0 and 1. These digits can be used to directly represent the two possible states in your microcontroller (5V or HIGH) and (0V or LOW). In this way, all numbers stored inside your microcontroller are represented directly in binary.
 
 Printing Binary
 ---------------
 
-You can use the serial print command to print numbers in binary as well
-as decimal. The following print command will print a number in decimal
-by default.
+You can use the serial print command to print numbers in binary as well as decimal. The following print command will print a number in decimal by default.
 
-Serial.print(6);                //this will print 6
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. code-block::
 
-Using an optional argument you can specify alternative base
-representations.
+   Serial.print(6);                //this will print 6
 
-Serial.print(7, DEC);        //this will print 7
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Using an optional argument you can specify alternative base representations.
 
-Serial.print(7, BIN);        //this will print 111
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. code-block::
+
+   Serial.print(7, DEC);        //this will print 7
+
+   Serial.print(7, BIN);        //this will print 111
+
 
 Exercise:
 ~~~~~~~~~
