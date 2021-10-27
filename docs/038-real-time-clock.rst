@@ -26,26 +26,26 @@ Below is the sample circuit diagram from the `DS1307 <https://www.google.com/url
    :alt: 
 
 Code
-----
+------
   
 Open the file under Examples/Grove - RTC DS1307/SetTimeAndDisplay. If this file does not exist use the manage library function to find the Grove - RTC DS1307 library. Upload the code to the Metro Mini and open the Serial Monitor. You should see the time on the left and the date on the right.
 
 Set Time
---------
 
 You can set the time in the Setup function in your code. Try setting
 different times and dates. Note that you will need to set the correct
 day-of-week.
 
-12 Hour vs 24 Hour
-------------------
+TEACHER CHECK \_\_\_\_
+
+12 Hour vs 24 Hour (optional)
 
 The DS1307 can be set for either 24 hour or 12 hour time. The software
 library you are using may be set for 24 hour time. You can test the
 format by setting the time to 12:59:55 and wait five seconds to see if
 it changes to 1:00 or 13:00.
 
-Change to 12 hour time (optional)
+Change to 12 hour time 
 ---------------------------------
 
 If your library is set to 24 hour time you can convert it to 12 hour
@@ -81,7 +81,7 @@ Time
 
 Run the example code and show the results in the serial monitor.
 
-TEACHER CHECK \_\_\_\_
+
 
 Minimize Code
 -------------
