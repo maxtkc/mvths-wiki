@@ -27,7 +27,7 @@ Below is the sample circuit diagram from the `DS1307 <https://www.google.com/url
 
 Code
 ----
-
+  
 Open the file under Examples/Grove - RTC DS1307/SetTimeAndDisplay. If this file does not exist use the manage library function to find the Grove - RTC DS1307 library. Upload the code to the Metro Mini and open the Serial Monitor. You should see the time on the left and the date on the right.
 
 Set Time
