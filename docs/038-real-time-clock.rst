@@ -32,9 +32,7 @@ Open the file under Examples/Grove - RTC DS1307/SetTimeAndDisplay. If this file 
 
 Set Time
 
-You can set the time in the Setup function in your code. Try setting
-different times and dates. Note that you will need to set the correct
-day-of-week.
+You can set the time in the Setup function in your code. Try setting different times and dates. Note that you will need to set the correct day-of-week in your code.
 
 TEACHER CHECK \_\_\_\_
 
