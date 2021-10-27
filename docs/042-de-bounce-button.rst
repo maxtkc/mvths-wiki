@@ -4,36 +4,26 @@ De-Bounce Button
 Overview
 --------
 
-Imagine pressing a momentary button like one on a keypad. The time
-during which it is pressed seems to be so short as to be irrelevant, yet
-microcontrollers process information at an incredibly fast rate, 16
-million cycles per second in the case of the Arduino or one cycle every
-62.5 nanoseconds. By this measure our fingers are very slow.
+Imagine pressing a momentary button like one on a keypad. The time during which it is pressed seems to be so short as to be irrelevant, yet microcontrollers process information at an incredibly fast rate, 16 million instructions per second in the case of the Arduino or one instruction every 62.5 nanoseconds (or .0000000625 seconds). By this measure our fingers are very slow.
 
 Button Pulse
 ------------
 
-In order to write code to read a button press, you will need to
-understand the length of the average button press. If you wire your
-button so that it defaults to LOW, when the button is pressed the output
-goes HIGH and when it is released the output goes LOW. This results in a
-pulse as shown below.
+In order to write code to read a button press, you will need to understand the length of the average button press. The following shows how a button press might look on your oscilloscope.
 
 .. figure:: images/image66.png
    :alt: 
 
-Although the length of time a button is pressed may depend on may depend
-on many factors such as the device, or the mood or tendency of the user,
-it is possible to work out some useful parameters for button press
-length using your oscilloscope.
+Although the length of time a button is pressed may depend on may depend on many factors such as the device, or the mood of the user, it is possible to work out some useful parameters for button press length using your oscilloscope.
 
 Exercise
 ~~~~~~~~
 
-Connect the output of a default low button circuit to your oscilloscope.
-For the length of the average button press, try to imagine you are using
-a gamepad device or your entering time on your microwave oven. Make sure
-to include the correct units.
+Connect the output of a button circuit to your oscilloscope. Adjust the TIME/DIV on your oscilloscope so that you can see pulse like the one shown above when you press the button. 
+
+In order to capture the button press more easily you will need to use the Trigger feature of your scope. Notice on the right side of 
+
+For the length of the average button press, try to imagine you are using a gamepad device or your entering time on your microwave oven. Make sure to include the correct units.
 
 In order to do this easily, you will need to use the trigger on your
 scope.  
