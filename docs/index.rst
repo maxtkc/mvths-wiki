@@ -69,8 +69,8 @@ Welcome to MVTHS Engineering Wiki's documentation!
    035b-seven-segment-challenges
    036-accelerometer
    037-neopixel-stick
-   037a-neopixel-challenges
-   037c-more-neopixel-challenges
+   037a-neopixel-challenge-one
+   037c-neopixel-challenge-two
    038-real-time-clock
    039-challenge-review
    040-binary
