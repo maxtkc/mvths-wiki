@@ -4,19 +4,15 @@ Arrays
 Overview
 --------
 
-Arrays provide a way to store multiple variables under a single variable
-name. This is very convenient for sets of variables that need to be
-accessed sequentially.
+Arrays provide a way to store multiple variables under a single variable name. This is very convenient for sets of variables that need to be accessed sequentially.
 
-The following is an example of how to initialize an array. Note that the
-name of the array is text\_array. You can name and array anything you
-like, but it is good to get in the habit of naming both your variables
-and arrays with names that accurating describe their purpose. You are
-STRONGLY encouraged to review the concepts page on
-`arrays <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.s6da4crcmuz1&sa=D&ust=1587613174104000>`__.
+The following is an example of how to initialize an array. Similar to initializing a variable, you need to give the array a type. In the example below the array type is int. 
+also, as with variables, you also need to give the array a name. In the case below, the name of the array is example, but just like variables, you can give it any name you want.  The number in the square braces determines the size of the array or how many items it can hold. The array below can hold three items or more specifically three ints. Inside the curly braces are listed the items in the array.
 
-        int text\_array[3] = {2, 5, 44};
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. code-block::
+
+  int example[3] = {2, 5, 44};
+
 
 Exercise:
 ~~~~~~~~~
