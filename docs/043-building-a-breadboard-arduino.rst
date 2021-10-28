@@ -4,60 +4,30 @@ Building A Breadboard Arduino
 Overview
 --------
 
-In this lesson you are going to construct a Metromini/Arduino Uno on
-your breadboard. The advantage of building a the Arduino on a breadboard
-is that:
+In this lesson you are going to construct a Metromini/Arduino Uno on your breadboard. The advantage of building a the Arduino on a breadboard is that:
 
-1. It costs less. The Metro Mini costs $12.50. The parts to build this
-   device cost under $3.00. This is important if you are building a
-   permanent project and don’t need features such as on-board USB, a
-   voltage regulator and reset button.
+#. It costs less. The Metro Mini costs $12.50. The parts to build this device cost under $3.00. This is important if you are building a permanent project and don’t need features such as on-board USB, a voltage regulator and reset button.
 
-.. raw:: html
-
-   <!-- end list -->
-
-2. It is more configurable: Using breadboard version of the device, you
-   can easily change the power supply from 1.8V to 5.0V. You can also
-   easily change the clock speed of the clock from a slow 32.768 real
-   time clock pulse to a fast 20Mhz.
+#. It is more configurable: Using breadboard version of the device, you can easily change the power supply from 1.8V to 5.0V. You can also easily change the clock speed of the clock from a slow 32.768 real time clock pulse to a fast 20Mhz.
 
 .. figure:: images/image77.png
    :alt: 
 
-Above is a diagram of the Metro Mini broken down into functional groups
-of components. Below is a description of each of these groups. The ones
-in bold are the ones that will be included in your breadboard version.
-For these devices the name used on your breadboard schematic is
-included.
+Above is a diagram of the Metro Mini broken down into functional groups of components. Below is a description of each of these groups. The ones in bold are the ones that will be included in your breadboard version. For these devices the name used on your breadboard schematic is included.
 
-1. USB Converter. This section of the board is responsible for
-   converting the USB signal from the computer to a pair of serial
-   signals that can be used by the microcontroller.
-2. Power Conversion: This section of the board is responsible for
-   providing direct power from the USB as well as regulated power for 5V
-   and 3.3V.
-3. LEDs: This section includes LEDs and their resistors which are used
-   to indicate power on the board and whether data is being sent to or
-   from the device.
-4. Microcontroller: This is a surface mount version of the ATMega328p,
-   which is the microcontroller that you program. (IC1)
-5. Clock: This is the crystal clock resonator that used to provide the
-   correct timing “heartbeat” for your controller. (Y1)
-6. Reset: The reset button is used to reset the code on the controller
-   back to the beginning. It is useful if the code gets stuck in a bad
-   state. (S1)
-7. Filter: This is a capacitor that is being used to filter or clean the
-   power supply against voltage spikes. (C2)
-8. Pullup: This is a resistor that is used to prevent the
-   microcontroller from going into the reset state.  (R2)
+#. USB Converter. This section of the board is responsible for converting the USB signal from the computer to a pair of serial signals that can be used by the microcontroller.
+#. Power Conversion: This section of the board is responsible for providing direct power from the USB as well as regulated power for 5V and 3.3V.
+#. LEDs: This section includes LEDs and their resistors which are used to indicate power on the board and whether data is being sent to or from the device.
+#. Microcontroller: This is a surface mount version of the ATMega328p, which is the microcontroller that you program. (IC1)
+#. Clock: This is the crystal clock resonator that used to provide the correct timing “heartbeat” for your controller. (Y1)
+#. Reset: The reset button is used to reset the code on the controller back to the beginning. It is useful if the code gets stuck in a bad state. (S1)
+#. Filter: This is a capacitor that is being used to filter or clean the power supply against voltage spikes. (C2)
+#. Pullup: This is a resistor that is used to prevent the microcontroller from going into the reset state.  (R2)
 
 Collecting components
 ---------------------
 
-You will now build a working version of the Metromini or Arduino Uno
-using individual components and on a breadboard. Below are the
-components you need to collect. You will only need one of each.
+You will now build a working version of the Metromini or Arduino Uno using individual components and on a breadboard. Below are the components you need to collect. You will only need one of each.
 
 +------------------------------+------------+
 | Item                         | Image      |
@@ -76,11 +46,9 @@ components you need to collect. You will only need one of each.
 Breadboard Schematic
 --------------------
 
-The following is the basic microcontroller circuit. Carefully construct
-this circuit on your breadboard. Make sure to use short wires for your
-all your connections. Neatness counts! Check
-`here <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.bk51dfzckrxr&sa=D&ust=1587613174049000>`__ for
-a reminder on how to determine pin numbers on an integrated circuit.
+The following is the basic microcontroller circuit. Carefully construct this circuit on your breadboard. Make sure to use short wires for your all your connections. Neatness counts! **Important**: The numbers on the IC1 correspond to order of the pins on the actual IC. All ICs start their pin counts at 1 under a notch or divit. The counting always continues in a counterclockwise direction around the IC. An example is below.
+
+.. figure:: images/countingpins.png
 
 .. figure:: images/image95.png
    :alt: 
