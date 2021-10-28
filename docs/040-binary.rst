@@ -4,6 +4,7 @@ Binary
 Overview
 --------
 
+Binary is just a way of represent numbers with only two digits (0 and 1). Numbers can be represented in any number base from 2 and up. Common number bases in programming include base 2 (binary), base 10 (decimal) and base 16 (hex). 
 Binary is a way of representing numbers in base-2. It is also one of the number `bases <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.r9xkk2b3evb&sa=D&ust=1587613174010000>`__ commonly used in writing code. Base-2 numbers have exactly two digits, 0 and 1. These digits can be used to directly represent the two possible states in your microcontroller (5V or HIGH) and (0V or LOW). In this way, all numbers stored inside your microcontroller are represented directly in binary.
 
 Printing Binary
