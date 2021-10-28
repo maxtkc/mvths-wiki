@@ -40,6 +40,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    020-potentiometers
    020a-other-variables
    020b-floats
+   020c-variable-names
    021-analog-to-digital-conversion
    021i-conversion-factors
    021a-analog-to-voltage
