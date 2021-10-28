@@ -10,6 +10,14 @@ Since the instructions are well documented, I recommend following the links prov
 
 `Schematic Basics <https://www.autodesk.com/products/eagle/blog/schematic-basics-part-1/>`__
 
+#. The add icon looks like this:
+
+.. figure:: images/addicon.PNG
+
+#. When searching for parts you might need to use just part of the name suggested. For example, LED5MM might not bring up any results, but LED will.
+
+#. Don't worry about getting the exact part for this lesson. It will be a useful lesson (and will work) even if you don't have the exact part as described in the tutorial.
+
 `Nets and Values <https://www.autodesk.com/products/eagle/blog/schematic-basics-part-2-nets-and-values/>`__
 
 `Error Checking <https://www.autodesk.com/products/eagle/blog/schematic-basics-part-3-erc/>`__
