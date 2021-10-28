@@ -1,4 +1,4 @@
-Circuit Board Design
+Rules for Milling
 ====================
 
 Overview
