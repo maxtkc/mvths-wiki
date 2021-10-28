@@ -63,28 +63,21 @@ Welcome to MVTHS Engineering Wiki's documentation!
    029-mcp9808-temperature-sensor
    030-modifying-example-code
    033-TEMT6000-light-sensor
-   034-hall-effect-sensor
    035-strip-and-crimp
    035a-seven-segment-display
    035b-seven-segment-challenges
-   036-accelerometer
    037-neopixel-stick
    037a-neopixel-challenge-one
    037c-neopixel-challenge-two
-   038-real-time-clock
-   039-challenge-review
+   037d-arrays
    040-binary
-   041-capacitive-touch-sensor
    042-de-bounce-button
    043-building-a-breadboard-arduino
    044-using-a-breadboard-arduino
    045-circuit-board-design
    046-circuit-board-design
    047-complete-board
-   048-analog-temperature-sensor
-   049-digital-temperature-sensor
    050-keypads
-   051-arrays
    052-keypad-and-code
    053-hobby-servo-motors
    054-duty-cycle
@@ -101,6 +94,13 @@ Welcome to MVTHS Engineering Wiki's documentation!
    064-photo-reflector-pair
    065-comparator
    066-photo-reflector-module
+   066a-real-time-clock
+   066b-hall-effect-sensor
+   041-capacitive-touch-sensor
+   036-accelerometer
+   039-challenge-review
+   048-analog-temperature-sensor
+   049-digital-temperature-sensor
    067-lcd-display
    068-lcd-display-control
    069-oled-display
