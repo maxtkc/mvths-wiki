@@ -6,8 +6,7 @@ Overview
 
 While breadboards are good for initial prototyping of an electronic circuit, they are terrible for any sort of permanent design due to loose wires and poor connections. Using the instructions linked below, you will learn how to design and fabricate your own circuit boards using Eagle CAD.
 
-Since the instructions are well documented, I recommend following the
-links provided below.
+Since the instructions are well documented, I recommend following the links provided below. Note that since the first guide was made, Eagle has been ported directly into Fusion360, so the first few steps in the guide will be a bit different. You can find Eagle by first opening Fusion360. From the file menu, select New Electronic Design. This will bring you to where you can start the guide.
 
 `Schematic Basics <https://www.autodesk.com/products/eagle/blog/schematic-basics-part-1/>`__
 
