@@ -4,11 +4,33 @@ Binary
 Overview
 --------
 
-Binary is just a way of represent numbers with only two digits (0 and 1). Numbers can be represented in any number base from 2 and up. Common number bases in programming include base 2 (binary), base 10 (decimal) and base 16 (hex). 
-Binary is a way of representing numbers in base-2. It is also one of the number `bases <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.r9xkk2b3evb&sa=D&ust=1587613174010000>`__ commonly used in writing code. Base-2 numbers have exactly two digits, 0 and 1. These digits can be used to directly represent the two possible states in your microcontroller (5V or HIGH) and (0V or LOW). In this way, all numbers stored inside your microcontroller are represented directly in binary.
+Binary is just a way of represent numbers with only two digits (0 and 1). Numbers can be represented in any number base from 2 and up. Common number bases in programming include base 2 (binary), base 10 (decimal) and base 16 (hex). Since computers (and microcontrollers) are only capable of storing information in one of two states, all information from a simple number to a full-length video is stored in binary on computers. Though we mostly write numbers in decimal in our code, it is sometimes more convenient to use binary. Hexadecimal is also a useful form for representing numbers. We will discuss hexadecimal in a later lesson. Below is table showing all three.
 
-Printing Binary
----------------
+.. list-table:: Base Table
+   :widths: 25 25 50 50
+   :header-rows: 1
+
+   * - Format Name
+     - Base
+     - Digits
+     - Total Digits
+   * - Binary
+     - Base 2
+     - 0, 1
+     - 2
+   * - Decimal
+     - Base 10
+     - 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+     - 10
+   * - Hexadecimal (Hex)
+     - Base 16
+     - 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+     - 16
+
+
+**Counting in binary** is similar to counting in decimal except with different place values. Below is a table showing the place values for both decimal and binary. 
+ 
+.. figure:: images/decbin.png
 
 You can use the serial print command to print numbers in binary as well as decimal. The following print command will print a number in decimal by default.
 
@@ -28,21 +50,11 @@ Using an optional argument you can specify alternative base representations.
 Exercise:
 ~~~~~~~~~
 
-1. Using what you learned above print the numbers 1, 9 and 23 in both
-   decimal and binary in your Serial Monitor.
+1. Using what you learned above print the numbers 1, 9 and 23 in both decimal and binary in your Serial Monitor.
 
 TEACHER CHECK \_\_\_
 
-2. Print two columns of numbers, one in decimal and one in binary. These
-   numbers should increment from 0 and have a .3 second delay between
-   increments.
+2. Print two columns of numbers, one in decimal and one in binary. These numbers should increment from 0 and have a .3 second delay between increments.
 
 TEACHER CHECK \_\_\_\_
 
-Leading Zeros
--------------
-
-It is often easier to read binary (and other base) numbers with leading
-zeros. Leading zeros are zeros placed to the left of the number you are
-printing or reading. You can find more information about leading zeros
-`here <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.hf5nphnveoo6&sa=D&ust=1587613174013000>`__.
