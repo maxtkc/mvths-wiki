@@ -76,7 +76,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    043-building-a-breadboard-arduino
    044-using-a-breadboard-arduino
    045-autodesk-eagle
-   046-circuit-board-design
+   046-rules-for-milling-boards
    047-complete-board
    050-keypads
    052-keypad-and-code
