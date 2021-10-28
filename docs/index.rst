@@ -75,7 +75,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    042-de-bounce-button
    043-building-a-breadboard-arduino
    044-using-a-breadboard-arduino
-   045-circuit-board-design
+   045-autodesk-eagle
    046-circuit-board-design
    047-complete-board
    050-keypads
