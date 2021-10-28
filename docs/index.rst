@@ -77,7 +77,6 @@ Welcome to MVTHS Engineering Wiki's documentation!
    044-using-a-breadboard-arduino
    045-autodesk-eagle
    046-rules-for-milling-boards
-   047-complete-board
    050-keypads
    052-keypad-and-code
    053-hobby-servo-motors
@@ -118,6 +117,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    080-pin-change-interrupt
    081-timer-interrupts
    082-raspberry-pi
+   047-complete-board
    083-rpi-and-wifi
    084-command-line-navigation-and-editing
    085-setting-up-virtual-environment-for-python
