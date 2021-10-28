@@ -4,12 +4,9 @@ Circuit Board Design
 Overview
 --------
 
-Once you have finished the tutorials, you are ready to design your
-circuit using Eagle. Follow the steps below when designing your board.
+Once you have finished the tutorials, you are ready to design your circuit using Eagle. Follow the steps below when designing your board.
 
-1. Make sure the breadboard version of your circuit includes all of the
-   parts you need and is working correctly. Do not add anything to your
-   Eagle circuit that you have not already testing on your breadboard.
+1. Make sure the breadboard version of your circuit includes all of the parts you need and is working correctly. Do not add anything to your Eagle circuit that you have not already testing on your breadboard.
 2. If your circuit includes a microcontroller, make sure you have a way
    to power your board without using the programming cable.
 3. Label all signal wires. This will make it much easier to debug your
