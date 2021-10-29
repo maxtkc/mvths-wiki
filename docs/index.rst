@@ -78,6 +78,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    045-autodesk-eagle
    046-rules-for-milling-boards
    047-post-milling
+   047a-light-display-project
    050-keypads
    052-keypad-and-code
    053-hobby-servo-motors
