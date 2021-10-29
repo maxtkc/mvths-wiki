@@ -9,9 +9,18 @@ You know have all the skills you need to complete your first custom project. In 
 Design
 ------------
 
-#. **Project Draft**: The first step in building this project is to make a draft of your project in your notebook. The draft should include a drawing for your acrylic display design and your box/base. In addition, the draft should also include a description of what your project will do. For example, my design might include an image of Superman and the display might increase in brightness as you approach it.
+#. **Project Draft**: The first step this project is to make a draft of your project in your notebook. The draft should include a drawing for your acrylic display design and your box/base. In addition, the draft should also include a description of what your project will do. For example, my design might include an image of Superman and the display might increase in brightness as you approach it.
 
-#. **Project Timeline** 
+#. **Project Timeline**: The next step in this project is to create a project timeline for completing this project. The project timeline will be created in a spreadsheet that includes a column for tasks and columns for everyday of the project. Your job is to break down this project into a set of discrete tasks and then determine when each of these tasks will be completed. 
+  
+    #. Open new spreadsheet in Googlesheets
+    #. Label the first column as Tasks
+    #. Label the next 21 columns with the days of the week, starting with the first day of the project.
+    #. Use colors to mark out the weekend dates
+    #. Make a list of tasks required to complete the project in the Tasks column.
+    #. Using color, indicate the dates for working on each task.
+    
+#. 
 
 You are welcome to build the parts for this project in any order, but we want you to create a time line for your project before starting.  
 
