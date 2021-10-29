@@ -1,0 +1,5 @@
+LIGHT DISPLAY PROJECT
+====================
+
+Overview
+--------
