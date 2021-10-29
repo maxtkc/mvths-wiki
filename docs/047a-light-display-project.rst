@@ -6,7 +6,15 @@ Overview
 
 You know have all the skills you need to complete your first custom project. In this project, you will design and build a creative display that uses colored lights passing through etched clear plastic to illuminate an image. The image will be etched on clear acrylic. The box that supports the acyrlic and contains all of the electroncis can be made from wood, acrylic or metal. The electronics must be made entirely from basic components (i.e. no Arduino boards). It also must include a microcontroller and have software that is able to illuminate the image in a way that changes color and over time or in response to an external sensor. 
 
-Suggested Order of Sequence
+Design
+------------
+
+#. **Project Draft**: The first step in building this project is to make a draft of your project in your notebook. The draft should include a drawing for your acrylic display design and your box/base. In addition, the draft should also include a description of what your project will do. For example, my design might include an image of Superman and the display might increase in brightness as you approach it.
+
+#. **Project Timeline** 
+
+You are welcome to build the parts for this project in any order, but we want you to create a time line for your project before starting.  
+
 Design basic microcontroller circuit on breadboard.
 Set up the breadboard with USB power.
 Determine how your light will change over time or in response to an external sensor.
