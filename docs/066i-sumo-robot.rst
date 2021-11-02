@@ -1,0 +1,4 @@
+SUMO ROBOT CONTEST
+======================
+
+Overview
