@@ -96,6 +96,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    064-photo-reflector-pair
    065-comparator
    066-photo-reflector-module
+   066i-sumo-robot
    066a-real-time-clock
    066b-hall-effect-sensor
    041-capacitive-touch-sensor
