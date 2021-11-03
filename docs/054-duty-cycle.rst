@@ -23,9 +23,9 @@ Exercise
 
    <!-- end list -->
 
-1. Period: The period of a wave is simply the sum of the OFF time and ON time.
-2. Duty Cycle: The duty cycle is the ratio of ON time to total time. In order to calculate duty cycle, divide the ON time by the period of your pulse and multiply your answer by 100.
-3. Frequency: Frequency is the inverse of period. The units for frequency are Hz which is measured in cycles (period) per second. Make sure to use the correct units.
+| **Period**: The period of a wave is simply the sum of the OFF time and ON time.
+| **Duty Cycle**: The duty cycle is the ratio of ON time to total time. In order to calculate duty cycle, divide the ON time by the period of your pulse and multiply your answer by 100.
+| **Frequency**: Frequency is the inverse of period. The units for frequency are Hz which is measured in cycles (period) per second. Make sure to use the correct units.
 
 +--------+---------+------------------+----------+------------------+------------------+
 | On     | Off     | Period (in ms or | Duty     | Period (in       | Frequency (in    |
