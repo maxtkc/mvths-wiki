@@ -4,7 +4,7 @@ LIGHT DISPLAY PROJECT
 Overview
 --------
 
-You know have all the skills you need to complete your first custom project. In this project, you will design and build a creative display that uses colored lights passing through etched clear plastic to illuminate an image. The image will be etched on clear acrylic. The box that supports the acyrlic and contains all of the electroncis can be made from wood, acrylic or metal. The electronics must be made entirely from basic components (i.e. no Arduino boards). It also must include a microcontroller and have software that is able to illuminate the image in a way that changes color and over time or in response to an external sensor. 
+You now have all the skills you need to complete your first custom project. In this project, you will design and build a creative display that uses colored lights passing through etched clear plastic to illuminate an image. The image will be etched on clear acrylic. The box that supports the acyrlic and contains all of the electroncis can be made from wood, acrylic or metal. The electronics must be made entirely from basic components (i.e. no Arduino boards). It also must include a microcontroller and have software that is able to illuminate the image in a way that changes color and over time or in response to an external sensor. 
 
 Design
 ------------
@@ -20,7 +20,20 @@ Design
     #. Make a list of tasks required to complete the project in the Tasks column.
     #. Using color, indicate the dates for working on each task.
     
-#. 
+#. **Project Criteria**: 
+
+  #. Panel: The plastic panel will be made from clear 1/8” acrylic. The overall size of material is limited to 64 square inches. The panel must fit neatly and firmly in the box (i.e. no wobble).
+  
+  #. Base: The base may be constructed from wood, metal or plastic. The overall external surface area of the base is limited to 100 square inches. Any edge joints should be smooth and seamless. The box must include access to the internal electronics.
+  
+  #. External: All inputs such as buttons or sensors should be neatly mounted to face of the base. All external parts on the box should be clearly labeled with rasterized graphics. The base should include an externally accessible USB mount for power.
+
+  #. LEDS: You may use a maximum of 8 LEDs. You may use either an LED strip or individual LEDs. The LEDs or strip must be mounted securely inside of the box.
+
+  #. Circuit: The circuit must be made on an etched circuit board. The base must include mounting hardware or brackets for the circuit board. 
+
+  #. Software: The color of the lights must change based on an internal timing routine or external factors such as temperature or proximity.
+
 
 You are welcome to build the parts for this project in any order, but we want you to create a time line for your project before starting.  
 
@@ -38,33 +51,6 @@ Print parts in cardboard and assemble.
 Print and assemble your circuit board.
 Print final design
 Specifications
-Panel: 
-The plastic panel will be made from clear 1/8” acrylic 
-The overall size of material is limited to 64 square inches. 
-The panel must fit neatly and firmly in the box (i.e. no wobble).
 
-Box:
-The base should be constructed of ¼ plywood.
-The overall size of base material is limited to 100 square inches.  
-The edge joints should be smooth and seamless
-The box should include a single hatch for accessing the internal electronics
-The size of the box should minimally fit the needs of the project.
-
-External:
-All inputs such as buttons or sensors should be neatly mounted to the sides of the box.
-All external parts on the box should be clearly labeled with rasterized graphics
-The box should include an externally accessible USB mount for power.
-LEDS:
-You may use a maximum of 8 LEDs.
-You may use either an LED strip or individual LEDs.
-The LEDs or strip must be mounted securely inside of the box.
-
-Circuit: 
-The circuit must be made on an etched circuit board.
-The box must include mounting hardware or brackets for the circuit board.
-All external inputs (potentiometers, LEDs) 
-
-Software:
-The color of the lights must change based on an internal timing routine or external factors such as temperature or proximity.
 
 
