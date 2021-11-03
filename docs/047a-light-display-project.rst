@@ -19,7 +19,7 @@ Design
   #. Use colors to mark out the weekend dates
   #. Make a list of tasks required to complete the project in the Tasks column.
   #. Using color, indicate the dates for working on each task.
-    
+  
 #. **Project Criteria**: 
 
   #. Panel: The plastic panel will be made from clear 1/8” acrylic. The overall size of material is limited to 64 square inches. The panel must fit neatly and firmly in the box (i.e. no wobble).
