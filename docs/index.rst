@@ -79,8 +79,6 @@ Welcome to MVTHS Engineering Wiki's documentation!
    046-rules-for-milling-boards
    047-post-milling
    047a-light-display-project
-   050-keypads
-   052-keypad-and-code
    053-hobby-servo-motors
    054-duty-cycle
    055-analogwrite
@@ -97,6 +95,8 @@ Welcome to MVTHS Engineering Wiki's documentation!
    065-comparator
    066-photo-reflector-module
    066i-sumo-robot
+   050-keypads
+   052-keypad-and-code
    066a-real-time-clock
    066b-hall-effect-sensor
    041-capacitive-touch-sensor
