@@ -42,71 +42,51 @@ NOTE: This diagram is not proportionally correct. The 20ms should be much longer
 Exercise:
 ~~~~~~~~~
 
-In this first exercise, you will simply set the move to move to a single
-position.
+In this first exercise, you will simply set the move to move to a single position.
 
- 
-
-1.  Add a servo horn to your servo motor if it does not already have
-    one.
-2.  Place a piece of tape on one of the arms of the servo horn so that
-    you can determine which what the servo horn is pointing.
-3.  Write a program to drive your servo to its mid position (1.5ms). To
-    do this, you will need to create a pulse with an overall period of
-     approximately 20ms (this does not have to be exact). The ON portion
-    of the pulse will need to be 1.5ms. NOTE: The delay function cannot
-    accept fractional numbers so you will need to use delayMicroseconds
-    for the ON pulse and you will need to convert 1.5 milliseconds to
-    microseconds!
-4.   Turn off power to your servo motor.
-5.  Physically turn your servo horn to all the way in either direction
-    (till it stops).
-6.  Turn on power to your servo motor.
-7.  Download your code and your servo should move to its center
-    position.
-8.  Set up your scope to measure and confirm the length of pulse and
-    space between pulses.
-9.  Change the pulse to length of 1ms (1000us) and confirm the position
-    of the servo arm moves to one side of the center.
-10. Change the pulse to length of 2ms (2000us) and confirm the position
-    of the servo arm moves to the other side of the center.
+#.  Add a servo horn to your servo motor if it does not already have one.
+#.  Place a piece of tape on one of the arms of the servo horn so that you can determine which what the servo horn is pointing.
+#.  Write a program to drive your servo to its mid position (1.5ms). To do this, you will need to create a pulse with an overall period of approximately 20ms (this does not have to be exact). The ON portion of the pulse will need to be 1.5ms. NOTE: The delay function cannot accept fractional numbers so you will need to use delayMicroseconds for the ON pulse and you will need to convert 1.5 milliseconds to microseconds!
+#.   Turn off power to your servo motor (from the power supply).
+#.  Physically turn your servo horn to all the way in either direction (till it stops).
+#.  Turn on power to your servo motor.
+#.  Download your code and your servo should move to its center position.
+#.  Set up your scope to measure and confirm the length of pulse and space between pulses.
+#.  Change the pulse to length of 1ms (1000us) and confirm the position of the servo arm moves to one side of the center.
+#. Change the pulse to length of 2ms (2000us) and confirm the position of the servo arm moves to the other side of the center.
 
         TEACHER CHECK \_\_\_\_
 
-In this second exercise, you will use the servo commands from the
-Arduino library instead of creating the pulse with delays. The code from
-the Arduino library will completely replace the code you have just
-written and create pulses without having to use delay routines.
+In this second exercise, you will use the servo commands from the Arduino library instead of creating the pulse with delays. The code from the Arduino library will completely replace the code you have just written and create pulses without having to use delay routines.
 
-1. Create a new code file.
-2. Start by placing the following at the top of your code file in order
-   to use the servo library.
+#. Create a new code file.
+#. Start by placing the following at the top of your code file in order to use the servo library.
 
-#include <Servo.h>
+.. code-block:: C
 
-3. Just below the line above you will need to create a servo object
-   using the following command. NOTE: You can change myservo to any name
-   for the servo object.
+   #include <Servo.h>
 
-                        Servo myservo;
+#. Just below the line above you will need to create a servo object using the following command. NOTE: You can change myservo to any name for the servo object.
 
-4. In your setup function. you will need to use the following code to
-   attach the servo to a pin. In the following example the servo is
-   attached to pin 9.
+.. code-block::
 
-myservo.attach(9);
+   Servo myservo;
 
-5. In your loop function you can now use the following command to drive
-   your servo motor. In the following example the servo is being driven
-   to position 10 degrees from the start position. NOTE: The servo range
-   is from 0 to 180.
+#. In your setup function. you will need to use the following code to  attach the servo to a pin. In the following example the servo is attached to pin 9.
 
-myservo.write(10);
+.. code-block::
 
-6. In your loop function, add three write commands to drive the servo to
-   three different locations. Include a one second delay between each
+   myservo.attach(9);
+
+#. In your loop function you can now use the following command to drive your servo motor. In the following example the servo is being driven to position 10 degrees from the start position. NOTE: The servo range is from 0 to 180.
+
+.. code-block::
+
+   myservo.write(10);
+
+#. In your loop function, add three write commands to drive the servo to three different locations. Include a one second delay between each
    servo position command.
-7. Download your code and demonstrate it for your teacher. 
+#. Download your code and demonstrate it for your teacher. 
 
 TEACHER CHECK \_\_\_\_
 
