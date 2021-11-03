@@ -4,60 +4,37 @@ Hobby Servo Motors
 Overview
 --------
 
-In this lesson you will learn how to drive a standard hobby servo motor.
-Hobby servo motors are designed primarily for controlling remote control
-boats, aircraft and cars. The include gear reduction and their own
-internal drive circuitry making them easy to control directly from a
-microcontroller.
+In this lesson you will learn how to drive a standard hobby servo motor. Hobby servo motors are designed primarily for controlling the direction of remote control boats, aircraft and cars. The include gear reduction and their own internal drive circuitry making them easy to control directly from a microcontroller.
 
-Hobby servo motors are positioning motors and can only rotate
-approximately 180 degrees. They can be set to an exact position based on
-a control signal that can be provided by your microcontroller.  
+Hobby servo motors are positioning motors and can only rotate approximately 180 degrees. They can be set to an exact position based on a control signal that can be provided by your microcontroller.  
 
 Servo Connections
 -----------------
 
-The three wires from your servo motor are color coded orange, red and
-brown. The red wire provides power to the servo motor and internal
-circuitry. The brown wire is the ground lead. The orange wire is for the
-control signal that drives the motor to the specified position.
+The three wires from your servo motor are color coded orange, red and brown. The red wire provides power to the servo motor and internal circuitry. The brown wire is the ground lead. The orange wire is for the control signal that drives the motor to the specified position.
 
-NOTE: Hobby servo motors draw more power than can be provided by your
-USB port. In order to drive the hobby servo motor you will need to
-connect their power pin to a separate supply such as your bench supply.
+NOTE: Hobby servo motors draw more power than can be provided by your USB port. In order to drive the hobby servo motor you will need to connect their power pin to a separate supply such as your bench supply.
 
-IMPORTANT: DO NOT CONNECT YOUR BENCH SUPPLY TO THE POWER BUS OF YOUR
-BREADBOARD! The logic devices on your breadboard are powered by the USB
-which provides 5V. If you connect the bench supply to the power bus of
-your breadboard and apply any more than 5.5V you will destroy your
-microcontroller.
+IMPORTANT: DO NOT CONNECT YOUR BENCH SUPPLY TO THE POWER BUS OF YOUR BREADBOARD! You will use the bench supply power for the servo motor and your USB power for the breadboard and microcontroller. Servos can run on voltage up to 6 volts, but anything more than 5.5V will destroy your microcontroller.
 
 Exercise
 ~~~~~~~~
 
-1. Turn off your power supply and turn the voltage to zero.
-2. Connect the three pin servo header to your breadboard.
-3. Connect the brown wire to the ground bus of your breadboard.
-4. Connect the red wire DIRECTLY to your power supply. DO NOT connect
-   this wire to the power bus of your breadboard (see above.)
-5. Turn on the supply and set the voltage to 6 volts
-6. Connect the orange wire to one of the digital pins on your
-   microcontroller.
+#. Turn off your power supply and turn the voltage to zero.
+#. Connect the three pin servo header to your breadboard.
+#. Connect the brown wire to the ground bus of your breadboard.
+#. Connect the red wire DIRECTLY to your power supply. DO NOT connect this wire to the power bus of your breadboard (see above.)
+#. Turn on the supply and set the voltage to 6 volts
+#. Connect the orange wire to one of the digital pins on your microcontroller.
 
 TEACHER CHECK \_\_\_\_
 
 Servo Pulse
 -----------
 
-As mentioned above hobby servo motors can be controlled directly from a
-microcontroller pin. To control a servo motor you must provide a pulse
-every 20 ms and the pulse must be between 1ms and 2ms. The length of the
-pulse determines the angle of the motor shaft. As shown below a 1ms
-pulse will turn the motor shaft to the 90 degree position and a 2ms
-pulse will turn the motor shaft to a -90 degree position.
+As mentioned above, hobby servo motors can be controlled directly from a microcontroller pin. To control a servo motor you must provide a pulse every 20 ms and the pulse must be between 1ms and 2ms. The length of the pulse determines how much the servo will turn or more precisely, the angle of the servo motor shaft. As shown below a 1ms pulse will turn the motor shaft to the 90 degree position and a 2ms pulse will turn the motor shaft to a -90 degree position.
 
-NOTE: This diagram is not proportionally correct. The 20ms should be
-much longer as compared with the 1ms
+NOTE: This diagram is not proportionally correct. The 20ms should be much longer as compared with the 1ms
 
 .. figure:: images/image26.png
    :alt: 
