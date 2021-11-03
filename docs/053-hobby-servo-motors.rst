@@ -84,25 +84,17 @@ In this second exercise, you will use the servo commands from the Arduino librar
 
    myservo.write(10);
 
-#. In your loop function, add three write commands to drive the servo to three different locations. Include a one second delay between each
-   servo position command.
+#. In your loop function, add three write commands to drive the servo to three different locations. Include a one second delay between each servo position command.
 #. Download your code and demonstrate it for your teacher. 
 
 TEACHER CHECK \_\_\_\_
 
-8. Set the three positions of 0 degrees, 90 degrees and 180 degrees.
-   Confirm that the servo horn turns the correct number of degrees.
+#. Set the three positions of 0 degrees, 90 degrees and 180 degrees. Confirm that the servo horn turns the correct number of degrees.
 
 Challenge
 ~~~~~~~~~
 
-1. Add a potentiometer to your circuit and modify your program so that
-   you can use a potentiometer to control the length of your pulse
-   between 1ms and 2ms. You will need to scale the range of the
-   potentiometer so that turning fully in one direction corresponds to a
-   1ms pulse and turning fully in the other direction corresponds to a
-   2ms delay. Again use your scope to display your pulse.
-2. When you turn your potentiometer, does it turn the same direction as
-   the servo? If not, modify your code so that it does.
+1. Add a potentiometer to your circuit and modify your program so that you can use a potentiometer to control the length of your pulse between 1ms and 2ms. You will need to scale the range of the potentiometer so that turning fully in one direction corresponds to a 1ms pulse and turning fully in the other direction corresponds to a 2ms delay. Again use your scope to display your pulse.
+2. When you turn your potentiometer, does it turn the same direction as the servo? If not, modify your code so that it does.
 
 TEACHER CHECK \_\_\_\_
