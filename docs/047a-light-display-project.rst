@@ -13,12 +13,12 @@ Design
 
 #. **Project Timeline**: The next step in this project is to create a project timeline for completing this project. The project timeline will be created in a spreadsheet that includes a column for tasks and columns for everyday of the project. Your job is to break down this project into a set of discrete tasks and then determine when each of these tasks will be completed. 
   
-    #. Open new spreadsheet in Googlesheets
-    #. Label the first column as Tasks
-    #. Label the next 21 columns with the days of the week, starting with the first day of the project.
-    #. Use colors to mark out the weekend dates
-    #. Make a list of tasks required to complete the project in the Tasks column.
-    #. Using color, indicate the dates for working on each task.
+  #. Open new spreadsheet in Googlesheets
+  #. Label the first column as Tasks
+  #. Label the next 21 columns with the days of the week, starting with the first day of the project.
+  #. Use colors to mark out the weekend dates
+  #. Make a list of tasks required to complete the project in the Tasks column.
+  #. Using color, indicate the dates for working on each task.
     
 #. **Project Criteria**: 
 
@@ -34,23 +34,6 @@ Design
 
   #. Software: The color of the lights must change based on an internal timing routine or external factors such as temperature or proximity.
 
-
-You are welcome to build the parts for this project in any order, but we want you to create a time line for your project before starting.  
-
-Design basic microcontroller circuit on breadboard.
-Set up the breadboard with USB power.
-Determine how your light will change over time or in response to an external sensor.
-Implement the step 3 into your breadboard design.
-Design printed circuit board in CAD based directly on your breadboard circuit. (Do not print circuit yet)
-Create a single project in CAD that includes:
-An acrylic panel with rastered design
-An imported 3D rendering of your circuit board
-The main housing for your project
-An LED light strip and all other components of your project.
-Print parts in cardboard and assemble.
-Print and assemble your circuit board.
-Print final design
-Specifications
 
 
 
