@@ -68,7 +68,6 @@ The LD33V is a linear regulator that has a fixed output of 3.3V.
 Exercise:
 ~~~~~~~~~
 
-Set up a circuit using the LD33V to regulate and input voltage of 8.0V
-to 3.3V. You will need to look up the datasheet for the LD33V in order
+Set up a circuit using the LD33V to regulate and input voltage of 8.0V to 3.3V. You will need to look up the datasheet for the LD33V in order
 to design the circuit.  IMPORTANT! The LD33V does NOT have the same
 pinout as the LM7805.
