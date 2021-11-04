@@ -82,6 +82,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    053-hobby-servo-motors
    054-duty-cycle
    055-analogwrite
+   055a-voltage-regulation
    056-motor-driver
    056a-tachometer-challenge
    057-motor-speed-control
