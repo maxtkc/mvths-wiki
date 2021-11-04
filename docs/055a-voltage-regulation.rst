@@ -3,10 +3,9 @@ VOLTAGE REGULATION
 Overview
 --------
 
-Almost every circuit you design will need some sort of voltage regulation. Most integrated circuits are designed to work within a narrow voltage range and almost 
-all circuits require a voltage that is stable. Logic circuits typically work at either 5.0V, 3.3V or 1.8V.
-Almost all of the circuits you will create in this class will run on
-either 5.0V or 3.3V
+Almost every circuit you design will need some sort of voltage regulation. So far your voltage regulation has come from the USB port on your computer, which provides a voltage of exactly 5 volts. 
+
+Most integrated circuits are designed to work within a narrow voltage range and almost  all circuits require a voltage that is stable. Logic circuits typically work at either 5.0V, 3.3V or 1.8V. Almost all of the circuits you will create in this class will run on either 5.0V or 3.3V
 
 USB Power
 ---------
