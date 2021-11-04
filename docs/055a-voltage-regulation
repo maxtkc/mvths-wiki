@@ -11,8 +11,7 @@ either 5.0V or 3.3V
 USB Power
 ---------
 
-Small logic devices that do not require much power can be driven by the
-power from the USB port. The USB port provides 5V for circuits but is
+Small logic devices that do not require much power can be driven by thepower from the USB port. The USB port provides 5V for circuits but is
 limited to about 500mA. This is how your USB port is able to charge your
 phone.
 
