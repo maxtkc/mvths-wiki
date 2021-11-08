@@ -46,4 +46,4 @@ TEACHER CHECK \_\_\_\_
 
 TEACHER CHECK \_\_\_\_
 
-3. Add an LED and potentiometer to your board. Control the brightness of the LED using PWM. You PWM should be created with a simple loop of digitalWrite and delays. Note that the overall delay needs to be low enough that the LED does not appear to flash.
+3. Add an LED and potentiometer to your board. Control the brightness of the LED using PWM. Your PWM should be created with a simple loop of digitalWrite and delays. Note that the overall delay needs to be low enough that the LED does not appear to flash.
