@@ -1,38 +1,32 @@
-VOLTAGE REGULATION
+Voltage Regulation
+==========
 
 Overview
 --------
 
 Almost every circuit you design will need some sort of voltage regulation. So far your voltage regulation has come from the USB port on your computer, which provides a voltage of exactly 5 volts. 
 
-Most integrated circuits are designed to work within a narrow voltage range and almost  all circuits require a voltage that is stable. Logic circuits typically work at either 5.0V, 3.3V or 1.8V. Almost all of the circuits you will create in this class will run on either 5.0V or 3.3V
+Most integrated circuits are designed to work within a narrow voltage range and almost all circuits require a voltage that is stable. Logic circuits typically work at either 5.0V, 3.3V or 1.8V. Almost all of the circuits you will create in this class will run on either 5.0V or 3.3V
 
 USB Power
 ---------
 
-Small logic devices that do not require much power can be driven by thepower from the USB port. The USB port provides 5V for circuits but is
-limited to about 500mA. This is how your USB port is able to charge your
-phone.
+Small logic devices that do not require much power can be driven by the power from the USB port. The USB port provides 5V for circuits but is limited to about 200mA. This is how your USB port is able to charge your phone.
 
 Exercise:
 ~~~~~~~~~
 
-Using a multimeter, measure the voltage on your  USB hub. You will need
-to connect a programming cable to your hub and measure the voltage at
-the working end of the programming cable.
+Using a multimeter, measure the voltage on your USB hub. You will need to connect a programming cable to your hub and measure the voltage at the working end of the programming cable. You will need to use a USB to breadboard breakout board from a previous lesson.
 
 Linear regulators
 -----------------
 
-Linear regulators are low cost and easy to use voltage regulators. The
-downside is that they are not very efficient wasting a lot of power.
+Linear regulators are low cost and easy to use voltage regulators. The downside is that they are not very efficient wasting a lot of power.
 
 LM7805
 ------
 
-The LM7805 is a common regulator for producing 5 volts for your circuit.
-It is cable of driving 1A of current. The LM7805 is capable of
-converting input voltages from 6V to 12V to an regulated output of 5V
+The LM7805 is a common regulator for producing 5 volts for your circuit. It is cable of driving 1A of current (almost five times that of the USB port). The LM7805 is capable of converting input voltages from 6V to 12V to an regulated output of 5V
 
 .. figure:: images/image25.png
    :alt: 
@@ -40,11 +34,7 @@ converting input voltages from 6V to 12V to an regulated output of 5V
 Exercise:
 ~~~~~~~~~
 
-Using the device diagram and the basic circuit shown below, set up an
-LM7805 to regulate 10V input from your bench supply to 5V output. NOTE:
-You will not need to use the capacitors shown for this exercise. Test
-your output using a multimeter. NOTE: your circuit may not produce
-exactly 5.0V.
+Using the device diagram and the basic circuit shown below, set up an LM7805 to regulate 10V input from your bench supply to 5V output. NOTE: You will not need to use the capacitors shown for this exercise. Test your output using a multimeter. NOTE: your circuit may not produce exactly 5.0V.
 
 .. figure:: images/image9.png
    :alt: 
