@@ -8,13 +8,13 @@ Arrays provide a way to store multiple variables under a single variable name. T
 
 The following is an example of how to initialize an array. Similar to initializing a variable, you need to give the array a type. In the example below the array type is int. Also, as with variables, you also need to give the array a name. In the case below, the name of the array is example, but just like variables, you can give it any name you want.  The number in the square braces determines the size of the array or how many items it can hold. The array below can hold three items or more specifically three ints. Inside the curly braces are listed the items in the array.
 
-.. code-block::
+.. code-block:: C
 
   int example[3] = {2, 5, 44};  //Initializes an array with three values
   
 The following example shows how to retrive an item from an array. In this case the second item (item 1 counting from 0), is placed into the variable x. 
   
-.. code-block::
+.. code-block:: C
 
   x = example[1];  //Sets x to value of the second item in the array or 5
 
