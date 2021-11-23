@@ -34,13 +34,13 @@ Binary is just a way of represent numbers with only two digits (0 and 1). Number
 
 You can use the serial print command to print numbers in binary as well as decimal. The following print command will print a number in decimal by default.
 
-.. code-block:: c
+.. code-block:: C
 
    Serial.print(6);                //this will print 6
 
 Using an optional argument you can specify alternative base representations.
 
-.. code-block:: c
+.. code-block:: C
 
    Serial.print(7, DEC);        //this will print 7
 
