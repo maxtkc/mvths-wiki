@@ -4,14 +4,14 @@ Simple Circuit
 Overview
 --------
 
-A circuit is simply a series of components connected in a way that
-current can flow from the positive terminal on a voltage source to the
-negative terminal on a voltage source. One of the simplest examples of a
-circuit is one designed to light an LED. 
+In this first lesson, you will light an LED using just an LED, a resistor, test leads and your bench power supply.  This lesson is as much about lighting an LED as it is about learning to experiment and not be afraid to make mistakes. Engineering is primarily about experimenting and making lots of mistakes. In this lesson, you will not be told exactly how to make the LED light. You will 
+
 
 Exercise:
 ~~~~~~~~~
 
+You will need the following components for this exercise. 
+1) An LED
 Construct the following circuit using your `bench
 supply <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.x2bqdmttrjfd&sa=D&ust=1587613173836000>`__ as
 a voltage source. You will simply need to connect the
