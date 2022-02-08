@@ -4,11 +4,16 @@ Simple Circuit
 Overview
 --------
 
-In this first lesson, you will light an LED using just an LED, a resistor, test leads and your bench power supply.  This lesson is as much about lighting an LED as it is about learning to experiment and not be afraid to make mistakes. Engineering is primarily about experimenting and making lots of mistakes. In this lesson, you will not be told exactly how to make the LED light. You will 
+In this first lesson, you will light an LED using just an LED, a resistor, test leads and your bench power supply.  This lesson is as much about lighting an LED as it is about learning to experiment and not be afraid to make mistakes. Engineering is primarily about experimenting and it is hard experiment without making mistakes. In this lesson, you will not be told exactly how to make the LED light. Below you will find a description of each of the components as well as a schematic for the circuit.
 
 
 Exercise:
 ~~~~~~~~~
+
+Using the following components light an LED.
+
+1. LED: LED stands for light emitting diode and is the most common lighting device available today. 
+
 
 You will need the following components for this exercise. 
 1) An LED
