@@ -12,9 +12,11 @@ Exercise:
 
 Using the following components light an LED.
 
-1. LED: LED stands for light emitting diode and is the most common lighting device available today. There are many different shapes, sizes and colors of LEDs. The ones you will be working with today look like the following. Note that LEDs are polarized. This means they only work in one direction.
+#. LED: LED stands for light emitting diode and is the most common lighting device available today. There are many different shapes, sizes and colors of LEDs. The ones you will be working with today look like the following. Note that LEDs are polarized. This means they only work in one direction.
 
 .. figure:: images/LED5MM.png
+
+#. Resistor: Resistors are used to limit the current in a circuit. It is important to use a resistor when lighting an LED so that the LED does not receive too much current and break. Resistor values are measured in Ohms. Smaller values have represent resistance and larger values represent more resistance. You will need a resistor with a value between 220 Ohms and 1000 (1K) Ohms. Below is an image of the type of resistor you will use in this first circuit. Note that the color bands are used to represent the resistance values.
 
 You will need the following components for this exercise. 
 1) An LED
