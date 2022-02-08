@@ -24,7 +24,9 @@ Use the following components and tools to light an LED.
  
    .. figure:: images/benchsupply.PNG
     
-#. Test Leads: 
+#. Test Leads: Test leads are used to connect the voltage from your bench supply to your circuit. To supply power to your circuit you will need to use a pair of test leads connected to either pair (if your bench supply has two voltages) of black and red binding posts on your bench supply. The black lead (ground) connects to the black binding post and the red lead (power) connects to the red binding post.
+
+   .. figure:: images/testleads.PNG
 
 You will need the following components for this exercise. 
 1) An LED
