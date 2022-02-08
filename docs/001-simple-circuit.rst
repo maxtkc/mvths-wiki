@@ -12,8 +12,9 @@ Exercise:
 
 Using the following components light an LED.
 
-1. LED: LED stands for light emitting diode and is the most common lighting device available today. 
+1. LED: LED stands for light emitting diode and is the most common lighting device available today. There are many different shapes, sizes and colors of LEDs. The ones you will be working with today look like the following. Note that LEDs are polarized. This means they only work in one direction.
 
+.. figure:: images/LED5MM.png
 
 You will need the following components for this exercise. 
 1) An LED
