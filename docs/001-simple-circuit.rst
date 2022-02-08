@@ -22,7 +22,7 @@ Use the following components and tools to light an LED.
    
 #. Bench Supply: A bench supply is used to supply power to your circuits. In order to use the voltage, you need to connect leads (described below) to the black and red binding posts shown on the bench supply below. Note that this bench supply has two sets of binding posts. This is because it can supply two different voltages. The black and red pair on the left provide a fixed 5 volts. The pair on the right provide a variable voltage from 0 to 30 volts.
  
-   .. figure:: images/benchsupply.png
+   .. figure:: images/benchsupply.PNG
     
 #. Test Leads: 
 
