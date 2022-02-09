@@ -15,6 +15,8 @@ The following are good conventions for setting up your breadboard and adding com
 
    .. image:: images/shortjumps.jpg
       :width: 400px
+      
+#. Cut the leads on compoents with long lead so that they sit snug against the breadboard. 
 
 Although it is possible to use the breadboard to connect components in any way you want, there are certain sorts of conventions that will make make using the breadboard much easier to use. You have probably noticed that your breadboard has a pair of rows on the top and bottom of the board. You also might have noticed that these rows are associated with red an blue lines. 
 
