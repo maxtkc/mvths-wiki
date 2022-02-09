@@ -12,23 +12,13 @@ Inside the breadboard are lots of metal clips that determine which holes are con
 
 .. image:: images/breadback.jpg
 
-Below is a diagram showing the connections inside the breadboard. 
-
-.. image:: images/breaddiagram.PNG
-
-|image0|
-~~~~~~~~
-
 Exercise:
 ~~~~~~~~~
 
-Construct the above three circuits on your
-`breadboard <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.utuueb8q3cey&sa=D&ust=1587613173841000>`__.
-Note that NOT all three circuits will light the LED. What is important
-is that you are able to follow the schematic design correctly.
-IMPORTANT: Each of the component leads should be placed in one of the
-breadboard holes. No holes should have more than one lead.
+Construct the following three circuits on your breadboard. Using what you just learned about breadboards, use the breadboard to make connections between your components. The circuit will require three LEDs and three resistors. Note that one of the circuits will not light the LED. Construct it anyway just to show you know how to make connections and follow circuit diagrams.
+
+IMPORTANT: Do not attempt to put two wires in one hole.
+
+.. image:: images/image82.png
 
 TEACHER CHECK \_\_\_\_\_
-
-.. |image0| image:: images/image82.png
