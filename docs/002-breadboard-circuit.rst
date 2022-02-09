@@ -8,6 +8,10 @@ Breadboards provide a convenient way to connect components together to make a ci
 
 .. image:: images/breadboard.jpg
 
+Inside the breadboard are lots of metal clips that determine which holes are connected. 
+
+.. image:: images/breadback.jpg
+
 |image0|
 ~~~~~~~~
 
