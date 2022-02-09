@@ -23,7 +23,7 @@ Exercise:
 
    TEACHER CHECK \_\_\_\_\_
 
-#. Add a second LED circuit with a switch. Wire the components in a different order from the circuit shown above.
+#. Wire the components in a different order from the circuit shown above. The LED should still light when the button is pressed.
 
    TEACHER CHECK \_\_\_\_\_
 
