@@ -12,6 +12,10 @@ Inside the breadboard are lots of metal clips that determine which holes are con
 
 .. image:: images/breadback.jpg
 
+Below is a diagram showing the connections inside the breadboard. 
+
+.. image:: images/breaddiagram.PNG
+
 |image0|
 ~~~~~~~~
 
