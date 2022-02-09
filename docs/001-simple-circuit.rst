@@ -20,6 +20,7 @@ Use the following components and tools to light an LED.
 #. Resistor: Resistors are used to limit the current in a circuit. It is important to use a resistor when lighting an LED so that the LED does not receive too much current and break. Resistor values are measured in Ohms. Smaller values have represent resistance and larger values represent more resistance. You will need a resistor with a value between 220 Ohms and 1000 (1K) Ohms. Below is an image of the type of resistor you will use in this first circuit. Note that the color bands are used to represent the resistance values.
 
    .. figure:: images/resistor-band-code.jpg
+      :width: 200px
    
 #. Bench Supply: A bench supply is used to supply power to your circuits. In order to use the voltage, you need to connect leads (described below) to the black and red binding posts shown on the bench supply below. Note that this bench supply has two sets of binding posts. This is because it can supply two different voltages. The black and red pair on the left provide a fixed 5 volts. The pair on the right provide a variable voltage from 0 to 30 volts.
  
