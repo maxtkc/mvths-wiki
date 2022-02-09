@@ -17,18 +17,15 @@ Below are two diagrams from the datasheet for a momentary switch. Note how the f
 Exercise:
 ~~~~~~~~~
 
-Complete the following circuit which uses a switch to turn on and off an LED.
+#. Using your breadboard, complete the following circuit which uses a switch to turn on and off an LED.
 
-.. figure:: images/image121.png
-   :alt: 
+   .. figure:: images/image121.png 
 
-Exercise:
-~~~~~~~~~
+   TEACHER CHECK \_\_\_\_\_
 
-Add a second LED circuit with a switch. Wire the components in a
-different order from the circuit shown above.
+#. Add a second LED circuit with a switch. Wire the components in a different order from the circuit shown above.
 
-TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK \_\_\_\_\_
 
 .. |image0| image:: images/image124.png
 .. |image1| image:: images/image54.png
