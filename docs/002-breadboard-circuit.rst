@@ -8,7 +8,7 @@ Breadboards provide a convenient way to connect components together to make a ci
 
 .. image:: images/breadboard.jpg
 
-Inside the breadboard are lots of metal clips that determine which holes are connected. 
+Inside the breadboard are lots of metal clips that determine which holes are connected. Below is an picture of the inside of a breadboard. Notice how the clips are arranged to make connnections. You can see one of the clips pulled out of the breadboard in the upper left.
 
 .. image:: images/breadback.jpg
 
