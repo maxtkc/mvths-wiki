@@ -12,6 +12,16 @@ As the diagram below shows, these rows are referred to as power and ground buses
 
 The best way to use these rows is to connect power (red) lead of your bench supply to one of the red buses and connect the ground (black) lead of your bench supply to one of the blue buses. This way you have access to power and ground for your circuits across your board. IMPORTANT: The two red buses and the two blue buses of your breadboard are not automatically connected. You can connect these with a wire. This will be addressed in future lessons.
 
+Exercise:
+~~~~~~~~~
+
+Rebuild the following circuit on your breadboard, but this time use the power and ground buses as described above. 
+
+.. image:: images/image90.png
+
+TEACHER CHECK \_\_\_\_\_
+
+
 Connect power to your power bus and measure the voltage on your breadboard using a multimeter.
 
 Power Bus
