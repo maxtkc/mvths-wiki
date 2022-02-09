@@ -6,7 +6,7 @@ Overview
 
 Breadboards provide a convenient way to connect components together to make a circuit. In the previous lesson you used your hands or maybe bent the wires to make a connection between components. The breadboard shown below has lots of holes (830 to be exact) that can be used to easily connect your components together. 
 
-.. image/breadboard.jpg
+.. image:: images/breadboard.jpg
 
 |image0|
 ~~~~~~~~
