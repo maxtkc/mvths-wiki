@@ -8,7 +8,7 @@ All electronic circuits require a specific voltage level. Being able to measure 
 
 .. image:: images/multimeter.jpg
 
-In the image above, you can see the multimeter correctly set up for measuring voltage. 
+In the image above, you can see the multimeter correctly set up for measuring voltage. The following are the steps required for this configuration.
 
 #. Connect the red test lead to the right most port. 
 
@@ -18,6 +18,9 @@ In the image above, you can see the multimeter correctly set up for measuring vo
 
 #. Press the range button so that the decimal point is in the middle of the four digits.
 
+Voltage can be measured between any two points on your circuit using the two test leads. In the diagram below, the two leads are being used to measure the voltage across the resistor in the circuit. 
+
+.. images:: images/measurevoltage.png
 
 
 Exercise:
