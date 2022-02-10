@@ -32,11 +32,11 @@ Exercise:
 
 #. Construct a simple LED circuit on your breadboard with one resistor and one LED. Use your multimeter to measure the voltage across the resistor, the voltage across the LED, and the voltage across the entire circuit. Record these measurements in your notebook. 
 
-   Voltage across resistor:         \_\_\_\_\_\_
+   Voltage across resistor:          \_\_\_\_\_\_
 
-   Voltage across LED:               \_\_\_\_\_\_
+   Voltage across LED:                \_\_\_\_\_\_
 
-   Voltage across entire circuit:   \_\_\_\_\_\_
+   Voltage across entire circuit:    \_\_\_\_\_\_
 
    TEACHER CHECK \_\_\_\_\_
 
