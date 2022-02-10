@@ -4,11 +4,7 @@ Programming The Metro Mini
 Overview
 --------
 
-In this lesson you will learn how to use a `Metro
-Mini <https://www.google.com/url?q=https://www.adafruit.com/product/2590&sa=D&ust=1587613173853000>`__ as
-a basic microcontroller platform. At the heart of the Metro Mini is a
-microcontroller which is essentially a very small computer that can be
-programmed to perform an infinite number of tasks.
+In this lesson you will learn how to use a `Metro Mini <https://www.google.com/url?q=https://www.adafruit.com/product/2590&sa=D&ust=1587613173853000>`__ as a basic microcontroller platform. At the heart of the Metro Mini is a microcontroller which is essentially a very small computer that can be programmed to perform an infinite number of tasks.
 
 .. figure:: images/image46.png
    :alt: 
