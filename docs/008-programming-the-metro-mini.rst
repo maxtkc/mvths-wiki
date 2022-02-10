@@ -36,24 +36,12 @@ Exercise:
 
  |image0|
 
-3. Open the Blink Code File: Select the Blink code file. It can be found
-   under File/Examples/01.Basics/Blink
-4. Select COM Port: Under the Tools/port menu select the highest
-   numbered COM port. Select any port above COM1. If you only see COM1 
-   wait for help from your teacher.
-5. Select Board: Under the Tools/board menu, make sure that the board
-   selected is Arduino/Genuino Uno.
-6. Compile Code: Press the compile button to confirm that you code can
-   be compiled. The compile button is the circle with a check inside in
-   the upper left of your screen. If there is an error in your code, you
-   will see a message at the bottom of the screen. If you get an error,
-   ask your teacher for help.
-7. Program Controller: Select the program to download your code to the
-   Metro Mini. The program button is the circle with an arrow inside and
-   just right of the compile button. You should see both the yellow TX
-   LED and the yellow RX LED light as the code is being downloaded.
-8. Check: If you code was downloaded correctly the red light on your
-   Metro Mini should blink on and off once every second.
+#. Open the Blink Code File: Select the Blink code file. It can be found under File/Examples/01.Basics/Blink
+#. Select COM Port: Under the Tools/port menu select the highest numbered COM port. Select any port above COM1. If you only see COM1 wait for help from your teacher.
+#. Select Board: Under the Tools/board menu, make sure that the board selected is Arduino/Genuino Uno.
+#. Compile Code: Press the compile button to confirm that you code can be compiled. The compile button is the circle with a check inside in the upper left of your screen. If there is an error in your code, you will see a message at the bottom of the screen. If you get an error, ask your teacher for help.
+#. Program Controller: Select the program to download your code to the Metro Mini. The program button is the circle with an arrow inside and just right of the compile button. You should see both the yellow TX LED and the yellow RX LED light as the code is being downloaded.
+#. Check: If you code was downloaded correctly the red light on your Metro Mini should blink on and off once every second.
 
 TEACHER CHECK \_\_\_\_\_
 
