@@ -28,3 +28,4 @@ The following are good conventions for setting up your breadboard and adding com
 #. Place buttons across the center of the breadboard as shown below. This will make your design neater and avoid short circuits.
 
    .. image:: images/snugbutton.jpg
+      :width: 400px
