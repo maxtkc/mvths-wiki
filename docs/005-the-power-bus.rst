@@ -1,4 +1,4 @@
-The Breadboard Power Bus
+The Power Bus
 =============
 
 Overview
