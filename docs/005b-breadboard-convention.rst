@@ -35,4 +35,4 @@ Exercise:
 
 Light an LED on your breadboard following the recommendations above.
 
-   TEACHER CHECK \_\_\_\_\_
+TEACHER CHECK \_\_\_\_\_
