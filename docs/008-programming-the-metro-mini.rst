@@ -12,20 +12,13 @@ In this lesson you will learn how to use a `Metro Mini <https://www.google.com/u
 USB Connection
 --------------
 
-In addition to a microcontroller, the Metro Mini includes a micro USB
-header which allows you to connect the Metro Mini to a computer. The `USB
-cable <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.r1bkd5j08r0y>`__
-cable enables the following:
+In addition to a microcontroller, the Metro Mini includes a micro USB header which allows you to connect the Metro Mini to a computer. The `USB cable <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.r1bkd5j08r0y>`__ cable enables the following:
 
--  Power Supply: The Metro Mini can get its power (5V and Ground) from
-   the host computer and through the USB cable. NOTE: When using a Metro Mini, 
-   you will no longer need your bench to power your circuit. So you can 
-   REMOVE your bench supply from the circuit.
--  Programming: Code written on your computer is uploaded to the Metro
-   Mini through the USB cable.
--  Data Communication: The USB cable can also be used to send data to
-   the Metro Mini from your computer as well as receive data to your
-   computer from the Metro Mini.
+*. Power Supply: The Metro Mini can get its power (5V and Ground) from the host computer and through the USB cable. NOTE: When using a Metro Mini, you will no longer need your bench to power your circuit. **IMPORTANT**: Disconnect your bench supply from the circuit.
+
+*. Programming: Code written on your computer is uploaded to the Metro Mini through the USB cable.
+
+*. Data Communication: The USB cable can also be used to send data to the Metro Mini from your computer as well as receive data to your computer from the Metro Mini.
 
 .. figure:: images/image47.png
    :alt: 
