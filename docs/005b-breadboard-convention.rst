@@ -29,3 +29,10 @@ The following are good conventions for setting up your breadboard and adding com
 
    .. image:: images/snugbutton.jpg
       :width: 400px
+      
+Exercise:
+~~~~~~~~~
+
+Light an LED on your breadboard following the recommendations above.
+
+   TEACHER CHECK \_\_\_\_\_
