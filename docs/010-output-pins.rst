@@ -4,12 +4,7 @@ Output Pins
 Overview
 --------
 
-The digital pins on your microcontroller (described above) can be used
-as either `inputs or
-outputs <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.12g8aset9qzv&sa=D&ust=1587613173860000>`__.
-As an output, the voltage on the pin can be set to either HIGH (5V) or
-LOW (0V). A pin set as an output can be used to control an LED, a
-speaker, a motor or just about any sort of electronic device.
+The digital pins on your microcontroller (described above) can be used as either `inputs or outputs <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.12g8aset9qzv&sa=D&ust=1587613173860000>`__. As an output, the voltage on the pin can be set to either HIGH (5V) or LOW (0V). A pin set as an output can be used to control an LED, a speaker, a motor or just about any sort of electronic device.
 
 Exercise:
 ~~~~~~~~~
