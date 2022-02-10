@@ -4,9 +4,21 @@ Measuring Voltage
 Overview
 --------
 
-Being able to measure voltage is extremely helpful for troubleshooting a
-circuit. A voltage level can indicate if a circuit is correctly powered.
-A voltage level can also indicate if a logic level is correct.
+All electronic circuits require a specific voltage level. Being able to measure voltage is critical to make sure your circuit is working properly. The best way to measure voltage is using a multimeter shown below.
+
+.. image:: images/multimeter.jpg
+
+In the image above, you can see the multimeter correctly set up for measuring voltage. 
+
+#. Connect the red test lead to the right most port. 
+
+#. Connect the black test lead to the middle (COM) port. 
+
+#. Turn the dial to Vdc.
+
+#. Press the range button so that the decimal point is in the middle of the four digits.
+
+
 
 Exercise:
 ~~~~~~~~~
