@@ -20,38 +20,29 @@ In the image above, you can see the multimeter correctly set up for measuring vo
 
 Voltage can be measured between any two points on your circuit using the two test leads. In the diagram below, the two leads are being used to measure the voltage across the resistor in the circuit. 
 
-.. images:: images/measurevoltage.png
+.. image:: images/measurevoltage.png
+
+It is important to make sure your leads are touching metal in your circuit. As you can see in the images below, you can use the metal component leads for measureing voltage.
+
+.. image:: images/touchmetal.png
 
 
 Exercise:
 ~~~~~~~~~
 
-Construct a simple LED circuit on your breadboard with one resistor and
-one LED. Use your
-`multimeter <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.sf66jio1dnm6&sa=D&ust=1587613173850000>`__ to
-`measure the
-voltage <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.1d4or8wh0xdv&sa=D&ust=1587613173850000>`__ across
-the resistor and the voltage across the LED in your simple circuit. Copy the 
-items listed below into your notebook and complete. If you do not know how to use a multimeter please click on the
-link above for more information.
+#. Construct a simple LED circuit on your breadboard with one resistor and one LED. Use your multimeter to measure the voltage across the resistor, the voltage across the LED, and the voltage across the entire circuit. Record these measurements in your notebook. 
 
-Voltage across resistor:         \_\_\_\_\_\_
+   Voltage across resistor:         \_\_\_\_\_\_
 
-Voltage across LED:                 \_\_\_\_\_\_
+   Voltage across LED:                 \_\_\_\_\_\_
 
-Voltage across entire circuit:        \_\_\_\_\_\_
+   Voltage across entire circuit:        \_\_\_\_\_\_
 
-TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK \_\_\_\_\_
 
-Exercise:
-~~~~~~~~~
+#. Note that the total voltage across the entire circuit should equal the voltage of each of the parts. Add up the voltages you measured across the resistor and the LED. How does this compare with the voltage you measured for the entire circuit? Recorde the following equation into your notebook.
 
-Note that the total voltage across the entire circuit should equal the
-voltage of each of the parts. Add up the voltages you measured across
-the resistor and the LED. How does this compare with the voltage you
-measured for the entire circuit. Write and complete the following equation into your notebook.
+   Voltage across resistor \_\_\_\_  + voltage across LED \_\_\_ = Voltage
+   across entire circuit  \_\_\_\_
 
-Voltage across resistor \_\_\_\_  + voltage across LED \_\_\_ = Voltage
-across entire circuit  \_\_\_\_
-
-TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK \_\_\_\_\_
