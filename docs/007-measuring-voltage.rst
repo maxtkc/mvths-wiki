@@ -34,7 +34,7 @@ Exercise:
 
    Voltage across resistor:         \_\_\_\_\_\_
 
-   Voltage across LED:              \_\_\_\_\_\_
+   Voltage across LED:               \_\_\_\_\_\_
 
    Voltage across entire circuit:   \_\_\_\_\_\_
 
