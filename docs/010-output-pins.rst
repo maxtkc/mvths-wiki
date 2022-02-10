@@ -23,7 +23,7 @@ In this first exercise, you will set one of the pins of your microcontroller as 
 
 #. Compile and download your code. If you have errors, ask your teacher for help.
 
-#. Use a multimeter to confirm that the voltage on pin 8 is 5V (or close to 5V). Connect the black lead to ground on your circuit and touch the red lead to pin 8 on your Metro Mini. Read this section on how best to use leads to measure points on your circuit.
+#. Use a multimeter to confirm that the voltage on pin 8 is 5V (or close to 5V). Connect the black lead to ground on your circuit and touch the red lead to pin 8 on your Metro Mini. 
    
    TEACHER CHECK \_\_\_\_\_
 
