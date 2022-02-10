@@ -21,25 +21,18 @@ In addition to a microcontroller, the Metro Mini includes a micro USB header whi
 - Data Communication: The USB cable can also be used to send data to the Metro Mini from your computer as well as receive data to your computer from the Metro Mini.
 
 .. figure:: images/image47.png
-   :alt: 
+
 
 Programming
 -----------
 
-You will program your Metro Mini using the Arduino Integrated
-Development Environment (IDE). An IDE is an editor where you can write,
-compile and download your code to your microcontroller.
+You will program your Metro Mini using the Arduino Integrated Development Environment (IDE). An IDE is an editor where you can write, compile and download your code to your microcontroller.
 
 Exercise:
 ~~~~~~~~~
 
-1. Make Connection: If you have not already done so, connect the Metro
-   Mini to your computer using a USB cable. You DO NOT need to use your
-   breadboard at this point just plug your Metro Mini directly into the
-   USB cable.
-2. Open IDE: Open the Arduino program. This is the IDE you will be using
-   to program your microcontroller. You can find program in the Start
-   menu with the icon shown below.
+#. Make Connection: If you have not already done so, connect the Metro Mini to your computer using a USB cable. You DO NOT need to use your breadboard at this point just plug your Metro Mini directly into the USB cable.
+#. Open IDE: Open the Arduino program. This is the IDE you will be using to program your microcontroller. You can find program in the Start menu with the icon shown below.
 
  |image0|
 
