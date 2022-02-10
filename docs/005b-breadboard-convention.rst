@@ -16,7 +16,13 @@ The following are good conventions for setting up your breadboard and adding com
    .. image:: images/shortjumps.jpg
       :width: 400px
       
-#. Cut the leads on compoents with long lead so that they sit snug against the breadboard. 
+#. Cut the leads on compoents with long lead so that they sit snug against the breadboard. Resistors, LEDs and capacitors are shipped with very long leads which can get very messy on your breadboard and potentially cause short circuits as shown below.
+
+   .. image:: images/messyled.jpg
+
+   Cutting the leads on these components so that they fit snug against your breadboard makes for a much neater and reliable design. The image below shows an example of an LED and resistor cut snug to the breadboard.
+   
+   .. image:: images/snugled.png
 
 Although it is possible to use the breadboard to connect components in any way you want, there are certain sorts of conventions that will make make using the breadboard much easier to use. You have probably noticed that your breadboard has a pair of rows on the top and bottom of the board. You also might have noticed that these rows are associated with red an blue lines. 
 
