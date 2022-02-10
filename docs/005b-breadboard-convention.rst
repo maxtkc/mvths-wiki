@@ -25,8 +25,6 @@ The following are good conventions for setting up your breadboard and adding com
    
    .. image:: images/snugled.png
 
-Although it is possible to use the breadboard to connect components in any way you want, there are certain sorts of conventions that will make make using the breadboard much easier to use. You have probably noticed that your breadboard has a pair of rows on the top and bottom of the board. You also might have noticed that these rows are associated with red an blue lines. 
+#. Place buttons across the center of the breadboard as shown below. This will make your design neater and avoid short circuits.
 
-As the diagram below shows, these rows are referred to as power and ground buses (or power and ground rails).  The power bus is associated with the rows next to the red lines and the ground bus is associated with the rows next to the blue lines. IMPORTANT: There is nothing special about these rows of holes in that they are simply connected by metal clips just like the columns in the breadboard. Using them as power and ground buses is simply a convenient convention. 
-
-.. image:: images/breaddiagram.PNG
+   .. image:: images/snugbutton.jpg
