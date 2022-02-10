@@ -21,33 +21,18 @@ In this first exercise, you will set one of the pins of your microcontroller as 
    
       digitalWrite(8, HIGH);
 
-3. Compile and download your code. If you have errors, ask your teacher
-   for help.
+#. Compile and download your code. If you have errors, ask your teacher for help.
 
-.. raw:: html
-
-   <!-- end list -->
-
-4. Use a multimeter to confirm that the voltage on pin 8 is 5V (or close
-   to 5V). Connect the black lead to ground on your circuit and touch
-   the red lead to pin 8 on your Metro Mini. Read this section on 
-   how best to use  `leads <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.w8fwz347yb2x>`__.
-   to measure points on your circuit.
+#. Use a multimeter to confirm that the voltage on pin 8 is 5V (or close to 5V). Connect the black lead to ground on your circuit and touch the red lead to pin 8 on your Metro Mini. Read this section on how best to use leads to measure points on your circuit.
    
+   TEACHER CHECK \_\_\_\_\_
 
-TEACHER CHECK \_\_\_\_\_
+#. Modify your code to set pin 8 to 0V (LOW).
 
-5. Modify your code to set pin 8 to 0V (LOW).
+#. Program your microcontroller and confirm with a multimeter.
 
-.. raw:: html
+   TEACHER CHECK \_\_\_\_\_
 
-   <!-- end list -->
+#. Modify your code to set pin 6 to 5V. Program and confirm with your multimeter.
 
-6. Program your microcontroller and confirm with a multimeter.
-
-TEACHER CHECK \_\_\_\_\_
-
-7. Modify your code to set pin 6 to 5V. Program and confirm with your
-   multimeter.
-
-TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK \_\_\_\_\_
