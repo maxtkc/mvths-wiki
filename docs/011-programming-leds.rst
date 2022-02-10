@@ -13,8 +13,8 @@ The following is the schematic for the circuit you need to construct on your bre
 
 .. figure:: images/image84.png
   
-
 It is important that your LED and resistor are not placed directly next
+
 to your Metro Mini on the breadboard. This will result in the components
 interfering with unintended pins. Use a long jump wire from the Metro
 Mini (pin 8 in this case) to an empty portion of the board. Now add your
