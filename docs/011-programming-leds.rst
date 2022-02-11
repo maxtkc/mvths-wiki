@@ -6,10 +6,10 @@ Overview
 
 LEDs are a good example of the kinds of devices you can drive with a microcontroller. LEDs also provide an easy way to indicate if a microcontroller pin is set to HIGH or LOW. **IMPORTANT:** You **MUST** to a resistor in series with any LED to prevent the LED from burning out. Driving too much current through and LED will damage the LED and potentially the microcontroller.
 
-Schematic
----------
+Exercise:
+~~~~~~~~~
 
-The following is the schematic for the circuit you need to construct on your breadboard.
+#. Follow the schematic below to connect an LED to your microcontroller. 
 
 .. figure:: images/image84.png
   
@@ -23,19 +23,11 @@ In the correct example below, the user has used a jump wire to connect the LED, 
 .. image:: images/ledright.JPG
    :width: 400px
 
-This will result in the components
-interfering with unintended pins. Use a long jump wire from the Metro
-Mini (pin 8 in this case) to an empty portion of the board. Now add your
-resistor and LED. See
-`here <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.mfgepxcw4elz&sa=D&ust=1587613173864000>`__ for
-an example.
 
-TEACHER CHECK \_\_\_\_\_
 
-Code
-----
+#. 
 
-1. Write a program to turn on the LED. NOTE: In this lesson you will be
+Write a program to turn on the LED. NOTE: In this lesson you will be
    choosing which digital pin to use with you LED. You may use any of
    the digital pins (0 - 13) but you should generally avoid using digital
    pins 0 and 1 as using these pins might interfere with the programming
