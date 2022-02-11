@@ -13,10 +13,15 @@ The following is the schematic for the circuit you need to construct on your bre
 
 .. figure:: images/image84.png
   
-**IMPORTANT:** Each pin on the microcontroller should only be used as you intend to use it. In the image below, the user is intending to control the LED with pin 5
+**IMPORTANT:** Each pin on the microcontroller should only be used as you intend to use it. In the image below, the user is intending to control the LED with pin 5, but has inadvertently connected the other lead of the LED to pin 2.
 
 .. image:: images/ledwrong.JPG
    :width: 400px
+   
+In the correct example below, the user has used a jump wire to connect the LED, so that only pin 5 is being used.
+
+.. image:: images/ledright.JPG
+   :width: 4000x
 
 This will result in the components
 interfering with unintended pins. Use a long jump wire from the Metro
