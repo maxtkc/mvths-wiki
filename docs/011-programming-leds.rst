@@ -34,9 +34,9 @@ Exercise:
    TEACHER CHECK \_\_\_\_\_
 
 #. Modify your program to turn off the LED.
-#. Change the LED to a different pin and turn it on.
+#. Change the LED to a different pin and turn it on. You may use any of the digital pins (0 - 13) but you should generally avoid using digital pins 0 and 1 as using these pins might interfere with the programming of your device.
 #. Add two more LEDs to two additional pins on your microcontroller and turn them all on.
 
    TEACHER CHECK \_\_\_\_\_
 
-NOTE: In this lesson you will be choosing which digital pin to use with you LED. You may use any of the digital pins (0 - 13) but you should generally avoid using digital pins 0 and 1 as using these pins might interfere with the programming of your device.
+
