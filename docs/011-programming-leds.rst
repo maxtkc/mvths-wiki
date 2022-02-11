@@ -13,9 +13,11 @@ The following is the schematic for the circuit you need to construct on your bre
 
 .. figure:: images/image84.png
   
-It is important that your LED and resistor are not placed directly next
+**IMPORTANT:** Each pin on the microcontroller should only be used as you intend to use it. In the image below, the user is intending to control the LED with pin 5
 
-to your Metro Mini on the breadboard. This will result in the components
+.. image:: images/ledwrong.JPG
+
+This will result in the components
 interfering with unintended pins. Use a long jump wire from the Metro
 Mini (pin 8 in this case) to an empty portion of the board. Now add your
 resistor and LED. See
