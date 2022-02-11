@@ -21,7 +21,7 @@ The following is the schematic for the circuit you need to construct on your bre
 In the correct example below, the user has used a jump wire to connect the LED, so that only pin 5 is being used.
 
 .. image:: images/ledright.JPG
-   :width: 4000x
+   :width: 400px
 
 This will result in the components
 interfering with unintended pins. Use a long jump wire from the Metro
