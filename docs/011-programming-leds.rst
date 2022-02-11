@@ -16,6 +16,7 @@ The following is the schematic for the circuit you need to construct on your bre
 **IMPORTANT:** Each pin on the microcontroller should only be used as you intend to use it. In the image below, the user is intending to control the LED with pin 5
 
 .. image:: images/ledwrong.JPG
+   :width: 400px
 
 This will result in the components
 interfering with unintended pins. Use a long jump wire from the Metro
