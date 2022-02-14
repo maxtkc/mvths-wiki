@@ -15,6 +15,7 @@ Welcome to MVTHS Engineering Wiki's documentation!
    003-more-leds
    004-simple-switch
    005-the-power-bus
+   005b-breadboard-convetion
    006-challenges-circuits
    007-measuring-voltage
    008-programming-the-metro-mini
