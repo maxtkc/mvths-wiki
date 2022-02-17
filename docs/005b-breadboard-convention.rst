@@ -33,6 +33,6 @@ The following are good conventions for setting up your breadboard and adding com
 Exercise:
 ~~~~~~~~~
 
-Light an LED on your breadboard following the recommendations above.
+Light an LED on your breadboard following the recommendations above. If you want to can just copy the LED circuit design above.
 
 TEACHER CHECK \_\_\_\_\_
