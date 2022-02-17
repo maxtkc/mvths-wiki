@@ -6,7 +6,16 @@ Overview
 
 Up until this point all of your code has been placed in your setup function. As you have probably noted, this function only runs once. The loop function is designed to run continuously. Any code place in this function will run continuously until power is removed from the Metro Mini.
 
-In order to place code inside of either the setup or loop function, you must place your code between the open and closed curly brace for that function. Every function in C is required to have an open and close curley brace to define 
+In order to place code inside of either the setup or loop function, you must place your code between the open and closed curly brace for that function. Every function in C is required to have an open and close curly brace to define the contents of the function.
+
+.. code-block:: c
+
+   void setup() { //open curly brace
+
+       //All code inside of the setup function must be placed between these
+       //two curly braces.
+
+   } // closed curly brace
 
 Code
 ----
