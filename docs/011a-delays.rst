@@ -21,7 +21,7 @@ Note that fractional delays do not work. For delays below 1ms you will need to u
 Code
 ----
 
-1. Write a program to turn your LED on for two seconds and then off for one second and then back on indefinitely. This code should again be placed in your setup function.
+Write a program to turn your LED on for two seconds and then off for one second and then back on indefinitely. This code should again be placed in your setup function.
 
 IMPORTANT: Do not forget to make sure to set the pin the LED is using to an output.
 
