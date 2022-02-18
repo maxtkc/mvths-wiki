@@ -6,11 +6,11 @@ Overview
 
 Complete the following six challenges.
 
-#. Program an LED to flash with 1.5 seconds on and .5 seconds off.
+#. Program an LED to flash with a rate of 1.5 seconds on and .5 seconds off.
 
    TEACHER CHECK \_\_\_\_\_
 
-#. Program an LED to flash with .5 seconds on and 1.5 seconds off.
+#. Program an LED to flash with a rate of .5 seconds on and 1.5 seconds off.
 
    TEACHER CHECK \_\_\_\_\_
 
@@ -18,7 +18,7 @@ Complete the following six challenges.
 
    TEACHER CHECK \_\_\_\_\_
 
-#. Program three LEDs to flash alternately with two on and one off and vice versa.
+#. Program three LEDs to flash alternately with two LEDs on and one LED off and then two LEDs off and one LED on.
 
    TEACHER CHECK \_\_\_\_\_
 
