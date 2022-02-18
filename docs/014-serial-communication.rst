@@ -4,14 +4,10 @@ Serial Communication
 Overview
 --------
 
-`Serial communication <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.drcn0pnn5flp>`__
-provides an excellent way to send data from your 
-computer to your microcontroller and to send data from your 
-microcontroller to your computer. It can be used as a way to provide a
-human interface to your device allowing the user to type commands on the
-computer that control operations on your device. It is also commonly
-used to debug a problem in your device by providing a way to visualize
-what is happening in your code.
+Serial communication provides an excellent way to send data from your computer to your microcontroller and to send data from your microcontroller to your computer. It can be used as a way to provide a human interface to your device allowing the user to type commands on the computer that control operations on your device. It is also commonly used to debug a problem in your device by providing a way to visualize what is happening in your code.
+
+Technically, serial communication can refer to many different protocols including, SPI, I2C, CAN which you will learn about later. But in this case we are using serial communication to refer to USART. USART is a very old serial communication protocol which stands for Universal Synchronous/Asynchronous Receiver/Transmitter. USART rquires three lines for communication. One line is used for transmitting data to a device and called TX. Another is used for receiving data from a device and is called RX. The last wire is for groung which provides a voltage reference for the data lines. An example is shown below. Note that the TX of one device is connected to the RX of another device.
+
 
 Reading Data
 ------------
