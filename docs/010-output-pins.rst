@@ -21,7 +21,7 @@ In this first exercise, you will set one of the pins of your microcontroller as 
    
       digitalWrite(8, HIGH);
       
-    **Important:** In order to place code inside of either the *void setup()* or *loop()* function, you must place your code between the open and closed curly brace for that function. Every function in C is required to have an open and close curly brace to define the contents of the function.
+ **Important:** In order to place code inside of either the *void setup()* or *loop()* function, you must place your code between the open and closed curly brace for that function. Every function in C is required to have an open and close curly brace to define the contents of the function.
 
    .. code-block:: c
 
