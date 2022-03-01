@@ -52,8 +52,24 @@ The total cost of construction of your robot must not exceed $40. This includes 
      - .30
      - cubic inch
 
-Crude Bot
-In this initial phase of design, you will construct a basic robotic testing platform. The goal of this exercise is to give you a simple, low cost, easy to modify platform for testing your code, motor drivers and sensors. The basic platform should be a 
+Step One
+--------
+
+- Motor Control: Build a breadboard circuit using an Arduino-style board i.e. Uno or MetroMini that able to control the speed and direction of two motors. You will use the MD17A from Pololu for motor control. One MD17A is able to control two motors. At this point, do not worry about which of the gear ratios (120:1 or 200:1) you are using. You can easily swap out motors at any time. A good test of completion is being able to write code to drive each motor independently forward and reverse for 3 seconds. 
+
+- Line Sensor: Add a QTR-1A photo-reflective sensor to your circuit. Add an LED to your circuit. Write code to turn on the LED when the QTR-1A senses reflection (a white line). Now write code to control one motor based on the feedback from the QTR-1A. Add a second QTR-1A to your circuit and confirm that this one can control a motor as well. While the LEDs might not seem necessary to your final design, they can provide invaluable feedback that your sensors are working correctly, when trying to troubleshoot a complex robot.
+
+- Battery Power: Use a 7.2 Volt LiPo battery to control your circuit. 
+
+build wheels
+
+Design minimal frame for holding motors, breadboard, sensors and castor (third wheel)
+
+Test robot in ring
+
+
+
+
  
 Construct Circuit
 Overview
