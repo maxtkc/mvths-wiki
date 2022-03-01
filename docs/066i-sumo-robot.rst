@@ -76,63 +76,22 @@ Steps
       - have an inner diameter .03” larger than the diameter of your ball bearing.
       - have at least three expansion cuts of at least 60 degree arc.
       - include a brass insert for mounting to robot frame. 
+      
+#. **Testing:** A fully tested robot should be able to remain in the sumo ring for 45 seconds, the average time of a sumo match.
 
-PCB 
-Start button
-Distance sensor
+Final Steps
+-----------
 
+Once your robot is fully tested, you should begin to work on the final construction steps for your robot. These following steps are not provided in any specific order.
 
-
-
-
-
-
-
-
- TEACHER CHECK ____
-
-Build Prototype
-Now that you have all of your electronics working on a breadboard, you should design a working prototype of your robot in 2
-Construct PCB
-Design and construct a circuit board that holds the entire circuit you prototyped in the lessons above. In order to design and construct the board you will need to use Eagle CAD and our OtherMill CNC mill. If you are not familiar with Eagle CAD than you will need to follow the tutorial found here. 
-
-Frame
-The frame should be designed from one or more 2 dimensional parts that can be laser cut. Initially, you will use cardboard for your design. Once the design is constructed and demonstrated, you may use either plastic or wood. The frame must include:
-
-Holes for mounting the your circuit board
-Holes for mounting the motor brackets
-A hole for mounting the castor
-A hole for mounting the momentary switch
-A method for holding the battery
-A method for holding the line sensors a specific distance above the table
-A method for holding one or two distance sensors
-
- TEACHER CHECK ____
-Create Assembly
-Collect of the robot parts into a single assembly. Put the parts together to form a complete robot. Ensure that the base frame is level when both wheels and caster are placed on a surface. If not, adjust the height of the castor. Ensure that the robot is balanced between the castor and wheels, so that it does not fall over when accelerating.
-Build Robot Base
-Cut and print all parts and assemble robot. Do not forget to secure threaded brass insert in caster. Make sure of the following:
-
-Do motor mount holes line up with holes on frame?
-Do wheels fit snug on motor shaft?
-Do tires fit snug on wheels?
-Does bearing fit lose and secure in castor?
-Does switch fit in hole on frame?
-Does breadboard and battery fit snug on frame?
-Software and Testing
-In order to drive your robot you will need to write software to control the motors. Complete the following drive tests.
-
-Basic Drive
-Write a program to drive your motors forward for one second and then reverse for two seconds. You should include a small delay of half a second between the forward and reverse motors. This pattern should repeat indefinitely. Demonstrate the motion of your motors with your robot “on blocks” so that the motors are not in contact with a surface.
-
-Initial Pattern
-Write a program to drive the robot forward for 18 inches, turn around completely (180 degrees) and drive back to the starting position.  
-
-Function Drive
-Write programs to complete the following two patterns. You drive software must include a function for driving each motor. The length of each line is 16 inches.
+- Adding one or two VL53L0X sensors to detect the presence of another robot. 
+- Converting your breadboard circuit to a PCB.
+- Adding a soft power switch to start your robot. 
+- Finalizing the frame design for your robot.
 
 
 
 
 
-Hi Mr. Christy
+
+
