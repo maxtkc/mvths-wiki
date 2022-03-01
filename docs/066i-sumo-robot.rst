@@ -9,26 +9,49 @@ In this project you will design and build a mini sumo robot for competition. You
 Specifications 
 --------------
 
-**Weight:** The total weight of your robot must not exceed 500 grams. 
-**Length and width:** The dimensions of your robot may be no more than 10cm in length or width. A 10cm square tube will be provided for testing the dimensions. 
-Height: There is no limit on height.
-Programmable controller: The robot will use a ATMega328 microcontroller for logic control.
-Circuit: The final robot will use a custom designed PCB for the all electronics.
-Motor controller: The MD17A motor controller module will be used to drive the robots motors.
-Motors: The robot will use standard DC plastic geared motors. You will have a choice between two gear ratios either 120:1 or 200:1. Alternative: You may use motors after consulting with a teacher.
-Wheels: The wheels will be custom designed and 3D printed. You will have a choice of two tire sizes either 2 inch or 3 inch. Alternative: You may cast your own tires of any size.
-Battery: The robot will be use a 7.2 Volt LiPo battery which has a capacity of 1000mAh. The robot must include a secure holder for the battery.
-Line sensors: The robot will use the QTR-1A photo-reflective sensors for tracking lines and may include up to three photo reflective sensors. 
-Object sensors: The robot will use the VL53L0X sensor for detecting other robots. The VL53L0X is a time of flight sensor and the robot may include up to two of these sensors. 
-Switch: The robot will use a momentary soft latching push button for the purpose of starting the robot during a competition.
+- **Weight:** The total weight of your robot must not exceed 500 grams. 
+- **Length and width:** The dimensions of your robot may be no more than 10cm in length or width. A 10cm square tube will be provided for testing the dimensions. 
+- **Height:** There is no limit on height.
+- **Programmable controller:** The robot will use a ATMega328 microcontroller for logic control.
+- **Circuit:** The final robot will use a custom designed PCB for the all electronics.
+- **Motor controller:** The MD17A motor controller module will be used to drive the robots motors.
+- **Motors:** The robot will use standard DC plastic geared motors. You will have a choice between two gear ratios either 120:1 or 200:1. Alternative: You may use motors after consulting with a teacher.
+- **Wheels:** The wheels may be custom designed. You will have a choice of two tire sizes either 2 inch or 3 inch. Alternatively: You may cast your own tires of any size.
+- **Battery:** The robot will be use a 7.2 Volt LiPo battery which has a capacity of 1000mAh. The robot must include a secure holder for the battery.
+- **Line sensors:** The robot will use the QTR-1A photo-reflective sensors for tracking lines and may include up to three photo reflective sensors. 
+- **Object sensors:** The robot will use the VL53L0X sensor for detecting other robots. The VL53L0X is a time of flight sensor and the robot may include up to two of these sensors. 
+- **Switch:** The robot will use a momentary soft latching push button for the purpose of starting the robot during a competition.
 
 Cost
+----
 The total cost of construction of your robot must not exceed $40. This includes the cost of all consumables used in the construction, testing or final design. A consumable is any part or material that no longer has value after it has been used. For example, this includes any plastic or wood that you cut or print for your project. This also includes any part that is broken or any part that has been directly soldered to a board. This does not include parts that can be reused after final construction of your robot, for example, sensors that can be removed from your project. This also does not include any cardboard. This does include plastic or wood that is used for testing or is replaced as your design evolves. 
 
-	Charge			No Charge
-	Acrylic sheet			Cardboard
-	3D printed parts		Chipboard
-	Wood				Testing wheels
+.. list-table:: Material Costs
+   :widths: 25 25 25
+   :header-rows: 1
+
+   * - Material
+     - Cost
+     - Units
+   * - Cardboard
+     - Free
+     - square inch
+   * - Acrylic
+     - .30
+     - square inch
+   * - Wood
+     - .30
+     - square inch
+   * - PLA (Fusion)
+     - .30
+     - cubic inch
+   * - PLA (Stratasys)
+     - .30
+     - cubic inch
+   * - Resin (Formlabs)
+     - .30
+     - cubic inch
+
 Crude Bot
 In this initial phase of design, you will construct a basic robotic testing platform. The goal of this exercise is to give you a simple, low cost, easy to modify platform for testing your code, motor drivers and sensors. The basic platform should be a 
  
