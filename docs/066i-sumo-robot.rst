@@ -36,24 +36,33 @@ The total cost of construction of your robot must not exceed $40. This includes 
    * - Cardboard
      - Free
      - square inch
-   * - Acrylic
-     - .30
+   * - Acrylic (1/8)
+     - .80
      - square inch
-   * - Wood
-     - .30
+   * - Acrylic (1/4)
+     - 1.30
+     - square inch
+   * - Acrylic (1/2)
+     - 1.80
+     - square inch
+   * - Wood (1/8 inch)
+     - .16
+     - square inch
+   * - Wood (1/4 inch)
+     - .20
      - square inch
    * - PLA (Fusion)
      - .30
      - cubic inch
    * - PLA (Stratasys)
-     - .30
+     - 5.00
      - cubic inch
    * - Resin (Formlabs)
      - .30
      - cubic inch
    * - Cooper board (PCB)
-     - 1.00
-     - board
+     - 1.60
+     - board (4"x5")
 
 Steps
 --------
