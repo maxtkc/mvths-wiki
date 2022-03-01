@@ -51,21 +51,22 @@ The total cost of construction of your robot must not exceed $40. This includes 
    * - Resin (Formlabs)
      - .30
      - cubic inch
+   * - Cooper board (PCB)
+     - 1.00
+     - board
 
 Step One
 --------
 
-- Motor Control: Build a breadboard circuit using an Arduino-style board i.e. Uno or MetroMini that able to control the speed and direction of two motors. You will use the MD17A from Pololu for motor control. One MD17A is able to control two motors. At this point, do not worry about which of the gear ratios (120:1 or 200:1) you are using. You can easily swap out motors at any time. A good test of completion is being able to write code to drive each motor independently forward and reverse for 3 seconds. 
+- **Motor Control:** Build a breadboard circuit using an Arduino-style board i.e. Uno or MetroMini that able to control the speed and direction of two motors. You will use the MD17A from Pololu for motor control. One MD17A is able to control two motors. At this point, do not worry about which of the gear ratios (120:1 or 200:1) you are using. You can easily swap out motors at any time. A good test of completion is being able to write code to drive each motor independently forward and reverse for 3 seconds. 
 
-- Line Sensor: Add a QTR-1A photo-reflective sensor to your circuit. Add an LED to your circuit. Write code to turn on the LED when the QTR-1A senses reflection (a white line). Now write code to control one motor based on the feedback from the QTR-1A. Add a second QTR-1A to your circuit and confirm that this one can control a motor as well. While the LEDs might not seem necessary to your final design, they can provide invaluable feedback that your sensors are working correctly, when trying to troubleshoot a complex robot.
+- **Line Sensor:** Add a QTR-1A photo-reflective sensor to your circuit. Add an LED to your circuit. Write code to turn on the LED when the QTR-1A senses reflection (a white line). Now write code to control one motor based on the feedback from the QTR-1A. Add a second QTR-1A to your circuit and confirm that this one can control a motor as well. While the LEDs might not seem necessary to your final design, they can provide invaluable feedback that your sensors are working correctly, when trying to troubleshoot a complex robot.
 
-- Battery Power: Use a 7.2 Volt LiPo battery to control your circuit. 
+- **Battery Power:** Add a 7.2 Volt LiPo battery to power your circuit. These batteries come with red polarized JST connectors. You will need to create a cable with a matching polarized JST connector at one end (for the battery) and a simple two wire connector at the other end (for the breadboard). These connectors must be crimped with red and black wires that MUST correspond to power and ground respectively. Be VERY careful when you set up this connector to ensure that the red and black leads or oriented correctly. You must tape the breadboard end to your breadboard to ensure that this end is not accidently reversed. If it is reversed, even for a millisecond, your whole circuit goes bye, bye. IMPORTANT: Before connecting your battery, show this circuit to your teacher.
 
-build wheels
+- **Wheels:** Design a wheel that corresponds to the 2-inch or 3-inch rubber o-ring provided for tires. This wheel must be designed to mate securely with the motor shaft. Print one wheel and test. Note: This print will be charged against your account. If the print is successful, create a second wheel.
 
-Design minimal frame for holding motors, breadboard, sensors and castor (third wheel)
-
-Test robot in ring
+- **Basic Frame:** Design a very basic but complete robot. Do not worry about size restrictions or tactical design. This is simply a testing platform to make sure everything works properly and to begin to hone your final design. This frame should be built from cardboard as much as possible. The frame should be able to hold the motors, breadboard, battery, sensors and a castor (third wheel). This design MUST include ALL parts of your robot design including those parts you are not building, i.e. motors, sensors and breadboard. 
 
 
 
