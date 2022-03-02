@@ -4,16 +4,14 @@ Printing Characters N
 Overview
 --------
 
-In the previous lesson, you learned about the variable type int which is designed to store whole numbers. In addition, there are many other variable types including char. The variable type char is used to store characters. Characters used to represent text both letters, numbers and punctuation. The basic character set available to us is represented by the (American Standard Code for Information Interchange) or ASCII table. This table was first established in 1961. 
+In this lesson you are going to learn about printing ASCII characters. These are the characters used to represent text letters, numbers and punctuation. The basic character set is represented by the (American Standard Code for Information Interchange) or ASCII table (shown below). This table was first established in 1961 and still represents a useful standard for characters.
 
-.. figure:: images/ASCII-Table.png
+.. figure:: images/ascii_table.png
    :alt: 
 
-The ASCII table includes all letters of the alphabet in both lower case and upper case as well as a variety of punctuation and numbers. The table provides a way for your 
-microcontroller and all computers to store character information (what you read on the screen) as numbers. As you can see in the table, 
-the numbers from 0 to 127 in decimal represent all of the characters you need to represent text on your screen. For example, the decimal 
-number 67 represents the character capital C, and the decimal number 51 represents thecharacter 3. Since this table was first developed prior 
-to the advent of modern computers, many of the control characters between 0 and 32 are no longer used. 
+The ASCII table includes all letters of the alphabet in both lower case and upper case as well as a variety of punctuation and numbers. The table provides a way for your microcontroller and all computers to store character information (what you read on the screen) as numbers. As you can see in the table, the numbers from 0 to 127 in decimal represent all of the characters you need to represent text on your screen. For example, the decimal number 67 represents the character capital C, and the decimal number 51 represents thecharacter 3. Since this table was first developed prior to the advent of modern computers, many of the control characters between 0 and 32 are no longer used. 
+
+In the previous lesson, you learned about the variable type int which is designed to store whole numbers. In addition, there are many other variable types including char. The variable type char is used to store characters. 
 
 Note that characters are initialized using single quotes as in the following.
 
