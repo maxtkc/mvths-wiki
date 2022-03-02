@@ -9,28 +9,30 @@ Variables are placeholders used to store values that can be modified. Just as yo
 Initializing
 ------------
 
-In order to use a variable in your code, you must first set up the variable so the program knows the type and name of the variable. We call this initializing a variable. The following are three examples.
+In order to use a variable in your code, you must first set up the variable so the program knows the type and name of the variable. We call this initializing a variable. The following are three examples of how to initialize a variable.
 
 .. code-block:: c
 
-   int x;         //A simple initialization with no initial value.
-   int y = 9;     //Initializing a variable with an initial value of 9
-   int dog = -2;  //Note that any set of characters can be usee for a variable name.
+   int x;         // This initializes x as a variable with no initial value.
+   int y = 9;     // This initializes x as a variable with an initial value of 9.
+   int dog = -2;  // This initializes dog as a variable with an initial value of -2.
 
-For the time being, you will initalize variables at the top of your code file, that is above and 
-outside of both the loop and setup functions.  
+For the time being, you will initalize all variables at the top of your code file, that is above and outside of both the loop and setup functions as shown below.
+
+.. code-block:: c
+
+   int count;         // This initializes count as a variable with no initial value.
+   
+   void setup() {
+    // Your code goes here.
+   }
 
 Exercise:
 ~~~~~~~~~
 
-1. Initialize the variable z at the top of your code file and set its
-   initial value to 9.
+#. Initialize the variable z at the top of your code file and set its initial value to 9.
 
-.. raw:: html
-
-   <!-- end list -->
-
-2. Print the variable to your terminal window using the following
+#. Print the variable to your terminal window using the following
    command.
 .. code-block:: c
 
