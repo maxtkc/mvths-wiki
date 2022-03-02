@@ -1,10 +1,9 @@
 The Loop Function
-------------
+=================
 
 Overview
 ---------
-You can use the loop function to send data repeatedly to the terminal
-window.
+As you may have noticed there are two functions (setup() and loop()) in every code file you create using the Arduino IDE. Up until now you have always placed your code inside the setup() function. 
 
 Exercise:
 ~~~~~~~~~
