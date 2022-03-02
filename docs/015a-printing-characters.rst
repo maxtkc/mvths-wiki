@@ -13,36 +13,29 @@ Under the Char columns you can see all letters of the alphabet in both lower cas
 
 In addition to printed characters you can see some control characters listed such as LINE FEED and CARRIAGE RETURN n the lower portion of the table. Since this table was first developed prior to the advent of modern computers, many of the control characters between 0 and 32 are no longer used. 
 
-In the previous lesson, you learned about the variable type int which is designed to store whole numbers. In addition, there are many other variable types including char. The variable type char is used to store characters. 
-
-Note that characters are initialized using single quotes as in the following.
+The following shows examples of how you might initialize a variable to hold a character. In the previous lesson, you learned about the variable type int which is designed to store whole numbers. In addition, there are many other variable types including char. The variable type char is used to store characters. 
 
 .. code-block:: c
 
   char x = 'a';           //Stores an ASCII representation of a lower case 'a'.
-  char myLetter = 'B';    //Stores an ASCII representation of a lower case 'a'.
+  char myLetter = 'B';    //Stores an ASCII representation of an upper case 'B'.
   char num = '9';         //Stores an ASCII representation of the number 9.
 
-It is worth noting that the actual values of variables above (in decimal) are stored in their numeric equivalents 97, 66 and 57 repsectively. 
+It is worth noting that the actual values of variables above are stored in their numeric equivalents 97, 66 and 57 repsectively. 
 
 .. code-block:: c
 
   char x = 't';
   char x = 116; //both are equivalent.
   
-
 Exercise:
 ~~~~~~~~~
 
-1. Initialize a new variable using the char type and set it to a letter value in the ASCII table. Print this charater repeatedly in a column in you serial monitor. Make sure to
-   include a short delay so that the serial monitor does not crash.
+#. Initialize a new variable using the char type and set its initial value to a character. Print this charater repeatedly in a column in you serial monitor. Make sure to include a short delay so that the serial monitor does not crash.
 
-2. Initialize a new variable using the char type and set it to a number value in the ASCII table. Again, print this character in a column.
-
-3. Initialize a new char and this time set it to the ASCII number value of a character. For example if you wanted to print 'W' you would set the value of your 
-   char to 87. Note there are no quotes. Print this value in a column.
-4. **Super Challenge** Modify your code file to print a letter in a single column in your serial monitor, but only using the Serial.print() function, 
-   NOT Serail.println(). A hint is that LINEFEED in the ASCII table sets a new line in your serial monitor.
+#. Initialize a new variable using the char type and set its initial value to a number that represents a character in the ASCII table. Again, print this character in a column.
+ 
+#. **Super Challenge** Modify your code file to print a letter in a single column in your serial monitor, but only using the Serial.print() function, NOT Serail.println(). A hint is that LINEFEED in the ASCII table sets a new line in your serial monitor.
 
 
 
