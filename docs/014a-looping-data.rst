@@ -11,7 +11,7 @@ As a reminder, in order to place code inside of either the *void setup()* or *vo
 
    void loop() { //open curly brace
 
-     //All code inside of the setup function must be placed between these
+     //All code inside of the loop function must be placed between these
      //two curly braces.
 
    } // closed curly brace
