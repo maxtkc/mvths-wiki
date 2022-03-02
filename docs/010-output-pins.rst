@@ -25,7 +25,7 @@ In this first exercise, you will set one of the pins of your microcontroller as 
 
    .. code-block:: c
 
-      void setup() { //open curly brace
+     void setup() { //open curly brace
 
           //All code inside of the setup function must be placed between these
           //two curly braces.
