@@ -9,7 +9,9 @@ In this lesson you are going to learn about printing ASCII characters. These are
 .. figure:: images/ascii_table.png
    :alt: 
 
-The ASCII table includes all letters of the alphabet in both lower case and upper case as well as a variety of punctuation and numbers. The table provides a way for your microcontroller and all computers to store character information (what you read on the screen) as numbers. As you can see in the table, the numbers from 0 to 127 in decimal represent all of the characters you need to represent text on your screen. For example, the decimal number 67 represents the character capital C, and the decimal number 51 represents thecharacter 3. Since this table was first developed prior to the advent of modern computers, many of the control characters between 0 and 32 are no longer used. 
+Under the Char columns you can see all letters of the alphabet in both lower case and upper case as well as a variety of punctuation and numbers.  The table provides way for your microcontroller and computer to have a common language for converting numbers to characters. Note that for each character under the Char columns there is a corresponding number in decimal that represents that character. For example, the decimal number 67 represents the character capital C, and the decimal number 51 represents thecharacter 3. 
+
+In addition to printed characters you can see some control characters listed such as LINE FEED and CARRIAGE RETURN n the lower portion of the table. Since this table was first developed prior to the advent of modern computers, many of the control characters between 0 and 32 are no longer used. 
 
 In the previous lesson, you learned about the variable type int which is designed to store whole numbers. In addition, there are many other variable types including char. The variable type char is used to store characters. 
 
