@@ -4,19 +4,12 @@ Variables
 Overview
 --------
 
-Variables are placeholders used to store values that can be modified.
-Just as you use x or y to represent a number in algebra, you can use
-x or y as a place holder for a number in your code. This is particularly
-useful if you want a number to change in your code. For example, if
-you wanted to keep track of the number of times a user pressed a
-button you could create a variable and call it "x" or "button" (or just about anything you like) and 
-store the number of times a button was pressed in that variable.
+Variables are placeholders used to store values that can be modified. Just as you use *x* or *y* to represent a number in algebra, you can use *x* or *y* as a place holder for a number in your code. This is particularly useful if you have a value in your code that is going to change. For example, if you wanted to keep track of the number of times a user pressed a button you could create a variable and call it "x" or "button" (or just about anything you like) and store the number of times a button was pressed in that variable.
 
 Initializing
 ------------
 
-In order to use a `variable <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.vbe1wov8lque&sa=D&ust=1587613173882000>`__ you must set up the variable so the program
-knows the type and name of the variable. We call this initializing a variable. The following are three examples.
+In order to use a variable in your code, you must first set up the variable so the program knows the type and name of the variable. We call this initializing a variable. The following are three examples.
 
 .. code-block:: c
 
