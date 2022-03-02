@@ -1,6 +1,8 @@
-Looping Data
+The Loop Function
 ------------
 
+Overview
+---------
 You can use the loop function to send data repeatedly to the terminal
 window.
 
