@@ -28,15 +28,11 @@ Exercise
 
    TEACHER CHECK \_\_\_\_
 
-#. Set up a `multimeter <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.j0omxa6kuin>`__ to measure the 
-   voltage at point labeled input (between the resistor and the switch). You may want to use leads with alligator clips so that you have a hand free 
-   for the following steps. Remember to connect the black lead to ground (your reference) and the red lead to the point you are
-   measuring.
+#. Use a multimeter to measure the voltage at point labeled input (between the resistor and the switch). You may want to use leads with alligator clips so that you have a hand free for the following steps. Remember to connect the black lead to ground (your reference) and the red lead to the point you are measuring.
 
    TEACHER CHECK \_\_\_\_
 
-#. Record the values on the multimeter for when the button is pressed and not pressed. 
-   Make sure to include your units. Complete the following table in your notebook.
+#. Record the values on the multimeter for when the button is pressed and not pressed. Make sure to include your units. Complete the following table in your notebook.
 
 .. figure:: images/image15.png
    :alt: 
@@ -51,14 +47,4 @@ Exercise
 
 TEACHER CHECK \_\_\_\_
 
-Exercise:
-~~~~~~~~~
 
-Construct a circuit that uses a button to turn on an LED. Unlike in previous circuits, the button should not be directly connected to the LED circuit. 
-The button circuit should be constructed as shown above and connected to one pin on your microcontroller as shown above. Construct a separate LED circuit and connect it to a separate pin on your microcontroller. Write a program to read the 
-value of the button press (either HIGH or LOW). When the button is pressed, the LED should turn on. If you need help with this exercise, review the lesson `Input Pins <https://mvths-wiki.readthedocs.io/en/latest/012a-input-pins.html#>`__.
-
-
-
-
-TEACHER CHECK \_\_\_\_
