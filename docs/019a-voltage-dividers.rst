@@ -21,16 +21,13 @@ For the examples below, use Ohms law to determine the voltage at the point betwe
 
 #. Step three: Determine the voltage drop across the other resistor. Since you know the total resistance in the circuit, you can simply subtract the voltage drop across the resistor you calculated above to get the voltage drop across the other resistor.
 
-Remember current anywhere in a parallel circuit is the same. Also note that the total resistance of each of these circuits is the total of the two resistors in that circuit. Once you have the current flowing in the circuit, you can use Ohms law to determine the voltage drop across each resistor. If you need a refresher refer to the lesson on Ohms Law and the leson Resistors and LEDs.
-
-   Record your answers in your notebook.
+#. Step four: Draw the circuits in your notebook and record the voltage values you found above.
 
 .. figure:: images/image8.png
    :alt: 
 
-
 TEACHER CHECK \_\_\_\_
 
-2. Construct one of the three circuits above and measure the voltage between the two resistors.
+Construct one of the three circuits above and measure the voltage using a multimeter between the two resistors.
 
 TEACHER CHECK \_\_\_\_
