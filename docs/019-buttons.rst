@@ -4,12 +4,7 @@ Buttons
 Overview
 --------
 
-Buttons represent the most common form of input found on electronic
-devices and are used for everything from turning on the device to
-controlling the sound level on your phone. All buttons have exactly
-two states. The button is either pressed or it is not pressed. There are
-no states in between. For this reason they can be categorized as binary
-devices.
+Buttons represent the most common form of input found on electronic devices and are used for everything from turning on the device to controlling the sound level on your phone. All buttons have exactly two states. The button is either pressed or it is not pressed. There are no states in between. For this reason they can be categorized as binary devices.
 
 .. figure:: images/image70.png
    :alt: 
@@ -17,27 +12,19 @@ devices.
 Button Circuit
 --------------
 
-In order to make the states of the button readable by a digital
-electronic device such as your microcontroller, you will need to
-construct a circuit that converts the states of pressed and not pressed
-into voltage levels that the microcontroller can use.
+In order to make the states of the button readable by a digital electronic device such as your microcontroller, you will need to construct a circuit that converts the states of pressed and not pressed into voltage levels that the microcontroller can use.
 
 .. figure:: images/image50.png
    :alt: 
 
-Above are two examples of the same circuit. On the left the switch is
-open and on the right the switch is closed. When the switch is open, the
-circuit produces a voltage level of 0 Volts at the point labeled input. This is the point between the resistor and the switch.
-When the switch is closed, the circuit produces 5 Volts at the point labeled input.
+Above are two examples of the same circuit. On the left the switch is open and on the right the switch is closed. When the switch is open, the circuit produces a voltage level of 0 Volts at the point labeled input. This is the point between the resistor and the switch. When the switch is closed, the circuit produces 5 Volts at the point labeled input.
 
-IMPORTANT: In diagram on the right (labeled closed switch) even though the input is also tied to GND through a
-resistor, the voltage is pulled almost completely to 5 Volts.
+IMPORTANT: In the diagram on the right (labeled closed switch) even though the input is also tied to GND through a resistor, the voltage is pulled almost completely to 5 Volts.
 
 Exercise
 ~~~~~~~~
 
-#. Construct the circuit shown below on your breadboard. 
-   Make sure to construct it exactly as shown below. 
+#. Construct the circuit shown below on your breadboard. Make sure to construct it exactly as shown below. 
 
    TEACHER CHECK \_\_\_\_
 
