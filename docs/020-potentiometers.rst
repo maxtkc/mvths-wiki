@@ -24,13 +24,7 @@ Below is a schematic showing a potentiometer with leads A and B connected to gro
 Exercise
 ~~~~~~~~
 
-Construct the following circuit on your breadboard by connecting the potentiometer pins (A and B) to power and ground. Again,
-the order does not matter. Make sure to use short jump wires for these
-connections. Next set up a multimeter to measure the voltage at W (output). Remember to measure voltage at a point in 
-your circuit you need to connect the black lead to ground (your reference) and the red lead to the point you are measuring (W). If you need help refer back to the 
-section on multimeter. Turn the potentiometer all the way right and left and record the highest and lowest voltage. Since you will need to measure two points and move the potentiometer, I recommend using  `alligator leads <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=kix.53hctxuwjhmw>`__ with your multimeter so your hands are free to turn the potentiometer. Record the following in your notebook.
-
-
+Construct the following circuit on your breadboard by connecting the potentiometer pins (A and B) to power and ground. Again, the order does not matter as long as one is connected to power and one is connected to ground. Make sure to use short jump wires for these connections. Next set up a multimeter to measure the voltage at W (output). Remember to measure voltage at a point in  your circuit you need to connect the black lead to ground (your reference) and the red lead to the point you are measuring (W). If you need help refer back to the  section on multimeter. Turn the potentiometer all the way right and left and record the highest and lowest voltage. Since you will need to measure two points and move the potentiometer, I recommend using alligator leads with your multimeter so your hands are free to turn the potentiometer. Record the following in your notebook.
 
 .. figure:: images/image60.png
    :alt: 
