@@ -9,20 +9,17 @@ Potentiometers are another common form of input for controlling an electronic de
 Potentiometer Design
 --------------------
 
-All potentiometers have three leads as shown in the diagram below. The
-two outside leads (A and B) form a fixed value resistor (i.e. the value
-of resistance between A and B is fixed) and is based on the length of the resistive element between A and B. The wiper (W) shorts the
-resistor, so the distance between W and A (and W and B) varies as the wiper is turned. Resistance is based on the distance between W and A.
-A shorter distance results in less resistance between these two points. Note that the resistance value between W and B is the inverse
-of the resistance value between W and A.
+All potentiometers have three leads as shown in the two diagrams below. The diagram on the left is visual representation of how a potentiometer works. The diagram on the right is a standard schematic symbol for a potentiometer. 
+
+The two outside leads (A and B) form a fixed value resistor. In the case of a 10K potentiometer, the resistance between leads A and B is exactly 10K ohms, regardless of how the potentiometer is turned. The middle lead is the wiper or W. The resistance between A (or B) and W varies as the potentiometer is turned. In the case of a 10K resistor, the resistance varies from 0 ohms to 10,000 ohms. 
 
 |image0|\ |image1|
+:width: 400px
 
-On the right is a schematic symbol for a potentiometer. Note the three leads marked A, B and W. Connecting pins
-A and B to 5V and ground (the order does not matter) creates what is called a voltage
-divider. This allows the voltage measured at W (between W and gound) to vary between the high voltage on your circuit (5 Volts) and ground.
+Below is a schematic showing a potentiometer with leads A and B connected to ground and 5V (note the leads A and B are interchangeable). This is the most common configuration for a potentiometer. In this configuration, the output at W varies in voltage from 0 to 5 volts depending on how the potetiometer is turned. Note that potentiometers are very much like voltage dividers except that you can vary the voltage by turning a knob.
 
-Note that potentiometers are very much like voltage dividers except that you can vary the voltage by turning a knob.
+.. image:: images/potentiometer_volts.png
+
 
 Exercise
 ~~~~~~~~
@@ -49,4 +46,6 @@ section on multimeter. Turn the potentiometer all the way right and left and rec
 1. TEACHER CHECK \_\_\_\_
 
 .. |image0| image:: images/image71.png
+   :width: 400px
 .. |image1| image:: images/image57.png
+   :align: top
