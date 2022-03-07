@@ -13,7 +13,7 @@ As you learned in a previous lesson, there is a voltage drop across any resistor
 Exercise
 ~~~~~~~~
 
-For the examples below, use Ohms law to determine the voltage at the point between each of the two resistors. 
+For the examples below, use Ohms law to determine the voltage at the point between each of the two resistors. Round your answers to 1/1000 i.e. milli amps and milli volts.
 
 #. Step one: Determine the current flowing through each of the circuits using Ohms law. Remember that you can add two resistors in series for a single value. For example, a 520 ohm and 1000 ohm resistor in series would be equivalent to a single 1520 ohm resistor.
 
