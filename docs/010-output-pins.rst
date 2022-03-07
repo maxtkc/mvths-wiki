@@ -13,13 +13,13 @@ In this first exercise, you will set one of the pins of your microcontroller as 
 
 #. Open a new code file (File/New) in your Arduino IDE.
 
-#. Type the following two lines of code inside your *void setup()*. The first line sets pin 8 on your microcontroller as an output pin. The second line sets the value of pin 8 to HIGH.
+#. Type the following two lines of code inside your *void setup()*. The first line sets pin 8 on your microcontroller as an output pin. The second line sets the value of pin 8 to HIGH. **IMPORTANT** All text after a // is a comment. These are simply notes inside the code and are NOT compiled with the code. You can leave anything after // out of your code and it will not change how the code functions. Comments are useful for making your code more readable and you will be encouraged to use them as you write more complex code.
    
    .. code-block:: c
    
-      pinMode(8, OUTPUT);
+      pinMode(8, OUTPUT);  // Set pin 8 to an output pin
    
-      digitalWrite(8, HIGH);
+      digitalWrite(8, HIGH); // Set pin 8 to 1 (or HIGH)
       
  **Important:** In order to place code inside of either the *void setup()* or *loop()* function, you must place your code between the open and closed curly brace for that function. Every function in C is required to have an open and close curly brace to define the contents of the function.
 
