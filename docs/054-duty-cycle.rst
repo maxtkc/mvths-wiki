@@ -21,24 +21,24 @@ Exercise
    - **Duty Cycle**: The duty cycle is the ratio of ON time to total time. In order to calculate duty cycle, divide the ON time by the period of your pulse and multiply your answer by 100.
    - **Frequency**: Frequency is the inverse of period. The units for frequency are Hz which is measured in cycles (period) per second. Make sure to use the correct units.
 
-+--------+---------+------------------+----------+------------------+------------------+
-| On     | Off     | Period (in ms or | Duty     | Period (in       | Frequency (in    |
-| Time   | Time    | us)              | Cycle    | seconds)         | Hertz)           |
-+--------+---------+------------------+----------+------------------+------------------+
-| 2ms    | 15ms    |      17ms        |  12%     |  .017s           |     59Hz         |
-+--------+---------+------------------+----------+------------------+------------------+
-| 5ms    | 5ms     |                  |          |                  |                  |
-+--------+---------+------------------+----------+------------------+------------------+
-| 350us  | 50us    |                  |          |                  |                  |
-+--------+---------+------------------+----------+------------------+------------------+
-| 12us   | 50us    |                  |          |                  |                  |
-+--------+---------+------------------+----------+------------------+------------------+
+   +--------+---------+------------------+----------+------------------+------------------+
+   | On     | Off     | Period (in ms or | Duty     | Period (in       | Frequency (in    |
+   | Time   | Time    | us)              | Cycle    | seconds)         | Hertz)           |
+   +--------+---------+------------------+----------+------------------+------------------+
+   | 2ms    | 15ms    |      17ms        |  12%     |  .017s           |     59Hz         |
+   +--------+---------+------------------+----------+------------------+------------------+
+   | 5ms    | 5ms     |                  |          |                  |                  |
+   +--------+---------+------------------+----------+------------------+------------------+
+   | 350us  | 50us    |                  |          |                  |                  |
+   +--------+---------+------------------+----------+------------------+------------------+
+   | 12us   | 50us    |                  |          |                  |                  |
+   +--------+---------+------------------+----------+------------------+------------------+
 
-TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
 
 #. Write a program produce the wave described in the third row of the table above. Connect a scope to your circuit to visualize this wave form. 
 
-TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
 
 #. Add an LED to the pin being controlled by the wave form above. Remember to include a resistor. 
 
