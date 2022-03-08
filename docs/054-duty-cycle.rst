@@ -14,15 +14,12 @@ The amount of time a pulse is on versus off is called the **duty cycle**. The du
 Exercise
 ~~~~~~~~
 
-1. Complete the following table.
+#. Complete the following table.
 
-.. raw:: html
 
-   <!-- end list -->
-
-| **Period**: The period of a wave is simply the sum of the OFF time and ON time.
-| **Duty Cycle**: The duty cycle is the ratio of ON time to total time. In order to calculate duty cycle, divide the ON time by the period of your pulse and multiply your answer by 100.
-| **Frequency**: Frequency is the inverse of period. The units for frequency are Hz which is measured in cycles (period) per second. Make sure to use the correct units.
+   **Period**: The period of a wave is simply the sum of the OFF time and ON time.
+   **Duty Cycle**: The duty cycle is the ratio of ON time to total time. In order to calculate duty cycle, divide the ON time by the period of your pulse and multiply your answer by 100.
+   **Frequency**: Frequency is the inverse of period. The units for frequency are Hz which is measured in cycles (period) per second. Make sure to use the correct units.
 
 +--------+---------+------------------+----------+------------------+------------------+
 | On     | Off     | Period (in ms or | Duty     | Period (in       | Frequency (in    |
