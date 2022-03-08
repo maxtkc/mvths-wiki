@@ -17,9 +17,9 @@ Exercise
 #. Complete the following table.
 
 
-   **Period**: The period of a wave is simply the sum of the OFF time and ON time.
-   **Duty Cycle**: The duty cycle is the ratio of ON time to total time. In order to calculate duty cycle, divide the ON time by the period of your pulse and multiply your answer by 100.
-   **Frequency**: Frequency is the inverse of period. The units for frequency are Hz which is measured in cycles (period) per second. Make sure to use the correct units.
+   - **Period**: The period of a wave is simply the sum of the OFF time and ON time.
+   - **Duty Cycle**: The duty cycle is the ratio of ON time to total time. In order to calculate duty cycle, divide the ON time by the period of your pulse and multiply your answer by 100.
+   - **Frequency**: Frequency is the inverse of period. The units for frequency are Hz which is measured in cycles (period) per second. Make sure to use the correct units.
 
 +--------+---------+------------------+----------+------------------+------------------+
 | On     | Off     | Period (in ms or | Duty     | Period (in       | Frequency (in    |
@@ -36,8 +36,12 @@ Exercise
 
 TEACHER CHECK \_\_\_\_
 
-2. Demonstrate the third wave listed in the table above on your scope.
+#. Write a program produce the wave described in the third row of the table above. Connect a scope to your circuit to visualize this wave form. 
 
 TEACHER CHECK \_\_\_\_
 
-3. Add an LED and potentiometer to your board. Control the brightness of the LED using PWM. Your PWM should be created with a simple loop of digitalWrite and delays. Note that the overall delay needs to be low enough that the LED does not appear to flash.
+#. Add an LED to the pin being controlled by the wave form above. Remember to include a resistor. 
+
+#. Adjust the brightness of the LED by changing the duty cycle of the wave form.
+
+#. Add a potentiometer to your board with the output connected to one of your analog pins. Using the value from the potentiometer, control the duty cycle and therefore the brightness of your LED. 
