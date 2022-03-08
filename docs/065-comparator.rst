@@ -20,8 +20,6 @@ Exercise:
 
 Construct the following circuit. Note that in the schematic power and ground for the LM393 are not included. You will need to look on the data sheet for which pins are used for power and ground. These pins need to be connected. Once you have completed this circuit show your teacher.
 
-TEACHER CHECK \_\_\_\_
-
 Now follow the steps shown below to set up the circuit to trigger on a specific light level.
 
 #. Connect a meter to the output of the LM393 and set it read voltage.
@@ -31,7 +29,5 @@ Now follow the steps shown below to set up the circuit to trigger on a specific 
 
 |image0|
 ^^^^^^^^
-
- TEACHER CHECK \_\_\_\_
 
 .. |image0| image:: images/image55.png
