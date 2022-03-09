@@ -1,4 +1,4 @@
-Controlled Waveforms N
+Controlled Waveforms 
 =========================
 
 Overview
