@@ -4,43 +4,17 @@ Battery Control
 Overview
 --------
 
-Batteries offer a great way to power mobile robotic devices. Many are
-easily rechargeable and can provide large amounts of current for motors
-and other high current devices.
+Batteries offer a great way to power mobile robotic devices. Many are easily rechargeable and can provide large amounts of current for motors and other high current devices. There are many types of batteries defined by their chemistry. The common non-rechargable AAA or AA batteries are alkaline. Many AAA or AA rechargeable batteries are either nickel metal hydroxide (Ni-Mh) or nickel–cadmium (Ni-Cd). The batteries found in cell phones, laptops and electric cars are typically are either lithium-ion (Li-ion) or lithium-polymer (Li-Po). 
 
-Danger
-------
+For the most part, we use Lithium Polymer (LiPo) batteries in our projects. The advantage of these sorts of batteries are that they can provide a large amount of power for their size and weight. They can be recharged quickly and can last much longer than other types of storage batteries. **DANGER:** The disadvantage is that if they are not managed carefully they can catch fire or even explode.
 
-We will mostly be using Lithium Polymer (LiPo) batteries. The advantage
-of these sorts of batteries are that they can provide a large amount of
-power for their size and weight. They can be recharged quickly and can
-last much longer than other types of storage batteries. The disadvantage
-is that if they are not managed carefully they can catch fire or even
-explode.
+The following are important steps to take to ensure that your batteries and your circuit remain in working order
 
-The following are three important states to be aware of when using LiPo
-batteries.
+- Balance Charge: A LiPo battery should be charged to balance charge before being used in your device. The balance charge ensures that each cell in the battery pack is charged to the identical voltage level. Ask your teacher to demonstrate balance charge on the charging device.
 
-Balance Charge
---------------
+- Low Voltage: It is important to make sure that the voltage in a battery never reaches below the danger threshold level. In order to ensure this does not happen, batteries should be checked every day using a LiPo tester. Ask your teacher to demonstrate testing.
 
-A LiPo battery should be charged to balance charge before being used in
-your device. The balance charge ensures that each cell in the battery
-pack is charged to the identical voltage level.
-
-Low Voltage
------------
-
-It is important to make sure that the voltage in a battery never reaches
-below the danger threshold level. In order to ensure this does not
-happen, batteries should be checked every day using a LiPo tester.
-
-Storage Charge
---------------
-
-Before returning a battery to storage it should be correctly discharged
-to a storage state selecting the Storage Charge state on the battery
-charger.
+- Storage Charge: Before returning a battery to storage it should be correctly discharged to a storage state selecting the Storage Charge state on the battery charger.
 
 Connectors
 ----------
