@@ -1,4 +1,4 @@
-Printing Characters N
+Printing Characters
 ==============
 
 Overview
