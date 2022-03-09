@@ -4,7 +4,7 @@ MD17A
 Overview
 --------
 
-The MD17A is a small dual motor control module made by Pololu and based on the DRV8833 motor driver IC. The following are features of this motor module. 
+The MD17A is a small dual motor control module made by Pololu and based on the DRV8833 motor driver IC. The following are features of this motor module. You can find more information about the module on the Pololu site `here <https://www.pololu.com/product/2130>`__. 
 
 - Dual-H-bridge motor driver: can drive two DC motors or one bipolar stepper motor
 - Operating voltage: 2.7‌‌ V to 10.8 V
@@ -14,6 +14,8 @@ The MD17A is a small dual motor control module made by Pololu and based on the D
 - Under-voltage lockout and protection against over-current and over-temperature
 - Reverse-voltage protection circuit
 - Current limiting can be enabled by adding sense resistors (not included)
+
+The following is an image of the labeled side of the module and a table listed the functions of each pin.
 
 .. figure:: images/image28.png
    :alt: 
@@ -43,6 +45,9 @@ The MD17A is a small dual motor control module made by Pololu and based on the D
 +-------------------------+------------------------------------------------------+
 | FLT                     | Not connected                                        |
 +-------------------------+------------------------------------------------------+
+
+
+.. image:: images/MD17a.png
 
 Exercise:
 ~~~~~~~~~
