@@ -1,4 +1,4 @@
-Voltage Dividers N
+Voltage Dividers 
 ================
 
 Overview
