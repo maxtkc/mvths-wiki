@@ -1,4 +1,4 @@
-Engineering Notation N
+Engineering Notation
 =========
 
 Overview
