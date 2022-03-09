@@ -4,9 +4,9 @@ Duty Cycle
 Overview
 --------
 
-In this lesson you will learn about pulse width modulation (PWM) and how to use PWM to control the brightness of lights or the speed of a motor. PWM is, as the name states, a way to control the width of a pulse. By controlling the width of a pulse you can the percentage of time the pulse is high and low and as a result control the power provided to a circuit. 
+In this lesson you will learn about pulse width modulation (PWM) and how to use PWM to control the brightness of lights or the speed of a motor. PWM is, as the name states, a way to control the width of a pulse. By controlling the width of a pulse you can control the percentage of time a pulse is high versus low. This will control the power provided to a circuit. 
 
-The amount of time a pulse is on versus off is called the **duty cycle**. The duty cycle is a measure of the percentage of time a pulse is on versus off.  In the diagram below the first pulse is on for exactly the same time it is off (i.e. 50 percent on and 50 percent off). This is known as a 50 percent duty cycle. If this pulse were driving a light, the light would be half as bright as its maximum brightness. The greater the duty cycle, the more power, light or speed is generated in the device.
+The amount of time a pulse is on versus off is called the **duty cycle** and is given as a percentage of time a pulse is on versus off.  In the diagram below the first pulse is on for exactly the same time it is off (i.e. 50 percent on and 50 percent off). This is known as a 50 percent duty cycle. If this pulse were driving a light, the light would be half as bright as its maximum brightness. The greater the duty cycle, the more power, light or speed is generated in the device.
 
 .. figure:: images/image112.png
    :alt: 
