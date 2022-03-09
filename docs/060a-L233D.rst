@@ -8,7 +8,11 @@ The L293D or similar SN764410NE is a complete motor driver ICs. The L293D is dua
 
 Below is a simple hook up diagram for the L293D. It is imporant to note that there are two connections for power. One is Vbat and the other is Vcc. This is because the your motor should be powered by a different voltage from your logic (microcontroller, sensors, etc). Vcc is the logic voltage or 5 Volts. Vbat is the input for the voltage you will use to control your motor. **IMPORTANT:** You should NOT drive your motor using Vcc or the same supply as you are using for your logic.
 
-There are two control lines for each motor. PB0, PB1 for the motor on the left and PB2, PB3 for the motor on the right. Below is a table showing how the control lines drive each motor.
+.. figure:: images/image69.png
+   :alt: 
+
+
+There are two inputs for controlling each motor. Pins PB0 and PB1 are for controlling the motor on the left and pins PB2 and PB3 are for controlling the motor on the right. Below is a table showing how the control lines drive each motor.
 
 +--------+--------+--------------------------+
 | PB0    | PB1    | Function                 |
@@ -22,19 +26,12 @@ There are two control lines for each motor. PB0, PB1 for the motor on the left a
 | LOW    | LOW    | Brake                    |
 +--------+--------+--------------------------+
 
-.. figure:: images/image69.png
-   :alt: 
-
 Exercise:
 ~~~~~~~~~
 
-Set up the L293D (or SN745510NE) to drive a single motor in two
-directions. You should NOT use a microcontroller to complete this
-exercise. (i.e. just set the inputs into power and ground)
+#. Set up the L293D (or SN745510NE) to drive a single motor in two directions. You should NOT use a microcontroller to complete this first exercise. (i.e. just set the inputs into power and ground)
 
-IMPORTANT: If you plan to use an Arduino Uno to control the motor
-module, consult the guide on using `Arduino and Power
-Control. <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.po3whfrs5bxa&sa=D&ust=1587613174167000>`__
+#. Add a microcontroller (Arduino) to control the motors.
 
 TEACHER CHECK \_\_\_\_
 
