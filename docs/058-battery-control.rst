@@ -41,4 +41,4 @@ Drive your motor control circuit using a single 7.2V (2 cell) LiPo battery. This
   
 #. Connect your lipo cable to your breadboard circuit.
 
-TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
