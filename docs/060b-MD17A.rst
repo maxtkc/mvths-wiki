@@ -46,29 +46,20 @@ The following is an image of the labeled side of the module and a table listed t
 | FLT                     | Not connected                                        |
 +-------------------------+------------------------------------------------------+
 
+The following is a hook up diagram for using the MD17A. Note that generally it is best to solder and use the MD17A with the label side up so it is easier to make sure your connections are correct. **VERY IMPORTANT** The MD17A only has one voltage input. This is for the power to the motor. This voltage should ONLY be applied to this pin and no where else on your board.
 
 .. image:: images/MD17a.png
 
 Exercise:
 ~~~~~~~~~
 
-Set up your breadboard with the MD17A following the table for making
-connections. Use long flexible jump wires for each of four pins labeled
-IN (logic inputs). These should be from the pins labeled IN to ground on
-your breadboard.
+#. Set up your breadboard with the MD17A following the table for making connections for one motor. For this first step, do not use a microcontroller (Arduino). You will simply connect long flexible jump wires to the two input pins that correspond to the motor you connected. Setting these pins to power and ground should control your motors direction and turn it on and off.
 
-TEACHER CHECK \_\_\_\_
+#. Add a microcontroller (Arduino) to your breadboard and control the motor in software. 
 
-Exercise:
-~~~~~~~~~
+#. Add a second motor to your circuit and control both motors with software.
 
-Demonstrate how you can control the direction and power to each motor
-using the logic inputs (IN).
 
-TEACHER CHECK \_\_\_\_
-
-Exercise:
-~~~~~~~~~
 
 Connect the four logic inputs to four digital ports on your MetroMini.
 Write a program to turn drive each motor on for 3 seconds, reverse
