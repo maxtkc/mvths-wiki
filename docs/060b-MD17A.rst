@@ -57,12 +57,5 @@ Exercise:
 
 #. Add a microcontroller (Arduino) to your breadboard and control the motor in software. 
 
-#. Add a second motor to your circuit and control both motors with software.
+#. Add a second motor to your circuit. Write a program to drive both motors for 3 seconds, reverse direction for 3 seconds and off for 3 seconds.
 
-
-
-Connect the four logic inputs to four digital ports on your MetroMini.
-Write a program to turn drive each motor on for 3 seconds, reverse
-direction for 3 seconds and off for 3 seconds.
-
-TEACHER CHECK \_\_\_\_
