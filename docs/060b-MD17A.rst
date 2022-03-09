@@ -1,0 +1,68 @@
+Motor Control Modules
+=============================
+
+Overview
+--------
+
+MD17A
+-----
+
+The MD17A is a small dual motor control module made by Pololu and based
+on the DRV8833 motor driver IC. Below is a diagram of the motor module
+and a table describing the proper connections for your board.
+
+.. figure:: images/image28.png
+   :alt: 
+
++-------------------------+------------------------------------------------------+
+| Pin Name                | Pin Function                                         |
++-------------------------+------------------------------------------------------+
+| GND                     | Connect to ground on your breadboard                 |
++-------------------------+------------------------------------------------------+
+| VIN                     | Connect to power from power supply to drive motors   |
++-------------------------+------------------------------------------------------+
+| OUT (B1) and OUT (B2)   | Drive for motor B (connect two wires from motor)     |
++-------------------------+------------------------------------------------------+
+| OUT (A1) and OUT (A2)   | Drive for motor A (connect two wires from motor)     |
++-------------------------+------------------------------------------------------+
+| AISEN                   | Not connected                                        |
++-------------------------+------------------------------------------------------+
+| BISEN                   | Not connected                                        |
++-------------------------+------------------------------------------------------+
+| VMM                     | Not connected                                        |
++-------------------------+------------------------------------------------------+
+| IN (B1) and IN (B2)     | Logic control for motor B                            |
++-------------------------+------------------------------------------------------+
+| IN (A1) and IN (A2)     | Logic control for motor A                            |
++-------------------------+------------------------------------------------------+
+| SLP                     | Not connected                                        |
++-------------------------+------------------------------------------------------+
+| FLT                     | Not connected                                        |
++-------------------------+------------------------------------------------------+
+
+Exercise:
+~~~~~~~~~
+
+Set up your breadboard with the MD17A following the table for making
+connections. Use long flexible jump wires for each of four pins labeled
+IN (logic inputs). These should be from the pins labeled IN to ground on
+your breadboard.
+
+TEACHER CHECK \_\_\_\_
+
+Exercise:
+~~~~~~~~~
+
+Demonstrate how you can control the direction and power to each motor
+using the logic inputs (IN).
+
+TEACHER CHECK \_\_\_\_
+
+Exercise:
+~~~~~~~~~
+
+Connect the four logic inputs to four digital ports on your MetroMini.
+Write a program to turn drive each motor on for 3 seconds, reverse
+direction for 3 seconds and off for 3 seconds.
+
+TEACHER CHECK \_\_\_\_
