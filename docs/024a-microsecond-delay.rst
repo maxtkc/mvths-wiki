@@ -1,4 +1,4 @@
-Microsecond Delays N
+Microsecond Delays
 ==========================
 
 Overview
