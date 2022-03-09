@@ -6,6 +6,9 @@
 Electronics Guides
 ==================================================
 
+The following is a list of guides for learning about electronics and software in the Robotics and Engineering shop.
+
+
 .. toctree::
    :maxdepth: 1
    :caption: Contents
