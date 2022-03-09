@@ -1,4 +1,4 @@
-Generating Frequencies N
+Generating Frequencies
 ==========================
 
 Overview
