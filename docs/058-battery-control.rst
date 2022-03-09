@@ -29,15 +29,15 @@ Drive your motor control circuit using a single 7.2V (2 cell) LiPo battery. This
 
 #. Create a battery connector with a polarized JST connector on one end mating with the JST connector on the battery and a two wire header on the other end that can plug into your breadboard. **IMPORTANT:** Make sure to use red and black wires with your connector and make sure they are polarized correctly! 
 
-  TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
 
 #. Set up your breadboard (if you have not already done so) with 5 volt regulator to drive both the logic circuit and the motor controller.
 
-  TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
 
 #. Tape your battery connector to your breadboard so that it will not easily fall off.
 
-  TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
   
 #. Connect your lipo cable to your breadboard circuit.
 
