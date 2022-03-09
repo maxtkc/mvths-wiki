@@ -10,7 +10,7 @@ Since setting up bi-directional motor control using discrete components is diffi
 
 **Voltage Rating:** Voltage rating determine the minimum and maximum voltage for the motor module. Motors also are designed with a minimum and maximum voltage rating. It is important to make sure the range in which you intend to drive the motor fits within both the acceptable voltage range for the motor and the acceptable voltage range for the motor module.
 
-**Circuit Protection:** Many motor modules include some sort of circuit protection. **Over current protection** is generally designed to protect the motor module from drawing too much current by shutting down. This means you could use a motor module that has a current rating below the stall current of the motor you are using if you can accept that the module will shut down when the motor stalls. 
+**Circuit Protection:** Many motor modules include some sort of circuit protection. **Over current protection** is generally designed to protect the motor module from drawing too much current by shutting down. This means you could use a motor module that has a current rating below the stall current of the motor you are using if you can accept that the module will shut down when the motor stalls. **Thermal shutdown** is designed to shut down the module before it gets too hot. Motor modules can get very hot when they are operating at high current, **hot enough to burn your hand!** Too much heat can damage a module so some modules are designed to shut down before they get too hot.
 
 L293D OR SN754410NE
 -------------------
