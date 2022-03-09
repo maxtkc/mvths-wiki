@@ -1,4 +1,4 @@
-Other Variables N
+Other Variables
 ==============
 
 Overview
