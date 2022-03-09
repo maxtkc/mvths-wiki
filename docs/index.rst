@@ -91,6 +91,8 @@ Welcome to MVTHS Engineering Wiki's documentation!
    058-battery-control
    059-soft-latching-switch
    060-motor-control-modules-and-ics
+   060a-L233D
+   060b-MD17A
    061-motor-direction-control-functions
    062-speed-and-direction-control
    063-challenge-review
