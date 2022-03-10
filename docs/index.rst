@@ -68,6 +68,7 @@ The following is a list of guides for learning about electronics and software in
    028d-complex-device-rules
    029-mcp9808-temperature-sensor
    030-modifying-example-code
+   031-functions
    033-TEMT6000-light-sensor
    035-strip-and-crimp
    035a-seven-segment-display
