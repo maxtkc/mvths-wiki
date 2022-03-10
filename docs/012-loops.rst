@@ -1,4 +1,4 @@
-Loops and Functions
+Loops
 =====
 
 Overview
