@@ -64,12 +64,12 @@ Complete the following table in your notebook.
 
 It is also possible to use a map function provided in the Arduino library to easily map between two ranges. Below shows how the function interprets the values of each range.
 
-.. code-block::
+.. code-block:: C
 
    map(value, fromLow, fromHigh, toLow, toHigh)
 
 Below is an example of the function mapping the source range (1 to 50) to (50 to 1). The value x from the source range is mapped to the value y in the target range.
 
-.. code-block::
+.. code-block:: C
 
    y = map(x, 1, 50, 50, 1);
