@@ -66,10 +66,10 @@ It is also possible to use a map function provided in the Arduino library to eas
 
 .. code-block::
 
- map(value, fromLow, fromHigh, toLow, toHigh)
+  map(value, fromLow, fromHigh, toLow, toHigh)
 
 Below is an example of the function mapping the source range (1 to 50) to (50 to 1). The value x from the source range is mapped to the value y in the target range.
 
 .. code-block::
 
- y = map(x, 1, 50, 50, 1);
+  y = map(x, 1, 50, 50, 1);
