@@ -23,11 +23,10 @@ Passing a value to this function would look like the following.
 The value of x is now 12 since it was multiplied by two by the function.
 
 When writing a function, you can name a function anything you want, but it is good to give it a name that indicates what is does. In case above, the function times_two multiplies a number by 2. You must also create a variable for the argument (or number) passed to the function. In the case above, the variable is named val. Again, try to use variable names that indicate the purpose of the variable.
-
-   
-   
    
 Exercise:
 ~~~~~~~~~
+
+#. Create a function to convert 
 
 Create a function to convert Celsius to Fahrenheit. This is a simple function and used here just to provide some experience with how to write a function. 
