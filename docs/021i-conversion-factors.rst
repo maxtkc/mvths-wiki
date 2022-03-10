@@ -13,8 +13,7 @@ as multiplying the target value by the conversion factor::
 
  source value = target value * conversion factor
 
-Note that if we recorde a value of 120dB, the top of the range for loudness, this converts to 10, the top of the LED range (120 * .0834 = 10). If we record a value of 60 dB, the
-middle of the range for loudness, this converts to 5, the middle of LED range (60 * .0834 = 5). 
+Note that if we recorde a value of 120dB, the top of the range for loudness, this converts to 10, the top of the LED range (120 * .0834 = 10). If we record a value of 60 dB, the middle of the range for loudness, this converts to 5, the middle of LED range (60 * .0834 = 5). 
 
 Exercise:
 ~~~~~~~~~
@@ -38,7 +37,8 @@ Complete the following table in your notebook.
      - 0 to 10
      - 
  
-| **Complex Conversions**
+**Complex Conversions**
+
 In addition to creating a conversion factor for ranges that begin with zero it is possible to create scales for ranges that do not begin with zero. For example, let’s start with a source range of 10 to 50 and scale to a range of 0 to 90. You can find the scale factor using the same equation you used above, but instead of using the 50 for the initial range, you would use 40 or the difference between the start of the range 10 and the end of therange 50.  Therefore the scale factor equals 90 divided by 40 or 2.25. 
 
 Complete the following table in your notebook.
@@ -60,7 +60,7 @@ Complete the following table in your notebook.
      - 0 to 10
      - 
 
-| **Map Function**
+**Map Function**
 
 It is also possible to use a map function provided in the Arduino library to easily map between two ranges. Below shows how the function interprets the values of each range.
 
