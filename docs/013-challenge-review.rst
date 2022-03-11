@@ -22,9 +22,7 @@ Complete the following six challenges.
 
    TEACHER CHECK \_\_\_\_\_
 
-#. Connect three LEDs to any three pins on your microcontroller, except pin 5. Attach a fourth lead to pin 5. Write a program to turn on all three LEDs when pin 5 is connected to ground and turn off all three LEDs when pin 5 is connected to power. 
-
-
+#. Connect three LEDs to any three pins on your microcontroller, except pin 5. Attach a long jump wire to pin 5. Write a program to turn on all three LEDs when pin 5 is connected to ground and turn off all three LEDs when pin 5 is connected to power. 
 
    TEACHER CHECK \_\_\_\_\_
 
