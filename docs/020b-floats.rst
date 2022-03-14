@@ -4,12 +4,9 @@ Floats N
 Overview
 --------
 
-In addition to variable types for storing whole numbers and characters as you learned about in previous lessons, there is a variable type for storing
-factional numbers. The variable type float or floating-point numbers can be as large as 3.4028235E+38 and as low as -3.4028235E+38. 
-They are stored as 32 bits (4 bytes) of information. The following is an example of initializing a floating-point type.
+In addition to variable types for storing whole numbers as you learned about in previous lessons, there is a variable type for storing factional numbers. The variable type float or floating-point numbers can be as large as 3.4028235E+38 and as low as -3.4028235E+38.  They are stored as 32 bits (4 bytes) of information. The following is an example of initializing a floating-point type.
 
-While it may seem tempting to simply initialize every number as a float since it covers the widest range, it is best to only initialize variables to the size that you
-need. Floats use a lot of memory and memory gets used up fast in microcontrollers.
+While it may seem tempting to simply initialize every number as a float since it covers the widest range, it is best to only initialize variables to the size that you need. Floats use a lot of memory and memory gets used up fast in microcontrollers.
 
 .. code-block:: c
   
