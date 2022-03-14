@@ -22,7 +22,7 @@ What makes this a little more complicated is that some variable typess can store
 Exercise:
 ~~~~~~~~~
 
-#. Initialize a variable as a byte (8 bits). In your loop function continously add one to the variable and print the result in your serial monitor. Include a small delay of at   least 5ms so that the code does not crash the serial port. Record the highest value of the count in your notebook. When you initialize a variable as a byte is only 8 bits of space are reserved for the variable so the highest number it can reach will be significantly less. Once the microcontroller reaches the highest value of the byte is starts counting from zero again.
+#. Initialize a variable as a byte (8 bits). In your loop function continously add one to the variable and print the result in your serial monitor. Include a small delay of at   least 5ms so that the code does not crash the serial port. Record the highest value of the count in your notebook. When you initialize a variable as a byte, only 8 bits of space are reserved for the variable so the highest number it can reach will be significantly less than with an int. Once the microcontroller reaches the highest value of the byte is starts counting from zero again.
 
 #. Initialize a varible as each of the following types shown in the table below. Continously increment or decrement (add one or subtract one) from the variable in your loop function and print the value in your serial monitor. Use this code to determine the highest and lowest value for each variable type. Copy the table to your note book.
 
