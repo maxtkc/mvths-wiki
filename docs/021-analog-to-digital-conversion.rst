@@ -6,20 +6,10 @@ Overview
 
 In addition to the digital pins on your microcontroller number D0 through D13 there are also six analog pins assigned A0 - A5. These analog pins are desgined to read analog signals and convert them to a digital format that the microcontroller can use. 
 
-Up till now all of the inputs used with your microcontroller have been digital. A digital input is one that has fixed states. A button, for example, only has two states, either pressed or not pressed. Electrically these states are represented as voltages, 5V or 0V.  
+Up till now all of the inputs used with your microcontroller have been digital. A digital input is one that has fixed states. A button, for example, only has two states, either pressed or not pressed. Electrically these states are represented as voltages, 5V or 0V. The potentiometer you learned about in the previous section (but have not yet used as an input) represents your first introduction to an analog signal. An analog signal is one that varies infinitely over time. As you saw with your multimeter, the potentiometer can be used to produce ANY voltage between 0V and 5V.
 
-The potentiometer you learned about in the previous section represents your first introduction to an analog signal. An analog signal is one 
-that varies infinitely over time. As you saw with your multimeter, the potentiometer can be used to produce ANY voltage between zero and
-five volts on your device. This is in contrast to the button which can only produce two distinct voltage levels, zero volts or five volts. 
+Your microcontroller is an inherently digital device so in order for it to read a signal from a potentiometer, it must be able to convert this analog signal to a digital signal using one of the six analog ports. Since the analog ports on the microcontroller you are using are 10-bit they convert any analog signal (between 0V and 5V) to one of 1024 different states (0 - 1023).  
 
-Your microcontroller has two types of input pins, digital and analog. The digital pins are assigned D0 - D13 and the analog pins are assigned A0 - A5. 
-While these pins have very different uses, it may help to understand them better if we consider then only different by degree. Digital pins can represent
-voltages as one of only two states, either 0 (LOW) or 1 (HIGH) regardless of the voltage input. The datasheet for your device states that any 
-voltage between 0V and 1.5V will be presented as a 0 (LOW) and any voltage between 3V and 5V will be repsented as a 1 (HIGH). Voltage values between 1.5V and 3V are 
-indeterminate and may be represented as either 0 or 1. 
-
-By comparison, an analog pin can read 1024 different states (0 - 1023) instead of just two, based on the voltage input. Essentially, the analog ports 
-divide voltage input into much finer increments. The figure below shows how your microcontroller might read different input voltages on an analog pin. You can read more about analog pins `here <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.kxihcorejof7>`__.
 
 .. figure:: images/image109.png
    :alt: 
