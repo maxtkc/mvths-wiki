@@ -17,28 +17,27 @@ For example, if you wanted to know how many bars would be represented by 60dB yo
 Exercise:
 ~~~~~~~~~
 
-Complete the following table in your notebook.
 
-.. list-table:: Conversion Factor
-   :widths: 25 25 50
-   :header-rows: 1
+#. Find the conversion factor for each of the ranges listed below. Complete the table in your notebook.
 
-   * - Source Range
-     - Target Range
-     - Conversion Factor
-   * - 0 to 180
-     - 0 to 65
-     - 
-   * - 0 to 45
-     - 0 to 220
-     - 
-   * - 0 to 100
-     - 0 to 10
-     - 
- 
-**Complex Conversions**
+ .. list-table:: 
+    :widths: 25 25 50
+    :header-rows: 1
 
-In addition to creating a conversion factor for ranges that begin with zero it is possible to create scales for ranges that do not begin with zero. For example, let’s start with a source range of 10 to 50 and scale to a range of 0 to 90. You can find the scale factor using the same equation you used above, but instead of using the 50 for the initial range, you would use 40 or the difference between the start of the range 10 and the end of therange 50.  Therefore the scale factor equals 90 divided by 40 or 2.25. 
+    * - Source Range
+      - Target Range
+      - Conversion Factor
+    * - 0 to 180
+      - 0 to 65
+      - 
+    * - 0 to 45
+      - 0 to 220
+      - 
+    * - 0 to 100
+      - 0 to 10
+      - 
+
+#. Find the converstion factors for the ranges listed below. Note that in the following table, the ranges do not begin with zero as they do in the table above. Finding the conversion factor simply means taking the difference between start and end points in each range. For example, using a source range of 10 to 50 and target to a range of 0 to 90, you would use 40 for the source range and 90 for the target range.  Therefore the scale factor equals 90 divided by 40 or 2.25. 
 
 Complete the following table in your notebook.
 
@@ -59,9 +58,7 @@ Complete the following table in your notebook.
      - 0 to 10
      - 
 
-**Map Function**
-
-It is also possible to use a map function provided in the Arduino library to easily map between two ranges. Below shows how the function interprets the values of each range.
+#. Finally, it is possible to use the map() function to scale a range of numbers. It is also possible to use a map function provided in the Arduino library to easily map between two ranges. Below shows how the function interprets the values of each range.
 
 .. code-block:: C
 
