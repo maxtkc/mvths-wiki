@@ -4,10 +4,30 @@ Logical Operators
 Overview
 --------
 
-In this lesson, you will learn to use the `logical
-operators <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.wu2vkp32zpto&sa=D&ust=1587613173940000>`__ AND,
-OR and NOT. As with relational operators, these are mostly used with
-conditionals.
+In this lesson, you will learn to use the logical operators **AND**, **OR** and **NOT**. 
+
+.. list-table:: Logical Operators
+   :widths: 25 25 50 50
+   :header-rows: 1
+
+   * - Operator
+     - Name
+     - Meaning
+     - Example
+   * - &&
+     - AND
+     - both operands are true
+     - if ((x==5) && (y< 7))
+   * - ||
+     - OR
+     - either operand are true
+     - if ((z < 2) OR (a > 5))
+   * - !
+     - NOT
+     - the operand is false
+     - if !(x < 5)
+  
+
 
 Exercise:
 ~~~~~~~~~
