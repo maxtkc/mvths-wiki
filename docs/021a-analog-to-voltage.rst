@@ -13,7 +13,7 @@ Exercise
 
 #. Set up your potentiometer as described in the section on potentiometers. Measure the voltage output using a multimeter.
    
-#. Complete the following table in your notebook. The two columns represent a source range and the steps column represent a target range. Using the formula you learned in the previous lesson, you can find the Volts per step, or conversion factor. Note that the last row represents the actual values of your microcontroler. The range for your potentiometer is 0V to 5V and the analog converter on your microcontroller has a range of 1024 steps.
+#. Complete the following table in your notebook. The two columns represent a source range and the steps column represent a target range. Using the formula you learned in the previous lesson, you can find the Volts per step, or conversion factor. Note that the last row represents the actual values of your microcontroler. The range for your potentiometer is 0V to 5V and the analog converter on your microcontroller has a range of 1024 steps. Round your answers to the nearest 1000th. 
 
    +---------------+----------------+---------+------------------+
    | Low Voltage   | High Voltage   | Steps   | Volts per Step   |
@@ -31,17 +31,15 @@ Exercise
 
    TEACHER CHECK \_\_\_\_
 
-#. Following the steps below, write a program to display the voltage at the output from your potentiometer. 
+#. Following the steps below to create a voltmeter. 
 
-   #. Copy the conversion factor from the last row of the table above. (i.e. How many
-   volts is each step of the A/D converter)
+   #. Connect the output of your potentiometer to an analog port on your microcontroller or Arduino. 
    
-   #. In your code multiply this factor by the results of the A/D
-   converter. (i.e. if you are using the variable x to store the results
-   of the A/D conversion than you would multiply this number by the
-   conversion factor from above before printing the result). You can
-   find information about how to multiply a variable
-   `here <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.j1vujjth5hql&sa=D&ust=1587613173936000>`__.
+   #. Write a program to display the value of the potentiometer in your terminal window. You should see a range of 0 to 1023 as you turn the potentiometer.
+   
+   #. Multiply the value from your potentiometer by the steps (conversion factor) you calculated in the last column of the last row above. Print this number in your terminal window.
+   
+  
    
    #. If you did this correctly, you should see the results vary between 0
    and 5 (or maybe just 4 depending on your potentiometer) representing
