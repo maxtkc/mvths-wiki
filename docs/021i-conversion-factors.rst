@@ -17,31 +17,28 @@ For example, if you wanted to know how many bars would be represented by 60dB yo
 Exercise:
 ~~~~~~~~~
 
-
 #. Find the conversion factor for each of the ranges listed below. Complete the table in your notebook.
 
- .. list-table:: 
-    :widths: 25 25 50
-    :header-rows: 1
+   .. list-table:: 
+      :widths: 25 25 50
+      :header-rows: 1
 
-    * - Source Range
-      - Target Range
-      - Conversion Factor
-    * - 0 to 180
-      - 0 to 65
-      - 
-    * - 0 to 45
-      - 0 to 220
-      - 
-    * - 0 to 100
-      - 0 to 10
-      - 
+      * - Source Range
+        - Target Range
+        - Conversion Factor
+      * - 0 to 180
+        - 0 to 65
+        - 
+      * - 0 to 45
+        - 0 to 220
+        - 
+      * - 0 to 100
+        - 0 to 10
+        - 
 
 #. Find the converstion factors for the ranges listed below. Note that in the following table, the ranges do not begin with zero as they do in the table above. Finding the conversion factor simply means taking the difference between start and end points in each range. For example, using a source range of 10 to 50 and target to a range of 0 to 90, you would use 40 for the source range and 90 for the target range.  Therefore the scale factor equals 90 divided by 40 or 2.25. 
 
-Complete the following table in your notebook.
-
-   .. list-table:: Complex Conversions
+   .. list-table::
       :widths: 25 25 50
       :header-rows: 1
 
@@ -62,7 +59,7 @@ Complete the following table in your notebook.
 
    .. code-block:: C
 
-   map(value, fromLow, fromHigh, toLow, toHigh);
+      map(value, fromLow, fromHigh, toLow, toHigh);
 
    Below is an example of the function mapping the source range (1 to 50) to (50 to 1). The value x from the source range is mapped to the value y in the target range.
 
