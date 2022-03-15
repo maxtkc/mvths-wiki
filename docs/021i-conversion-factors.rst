@@ -41,31 +41,31 @@ Exercise:
 
 Complete the following table in your notebook.
 
-.. list-table:: Complex Conversions
-   :widths: 25 25 50
-   :header-rows: 1
+   .. list-table:: Complex Conversions
+      :widths: 25 25 50
+      :header-rows: 1
 
-   * - Source Range
-     - Target Range
-     - Conversion Factor
-   * - 10 to 180
-     - 0 to 65
-     - 
-   * - 5 to 45
-     - 0 to 220
-     - 
-   * - 40 to 100
-     - 0 to 10
-     - 
+      * - Source Range
+        - Target Range
+        - Conversion Factor
+      * - 10 to 180
+        - 0 to 65
+        - 
+      * - 5 to 45
+        - 0 to 220
+        - 
+      * - 40 to 100
+        - 0 to 10
+        - 
 
-#. Finally, it is possible to use the map() function to scale a range of numbers. It is also possible to use a map function provided in the Arduino library to easily map between two ranges. Below shows how the function interprets the values of each range.
+#. Use the *map()* function to make a conversion. The map() function provided in the Arduino library allows you to easily map between two ranges. Below shows how the function interprets the values of each range.
 
-.. code-block:: C
+   .. code-block:: C
 
    map(value, fromLow, fromHigh, toLow, toHigh);
 
-Below is an example of the function mapping the source range (1 to 50) to (50 to 1). The value x from the source range is mapped to the value y in the target range.
+   Below is an example of the function mapping the source range (1 to 50) to (50 to 1). The value x from the source range is mapped to the value y in the target range.
 
-.. code-block:: C
+   .. code-block:: C
 
-   y = map(x, 1, 50, 50, 1);
+      y = map(x, 1, 50, 50, 1);
