@@ -55,6 +55,7 @@ The following is a list of guides for learning about electronics and software in
    024a-microsecond-delay
    025-frequency
    025a-period
+   025aa-frequency-conversion
    025b-generating-frequency
    026-piezo-speaker
    026a-tone-function
