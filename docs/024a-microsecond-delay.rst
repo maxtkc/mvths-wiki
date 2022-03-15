@@ -4,20 +4,16 @@ Microsecond Delays
 Overview
 --------
 
-In addition to the standard delay function which is measured in milliseconds, there is also a microsecond delay measured in, you guessed it, microseconds. Up until now, you have
-not needed shorter delays in your projects, but as you get into creating frequencies, shorter delays will be helpful.
+In addition to the standard delay function which is measured in milliseconds, there is also a microsecond delay measured in, you guessed it, microseconds. Up until now, you have not needed shorter delays in your projects, but as you start creating frequencies to make sounds, shorter delays will be helpful.
 
 .. code-block:: c
 
-  delayMicroseconds(300);
-
-For every millisecond there are 1000 microseconds, or one millisecond equals one thousand microseconds. This correlates with the two engineering prefixes of milli and micro. 
-you can find more on this in the lesson on engineering notation. 
+  delayMicroseconds(300);  // Note that for every millisecond there are 1000 microseconds. 
 
 Exercise:
 ~~~~~~~~~
 
-1. Complete the following table in your notebook.
+#. Complete the following table in your notebook.
 
 .. list-table:: Time Conversion
    :widths: 25 25 25
@@ -42,6 +38,6 @@ Exercise:
      - 2350
 
 
-2. What function would you write if you needed a .02 millisecond delay in your code? Write your answer in your note book.
+#. What function would you write if you needed a .02 millisecond delay in your code? Write your answer in your note book.
 
 TEACHER CHECK \_\_\_\_
