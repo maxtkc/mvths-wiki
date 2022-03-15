@@ -1,4 +1,4 @@
-Floats N
+Floats
 ==============================
 
 Overview
