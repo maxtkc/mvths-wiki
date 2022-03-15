@@ -53,9 +53,9 @@ The following is a list of guides for learning about electronics and software in
    023-logical-operators
    024-blinking-lights
    024a-microsecond-delay
-   025b-generating-frequency
    025-frequency
    025a-period
+   025b-generating-frequency
    026-piezo-speaker
    026a-tone-function
    027-review-challenge
