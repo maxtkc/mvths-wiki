@@ -39,7 +39,7 @@ Exercise
    
    #. Multiply the value from your potentiometer by the steps (conversion factor) you calculated in the last column of the last row above. Print this number in your terminal window. You should see a value from 0 to 5 which represents a very crude voltmeter ranging from 0 to 5 volts. 
 
-   TEACHER CHECK \_\_\_\_
+      TEACHER CHECK \_\_\_\_
 
    #. Modify your code by changing the variable you are using to store the value from your potentiometer from an int to a float. Display your results in your teriminal window.
 
