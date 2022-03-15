@@ -16,7 +16,7 @@ The **LM7805** is a common linear regulator for producing 5 volts for your circu
 Exercise:
 ~~~~~~~~~
 
-#. Using the device diagram and the basic circuit shown below, set up an LM7805 to regulate 10V input from your bench supply to 5V output. NOTE: You will not need to use the capacitors shown for this exercise. Test your output using a multimeter. NOTE: your circuit may not produce exactly 5.0V.
+#. Using the device diagram and the basic circuit shown below, set up an LM7805 to regulate 7V input from your bench supply to 5V output. Test your output using a multimeter. NOTE: your circuit may not produce exactly 5.0V.
 
    .. figure:: images/image9.png
 
