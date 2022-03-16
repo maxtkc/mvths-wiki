@@ -59,9 +59,9 @@ The following is a list of guides for learning about electronics and software in
    025b-generating-frequency
    026-piezo-speaker
    026a-tone-function
+   028a-for-loops
    027-review-challenge
    028-using an-oscilloscope
-   028a-for-loops
    028j-for-loop-challenge
    028b-dynamic-waveforms
    028c-controlled-waveforms
