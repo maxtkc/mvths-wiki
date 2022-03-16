@@ -94,16 +94,12 @@ Answer the following in your notebook based on the pulse you created above. Writ
 
 #. How many divisions long is the low portion of the pulse?
 
-TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK \_\_\_\_\_
 
-2. Modify your code to make a new wave form that has a high time of
-   300us and a low time of 200us. Adjust your time division so that you can see more than one pulse on the screen at a time. Adjust the HORIZONTAL dial
-   so that the pulse lines up exactly with the grid. In your book record the time/division setting. 
+#. Modify your code to make a new wave form that has a high time of 300us and a low time of 200us. Adjust your time division so that you can see more than one pulse on the screen at a time. Adjust the HORIZONTAL dial so that the pulse lines up exactly with the grid. In your book record the time/division setting. 
 
-TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK \_\_\_\_\_
 
-3. Create a waveform that is 350Hz and display it on your scope. If you
-   have done this correctly, you should see ~350Hz shown next to the
-   green f at the bottom of your scope.
+#. Create a waveform that is 350Hz and display it on your scope. If you have done this correctly, you should see ~350Hz shown next to the green f at the bottom of your scope.
 
 TEACHER CHECK \_\_\_\_\_
