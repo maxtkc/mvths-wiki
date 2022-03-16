@@ -21,4 +21,4 @@ Exercise:
 
 #. Do something creative to modify the waveform and sound in your piezo speaker.
 
-  TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK \_\_\_\_\_
