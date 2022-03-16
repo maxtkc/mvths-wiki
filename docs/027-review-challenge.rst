@@ -4,8 +4,7 @@ Review Challenge
 Challenge:
 ----------
 
-1. Set up a circuit to drive a piezo speaker with volume control. Use a `for
-   loop <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.2u7q6orum403&sa=D&ust=1587613173962000>`__ to
+1. Set up a circuit to drive a piezo speaker with volume control. Use a for loop o
    change the value of the tone over time. The tone could either rise or fall over time as the for loop increments or decrements. Make sure to use some 
    delay in your for loop so that each tone is played for a period of time.
 
