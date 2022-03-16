@@ -13,13 +13,11 @@ Exercise:
 
 .. code-block:: C
 
-  delayMicroseconds(400); //Fixed 400us delay
+   delayMicroseconds(400); //Fixed 400us delay
 
 .. code-block:: C
 
-  delayMicroseconds(x); //A variable delay based on the value of x
-  
-   TEACHER CHECK \_\_\_\_\_
+   delayMicroseconds(x); //A variable delay based on the value of x
 
 #. Add a piezo speaker with volume control to your breadboard, and drive the speaker with this waveform.
 
