@@ -13,11 +13,10 @@ Setup
 
 #. Find an MCP9808 in the bin labeled “Sensors(Light, Color and Temperature)”
 
-#. Remove the power (USB cable) from your breadboard and follow all rules for complex devices.
+#. Disconnect the power (USB cable) from your USB hub and follow all rules for complex devices.
 #. Insert the MCP9808 into your breadboard.
-#. Provide power to your MCP9808. Connect Vdd of the MCP9808 to power and Gnd of the MCP9808 to ground.
-#. Enable the MCP9808 to communicate with your Metro Mini. Connect the SDA (data) and SCL (clock) communication pins to the SDA
-   and SCL pins on your microcontroller. On your Metro Mini or Arduino the SDA pin is A4 and the SCL pin is A5.
+#. Provide power to your MCP9808 by connecting Vdd of the MCP9808 to power and Gnd of the MCP9808 to ground.
+#. Enable the MCP9808 to communicate with your Metro Mini. Connect the SDA (data) and SCL (clock) communication pins to the SDA and SCL pins on your microcontroller. On your Metro Mini or Arduino the SDA pin is A4 and the SCL pin is A5.
 
 TEACHER CHECK \_\_\_\_\_
 
