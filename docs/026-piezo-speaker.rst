@@ -23,20 +23,18 @@ IMPORTANT: In the schematic below the potentiometer is not being used as a volta
 Exercise
 ~~~~~~~~
 
-1. Construct the following circuit and connect the pulse lead (TO MCU) to any digital pin on your microcontroller pins. After you complete the circuit, write a program to drive your speaker with a frequency of 100 Hz. In order to determine the delays for your code, you will need to convert the frequency to a period. If you need help with this, you can refer to a previous lesson.
+#. Construct the following circuit and connect the pulse lead (TO MCU) to any digital pin on your microcontroller pins. After you complete the circuit, write a program to drive your speaker with a frequency of 100 Hz. In order to determine the delays for your code, you will need to convert the frequency to a period. If you need help with this, you can refer to a previous lesson.
 
-.. figure:: images/image111.png
-   :alt: 
+   .. figure:: images/image111.png
+  
 
-TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
 
-2. Modify your code to produce a frequency of 1000Hz. Note you will need
-   to use a delayMicroseconds() in order to reach this frequency. Confirm the frequency with your multimeter.
+#. Modify your code to produce a frequency of 1000Hz. Note you will need to use a delayMicroseconds() in order to reach this frequency. Confirm the frequency with your multimeter.
 
-TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
 
-3. What are the highest and lowest frequencies you can hear? These may
-   be the highest or lowest you can play. Record your answers below.
+#. What are the highest and lowest frequencies you can hear? These may be the highest or lowest you can play. Record your answers below.
 
 +---------------------+--------------------+
 | Highest Frequency   | Lowest Frequency   |
