@@ -60,9 +60,9 @@ The following is a list of guides for learning about electronics and software in
    026-piezo-speaker
    026a-tone-function
    028a-for-loops
+   028j-for-loop-challenge
    027-review-challenge
    028-using an-oscilloscope
-   028j-for-loop-challenge
    028b-dynamic-waveforms
    028c-controlled-waveforms
    028i-resistive-light-sensor
