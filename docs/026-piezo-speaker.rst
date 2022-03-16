@@ -34,7 +34,7 @@ Exercise
 
    TEACHER CHECK \_\_\_\_
 
-#. What are the highest and lowest frequencies you can hear? These may be the highest or lowest you can play. Record your answers below.
+#. What are the highest and lowest frequencies you can hear? These may be the highest or lowest you can play. Record your answers in your notebook.
 
 +---------------------+--------------------+
 | Highest Frequency   | Lowest Frequency   |
