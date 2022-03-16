@@ -16,7 +16,7 @@ Initial Setup
 #. Connect a scope lead (see image below) to channel 1 (CH1) NOTE: The channel one connector is toward the bottom of your scope. Be careful with the oscilloscope leads. They are fragile and expensive. 
    
    .. figure:: images/oscopelead.png
-   :alt: 
+
    
 #. Make sure your scope lead is set to 1X . There is a switch on the end of the scope lead itself. See below, though the picture shows the lead set to 10X it should be set to 1X for this lesson.
    
@@ -27,25 +27,26 @@ Initial Setup
 First Test
 ~~~~~~~~~~
 
-#. Touch the test lead (micro connector with the witches hat) to the power bus (5V) of your board.
+#. Touch the test lead (press the top of the lead also known as the witches hat) to the power bus (5V) of your board.
 #. At this point, the yellow line should disappear from your screen.
 #. Touch the test lead to ground and the yellow line should reappear.
 
-NOTE: You can remove the witches hat to reveal and test point which can be easier to use in some situations, but DO NOT LOSE it. These are expesensive!
+   NOTE: You can remove the witches hat to reveal and test point which can be easier to use in some situations, but DO NOT LOSE it. These are expesensive!
 
-TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK \_\_\_\_\_
 
 
-Grid
+The Grid
 ~~~~~~~~~~~~~~~~~~
-You will notice that the screen of your oscilloscope is divided into a grid. The **vertical divisions** measure **voltage** and the **horizontal divisions** measure 
-**time**. In the lowerleft corner of the screen there are two numbers, "1=2V" in yellow and "2=2V" in blue. These display the voltage per division for the vertical lines
-of the grid. The yellow is for channel one and the blue is for channel two. For now, we will only be using one channel. In lower 
-center of your screen you will see value 2.5us. This indicates the present number of microseconds per horizontal division on your scope. In your notebook, draw a grid with 
-just four horizontal lines and four vertical lines. Draw an arrow indicating that each horizontal mark is 2.5us and another arrow indicating that each vertical mark
-is 2V. 
+You will notice that the screen of your oscilloscope is divided into a grid. The **vertical divisions** measure **voltage** and the **horizontal divisions** measure **time** as shown in the diagram below.
 
-Vertical Divisions
+.. figure:: images/scopedivision.gif
+
+**Voltage per division:** In the lowerleft corner of the screen there are two equations, "1=2V" in yellow and "2=2V" in blue. These display the voltage per division for the vertical lines of the grid. The yellow is for channel one and the blue is for channel two. For now, we will only be using one channel. 
+
+**Time per division:** In lower center of your screen you will see value 2.5us. This indicates the present number of microseconds per horizontal division on your scope. In your notebook, draw a grid with just four horizontal lines and four vertical lines. Draw an arrow indicating that each horizontal mark is 2.5us and another arrow indicating that each vertical mark is 2V. 
+
+The Vertical Divisions
 ~~~~~~~~~~~~~~~~~~
 
 1. Turn the VOLTS/DIV dial for channel one so that the vertical divisions are set to 5V per division.
