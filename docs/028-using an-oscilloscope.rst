@@ -4,40 +4,32 @@ Using An Oscilloscope
 Overview
 --------
 
-An oscilloscope is a tool that can be used to visualize electronic
-signals in your circuit.
+An oscilloscope is a tool that can be used to visualize electronic signals in your circuit.
 
 Initial Setup
 ~~~~~~~~~~~~~
 
-1. Turn on you oscilloscope. It takes a few seconds to warm up.
-2. Once the scope is on, press the Save/Recall button. It is one of the buttons in the upper two rows of ten buttons.
+#. Turn on you oscilloscope. It takes a few seconds to warm up.
 
-3. On the screen you will see "Default Setup" displayed in the upper right. Press the button to right of "Default Setup" to enter
-   the default setup. This is generally useful to do any time you set up
-   your scope or if you are having trouble reading a signal.
+#. Once the scope is on, press the Save/Recall button. It is one of the buttons in the upper two rows of ten buttons. On the screen you will see "Default Setup" displayed in the upper right. Press the button to right of "Default Setup" to enter the default setup. This is generally useful to do any time you set up your scope or if you are having trouble reading a signal.
    
-4. Connect a scope lead (see image below) to channel 1 (CH1) NOTE: The channel one connector is toward the bottom of your scope. Be careful with the
-   oscilloscope leads. They are fragile and expensive. 
+#. Connect a scope lead (see image below) to channel 1 (CH1) NOTE: The channel one connector is toward the bottom of your scope. Be careful with the oscilloscope leads. They are fragile and expensive. 
    
-.. figure:: images/oscopelead.png
+   .. figure:: images/oscopelead.png
    :alt: 
    
-5. Make sure your scope lead is set to 1X . There is a switch on the end
-   of the scope lead.(see below, though the picture shows the lead set to 10X it should be set to 1X for this lesson)
+#. Make sure your scope lead is set to 1X . There is a switch on the end of the scope lead itself. See below, though the picture shows the lead set to 10X it should be set to 1X for this lesson.
    
-.. figure:: images/x10.png
-   :alt: 
+   .. figure:: images/x10.png
    
-6. As with your multimeter, there is a ground lead and a test lead. Connect the ground lead (alligator clip) to ground on your breadboard.
+#. As with your multimeter, there is a ground lead and a test lead. Connect the ground lead (alligator clip) to ground on your breadboard.
 
 First Test
 ~~~~~~~~~~
 
-1. Touch the test lead (micro connector with the witches hat) to the
-   power bus (5V) of your board.
-2. At this point, the yellow line should disappear from your screen.
-3. Touch the test lead to ground and the yellow line should reappear.
+#. Touch the test lead (micro connector with the witches hat) to the power bus (5V) of your board.
+#. At this point, the yellow line should disappear from your screen.
+#. Touch the test lead to ground and the yellow line should reappear.
 
 NOTE: You can remove the witches hat to reveal and test point which can be easier to use in some situations, but DO NOT LOSE it. These are expesensive!
 
