@@ -4,23 +4,19 @@ Mcp9808 Temperature Sensor
 Overview
 --------
 
-In this lesson you will learn to use the MCP9808 temperature sensor. The
-MCP9808 is a digital sensor that outputs temperature readings natively in
-Celsius. This is the first complex device (as opposed to an individual component) you will be adding to your breadboard.
+In this lesson you will learn to use the MCP9808 temperature sensor. The MCP9808 is a digital sensor that outputs temperature readings natively in Celsius. This is the first complex device (as opposed to an individual component) you will be adding to your breadboard.
 
-It communicates with a microcontroller using the I2C protocol
-which is one of many `communication
-protocols <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.zbv2l6wpi6ec&sa=D&ust=1587613173970000>`__ you
-will use.
+It communicates with a microcontroller using the I2C protocol which is one of many communication protocols you will use.
 
 Setup
 -----
 
-1. Find an MCP9808 in the bin labeled “Sensors(Light, Color and Temperature)”
-2. Remove the power (USB cable) from your breadboard and follow all rules for complex devices.
-3. Insert the MCP9808 into your breadboard.
-4. Provide power to your MCP9808. Connect Vdd of the MCP9808 to power and Gnd of the MCP9808 to ground.
-5. Enable the MCP9808 to communicate with your Metro Mini. Connect the SDA (data) and SCL (clock) communication pins to the SDA
+#. Find an MCP9808 in the bin labeled “Sensors(Light, Color and Temperature)”
+
+#. Remove the power (USB cable) from your breadboard and follow all rules for complex devices.
+#. Insert the MCP9808 into your breadboard.
+#. Provide power to your MCP9808. Connect Vdd of the MCP9808 to power and Gnd of the MCP9808 to ground.
+#. Enable the MCP9808 to communicate with your Metro Mini. Connect the SDA (data) and SCL (clock) communication pins to the SDA
    and SCL pins on your microcontroller. On your Metro Mini or Arduino the SDA pin is A4 and the SCL pin is A5.
 
 TEACHER CHECK \_\_\_\_\_
