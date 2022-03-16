@@ -102,4 +102,4 @@ Answer the following in your notebook based on the pulse you created above. Writ
 
 #. Create a waveform that is 350Hz and display it on your scope. If you have done this correctly, you should see ~350Hz shown next to the green f at the bottom of your scope.
 
-TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK \_\_\_\_\_
