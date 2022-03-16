@@ -12,6 +12,6 @@ Consider two sets of numbers. The first, 0 to 45 will be our source range. The s
    1.00    4.89
    2.00    9.78
 
-
+TEACHER CHECK ______
 
 
