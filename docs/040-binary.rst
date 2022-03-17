@@ -4,7 +4,9 @@ Binary
 Overview
 --------
 
-Binary is just a way of represent numbers with only two digits (0 and 1). Numbers can be represented in any number base from 2 and up. Common number bases in programming include base 2 (binary), base 10 (decimal) and base 16 (hex). Since computers (and microcontrollers) are only capable of storing information in one of two states, all information from a simple number to a full-length video is stored in binary on computers. Though we mostly write numbers in decimal in our code, it is sometimes more convenient to use binary. Hexadecimal is also a useful form for representing numbers. We will discuss hexadecimal in a later lesson. Below is table showing all three.
+Binary is a way of represent numbers with only two digits (0 and 1). It is also known as base-2 because it only has two digits. Numbers can be represented in any number base from 2 and up. Common number bases in programming include base-2 (binary), base-10 (decimal) and base-16 (hex). Decimal or base-10 because it includes 10 digits (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) is what humans generally use for our everyday exchange of numbers. 
+
+Since computers (and microcontrollers) are only capable of storing information in one of two states, all information from a simple number to a full-length video is stored in binary on computers. Though we mostly write numbers in decimal in our code, it is sometimes more convenient to use binary or hexadecimal. We will discuss hexadecimal in a later lesson. Below is table showing all three.
 
 .. list-table:: Base Table
    :widths: 25 25 50 50
@@ -50,11 +52,11 @@ Using an optional argument you can specify alternative base representations.
 Exercise:
 ~~~~~~~~~
 
-1. Using what you learned above print the numbers 1, 9 and 23 in both decimal and binary in your Serial Monitor.
+#. Using what you learned above print the numbers 1, 9 and 23 in both decimal and binary in your Serial Monitor.
 
-TEACHER CHECK \_\_\_
+   TEACHER CHECK \_\_\_
 
-2. Print two columns of numbers, one in decimal and one in binary. These numbers should increment from 0 and have a .3 second delay between increments.
+#. Print two columns of numbers, one in decimal and one in binary. These numbers should increment from 0 and have a .3 second delay between increments.
 
-TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
 
