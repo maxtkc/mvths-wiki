@@ -21,15 +21,10 @@ Exercise:
    
    TEACHER CHECK \_\_\_\_
    
-#. Add an LED to your board and modify the code so that the LED goes on
-   when the temperature passes 26.25 degrees Celsius and turns off when
-   the temperature is below 26 degrees. You might need to change this
-   threshold depending on the temperature in the shop.
+#. Add an LED to your board and modify the code so that the LED goes on when the temperature passes 26.25 degrees Celsius and turns off when the temperature is below 26 degrees. You might need to change this threshold depending on the temperature in the shop.
 
-TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
 
-5. Find an equation for converting Celsius to Fahrenheit and then use
-   this equation to make the conversion in your code. Display a column
-   of temperature values in Fahrenheit.
+#. Find an equation for converting Celsius to Fahrenheit and then use this equation to make the conversion in your code. Display a column of temperature values in Fahrenheit.
 
-TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
