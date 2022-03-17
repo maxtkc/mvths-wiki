@@ -6,7 +6,7 @@ Overview
 
 In this lesson you will learn to use the MCP9808 temperature sensor. The MCP9808 is a digital sensor that outputs temperature readings natively in Celsius. This is the first complex device (as opposed to an individual component) you will be adding to your breadboard.
 
-It communicates with a microcontroller using the I2C protocol which is one of many communication protocols you will use.
+The components you have used so far communicate with your microcontroller either directly with one of your digital ports as in a button which produces either a high or low signal, or directly with an analog port as in a light sensor which coupled with a resistor can produce a voltage level. The MCP9808 is the first of many devices that communicates with your micrcontroller using a complex protocol called I2C. This protocol uses two lines for communication. One line, SCL, represents the clock signal. The other line, SDA, represents the data signal. There is also a dedicated SCL and SDA line on your microcontroller. These lines must be connected together  (SDA to SDA and SCL to SCL) for the communication to work. 
 
 Setup
 -----
