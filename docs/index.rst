@@ -90,7 +90,6 @@ The following is a list of guides for learning about electronics and software in
    047a-light-display-project
    053-hobby-servo-motors
    054-duty-cycle
-   055-analogwrite
    055a-voltage-regulation
    056-motor-driver
    056a-tachometer-challenge
