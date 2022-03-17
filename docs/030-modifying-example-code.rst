@@ -4,19 +4,13 @@ Modifying Example Code
 Overview
 --------
 
-The purpose of example code is mostly to confirm that a new device works correctly. Once you know that the device works it is best to make a copy
-of the example code and modify it to suit your needs. The first step is to remove as much code as possible, until you have reduced it to "bare bones."
-This will help you better understand the code and how modify it for your needs. In this lesson we will use the example code from the previous lesson a our model.
+One of the purposes of example code is to confirm that a new device works correctly. Once you know that the device works, you may want to make a copy of the example code and modify it to suit your needs. The first step in modifying example code is to try to reduce the example code to its "bare bones". That is just enough code to communicate with the device. The best way to do this is to comment out lines of code one at a time. After commenting out a line, test the code to make sure you did not break anything important. 
 
 Exercise:
 
-1. Using Save As to make a copy of the example file mcp9808test file used in the previous lesson.You can call it anything you want, 
-   but it is good to use a name that means something to you such as MCP9808-simple. Make sure you save it in
-   the directory you are using to store all your code files.
-2. Modify the code so that it only displays the temperature in Celsius. This process can take some time, and some trial and error. The first step is to
-   remove one small section of code that you don't think you need and then test the code to see if it works. If it does, repeat this step with 
-   another line of code and test. The best way to remove sections of code is NOT to delete, but to comment out the code. Commenting out code does 
-   not remove the code from your file, but makes temporarily unavailable.
+#. Open the example code you used in the previous lesson and Save As to make a copy. You can call it anything you want, but it is good to use a name that means something to you such as MCP9808-simple. Make sure you save it in the directory you are using to store all your code files.
+#. Comment out as lines of code until you can just see the temperature in Celsius in your terminal window. Make sure to check your code after commenting out each line of code. This way you will know exactly what lines you need and what lines you don't.
+#. Continue to comment out lines of code until only what you need to display the temperature remains.
    
 .. code-block:: C
    
