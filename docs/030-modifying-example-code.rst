@@ -14,10 +14,10 @@ Exercise:
 
    As reminder, commenting out a line of code only removes it temporarily from you code. You can easily return it to your code by removeing the comments.
    
-.. code-block:: C
+   .. code-block:: C
    
-   digitalWrite(5, HIGH); //This line is in your code.
-   //digitalWrite(5, HIGH); //This line is commented out of your code. Notice that it is grey.
+      digitalWrite(5, HIGH); //This line is in your code.
+      //digitalWrite(5, HIGH); //This line is commented out of your code. Notice that it is grey.
    
    TEACHER CHECK \_\_\_\_
    
