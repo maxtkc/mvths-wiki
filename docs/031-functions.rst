@@ -28,3 +28,5 @@ Exercise:
 ~~~~~~~~~
 
 Create a function to convert Celsius to Fahrenheit. This is a simple function and used here just to provide some experience with how to write a function. 
+
+TEACHER CHECK ______
