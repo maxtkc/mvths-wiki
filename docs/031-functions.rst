@@ -27,6 +27,4 @@ When writing a function, you can name a function anything you want, but it is go
 Exercise:
 ~~~~~~~~~
 
-#. Create a function to convert 
-
 Create a function to convert Celsius to Fahrenheit. This is a simple function and used here just to provide some experience with how to write a function. 
