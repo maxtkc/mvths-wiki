@@ -24,13 +24,8 @@ Exercise
 
 #. Using your oscilloscope measure the width of the HIGH and LOW portions of the pulse. Write your answers in your notebook and make sure to use the correct units.
 
-TEACHER CHECK \_\_\_\_
+#. Use analogWrite() to set the brightness of an LED. Using a loop, vary the brightness of the LED.
 
-Challenge
-~~~~~~~~~
-
-Design a circuit that can be used to control the brightness of an LED with a potentiometer.
-
-TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
 
  
