@@ -22,17 +22,17 @@ The following example shows how to retrive an item from an array. In this case t
 Exercise:
 ~~~~~~~~~
 
-#. Write a program that includes an array with three elements. Print the first element in the array and record the answer in your notebook.
+#. Write a program that includes an array with three numbers. Print the first element in the array.
 
-#. Write a program that includes an array with four elements. Print th last element in the array.
+#. Write a program that includes an array with four numbers. Print the last element in the array.
 
-#. Write a program that includes an array with four elements. Print each element of the array in order. Each number should be printed on a separate line.
+#. Write a program that includes an array with four numbers. Print each element of the array in order. Each number should be printed on a separate line.
 
-#. Write a program that includes and array that holds four different numbers. Now print each element of the array in order using a 'for loop'. 
+#. Write a program that includes and array that holds four different numbers. Print each element of the array in order using a 'for loop'. 
 
    TEACHER CHECK \_\_\_\_
 
-#. Write a program that includes two arrays with three elements each. Compare the first element in both arrays. If they are equal, print “equal”. If they are not equal print “not equal.”
+#. Write a program that includes two different arrays with three numbers each. Write program to compare the numbers in both arrays. i.e. compare the first number in one array with the first number in the other array and so on. If any of the pairs are equivalent, print “equal”. If they are not equal print “not equal.”
 
    TEACHER CHECK \_\_\_\_
 
