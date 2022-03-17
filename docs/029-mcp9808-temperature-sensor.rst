@@ -12,7 +12,6 @@ Setup
 -----
 
 #. Find an MCP9808 in the bin labeled “Sensors(Light, Color and Temperature)”
-
 #. Disconnect the power (USB cable) from your USB hub and follow all rules for complex devices.
 #. Insert the MCP9808 into your breadboard.
 #. Provide power to your MCP9808 by connecting Vdd of the MCP9808 to power and Gnd of the MCP9808 to ground.
@@ -23,10 +22,8 @@ TEACHER CHECK \_\_\_\_\_
 Program
 -------
 
-1. Open the example file under File/Examples/Adafruit MCP9808
-   Library/mcp9808test. If this file is not installed in your Examples
-   folder, ask your teacher for help.
-2. Download the file to your microcontroller.
-3. Open the Serial Monitor and view the results.
+#. Open the example file for the MCP9808. You can find this file in the Arduino IDE under File/Examples/Adafruit MCP9808 Library/mcp9808test. If this file is not installed in your Examples folder, ask your teacher for help.
+#. Download the file to your microcontroller.
+#. Open the Serial Monitor and view the results.
 
 TEACHER CHECK \_\_\_\_\_
