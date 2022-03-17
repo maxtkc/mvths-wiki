@@ -11,7 +11,7 @@ In order to make secure connections between all of your electronic devices, you 
 Strip Wire
 ~~~~~~~~~~~
 
-Stripping a wire is the process of removing some of the wire jacket from the conductor. 
+Stripping a wire is the process of removing some of the jacket from the conductor. 
 
 .. figure:: images/strip.png
 
@@ -20,13 +20,17 @@ Stripping a wire is the process of removing some of the wire jacket from the con
 This is done using a wire stripper as shown below.
  
 .. figure:: images/wirestripper.png
+
+Crimp Wire
+~~~~~~~~~~~
+Crimping a wire is the process of adding a crimp connector as shown in the image below. 
  
+.. figure:: images/crimp.png
 
 Exercise:
 ~~~~~~~~~
 
-Let your teacher know that you need to learn how to strip and crimp wires. Your teacher will find someone to guide you.
-Crimp a wire and show your work to your teacher. Repeat until you get it
+Find student who knows how to strip and crimp a wire and ask them to teach you. Crimp a wire and show your work to your teacher. Repeat until you get it
 right.
 
 
