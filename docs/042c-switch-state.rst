@@ -4,4 +4,6 @@ Switch State
 Overview
 --------
 
-It is possible to perform most mathematical operations in your code. The most common operations are addition, subtraction, multiplication and division of variables. The following shows variable addition or adding 4 to the original value of m.
+A switch statement in C that can be used in place of the conditional if then. Switch serves the same purpose as if then but in a format that is sometimes more readable. Often code built around a switch statement is called a state machine because the the switch statement allows you to switch between different states in your code.
+
+int 
