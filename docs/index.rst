@@ -82,6 +82,7 @@ The following is a list of guides for learning about electronics and software in
    042-de-bounce-button
    055-analogwrite
    042b-button-software
+   042bb-defines
    042c-switch-state
    043-building-a-breadboard-arduino
    044-using-a-breadboard-arduino
