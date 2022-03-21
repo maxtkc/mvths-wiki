@@ -17,7 +17,7 @@ Exercise:
 
    .. code:: C
       
-      x = digitalRead(7);
+      x = digitalRead(7); // Read the value on pin 7 and place the result in x
       
    In your serial monitor, you should display "press" if the button is pressed and "not press" if the button is not pressed. 
 
@@ -27,6 +27,6 @@ Exercise:
 
 #. Write a program to flash the LED.
 
-  TEACHER CHECK \_\_\_\_
+   TEACHER CHECK \_\_\_\_
 
 #. Modify your code to turn on the LED when the button is pressed and off when the button is not pressed.
