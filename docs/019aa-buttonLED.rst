@@ -9,6 +9,10 @@ In this lesson you will use a button to turn on an LED. But unlike in previous e
 Exercise:
 ~~~~~~~~~
 
+#. Repeat the lesson Input Pins. 
+
+    TEACHER CHECK \_\_\_\_
+
 #. Add an LED to your microcontroller and write a program to confirm that you can turn it on and off. **REMEMBER** to include a resistor with your LED.
 
 #. Add a button to your microcontroller on a different pin. Confirm in software that your micrcontroller can read the value of the button. This could be done in the terminal window with a serial command.
