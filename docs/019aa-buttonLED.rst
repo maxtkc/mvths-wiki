@@ -13,8 +13,13 @@ Exercise:
 
 #. Connect the output from your button (set up in the previous section) to the pin 7.
 
-    TEACHER CHECK \_\_\_\_
+#. Write a program to read the value of the button and display it in your serial monitor. Below is the function you can use to read a value on pin 7 and place it into the variable x. This function should be in your loop so that it is read continually. If you need to review the reading an input check the previous lesson Input Pins.
 
+   .. code:: C
+      
+      x = digitalRead(7);
+
+  
 #. Add an LED to your microcontroller and write a program to confirm that you can turn it on and off. **REMEMBER** to include a resistor with your LED.
 
 #. Add a button to your microcontroller on a different pin. Confirm in software that your micrcontroller can read the value of the button. This could be done in the terminal window with a serial command.
