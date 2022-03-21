@@ -18,12 +18,15 @@ Exercise:
    .. code:: C
       
       x = digitalRead(7);
+      
+   In your serial monitor, you should display "press" if the button is pressed and "not press" if the button is not pressed. 
 
+   TEACHER CHECK \_\_\_\_
   
-#. Add an LED to your microcontroller and write a program to confirm that you can turn it on and off. **REMEMBER** to include a resistor with your LED.
+#. Add an LED to your circuit. **REMEMBER** to include a resistor with your LED.
 
-#. Add a button to your microcontroller on a different pin. Confirm in software that your micrcontroller can read the value of the button. This could be done in the terminal window with a serial command.
+#. Write a program to flash the LED.
 
-#. Write a program to read the value of the button press (either HIGH or LOW) and turn on the LED when the button is pressed. You might need to review the code under lesson Inputs.
+  TEACHER CHECK \_\_\_\_
 
-TEACHER CHECK \_\_\_\_
+#. Modify your code to turn on the LED when the button is pressed and off when the button is not pressed.
