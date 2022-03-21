@@ -9,7 +9,9 @@ In this lesson you will use a button to turn on an LED. But unlike in previous e
 Exercise:
 ~~~~~~~~~
 
-#. Repeat the lesson Input Pins. 
+#. Set pin 7 as input.
+
+#. Connect the output from your button (set up in the previous section) to the pin 7.
 
     TEACHER CHECK \_\_\_\_
 
