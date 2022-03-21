@@ -15,7 +15,9 @@ There are also many other numeric variable types supported in C including byte, 
 
 .. code-block:: c
 
-  unsigned int r = 5;
+  unsigned int color = 5;
+  byte f = 2;
+  long z = 34900;
 
 What makes this a little more complicated is that some variable typess can store negative and positive values and some can only store positive values. An int (which can support negative and positive numbers) also takes up 16 bits of space on your microcontroller, but since it can support both positive and negative numbers it can store a range of -32768 to +32767. Note that this range represents the same a total of 65535 possible values as with an unsigned int, but half of the range is positive and half of the range is negative. Also, note that the variable types listed here can **ONLY store whole numbers.** Variables that can store fractional numbers will be addressed in the next lesson. 
 
