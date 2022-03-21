@@ -39,3 +39,7 @@ Below are two examples of how the above defines might be used in your code. Noti
    // some code here
    }
 
+Exercise:
+~~~~~~~~~
+
+Write a program that takes a button input and turns on an LED. Include defines to make the code easier to read.
