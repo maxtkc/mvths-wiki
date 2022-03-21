@@ -17,6 +17,8 @@ Exercise
 
 #. Modify your code so that the variable used for counting presses counts up to 10 and then starts back at 0. 
 
-#. Add an 4-digit seven-segment display to your board. Modify your code to use analogWrite to change the brightness of your LED. The brightness should change from 0 for 0 presses to 255 for 10 presses.
+#. Add a 4-digit seven-segment display to your board. MAKE SURE TO DISCONNECT YOUR BOARD FROM POWER, before addting this component. MAKE SURE TO CORRECTLY CONNECT POWER AND GROUND for this component. Modify your code to display the button count value on the display.
+
+#. Add an LED to your board. Modify your code to use analogWrite to change the brightness of your LED. The brightness should change from 0 for 0 presses to 255 for 10 presses.
 
 TEACHER CHECK \_\_\_\_
