@@ -15,5 +15,5 @@ Exercise:
 
 #. **Challenge:** Reconfigure the LED circuit so that it turns on when you connect a wire to ground and turns off when you connect it to power. 
 
-  TEACHER CHECK ___
+   TEACHER CHECK ___
 
