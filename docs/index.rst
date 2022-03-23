@@ -25,6 +25,7 @@ The following is a list of guides for learning about electronics and software in
    009-metro-mini-and-breadboard
    010-output-pins
    011-programming-leds
+   011aa-led-control
    011a-delays
    011b-engineering-notation
    012-loops
