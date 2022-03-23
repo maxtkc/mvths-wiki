@@ -1,7 +1,8 @@
-Programming Leds
+LED Control
 ================
 
 Overview
 --------
 
-LEDs are a good example of the kinds of devices you can drive with a microcontroller. LEDs also provide an easy way to indicate if a microcontroller pin is set to HIGH or LOW. **IMPORTANT:** You **MUST** to a resistor in series with any LED to prevent the LED from burning out. Driving too much current through and LED will damage the LED and potentially the microcontroller.
+In this lesson, we are going to go back to controlling an LED without a microcontroller. The point is gain a better understanding of both microcontrollers and LEDs, specifically the idea that a microcontroller is simply setting its pins to 0V and 5V when controlling an LED. And that an LED can be turn on by either 0V or 5V.
+
