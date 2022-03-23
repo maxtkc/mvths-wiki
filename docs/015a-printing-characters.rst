@@ -34,6 +34,10 @@ Exercise:
 #. Initialize a new variable using the char type and set its initial value to a character. Print this charater repeatedly in a column in you serial monitor. Make sure to include a short delay so that the serial monitor does not crash.
 
 #. Initialize a new variable using the char type and set its initial value to a number that represents a character in the ASCII table. Again, print this character in a column.
+
+#. Modify your code so that your variable is initialized to an exclamation point (33 in the ASCII table). In your loop function increase this variable by one each time through the loop. Now print the variable.
+
+   TEACHER CHECK ___
  
 #. **Super Challenge** Modify your code file to print a letter in a single column in your serial monitor, but only using the Serial.print() function, NOT Serail.println(). A hint is that LINEFEED in the ASCII table sets a new line in your serial monitor.
 
