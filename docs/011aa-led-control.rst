@@ -9,7 +9,7 @@ In this lesson, we are going to go back to controlling an LED without a microcon
 Exercise:
 ~~~~~~~~~
 
-#. Disconnect the wire connecting the LED from your microcontroller and connect the wire to ground. The LED should not light.
+#. Starting with the circuit in your previous circuit, disconnect the wire connecting the LED from your microcontroller and connect the wire to ground. The LED should not light.
 
 #. Connect the wire from the LED to power. The LED should light.
 
