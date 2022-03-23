@@ -34,8 +34,8 @@ The following is a list of guides for learning about electronics and software in
    014a-looping-data
    014b-formating-serial-communication
    015-variables
-   015a-printing-characters
    015b-math
+   015a-printing-characters
    016-resistor-values
    017-ohms-law
    018-resistors-and-leds
