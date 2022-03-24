@@ -14,7 +14,6 @@ All potentiometers have three leads as shown in the two diagrams below. The diag
 The two outside leads (A and B) form a fixed value resistor. In the case of a 10K potentiometer, the resistance between leads A and B is exactly 10K ohms, regardless of how the potentiometer is turned. The middle lead is the wiper or W. The resistance between A (or B) and W varies as the potentiometer is turned. In the case of a 10K resistor, the resistance varies from 0 ohms to 10,000 ohms. 
 
 |image0|\ |image1|
-:width: 400px
 
 Below is a schematic showing a potentiometer with leads A and B connected to ground and 5V (note the leads A and B are interchangeable). This is the most common configuration for a potentiometer. In this configuration, the output at W varies in voltage from 0 to 5 volts depending on how the potetiometer is turned. Note that potentiometers are very much like voltage dividers except that you can vary the voltage by turning a knob.
 
@@ -41,5 +40,6 @@ Construct the following circuit on your breadboard by connecting the potentiomet
 
 .. |image0| image:: images/image71.png
    :width: 400px
+.. |image2| image:: images/realpot.PNG
 .. |image1| image:: images/image57.png
    :align: top
