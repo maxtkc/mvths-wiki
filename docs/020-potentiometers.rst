@@ -6,6 +6,8 @@ Overview
 
 Potentiometers are another common form of input for controlling an electronic device. They generally come in two forms: dials and sliders. Dials are commonly used to control the volume on an audio device or temperature on a thermostat. Sliders are commonly used in joysticks to convert the motion of the joystick into signals that can be used by a digital microcontroller.
 
+Potentiometers are essentially variable resistors. The resistance of the potentiometer varies as you turn the dial or move the slider.
+
 Potentiometer Design
 --------------------
 
