@@ -36,18 +36,13 @@ Exercise
 
    TEACHER CHECK ___
    
-#. Construct the abover circuit on your breadboard by connecting the potentiometer pins (A and B) to power and ground. Again, the order does not matter as long as one is connected to power and one is connected to ground. Make sure to use short jump wires for these connections. Next set up a multimeter to measure the voltage at W (output). Remember to measure voltage at a point in  your circuit you need to connect the black lead to ground (your reference) and the red lead to the point you are measuring (W). If you need help refer back to the  section on multimeter. Turn the potentiometer all the way right and left and record the highest and lowest voltage. Since you will need to measure two points and move the potentiometer, I recommend using alligator leads with your multimeter so your hands are free to turn the potentiometer. Record the following in your notebook.
+#. Construct the above circuit on your breadboard by connecting the potentiometer pins (A and B) to power and ground. Again, the order does not matter as long as one is connected to power and one is connected to ground. 
+
+#. Measure the voltage at W (output). Turn the potentiometer all the way right and left and record the highest and lowest voltage. Record the highest and lowest voltage readings in your notebook.
 
 
-+-------------------+------------------------+
-|                   | Potentiometer Output   |
-+-------------------+------------------------+
-| Highest Voltage   |                        |
-+-------------------+------------------------+
-| Lowest Voltage    |                        |
-+-------------------+------------------------+
+   TEACHER CHECK ___
 
-1. TEACHER CHECK \_\_\_\_
 
 .. |image0| image:: images/image71.png
    :width: 400px
