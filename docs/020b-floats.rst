@@ -15,7 +15,7 @@ Exercise:
 
 #. Write a program that displays a fractional number in column your serial monitor.
 #. Modify your program so that it repeatedly adds one one thousandth (.01) to your original number and displays that in a column in your serial monitor.
-#. Modify your code to include the name of your variable in your code with an equals sign. For example, if your variable name is "dogs" and you set the initial value to 9.04 than in your serial monitor you should see:
+#. Modify your code to print the name of your variable in your code with an equals sign. For example, if your variable name is "dogs" and you set the initial value to 9.04 than in your serial monitor you should see:
 
 .. code-block:: C
 
