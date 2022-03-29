@@ -4,7 +4,7 @@ Analog To Digital Conversion
 Overview
 --------
 
-In addition to the digital pins on your microcontroller number D0 through D13 there are also six analog pins assigned A0 - A5. These analog pins are desgined to read analog signals and convert them to a digital format that the microcontroller can use. 
+In addition to the digital pins on your microcontroller assigned D0 through D13 there are also six analog pins assigned A0 - A5. These analog pins are desgined to read analog signals and convert them to a digital format that the microcontroller can use. 
 
 Up till now all of the inputs used with your microcontroller have been digital. A digital input is one that has fixed states. A button, for example, only has two states, either pressed or not pressed. Electrically these states are represented as voltages, 5V or 0V. The potentiometer you learned about in the previous section (but have not yet used as an input) represents your first introduction to an analog signal. An analog signal is one that varies infinitely over time. As you saw with your multimeter, the potentiometer can be used to produce ANY voltage between 0V and 5V.
 
