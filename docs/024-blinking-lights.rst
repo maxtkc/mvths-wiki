@@ -16,7 +16,7 @@ Exercise:
 
    **IMPORTANT NOTE:** You should generally avoid using digital pins 0 and 1 as either inputs or outputs. Using these pins might interfere with the programming of your device.
 
-#. Reduce the delay in your code until you can no longer see that the LED is flashing. Essentially, it is flashing so quickly (on and off) that your eye can no longer perceive the individual pulses of the LED.
+#. Reduce the delay in your code until you can no longer see that the LED is flashing, essentially, so it is flashing so quickly (on and off) that your eye can no longer perceive the individual pulses of the LED.
    
 #. Write the value of this delay value in your notebook. Make sure to use the correct units. This is the rate of your critical flicker-fusion frequency (CFFF), the fastest flash you can perceive. This is very different for different animals. Read an article about CFFF `here <https://www.google.com/url?q=https://www.economist.com/news/science-and-technology/21586532-small-creatures-fast-metabolisms-see-world-action-replay-slo-mo&sa=D&ust=1587613173941000>`__. It is pretty cool.
 
