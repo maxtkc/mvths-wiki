@@ -21,7 +21,7 @@ In this lesson, you will learn to use the logical operators **AND**, **OR** and 
    * - ||
      - OR
      - either operand are true
-     - if ((z < 2) OR (a > 5))
+     - if ((z < 2) || (a > 5))
    * - !
      - NOT
      - the operand is false
