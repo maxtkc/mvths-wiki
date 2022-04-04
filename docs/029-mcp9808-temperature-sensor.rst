@@ -1,4 +1,4 @@
-Mcp9808 Temperature Sensor
+MCP9808 Temperature Sensor
 ==========================
 
 Overview
