@@ -34,4 +34,8 @@ Exercise:
 
 #. Construct a circuit with one LED and one button.
 
-#. Write some code to blink your LED.
+#. Write some code to blink your LED when the button is pressed.
+
+#. Using the code example, write a program flashes the button quickly when the button is pressed and slowly when the button is pressed again. Essentially, it should alternate between these two states each time the button is pressed.
+
+   TEACHER CHECK ___
