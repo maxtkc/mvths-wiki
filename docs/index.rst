@@ -86,6 +86,7 @@ The following is a list of guides for learning about electronics and software in
    042cc-defines
    042c-switch-state
    043-building-a-breadboard-arduino
+   043a-Programming-Breadboard-Arduino
    044-using-a-breadboard-arduino
    045-autodesk-eagle
    046-rules-for-milling-boards
