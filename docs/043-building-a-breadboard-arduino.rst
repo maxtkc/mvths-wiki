@@ -67,3 +67,9 @@ The following is the basic microcontroller circuit. Carefully construct this cir
 
  TEACHER CHECK \_\_\_\_
 
+.. |image0| image:: images/image75.png
+.. |image1| image:: images/image59.png
+.. |image2| image:: images/image20.png
+.. |image3| image:: images/image63.png
+.. |image4| image:: images/image12.png
+
