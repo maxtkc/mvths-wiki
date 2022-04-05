@@ -28,3 +28,10 @@ Below is an example of a switch statement. Note that the defines are not require
       }
 
 }
+
+Exercise:
+~~~~~~~~~
+
+#. Construct a circuit with one LED and one button.
+
+#. Write some code to blink your LED.
