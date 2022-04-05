@@ -1,13 +1,10 @@
-Building A Breadboard Arduino
+Programming A Breadboard Arduino
 =============================
 
 Overview
 --------
 
-Programming Cable
------------------
-
-When programming your Arduino or Metro Mini you only needed a simple USB cable. This was because the circuitry required to convert the USB signal to a serial signal that is native to the Arduino was on the Arduino board. When programming your new circuit, you will need a special programming cable that includes this circuitry as shown below.
+When programming your Arduino or Metro Mini you only needed a simple USB cable. This is because the circuitry required to convert the USB signal to a serial signal that is native to the Arduino was on the Arduino board. When programming your new circuit, you will need a special programming cable that includes this circuitry as shown below.
 
 .. figure:: images/USBTTL.png
 
