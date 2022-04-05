@@ -4,7 +4,7 @@ Switch State
 Overview
 --------
 
-A switch statement in C is an alternative from of the a conditional i.e. *if then*. Switch serves the same purpose as *if then* but in a format that is sometimes more readable. Often code built around a switch statement is called a state machine because the the switch statement allows you to switch between different states in your code.
+A switch statement in C is an alternative from of the a conditional i.e. *if then*. A switch statement serves the same purpose as *if then* but in a format that is sometimes more readable. Often code built around a switch statement is called a state machine because the the switch statement allows you to switch between different states in your code.
 
 Below is an example of a switch statement. Note that the defines are not required but generally make switch statements more readable. 
 
