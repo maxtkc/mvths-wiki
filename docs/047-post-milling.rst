@@ -1,12 +1,12 @@
 Complete Board
 ==============
 
-Scotch bright board
+The following are some tips for completing your new circuit board.
 
-Solder parts
+#. If the traces do not seem clean, i.e. they have "hairy" copper in them, rub a Scotch Bright pad to clean it up.
 
-Use right angle connectors
+#. Solder on only the parts you need to program the board. This includes the microcontroller, pullup resistor, capacitor, resonator and programming cable lead. This make sure you have elimated any mistakes on the board before going forward.
 
-Test board part of the way through the process
+#. Test the board to make sure you can programm it.
 
-Hot glue any traces that get torque
+#. Once your board is complete, use hot glue to hold 
