@@ -11,15 +11,17 @@ Exercise:
 
 #. Set pin 7 as input.
 
-#. Connect the output from your button (set up in the previous section) to the pin 7.
+#. Connect the output from your button (the point at which you measured voltage in the previous section) to the pin 7.
 
-#. Write a program to read the value of the button and display it in your serial monitor. Below is the function you can use to read a value on pin 7 and place it into the variable x. This function should be in your loop so that it is read continually. If you need to review the reading an input check the previous lesson Input Pins.
+#. Write a program to read the value of the button and display it in your serial monitor. Below is the function you can use to read a value on pin 7 and place it into the variable x. This function should be in your loop so that it is read continually. 
 
    .. code:: C
       
       x = digitalRead(7); // Read the value on pin 7 and place the result in x
       
-   In your serial monitor, you should display "press" if the button is pressed and "not press" if the button is not pressed. 
+   In your serial monitor, you should display the value of x. 
+   
+#. In your notebook write the value of x when the button is pressed and the value of x when the button is not pressed.
 
    TEACHER CHECK \_\_\_\_
   
