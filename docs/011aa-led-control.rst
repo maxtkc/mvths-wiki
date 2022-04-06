@@ -9,11 +9,11 @@ In this lesson, we are going to go back to controlling an LED without a microcon
 Exercise:
 ~~~~~~~~~
 
-#. Starting with the circuit in your previous circuit, disconnect the wire connecting the LED from your microcontroller and connect the wire to ground. The LED should not light.
+#. Starting with the circuit in your previous circuit, disconnect the long jump wire connecting the LED from your microcontroller and connect the wire to ground. The LED should not light.
 
-#. Connect the wire from the LED to power. The LED should light.
+#. Now connect the long jump wire from the LED to power. The LED should light. Note that you can turn the LED on and off by moving this wire from power to ground and back.
 
-#. **Challenge:** Reconfigure the LED circuit so that it turns on when you connect a wire to ground and turns off when you connect it to power. 
+#. **Challenge:** In the above circuit, the LED turns on when the long jump wire is connected to power and off when the long jump wire is connected to ground. Reconfigure the LED circuit so that the LED turns on when you connect the long jump wire to ground and turns off when you connect the long jump wire to power. 
 
    TEACHER CHECK ___
 
