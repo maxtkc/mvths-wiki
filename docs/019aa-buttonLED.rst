@@ -25,7 +25,7 @@ Exercise:
    
 #. Modify your code to display the word "press" when the button is pressed and "notpress" when the button is not pressed. You may have to refer to the lesson Input Pins for help with the code.
 
-     TEACHER CHECK ___
+    TEACHER CHECK ___
      
 #. Add an LED to your circuit. **REMEMBER** to include a resistor with your LED.
 
