@@ -31,6 +31,6 @@ Exercise:
 
 #. Write a program to flash the LED.
 
-   TEACHER CHECK \_\_\_\_
+   TEACHER CHECK ___
 
 #. Modify your code to turn on the LED when the button is pressed and off when the button is not pressed.
