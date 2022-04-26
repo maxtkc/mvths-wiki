@@ -24,9 +24,9 @@ Below is picture of the actual potentiometer you will use and a schematic showin
 Exercise
 ~~~~~~~~
 
-#. Place the potentiometer on your breadboard.
+#. Place the potentiometer on your breadboard. But do not connect any of the leads to power or ground.
 
-#. Measure the resistance between the two outside leads with a multimeter and record this value in your notebook. This will be easiest using alligator clips.
+#. Measure the resistance between the two outside leads with a multimeter and record this value in your notebook. If you don't know how to use the multimeter to measure resistance, ask your teacher. This will be easiest using alligator clips.
 
    TEACHER CHECK ___
    
