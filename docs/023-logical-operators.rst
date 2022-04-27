@@ -25,7 +25,7 @@ In this lesson, you will learn to use the logical operators **AND**, **OR** and 
    * - !
      - NOT
      - the operand is false
-     - if !(x < 5)
+     - if (!(x < 5))
   
 Exercise:
 ~~~~~~~~~
