@@ -38,7 +38,7 @@ Exercise
    
 #. Construct the above circuit on your breadboard by connecting the potentiometer pins (A and B) to power and ground. Again, the order does not matter as long as one is connected to power and one is connected to ground. 
 
-#. Measure the voltage at W (output). Turn the potentiometer all the way right and left and record the highest and lowest voltage. Record the highest and lowest voltage readings in your notebook.
+#. Measure the voltage at (VOUT). Turn the potentiometer all the way right and left and record the highest and lowest voltage. Record the highest and lowest voltage readings in your notebook.
 
 
    TEACHER CHECK ___
