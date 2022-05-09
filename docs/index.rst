@@ -29,14 +29,14 @@ The following is a list of guides for learning about electronics and software in
    011a-delays
    011b-engineering-notation
    012-loops
-   012a-input-pins
-   013-challenge-review
    014-serial-communication
    014a-looping-data
    014b-formating-serial-communication
    015-variables
    015b-math
    015a-printing-characters
+   012a-input-pins
+   013-challenge-review
    016-resistor-values
    017-ohms-law
    018-resistors-and-leds
