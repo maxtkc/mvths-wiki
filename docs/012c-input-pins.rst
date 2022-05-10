@@ -17,11 +17,11 @@ Set up the following circuit on your breadboard. Essentially, this is just conne
    :alt: 
 
 
-The function required to read a digital pin is shown below. The function will read the value (voltage) on pin 9 and convert that value into a either a 1 or 0. This converted value, 0 or 1 will be placed into the variable x. Note the function can be used to read any of 14 digital pins on the Arduino (0-13). 
+The function required to read a digital pin is shown below. The function will read the value (voltage) on pin 9 and convert that value into a either a 1 or 0. If the voltage is close to 5 volts, the value will be 1. If the voltage is close to 0, the value will be 0. This converted value, 0 or 1 will be placed into the variable x. Note the function can be used to read any of 14 digital pins on the Arduino (0-13). It can also use any variable. 
 
 .. code-block:: c
    
-   x = digitalRead(9); //This will read the value (voltage) on pin 9 and convert that value into a either a 1 or 0. 
+   x = digitalRead(9); //Read the value on pin 9 and place this value in x
 
 Code
 ----
