@@ -12,6 +12,16 @@ Conditionals offer a way for your code to make decisions. In the real world, an 
    if (x == 5) {                //Checks if this condition is true (i.e. does x equal 5). Note double equals sign
       Serial.println("true");  //If the condition is true than this line is executed.
    }
+   
+In addition to the basic condition represented by *if*, you can also have an *else*. The following is an example of code that has two possible states based on the evaluation of the initial condition.
+
+.. code-block:: c
+   
+   if (x == 5) {                //Checks if this condition is true (i.e. does x equal 5). Note double equals sign
+      Serial.println("true");  //If the condition is true than this line is executed.
+   } else {
+     Serial.println("true");
+   }
      
 Challenge
 ----------
