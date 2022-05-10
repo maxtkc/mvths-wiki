@@ -9,9 +9,10 @@ In this lesson, you will write your own function. So far, you have used many fun
 The following is an example of a very simple function that accepts a value, multiplies it by two and returns the result. For example, if you passed the value 4 to the function, you would get back the value 8. 
 .. code:: 
 
-   int times_two(int val) {
-      val *= 2;
-      return val;
+   
+   int times_two(int val) {  //Returns an int and accepts an int in *val*
+      val *= 2;               //Multiplies *val* by 2.
+      return val;             //Returns the value of *val* to the calling function.
    }
 
 Passing a value to this function would look like the following.
