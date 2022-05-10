@@ -11,7 +11,7 @@ Schematic
 
 Set up the following circuit on your breadboard. Essentially, this just requires connecting digital pin 9 to ground. MAKE SURE to use a long jump wire for the connection between pin 9 and ground. By moving one end of the wire between power (5V) and ground (leaving the other end in pin 9) you will be setting the input of pin 9 as HIGH and LOW respectively. This wire will essentially act as a crude button.
 
-.. figure:: images/image101.png
+.. figure:: images/pnine.png
    :alt: 
 
 
