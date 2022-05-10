@@ -13,6 +13,11 @@ Conditionals offer a way for your code to make decisions. In the real world, an 
       Serial.println("true");  //If the condition is true than this line is executed.
    }
      
+Challenge
+----------
+
+#. Write a program to test the value of a variable. Initialize a variable and set its initial value to 6. Using a conditional, check if the value is in fact 6. If the valu is 6  then print "true" in your serial monitor.
+
 
 
 Schematic
