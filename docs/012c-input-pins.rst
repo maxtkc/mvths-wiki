@@ -1,4 +1,4 @@
-Input Pins (Conditionals)
+Input Pins
 =============
 
 Overview
@@ -11,10 +11,17 @@ Setting up software and hardware to test an input is a little more complicated t
 Schematic
 ---------
 
-Set up the following circuit on your breadboard. MAKE SURE to use a long jump wire for the connection between pin 9 and ground. By moving one end of the wire between power (5V) and ground (leaving the other end in pin 9) you will be setting the input of pin 9 as HIGH and LOW respectively. This wire will essentially act as a crude button.
+Set up the following circuit on your breadboard. Essentially, this is just connecting digital pin 9 to ground. MAKE SURE to use a long jump wire for the connection between pin 9 and ground. By moving one end of the wire between power (5V) and ground (leaving the other end in pin 9) you will be setting the input of pin 9 as HIGH and LOW respectively. This wire will essentially act as a crude button.
 
 .. figure:: images/image101.png
    :alt: 
+
+
+The function required to read a digital pin is shown below. The function will read the value (voltage) on pin 9 and convert that value into a either a 1 or 0. This converted value, 0 or 1 will be placed into the variable x. Note the function can be used to read any of 14 digital pins on the Arduino (0-13). 
+
+.. code-block:: c
+   
+   x = digitalRead(9); //This will read the value (voltage) on pin 9 and convert that value into a either a 1 or 0. 
 
 Code
 ----
