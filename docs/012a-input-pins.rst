@@ -1,11 +1,18 @@
-Input Pins (Conditionals)
+Conditionals
 =============
 
 Overview
+
 --------
 
-The digital pins on the Metro Mini can also be set as inputs. As an input, the Metro Mini can read the value of a pin, i.e. if the pin is externally driven as HIGH (5 Volts) or LOW (0 Volts), that is the pin  is tied (connected) to either 5V or ground. Generally inputs are used for receiving information from the outside world, such a reading the value of a sensor or getting data from a robotic device.
+Conditionals offer a way for your code to make decisions. In the real world, an example of a conditional might be, if it is cold put on a sweater. A conditional in code looks like the following (see below). In the following code, the condition x == 5 is evaluated as either true or false. Note the double equals sign. The code x = 5 tells the program to set x to the value 5. The code x == 5 tells the program to compare the value of x and 5. If they are the same, the program returns true. If they are not the same, the program returns false.
 
+.. code-block:: c
+   
+   if (x == 5) {           //Checks if this condition is true (i.e. does x equal 5). Note double equals sign
+      Serial.println("true");  //If the condition is true than this line is executed.
+   }
+     
 Setting up software and hardware to test an input is a little more complicated than setting up software and hardware to test an output.
 
 Schematic
