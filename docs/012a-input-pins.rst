@@ -9,11 +9,10 @@ Conditionals offer a way for your code to make decisions. In the real world, an 
 
 .. code-block:: c
    
-   if (x == 5) {           //Checks if this condition is true (i.e. does x equal 5). Note double equals sign
+   if (x == 5) {                //Checks if this condition is true (i.e. does x equal 5). Note double equals sign
       Serial.println("true");  //If the condition is true than this line is executed.
    }
      
-Setting up software and hardware to test an input is a little more complicated than setting up software and hardware to test an output.
 
 Schematic
 ---------
