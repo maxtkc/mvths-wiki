@@ -37,8 +37,8 @@ Challenge
 
 #. Add a wire to a second digital pin and display the values from both pins in your serial monitor. The values should be displayed as a pair in two columns.
  
-TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK \_\_\_\_\_
 
 #. What happens when pin 9 is not connected to ground or power? Move the wire around or touch it with your hand. A pin when not connected to power or ground is said to float. That means it is in an undefined state and can float between power and ground. IMPORTANT: Never leave a input pin hanging! Always attach it to power or ground.
 
-TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK \_\_\_\_\_
