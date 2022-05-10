@@ -35,7 +35,8 @@ The following is a list of guides for learning about electronics and software in
    015-variables
    015b-math
    015a-printing-characters
-   012a-input-pins
+   012c-input-pins
+   012a-conditionals
    013-challenge-review
    016-resistor-values
    017-ohms-law
