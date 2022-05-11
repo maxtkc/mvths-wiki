@@ -10,17 +10,17 @@ Conditionals offer a way for your code to make decisions. In the real world, an 
 .. code-block:: c
    
    if (x == 5) {                //Checks if this condition is true (i.e. does x equal 5). Note double equals sign
-      Serial.println("true");  //If the condition is true than this line is executed.
+      //If the condition is true than any lines of code placed between the two curly braces are executed.
    }
    
 In addition to the single state  *if*, you can also have a second state represented by *else*. The following is an example of code that has two possible states based on the evaluation of the initial condition.
 
 .. code-block:: c
    
-   if (x == 5) {                //Checks if this condition is true (i.e. does x equal 5). Note double equals sign
-      Serial.println("true");  //If the condition is true than this line is executed.
+   if (x == 5) {                //Checks if this condition is true (i.e. does x equal 5). 
+       //If the condition is true than lines placed here are executed.
    } else {
-     Serial.println("true");
+    //If the condition is false than this lines placed here are executed.
    }
      
 Challenge
@@ -30,7 +30,7 @@ Challenge
 
 #. Connect pin 6 to ground via a long jump wire. Modify your program to print "true" only if pin 6 is connected to power.
 
-#. 
+#. Modify your code to print "true" if pin 6 is connected to power and "false" if connected to ground.
 
 TEACHER CHECK \_\_\_\_\_
 
