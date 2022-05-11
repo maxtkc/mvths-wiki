@@ -13,7 +13,7 @@ Conditionals offer a way for your code to make decisions. In the real world, an 
       Serial.println("true");  //If the condition is true than this line is executed.
    }
    
-In addition to the basic condition represented by *if*, you can also have an *else*. The following is an example of code that has two possible states based on the evaluation of the initial condition.
+In addition to the single state  *if*, you can also have a second state represented by *else*. The following is an example of code that has two possible states based on the evaluation of the initial condition.
 
 .. code-block:: c
    
@@ -29,6 +29,8 @@ Challenge
 #. Write a program to test the value of a variable. Initialize a variable and set its initial value to 6. Using a conditional, check if the value is in fact 6. If the value is 6  then print "true" in your serial monitor.
 
 #. Connect pin 6 to ground via a long jump wire. Modify your program to print "true" only if pin 6 is connected to power.
+
+#. 
 
 TEACHER CHECK \_\_\_\_\_
 
