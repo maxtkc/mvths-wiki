@@ -21,10 +21,10 @@ Below is an example of a switch statement. Note that the defines are not require
       
          case STATE_ONE:
            // Code for first state goes here
-         break();
+         break;
          case STATE_TWO:
            // Code for second state goes here
-         break();
+         break;
       }
 
 }
