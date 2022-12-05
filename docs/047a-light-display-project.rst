@@ -14,9 +14,18 @@ Design
 #. **Project Timeline**: The next step in this project is to create a project timeline for completing this project. The project timeline will be created in a spreadsheet that includes a column for tasks and columns for everyday of the project. Your job is to break down this project into a set of discrete tasks and then determine when each of these tasks will be completed. 
   
   #. Open new spreadsheet in Googlesheets
-  #. Label the first column as Tasks
-  #. Label the next 21 columns with the days of the week, starting with the first day of the project.
-  #. Use colors to mark out the weekend dates
+  #. Name your spreadsheet something appropriate
+  #. Enter "Tasks" at the top of the first column
+  #. Add dates
+    #. Enter the first date of the project at the top of the second column.
+    #. Using the Format dropdown, set the format to month/day i.e. 12/5
+    #. Enter the formula "=b1+1" at the top of the third column. This will add one day to the date.
+    #. Select the date at the top of the third column and drag across the tops of the next 21 columns.
+    #. Type CTRL-R. This will copy the formula into all of these columns. The dates should increment by one day per column.
+    #. Select all of the date columns, right click and select Resize columns. Set the size to 40.
+  #. Select the top row and set it to bold.
+  #. Use a color to mark the columns that fall on weekend dates.
+  #. Select view and freeze the first row.
   #. Make a list of tasks required to complete the project in the Tasks column.
   #. Using color, indicate the dates for working on each task.
   
