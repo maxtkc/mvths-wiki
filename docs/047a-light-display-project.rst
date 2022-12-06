@@ -17,12 +17,14 @@ Design
   #. Name your spreadsheet something appropriate
   #. Enter "Tasks" at the top of the first column
   #. Add dates
-    #. Enter the first date of the project at the top of the second column.
-    #. Using the Format dropdown, set the format to month/day i.e. 12/5
-    #. Enter the formula "=b1+1" at the top of the third column. This will add one day to the date.
-    #. Select the date at the top of the third column and drag across the tops of the next 21 columns.
-    #. Type CTRL-R. This will copy the formula into all of these columns. The dates should increment by one day per column.
-    #. Select all of the date columns, right click and select Resize columns. Set the size to 40.
+     
+     #. Enter the first date of the project at the top of the second column.
+     #. Using the Format dropdown, set the format to month/day i.e. 12/5
+     #. Enter the formula "=b1+1" at the top of the third column. This will add one day to the date.
+     #. Select the date at the top of the third column and drag across the tops of the next 21 columns.
+     #. Type CTRL-R. This will copy the formula into all of these columns. The dates should increment by one day per column.
+     #. Select all of the date columns, right click and select Resize columns. Set the size to 40.
+     
   #. Select the top row and set it to bold.
   #. Use a color to mark the columns that fall on weekend dates.
   #. Select view and freeze the first row.
