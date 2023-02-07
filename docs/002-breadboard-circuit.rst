@@ -12,6 +12,10 @@ Inside the breadboard are lots of metal clips that determine which holes are con
 
 .. image:: images/breadback.jpg
    :width: 600px
+   
+This image shows a diagram of how the rows and columns of the breadboard are connected. The black red and blue lines indicate where the holes are connected. 
+
+.. image:: images/breadboarddiagram.PNG
 
 Exercise:
 ~~~~~~~~~
