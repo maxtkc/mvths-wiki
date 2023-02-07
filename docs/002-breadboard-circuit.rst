@@ -4,7 +4,7 @@ Breadboard Circuit
 Overview
 --------
 
-Breadboards provide a convenient way to connect components together to make a circuit. In the previous lesson you used your hands or maybe bent the wires to make a connection between components. The breadboard shown below has lots of holes (830 to be exact) that can be used to easily connect your components together. 
+Breadboards provide a convenient way to connect components together to make a circuit. In the previous lesson you used your hands or maybe bent the wires to make a connection between components. The breadboard shown below has lots of holes (830 to be exact) that can be used to easily connect your components together. In this lesson you will make the circuits shown below but instead of using your hands (or twisting wires) to connect the compoents, you will use the holes in the breadboard.
 
 .. image:: images/breadboard.jpg
 
@@ -20,7 +20,7 @@ This image shows a diagram of how the rows and columns of the breadboard are con
 Exercise:
 ~~~~~~~~~
 
-Construct the following three circuits on your breadboard. Using what you just learned about breadboards, use the breadboard to make connections between your components. The circuit will require three LEDs and three resistors. Note that one of the circuits will not light the LED. Construct it anyway just to show you know how to make connections and follow circuit diagrams.
+Construct the following three circuits on your breadboard. Using what you just learned about breadboards, use the breadboard to make connections between your components. You can set up all three circuits at once or demonstrate them individually. Note that one of the circuits will not light the LED. Construct it anyway just to show you know how to make connections and follow circuit diagrams.
 
 IMPORTANT: Do not attempt to put two wires in one hole.
 
