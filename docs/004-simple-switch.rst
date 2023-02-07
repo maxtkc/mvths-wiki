@@ -27,7 +27,7 @@ So why do they make buttons so complicated? The purpose of the four leads is to 
 Exercise:
 ~~~~~~~~~
 
-#. Using your breadboard, complete the following circuit which uses a switch to turn on and off an LED.
+#. Using your breadboard, complete the following circuit which uses a switch to turn on and off an LED. When placing your button on the breadboard make sure not to short the two sides, (1 and 2) and (3 and 4) by placing them in a connected row or column.
 
    .. figure:: images/image121.png 
 
