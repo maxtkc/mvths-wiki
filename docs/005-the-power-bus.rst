@@ -4,13 +4,11 @@ The Power Bus
 Overview
 --------
 
-Although it is possible to use the breadboard to connect components in any way you want, there are certain sorts of conventions that will make make using the breadboard much easier to use. You have probably noticed that your breadboard has a pair of rows on the top and bottom of the board. You also might have noticed that these rows are associated with red an blue lines. 
+Although it is possible to use the breadboard to connect components in a variety of ways, there are certain conventions that will make make using the breadboard much easier to use. You have probably noticed that your breadboard has a pair of rows on the top and bottom of the board. You also might have noticed that these rows are associated with red an blue lines. 
 
-As the diagram below shows, these rows are referred to as power and ground buses (or power and ground rails).  The power bus is associated with the rows next to the red lines and the ground bus is associated with the rows next to the blue lines. IMPORTANT: There is nothing special about these rows of holes in that they are simply connected by metal clips just like the columns in the breadboard. Using them as power and ground buses is simply a convenient convention. 
+Convention dictates that you connect the red rows to power or the positive lead of whatever power supply you are using. In addition, it is conventional to connect the blue rows to ground or the negative/ground lead of whatever power supply you are using. Since these are connected across the length of your breadboard as you saw in the previous lesson, you only need to connect the power and ground leads to one pin on each row. This way you have easy access to power and ground any where you place you components on your board. IMPORTANT: The two red buses and the two blue buses of your breadboard are not automatically connected. You can connect these with a wire. This will be addressed in future lessons.
 
 .. image:: images/breaddiagram.PNG
-
-The best way to use these rows is to connect power (red) lead of your bench supply to one of the red buses and connect the ground (black) lead of your bench supply to one of the blue buses. This way you have access to power and ground for your circuits across your board. IMPORTANT: The two red buses and the two blue buses of your breadboard are not automatically connected. You can connect these with a wire. This will be addressed in future lessons.
 
 Exercise:
 ~~~~~~~~~
