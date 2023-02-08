@@ -13,7 +13,7 @@ Convention dictates that you connect the red rows to power or the positive lead 
 Exercise:
 ~~~~~~~~~
 
-Rebuild the following circuit on your breadboard, but this time use the power and ground buses as described above. 
+Rebuild the following circuit on your breadboard, but this time use the power and ground buses as described above. NOTE: The best way to connect power and ground to your board is using the alligator connectors and long jumpwires as described in the previous lesson.
 
 .. image:: images/image90.png
 
