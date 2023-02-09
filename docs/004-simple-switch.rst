@@ -27,7 +27,7 @@ So why do they make buttons so complicated? The purpose of the four leads is to 
 Exercise:
 ~~~~~~~~~
 
-#. Using your breadboard, complete the following circuit which uses a switch to turn on and off an LED. When placing your button on the breadboard make sure not to short the two sides, (1 and 2) and (3 and 4) by placing them in a connected row or column.
+#. Using your breadboard, complete the following circuit which uses a switch to turn on and off an LED. When placing your button on the breadboard make sure not to short the two sides, (1 and 2) and (3 and 4) by placing them in a connected row or column. NOTE: Since it is difficult to connect an alligator clip directly to the leads on the button, you should consider using a long jump wire as described in the previous unit.
 
    .. figure:: images/image121.png 
 
