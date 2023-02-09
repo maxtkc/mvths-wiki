@@ -23,9 +23,6 @@ The following are good conventions for setting up your breadboard and adding com
       
       Wrong Right
       
-  
-      
-      
 
    Cutting the leads on these components so that they fit snug against your breadboard makes for a much neater and reliable design. The image below shows an example of an LED and resistor cut snug to the breadboard.
    
@@ -43,6 +40,4 @@ Light an LED on your breadboard following the recommendations above. If you want
 
 TEACHER CHECK \_\_\_\_\_
 
-.. |image0| image:: images/messyled.jpg
- :width: 200px
-.. |image1| image:: images/snugled.png
+
