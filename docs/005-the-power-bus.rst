@@ -12,8 +12,11 @@ Convention dictates that you connect the red rows to power or the positive lead 
 
 Exercise:
 ~~~~~~~~~
+#. Connect the power lead to your power bus using the alligator clip and a long jump wire. 
 
-Rebuild the following circuit on your breadboard, but this time use the power and ground buses as described above. NOTE: The best way to connect power and ground to your board is using the alligator connectors and long jumpwires as described in the previous lesson.
+#. Connect the ground lead to your ground bus using the alligator clip and a long jump wire.
+
+#. Rebuild the following circuit on your breadboard, but this time use the power and ground buses as described above. 
 
 .. image:: images/image90.png
 
