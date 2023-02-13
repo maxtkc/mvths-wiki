@@ -53,7 +53,12 @@ The following is a hook up diagram for using the MD17A. Note that generally it i
 Exercise:
 ~~~~~~~~~
 
-#. Set up your breadboard with the MD17A following the table for making connections for one motor. For this first step, do not use a microcontroller (Arduino). You will simply connect long flexible jump wires to the two input pins that correspond to the motor you connected. Setting these pins to power and ground should control your motors direction and turn it on and off.
+#. Set up your breadboard with the MD17A following the table for making connections for one motor. 
+    * Connect GND to the ground on your breadboard. 
+    * Connect the red lead on your bench supply to VIN. (NOT TO THE RED BUS ON YOUR BREADBOARD)
+    * Connect the black lead on your bench supply to the ground bus on your breadboard.
+    * Connect your motor leads to AOUT1 and AOUT2. The order does not matter.
+    * Connect a long jump wire to each INA1 and INA2. 
 
 #. Add a microcontroller (Arduino) to your breadboard and control the motor in software. 
 
