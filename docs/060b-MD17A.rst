@@ -15,13 +15,15 @@ The MD17A is a small dual motor control module made by Pololu and based on the D
 - Reverse-voltage protection circuit
 - Current limiting can be enabled by adding sense resistors (not included)
 
-The following is an image of the labeled side of the module and a table listed the functions of each pin.
-
 .. figure:: images/image28.png
    :alt: 
+   
+Pin Diagram
+------------
+The following table lists the functions of each pin as shown in the image above.
 
 +-------------------------+------------------------------------------------------+
-| Pin Name                | Pin Function                                         |
+| **Pin Name**            | **Pin Function**                                     |
 +-------------------------+------------------------------------------------------+
 | GND                     | Connect to ground on your breadboard                 |
 +-------------------------+------------------------------------------------------+
@@ -46,12 +48,17 @@ The following is an image of the labeled side of the module and a table listed t
 | FLT                     | Not connected                                        |
 +-------------------------+------------------------------------------------------+
 
+Hook Up Diagram
+----------------
 The following is a hook up diagram for using the MD17A. Note that generally it is best to solder and use the MD17A with the label side up so it is easier to make sure your connections are correct. **VERY IMPORTANT** The MD17A only has one voltage input. This is for the power to the motor. This voltage should ONLY be applied to this pin and no where else on your board.
 
 .. image:: images/MD17a.png
 
+Control Logic
+--------------
+The following table describes the control logic for the MD17A. By applying HIGH (5V) and LOW (0V) signals to the inputs you can change the direction of the motor. Note that the use of clockwise and counterclockwise is arbitrary. These merely indicate a change in direction of the motor.
 
-.. list-table:: Control Logic
+.. list-table:: **Control Logic**
    :widths: 25 25 25
    :header-rows: 1
 
