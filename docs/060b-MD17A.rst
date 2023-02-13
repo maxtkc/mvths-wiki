@@ -89,8 +89,9 @@ Exercise:
     * Connect the black lead on your bench supply to the ground bus on your breadboard.
     * Connect your motor leads to AOUT1 and AOUT2. The order does not matter.
     * Connect a long jump wire to each INA1 and INA2. 
+    
+#. Using the long jump wires connected to INA1 and INA2 control the direction of your motor. Note that you will need to have power and ground bus of your breadboard set to 5v and 0V respectively. You can do this using your Metro Mini, Arduino Uno or the bench supply.
 
-#. Add a microcontroller (Arduino) to your breadboard and control the motor in software. 
+#. Add a Metro Mini or Uno to your breadboard and now control the motor in software. Note that HIGH in software is equivalent to the 5V on your breadboard.
  
-#. Add a second motor to your circuit. Write a program to drive both motors for 3 seconds, reverse direction for 3 seconds and off for 3 seconds.
 
