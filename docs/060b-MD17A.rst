@@ -61,6 +61,6 @@ Exercise:
     * Connect a long jump wire to each INA1 and INA2. 
 
 #. Add a microcontroller (Arduino) to your breadboard and control the motor in software. 
-
+ 
 #. Add a second motor to your circuit. Write a program to drive both motors for 3 seconds, reverse direction for 3 seconds and off for 3 seconds.
 
