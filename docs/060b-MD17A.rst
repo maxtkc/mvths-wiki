@@ -50,6 +50,29 @@ The following is a hook up diagram for using the MD17A. Note that generally it i
 
 .. image:: images/MD17a.png
 
+
+.. list-table:: Control Logic
+   :widths: 25 25 25
+   :header-rows: 1
+
+   * - IN1
+     - IN2
+     - Direction
+     
+   * - HIGH
+     - LOW
+     - Clockwise
+     
+   * - LOW
+     - HIGH
+     - Counterclockwise
+   * - LOW
+     - LOW
+     - Break
+   * - HIGH
+     - HIGH
+     - Break
+
 Exercise:
 ~~~~~~~~~
 
