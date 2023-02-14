@@ -4,8 +4,11 @@ Short Jumps
 Overview
 --------
 
-Although it is possible to use the breadboard to connect components in a variety of ways, there are certain conventions that will make make using the breadboard much easier to use. You have probably noticed that your breadboard has a pair of rows on the top and bottom of the board. You also might have noticed that these rows are associated with red an blue lines. 
+This lesson covers two topics. The first is an introduction to short jump wires. The second is a description of how to neaten resistors so that they fit better into your breadboard.  
 
-Convention dictates that you connect the red rows to power or the positive lead of whatever power supply you are using. In addition, it is conventional to connect the blue rows to ground or the negative/ground lead of whatever power supply you are using. Since these are connected across the length of your breadboard as you saw in the previous lesson, you only need to connect the power and ground leads to one pin on each row. This way you have easy access to power and ground any where you place you components on your board. IMPORTANT: The two red buses and the two blue buses of your breadboard are not automatically connected. If you want to have power and ground on both rows, you will need to connect them with a wire. 
+Short Jump Wires
+-----------------
 
-.. image:: images/breaddiagram.PNG
+The following is a picture of a box of short jumpwires. As you can see, they come in many colors and sizes. The sizes are designed to conveniently fit between specific numbers of holes in your breadboard. In the next lesson, you will use these jump wires.
+
+.. image:: images/shortjumpwires.PNG
