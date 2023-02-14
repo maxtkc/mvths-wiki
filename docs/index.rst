@@ -15,6 +15,7 @@ The following is a list of guides for learning about electronics and software in
    
    001-simple-circuit
    002-breadboard-circuit
+   002b-led-orientation
    003-more-leds
    004b-long-jumper
    004-simple-switch
