@@ -4,7 +4,16 @@ Motor Direction Control Functions
 Overview
 --------
 
-Writing good functions for motor control are critical to effectively driving motors. A good motor control function can control both motor direction and speed. In this lesson, you will start with just controlling the direction of your motor.  
+Writing good functions for motor control are critical to writing good sumo robotics code. The best motor control function can control both motor direction and speed. In this lesson, you will start with just controlling the direction of your motor. In your sumo code, you may find that controlling the direction of the motor is enough. If you need to review how to write a function click `here. <https://mvths-wiki.readthedocs.io/en/latest/031-functions.html?highlight=functions#functions>`_
+
+As you learned in a previous lesson, you can drive one of your motors with the following sort of codel. 
+
+.. code::
+
+    digitalWrite(MOT1A, HIGH);
+    digitalWrite(MOT1B, LOW);
+    
+    
 
 Exercise:
 ~~~~~~~~~
@@ -16,6 +25,7 @@ Write a function to control just the direction of one motor. The function can be
    void motor(int direction) {
 
       //write your motor drive commands here
+      //Make sure to use the defines you used for your control pins
 
    }
 
