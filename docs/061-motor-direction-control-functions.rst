@@ -28,8 +28,12 @@ Exercise:
 
 #. Write a function to control just the direction of one motor. The function can be called anything you like, but you should use a name that best indicates the purpose of the function. Your function should allow you to pass one argument to change the direction of the motor. Again, if you need a reminder about how to write functions, check the link above. NOTE: Make sure to use defines for your control pins.
 
+   TEACHER CHECK ______
+
 #. Write a second function to control a second motor. Make sure to use function names to accurately distinguish between the two motors. 
+
+   TEACHER CHECK ______
 
 #. Write a function to control both motors at the same time. Again, make sure to use function names and argument names that are appropriate to the purpose of the function.
 
-TEACHER CHECK ______
+   TEACHER CHECK ______
