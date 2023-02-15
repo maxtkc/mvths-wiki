@@ -107,6 +107,7 @@ The following is a list of guides for learning about electronics and software in
    060-motor-control-modules-and-ics
    060a-L233D
    060b-MD17A
+   060c-Motor-Defines
    061-motor-direction-control-functions
    062-speed-and-direction-control
    063-challenge-review
