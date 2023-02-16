@@ -6,22 +6,28 @@ Overview
 
 Writing good functions for motor control are critical to writing good sumo robotics code. The best motor control function can control both motor direction and speed. In this lesson, you will start with just controlling the direction of your motor. In your sumo code, you may find that controlling the direction of the motor is enough. If you need to review how to write a function click `here. <https://mvths-wiki.readthedocs.io/en/latest/031-functions.html?highlight=functions#functions>`_
 
-As you learned in a previous lesson, you can drive one of your motors with the following sort of code. We can imagine that this code drives one of your motors clockwise.
+As you learned in a previous lesson, you can drive one of your motors with the following sort of code. 
 
 .. code::
 
+    // Drive clockwise
     digitalWrite(MOT1A, HIGH);
     digitalWrite(MOT1B, LOW);
     
-There are two problems with this approach. One is that it hard to read. Two is that you might want run your motor clockwise multiple times in your code and so you would have to continue to write these two lines of code.
+     // Drive counterclockwise
+    digitalWrite(MOT1A, LOW);
+    digitalWrite(MOT1B, HIGH);
+    
+There are two problems with this approach. One is that it hard to read. Two is that changing the direction of your motor requires you to write essentially the same code twice. 
 
-Imagine how much clearer your code would be if you could instead drive a motor with the following single line.
+Imagine how much clearer your code would be if you could instead drive a motor in either direction with the following single line.
 
 .. code::
 
-   drive_motor(clockwise);
+   drive_motor(CLOCKWISE);
+   drive_motor(COUNTERCLOCKWISE);
    
-This is the power of funcitons. 
+This is the power of funcitons. Note that the above code assumes that there is a single function "drive_motor" that can use an argument to determine direction. Also, note that the CLOCKWISE and COUNTERCLOCKWISE are defines that you need to set at the top of your code.
 
 Exercise:
 ~~~~~~~~~
