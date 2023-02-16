@@ -96,6 +96,10 @@ The following is a list of guides for learning about electronics and software in
    046-rules-for-milling-boards
    047-post-milling
    047a-light-display-project
+   070xa-sumo-robot
+   070xb-motor-control
+   070xc-motor-defines
+   070xd-motor-control-functions
    053-hobby-servo-motors
    054-duty-cycle
    055a-voltage-regulation
@@ -106,15 +110,11 @@ The following is a list of guides for learning about electronics and software in
    059-soft-latching-switch
    060-motor-control-modules-and-ics
    060a-L233D
-   060b-MD17A
-   060c-motor-defines
-   061-motor-direction-control-functions
    062-speed-and-direction-control
    063-challenge-review
    064-photo-reflector-pair
    065-comparator
    066-photo-reflector-module
-   066i-sumo-robot
    050-keypads
    052-keypad-and-code
    066a-real-time-clock
