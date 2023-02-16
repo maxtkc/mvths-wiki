@@ -25,20 +25,13 @@ The following are important steps to take to ensure that your batteries and your
 Challenge
 ~~~~~~~~~
 
-Drive your motor control circuit using a single 7.2V (2 cell) LiPo battery. This challenge requires you to construct a connector from your battery to the breadboard, convert the 7.2V battery power to 5V for the logic circuits and pass the 7.2V to drive the motor. And make sure to get teacher checks for each step listed below. 
+Construct a connector to safely power your logic and motors from a Lipo battery.  
 
-#. Create a battery connector with a polarized JST connector on one end mating with the JST connector on the battery and a two wire header on the other end that can plug into your breadboard. **IMPORTANT:** Make sure to use red and black wires with your connector and make sure they are polarized correctly! 
+#. Collect a pre-wired JST connector that mates with your battery.
 
-   TEACHER CHECK \_\_\_\_
+#. Crimp a two-pin non-polarized connect the red and white leads at the opposite end of the JST connector. 
 
-#. Set up your breadboard (if you have not already done so) with 5 volt regulator to drive both the logic circuit and the motor controller.
+#. Add a right angle connector to your breadboard in line with Vin and ground on your Metro Mini or equivalent device.
 
-   TEACHER CHECK \_\_\_\_
+#. Connect your two-pin header. Make sure it is correctly polarized and hot glue it into place.
 
-#. Tape your battery connector to your breadboard so that it will not easily fall off.
-
-   TEACHER CHECK \_\_\_\_
-  
-#. Connect your lipo cable to your breadboard circuit.
-
-   TEACHER CHECK \_\_\_\_
