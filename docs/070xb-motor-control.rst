@@ -1,4 +1,4 @@
-MD17A
+Sumo Motor Control
 =============================
 
 Overview
