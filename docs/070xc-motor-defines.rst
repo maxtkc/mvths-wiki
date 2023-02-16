@@ -1,4 +1,4 @@
-Motor Defines
+Sumo Motor Defines
 =================================
 
 Overview
