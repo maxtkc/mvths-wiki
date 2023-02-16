@@ -73,6 +73,27 @@ Materials include those in your final robot as well as those you use to develop 
      - .80
      - board (4"x5")
 
+Parts Cost
+^^^^^^^^^^^^^
+An additional part is any part used in your robot beyond the initial parts listed in the requirements section above. For example, we will provide two line sensors. If you decide to use an additional line sensor, the cost of the sensor will be added to your total budget. You may also choose to not use one of the parts in the initial list. In this case, the cost of that part can be deducted from your total budget. If you choose to use a part that is not on the list, you must provide a cost for that part and add the cost of that part to your budget.
+
+.. list-table:: Cost of Parts
+   :widths: 25 25
+   :header-rows: 1
+   
+   * - Item
+     - Cost
+   * - MD17A (Dual motor controller)
+     - $12.00
+   * - Plastic gearmotor
+     - $5.75
+   * - QTR-1A (Reflectance sensor)
+     - $2.15
+   * - MD17A (Dual motor controller)
+     - $12.00
+   * - VL53L0X (Distance sensor)
+     - $15.00 
+     
 Steps
 --------
 
