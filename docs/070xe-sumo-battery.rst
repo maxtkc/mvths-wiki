@@ -12,7 +12,7 @@ The following are important steps to take to ensure that your batteries and your
 
 - **Never let the leads touch!** Never let the positive and negative leads of your battery touch. This is called a short circuit. These batteries can easily dump huge amounts of current and when they do so unrestricted through a small wire very bad things happen!
 
-- **Never allow reverse polarity** If you mistaken reverse the leads on the battery and apply the positive lead of the battery to the ground on your circuit and the negative lead to power, you circuit and board will most likely be destroyed in a sad display of smoke and melted plastic.
+- **Never allow reverse polarity:** If you mistaken reverse the leads on the battery and apply the positive lead of the battery to the ground on your circuit and the negative lead to power, you circuit and board will most likely be destroyed in a sad display of smoke and melted plastic.
 
 - **Always use polarized connectors:** It is very important to only use polarized connectors with the LiPo batteries. This will avoid the problem of reverse polarity.
 
