@@ -100,6 +100,7 @@ The following is a list of guides for learning about electronics and software in
    070xb-motor-control
    070xc-motor-defines
    070xd-motor-control-functions
+   070xe-sumo-battery
    053-hobby-servo-motors
    054-duty-cycle
    055a-voltage-regulation
