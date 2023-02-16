@@ -1,4 +1,4 @@
-Motor Direction Control Functions
+Sumo Motor Control Functions
 =================================
 
 Overview
