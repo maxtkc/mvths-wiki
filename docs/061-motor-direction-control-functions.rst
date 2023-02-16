@@ -27,7 +27,7 @@ Imagine how much clearer your code would be if you could instead drive a motor i
    drive_motor(CLOCKWISE);
    drive_motor(COUNTERCLOCKWISE);
    
-This is the power of funcitons. Note that the above code assumes that there is a single function "drive_motor" that can use an argument to determine direction. Also, note that the CLOCKWISE and COUNTERCLOCKWISE are defines that you need to set at the top of your code.
+This is the power of functions. Note that the above code assumes that there is a single function "drive_motor" that can use an argument to determine direction. Also, note that the CLOCKWISE and COUNTERCLOCKWISE are defines that you need to set at the top of your code.
 
 Exercise:
 ~~~~~~~~~
