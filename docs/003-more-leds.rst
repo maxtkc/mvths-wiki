@@ -21,7 +21,7 @@ Exercise:
 
 Following the schematic below, create a circuit to light three LEDs in series on your breadboard. You will need three LEDs and one resistors. Note that each connection in the series of components will be made in a different connected row or column on your breadboard. Also, note that this circuit might require up to 9V to illuminate.
 
-.. figure:: images/image23.png
+.. figure:: images/seriesled.PNG
    :alt: 
 
 TEACHER CHECK \_\_\_\_
