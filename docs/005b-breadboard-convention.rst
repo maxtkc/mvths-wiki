@@ -4,7 +4,7 @@ Breadboard Conventions
 Overview
 --------
 
-The following are good conventions for setting up your breadboard and adding components.
+The following are good conventions for setting up your breadboard and adding components. You do not have to complete these steps, just read the guide and ask questions if anything does not make sense.
 
 #. Connect the two power buses and connect the two ground buses. As mentioned in the previous lesson, the two ground buses (and the two power buses) are not connected inside the breadboard. In order to connect these two buses you must use jump wires as shown below. IMPORTANT: Make sure only power to power and ground to ground. Do not cross connect these buses.
 
