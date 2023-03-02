@@ -13,9 +13,9 @@ Exercise:
 
 #. Now disconnect end of each of the long jump wires where they connect to the Metro Mini. The other end of the jump wire should remain connected to their respective LEDs.
 
-#. Now connect the long jump wire from the LED to power. The LED should light. Note that you can turn the LED on and off by moving this wire from power to ground and back.
+#. Now you are going to power the LEDs directly from the power bus. Connect the long jump wire from the LED to power. The LED should light. Note that you can turn the LED on and off by moving this wire from power to ground and back.
 
-#. **Challenge:** In the above circuit, the LED turns on when the long jump wire is connected to power and off when the long jump wire is connected to ground. Reconfigure the LED circuit so that the LED turns on when you connect the long jump wire to ground and turns off when you connect the long jump wire to power. 
+#. Note that in the above circuit connecting the jumpwire to power turns on the LED and connecting the jumpwire to ground turns off the LED. It is possible to rewire your LED circuit so that the LED turns on when the jumpwire is connected to ground and turns off when the jumpwire is connected to ground. Reconfigure your circuit to make it turn on when the jumpwire is connected to ground.
 
    TEACHER CHECK ___
 
