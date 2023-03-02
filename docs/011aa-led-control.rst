@@ -9,9 +9,9 @@ In this lesson, we are going to go back to controlling an LED without a microcon
 Exercise:
 ~~~~~~~~~
 
-#. Start with the circuit from the previous lesson. That is you should at least have a Metro Mini on your board and it should be connected so that you have 5V and ground on your power and ground bus. You should also still have the 
+#. Start with the circuit from the previous lesson. That is you should at least have a Metro Mini on your board connected to three LEDs.
 
-#. Now disconnect the long jump wire connecting the LED from your microcontroller and connect the wire to ground. The LED should not light.
+#. Now disconnect end of each of the long jump wires where they connect to the Metro Mini. The other end of the jump wire should remain connected to their respective LEDs.
 
 #. Now connect the long jump wire from the LED to power. The LED should light. Note that you can turn the LED on and off by moving this wire from power to ground and back.
 
