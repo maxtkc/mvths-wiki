@@ -36,15 +36,21 @@ In order make a measurement in your circuit, your leads must be touching metal n
 Exercise:
 ~~~~~~~~~
 
-#. Construct a simple LED circuit on your breadboard with one resistor and one LED. Use your multimeter to measure the voltage across the resistor, the voltage across the LED, and the voltage across the entire circuit. Record these measurements in your notebook. 
+#. Construct a simple LED circuit on your breadboard with one resistor and one LED. 
+
+#. Use your multimeter to measure the voltage across the resistor. Record this measurement in your notebook using the correct units and sign (positive or negative). 
 
    Voltage across resistor:          \_\_\_\_\_\_
+   
+#. Reverse the leads and measure the voltage across the resistor again. For example, if on whichever side you placed the red lead, now place the black lead and vice versa. Again, record this measurement in your notebook using the correct units and sign. Note that voltage, works or drops, in one direction from positive to negative.
+
+   Voltage across resistor:          \_\_\_\_\_\_
+
+#. Now measure the voltage across the LED and the voltage across the entire circuit. Make these measurements in the positive diretion. 
 
    Voltage across LED:                \_\_\_\_\_\_
 
    Voltage across entire circuit:    \_\_\_\_\_\_
-
-   TEACHER CHECK \_\_\_\_\_
 
 #. Note that the total voltage across the entire circuit should equal the voltage of each of the parts. Add up the voltages you measured across the resistor and the LED. How does this compare with the voltage you measured for the entire circuit? Recorde the following equation into your notebook.
 
