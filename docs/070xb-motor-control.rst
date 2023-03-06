@@ -4,7 +4,7 @@ Sumo Motor Control
 Overview
 --------
 
-The MD17A is a small dual motor control module made by Pololu and based on the DRV8833 motor driver IC. The following are features of this motor module. You can find more information about the module on the Pololu site `here <https://www.pololu.com/product/2130>`__. 
+The MD17A is the default motor controller for the sumo robotics competition. This is a small dual motor control module made by Pololu and based on the DRV8833 motor driver IC. The following are features of this motor module. You can find more information about the module on the Pololu site `here <https://www.pololu.com/product/2130>`__. If you need to solder pins into your MD17A, please contact your teacher before soldering.
 
 - Dual-H-bridge motor driver: can drive two DC motors or one bipolar stepper motor
 - Operating voltage: 2.7‌‌ V to 10.8 V
@@ -50,7 +50,7 @@ The following table lists the functions of each pin as shown in the image above.
 
 Hook Up Diagram
 ----------------
-The following is a hook up diagram for using the MD17A. Note that generally it is best to solder and use the MD17A with the label side up so it is easier to make sure your connections are correct. **VERY IMPORTANT** The MD17A only has one voltage input. This is for the power to the motor. This voltage should ONLY be applied to this pin and no where else on your board.
+The following is a hook up diagram for using the MD17A. **VERY IMPORTANT** The MD17A only has one voltage input. This is for the power to the motor. This voltage should ONLY be applied to this pin and no where else on your board.
 
 .. image:: images/MD17a.png
 
@@ -85,13 +85,16 @@ Exercise:
 
 #. Set up your breadboard with the MD17A following the table for making connections for one motor. 
     * Connect GND to the ground on your breadboard. 
-    * Connect the red lead on your bench supply to VIN. (NOT TO THE RED BUS ON YOUR BREADBOARD)
+    * Connect VIN to the red lead on your bench supply. (NOT TO THE RED BUS ON YOUR BREADBOARD)
+    * Connect AOUT1 to one motor lead. (It does not matter which one)
+    * Connect AOUT2 to the other motor lead.
+    * Connect INA1 to one side of a long jump wire. 
+    * Connect INA2 to one side of another long jump wire. 
     * Connect the black lead on your bench supply to the ground bus on your breadboard.
-    * Connect your motor leads to AOUT1 and AOUT2. The order does not matter.
-    * Connect a long jump wire to each INA1 and INA2. 
+    * Make sure you have a Metro Mini or Arduino supplying 5V and ground to your breadboard.
     
-#. Using the long jump wires connected to INA1 and INA2 control the direction of your motor. Note that you will need to have power and ground bus of your breadboard set to 5v and 0V respectively. You can do this using your Metro Mini, Arduino Uno or the bench supply.
+#. Using the long jump wires connected to INA1 and INA2 and the table above as a guide, control the direction of your motor just using the 5V and ground bus on your breadboard. 
 
-#. Add a Metro Mini or Uno to your breadboard and now control the motor in software. Note that HIGH in software is equivalent to the 5V on your breadboard. Write a program to drive your motor clockwise for 3 seconds and the counterclockwise for 3 seconds.
+#. Using a Metro Mini or Arduino, use software to control your motor. Note that HIGH in software is equivalent to the 5V on your breadboard. Write a program to drive your motor clockwise for 3 seconds and the counterclockwise for 3 seconds.
  
 
