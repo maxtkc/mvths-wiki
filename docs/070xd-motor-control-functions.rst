@@ -4,7 +4,7 @@ Sumo Motor Control Functions
 Overview
 --------
 
-Writing good functions for motor control are critical to writing good sumo robotics code. The best motor control function can control both motor direction and speed. In this lesson, you will start with just controlling the direction of your motor. In your sumo code, you may find that controlling the direction of the motor is enough. If you need to review how to write a function click `here. <https://mvths-wiki.readthedocs.io/en/latest/031-functions.html?highlight=functions#functions>`_
+Writing good functions for motor control are critical to writing good sumo robotics code. A motor control function can control both motor direction and speed. In this lesson, you will start with just controlling the direction of your motor. If you need to review how to write a function click `here. <https://mvths-wiki.readthedocs.io/en/latest/031-functions.html?highlight=functions#functions>`_
 
 As you learned in a previous lesson, you can drive one of your motors with the following sort of code. 
 
