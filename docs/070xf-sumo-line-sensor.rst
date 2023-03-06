@@ -1,20 +1,22 @@
-Photo Reflector Module
+Sumo Line Sensor
 ======================
 
 Overview
 --------
 
-In this lesson, you will learn how to use an QTR-1A infrared (IR) reflective sensor to distinguish between light and dark areas. Specifically, these sensors are used to detect lines for line tracking robots and to count lines on rotary encoders as shown below.
+In this lesson, you will learn how to use a QTR-MD-01A Reflectance Sensor to distinguish between light and dark surfaces. Specifically, this sensor will be used to detect the white line on the outside of the sumo ring.
 
-|image0|\ |image1|
+.. image:: images/sumoring.PNG
+      :width: 400px
 
-Line tracking robot                                Rotary wheel encoder
+The QTR-MD-01A sensor (shown below) include a photo emitter and sensor pair as well as well as other necessary components. The schematic for the sensor is shown below as well. On the left side of the schematic is the IR emitter which sends out infrared light. On the right of the schematic is the phototransistor which senses infrared light. The voltage at the OUT pin varies depending on how much infrared light is reflected from the IR emitter. You can check out the `product page <https://www.pololu.com/product/2458>`__  for additional information. 
 
-The QTR-1A sensors (shown below) include a photo emitter and sensor pair as well as other necessary components. The schematic for the sensor is shown below as well. On the left side of the schematic is the IR emitter which sends out infrared light. On the right of the schematic is the phototransistor which senses infrared light. The voltage at the OUT pin varies depending on how much infrared light is reflected from the IR emitter. You can check out the `product page <https://www.pololu.com/product/2458>`__  for additional information. 
+.. image:: images/linesensor.PNG
+      :width: 400px
 
-|image2|\ |image3|
+.. image:: images/linesensorschematic.PNG
+      :width: 400px
 
-QTR-1A Sensor                        QTR-1A Schematic
 
 In order to accurately test this sensor, you will need to create a sensor mount, a connector cable and a test card. The sensor mount should hold the sensor at a fixed height around 0.125” (3mm) above the table and allow you to easily pass the test card under the sensor. You can create this using cardboard and tape. Since the sensor will not be on your breadboard, you will also need to use flexible jump wires to connect it to your board. Finally, you will need to create a card for testing your sensor’s sensitivity to dark and light surfaces. This can be made simply from a white index card with a single black line made using a marker or tape.
 
