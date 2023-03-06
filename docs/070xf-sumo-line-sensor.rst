@@ -16,6 +16,14 @@ The QTR-MD-01A sensor (shown below) includes a photo emitter and sensor pair as 
 
 .. image:: images/linesensorschematic.PNG
       :width: 400px
+      
+Note that the sensor has three pins. Vcc goes to 5 volts. 
+
+      
+Exercises
+--------
+#. If the sensor is soldered, you may solder three wires to the sensor or a right angle header. 
+#. Conn
 
 
 In order to accurately test this sensor, you will need to create a sensor mount, a connector cable and a test card. The sensor mount should hold the sensor at a fixed height around 0.125” (3mm) above the table and allow you to easily pass the test card under the sensor. You can create this using cardboard and tape. Since the sensor will not be on your breadboard, you will also need to use flexible jump wires to connect it to your board. Finally, you will need to create a card for testing your sensor’s sensitivity to dark and light surfaces. This can be made simply from a white index card with a single black line made using a marker or tape.
