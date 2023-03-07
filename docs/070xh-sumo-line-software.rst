@@ -14,6 +14,17 @@ In this lesson, you will learn how to write a program to accurately control your
 
    - Repeat the last exercise, but move the output from an analog port to a digital port. You might need to adjust the height of your sensor so that it works correctly.
 
-- **Comparator**: This is method provides the most accurate results and allows you to adjust easily for changes in ambient light or changes in the surface you are detecting. It also allows you to use interrupts in your code. The downside is that it requires a more complex circuit. Using what you learned in the section on comparators design a circuit that reads the output of the sensor. Include a potentiometer to set the reference voltage.
+- **Comparator**: This is method provides the most accurate results and allows you to adjust easily for changes in ambient light or changes in the surface you are detecting. It also allows you to use interrupts in your code. The downside is that it requires a more complex circuit. 
+
+Exercise
+--------
+
+#. Refer to the section on `comparator <https://mvths-wiki.readthedocs.io/en/latest/065-comparator.html>`__. 
+
+#. Construct this exact circuit including the LED, but connect the output of your line sensor to Vi instead of the light sensor and resistor shown in the circuit. 
+
+#. Connect Vo to a digital pin on your microcontroller board.
+
+
 
 
