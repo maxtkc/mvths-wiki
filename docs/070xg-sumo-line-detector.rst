@@ -11,7 +11,7 @@ Exercises
 
 #. Using materials such as cardboard or chipboard, create a mount for your sensor that keeps it about 5mm from the surface of your table. You may also want to shroud it from stray light. 
 
-# Create a test card which includes a black and white surface. This can be done with an index card and tape, but note that not all white surfaces reflect eqaully and not all black surfaces reflect equally. Check out the surface of the sumo table as a reference.
+#. Create a test card which includes a black and white surface. This can be done with an index card and tape, but note that not all white surfaces reflect eqaully and not all black surfaces reflect equally. Check out the surface of the sumo table as a reference.
 
 #. Using your new set up, record voltage values in your notebook for the black and white surfaces.
 
