@@ -18,36 +18,23 @@ The following circuit shows a compartor being used in circuit. Note that the Vre
    :width: 400
    :alt:
    
+Below is the pin diagram for an LM339. The LM339 used in the circuit above, is a quad comparator. It is designated "quad" because there are four comparators in the circuit. Note that each comparator has two inputs and one output. The IC can be powered with 5 V. 
+
+.. figure:: images/LM339pinout.PNG
+   :width: 400
+   :alt:
    
 Exercise
 --------
 
-#. Construct the circuit shown above. 
+#. Construct the circuit shown above using an LM339. 
 
-One input is the reference which sets the threshold value in volts. The threshold voltage in the circuit below is on the - (minus) pin of the comparator and is created with a voltage divider. The second input is the voltage being measured or compared. The comparator has one output. The output is either HIGH or LOW based on the comparison between the voltage reference input and the input voltage being measured.
+#. Adjust the potentiomater so that the LED turns on when the sensor is in bright light.
 
-For example, if the voltage reference is set at 4 volts and the Vcc or ircuit voltage is 5 volts than if the measured voltage goes higher than 4 volts the output of the comparator will be HIGH. If the voltage input is below 4 volts the output will be LOW.
+#. Now set up circuit so that the LED turns on when the sensor is in the dark. You can do this by swaping the the Vi (or -) input with the Vref (or +) input. 
 
-Below on the right is a diagram show the resulting voltage output from the comparator. Note that when Vin is below the Vref the voltage output Vout is LOW and when the Vin is above the Vref the Vout is HIGH.
+#. Connect Vo of your circuit to a digital pin on your microcontroler. Do not remove the LED part of the circuit. This will be useful for confirming if your software is working correctly. 
 
-.. figure:: images/image41.png
-   :alt: 
+#. Write a program to that displays the word "light" in your serial monitor when the sensor detects a bright light and "dark" when the sensor does not detect a bright light.
 
-A common comparator IC is the `LM393 <https://www.google.com/url?q=http://www.ti.com/lit/ds/symlink/lm393-n.pdf&sa=D&ust=1587613174310000>`__ which has four internal comparators.
 
-Exercise:
-~~~~~~~~~
-
-Construct the following circuit. Note that in the schematic power and ground for the LM393 are not included. You will need to look on the data sheet for which pins are used for power and ground. These pins need to be connected. Once you have completed this circuit show your teacher.
-
-Now follow the steps shown below to set up the circuit to trigger on a specific light level.
-
-#. Connect a meter to the output of the LM393 and set it read voltage.
-#. Adjust the potentiometer so that it produces 3.5V on Vref.
-#. Determine how far your hand needs to be from the photoresistor to
-   trigger the comparator.
-
-|image0|
-^^^^^^^^
-
-.. |image0| image:: images/image55.png
