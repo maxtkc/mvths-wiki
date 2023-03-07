@@ -17,14 +17,26 @@ The QTR-MD-01A sensor (shown below) includes a photo emitter and sensor pair as 
 .. image:: images/linesensorschematic.PNG
       :width: 400px
       
-Note that the sensor has three pins. Vcc goes to 5 volts. 
+Specifications
+-------
+The sensor has three pins for power (labeled VCC), ground (labeled GND) and signal (labeled OUT). The sensor operates from 2.9 V to 5.5 V. The output signal is analog and should be connected to an analog port. While the sensor can detect objects from 30mm, it works optimally at 5mm.
 
-      
 Exercises
 --------
 #. If the sensor is soldered, you may solder three wires to the sensor or a right angle header. 
-#. Conn
+#. Connect the sensor to power and ground on your breadboard.
+#. Connect the signal lead (OUT) to a multimeter.
+#. Record the highest and lowest values in your notebook. Include correct units.
 
+   - Lowest value: ________
+   
+   - Highest value: ________
+
+#. As noted above, the value on the signal lead (OUT) is proportional to how much light is reflected from the emitter to the receiver. Using various reflective and non-reflective material, determine if the value (voltage) increases or decreases based on reflectivity. Essentially, the white line is meant to reflect IR light back into the sensor and the black ring is meant to not reflect IR light. You need to determine if you should see a higher voltage when the sensor is over while or when the sensor is over black. Record your findings in your notebook.
+
+   - White surface: _________________
+   
+   - Black surface: _________________
 
 In order to accurately test this sensor, you will need to create a sensor mount, a connector cable and a test card. The sensor mount should hold the sensor at a fixed height around 0.125” (3mm) above the table and allow you to easily pass the test card under the sensor. You can create this using cardboard and tape. Since the sensor will not be on your breadboard, you will also need to use flexible jump wires to connect it to your board. Finally, you will need to create a card for testing your sensor’s sensitivity to dark and light surfaces. This can be made simply from a white index card with a single black line made using a marker or tape.
 
