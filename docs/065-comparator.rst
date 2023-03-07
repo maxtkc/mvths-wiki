@@ -4,7 +4,15 @@ Comparator
 Overview
 --------
 
-Comparators provide a way to set a threshold voltage for reading an analog signal. The diagram below shows an example comparator circuit with the comparator labeled A. The comparator has two inputs. One input is the reference which sets the threshold value in volts. The threshold voltage in the circuit below is on the - (minus) pin of the comparator and is created with a voltage divider. The second input is the voltage being measured or compared. The comparator has one output. The output is either HIGH or LOW based on the comparison between the voltage reference input and the input voltage being measured.
+Comparators provide a way to set a threshold voltage for reading an analog signal. The diagram below shows an example comparator. The inputs are labeled Vi and Vref, and the output is labeled Vo. The pins +Vcc and -Vee are just for powering the comparitor. 
+
+.. figure:: images/basiccomparator.PNG
+   :width: 400
+   :alt:
+
+The comparator is designed to produce a high signal (i.e. 5V) whenever the voltage on Vi is above the voltage on Vref. This way, depending on the voltage on Vref, you can detect a specific voltage on Vi. For example, if you set Vref to 3V you could detect every time Vi exceeded 3V. 
+
+One input is the reference which sets the threshold value in volts. The threshold voltage in the circuit below is on the - (minus) pin of the comparator and is created with a voltage divider. The second input is the voltage being measured or compared. The comparator has one output. The output is either HIGH or LOW based on the comparison between the voltage reference input and the input voltage being measured.
 
 For example, if the voltage reference is set at 4 volts and the Vcc or ircuit voltage is 5 volts than if the measured voltage goes higher than 4 volts the output of the comparator will be HIGH. If the voltage input is below 4 volts the output will be LOW.
 
