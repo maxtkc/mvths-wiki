@@ -26,6 +26,7 @@ The following is a list of guides for learning about electronics and software in
    007-measuring-voltage
    008-programming-the-metro-mini
    009-metro-mini-and-breadboard
+   009a-arduino-ide
    010-output-pins
    011-programming-leds
    011aa-led-control
