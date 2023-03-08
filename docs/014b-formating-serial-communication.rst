@@ -41,7 +41,7 @@ Exercise:
 
    TEACHER CHECK \_\_\_\_\_
 
-#. Modify your program so that it prints the word "robot" and the word "engineer" in two columns and a space between the words as shown below. To do this correclty, you will need to use at least two print statements, one for "robot" and one for "engineer". 
+#. Modify your program so that it prints the word "robot" and the word "engineer" in two columns and a space between the words as shown below. Your code should have one statement for printing "robot" and one statement for printing "engineer".  
 
    .. code-block:: c
 
