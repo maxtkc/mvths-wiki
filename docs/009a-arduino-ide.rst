@@ -8,7 +8,15 @@ As you learned in the previous lesson, you can use the Arduino IDE to program yo
 
 You also may have noticed that whenever you open a new file (or sketch) in the Arduino IDE, it opens with some pre-written code as shown below. This code includes two functions called "setup" and "loop". For the next few lessons, all of the code you write must be placed within either the setup function or the loop function. Within is defined as between the open curly brace **{** and the closed curly brace **}** of either function.
 
-Note that all code runs in the order it is written. 
+Note that all code runs in the order it is written. Each line is excecuted in order from top to bottom. The following is an example using pretend code.
+
+.. code-block:: c
+
+   //go to store
+   //buy food
+   //come home
+   //make dinner
+
 
 setup
 ^^^^^^
