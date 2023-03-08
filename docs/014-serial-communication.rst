@@ -11,26 +11,18 @@ Technically, serial communication can refer to many different protocols includin
 Reading Data
 ------------
 
-Using the serial command you will send data (numbers and text) from
-your microcontroller to your computer. Serial data must be tranmitted
-at a specific speed or `baud rate <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.akrmhbnr74pi>`__. The baud is named for Jean-Maurice-Emile 
-Baudot and is measured is bits per second (bps). The computer must
-also be set up to receive the serial data at the same baud rate.
+Using the serial command you will send data (numbers and text) from your microcontroller to your computer. Serial data must be tranmitted at a specific speed or baudrate. The baud is named for Jean-Maurice-Emile Baudot and is measured is bits per second (bps). The default baudrate in Arduino IDE is 9600 bps. The computer must also be set up to receive the serial data at the same baud rate.
 
 Exercise:
 ~~~~~~~~~
 
-1. Use the following command to set up the serial port on your 
-microcontroller and set the transmission rate to 9600 bps. This
-command only needs to be run once in your code so where should 
-you put it?
+1. Use the following command to set up the serial port on your microcontroller and set the transmission rate to 9600 bps. This command only needs to be run once in your code so where should you put it?
 
 .. code-block:: c
 
    Serial.begin(9600);
 
-2. Use the following command to send the word "cat" to your terminal
-   window. This command also only needs to be run once.
+2. Use the following command to send the word "cat" to your terminal window. This command also only needs to be run once.
 
 .. code-block:: c
 
