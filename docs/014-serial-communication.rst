@@ -29,7 +29,11 @@ Exercise:
    Serial.print("cat");
 
 3. Upload the code to the microcontroller.
-4. Open the  `terminal window <https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit#bookmark=id.t0c1bmp6om>`__. 
+4. Open the  terminal window on our Arduino IDE. 
+
+.. figure:: images/terminalwindow.PNG
+   :alt: 
+   
 If you are successful the word "cat" should be displayed in your terminal window.
 
 TEACHER CHECK \_\_\_\_\_
