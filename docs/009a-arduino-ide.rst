@@ -20,11 +20,11 @@ Note that all code runs in the order it is written. Each line is excecuted in or
 
 setup
 ^^^^^^
-Any code placed within the setup function is run only once during program. That is when you apply power to your device, reprogram it or press the reset button, the code with setup is the first code run and it is run only once. 
+Any code placed within the setup function is run only once during program. That is when you apply power to your device, reprogram it or press the reset button, the code with setup is the first code run and it is run only once. Each line of code is excecuted once starting at the top and ending at the bottom.
 
 loop
 ^^^^^
-Any code placed within the loop function is run continuously, after the code in the setup function has completed.
+Any code placed within the loop function is run continuously, after the code in the setup function has completed. Each line of code is executed once starting at the top and ending at the bottom. The process then repeats starting back at the top and does not stop until power is removed from the circuit, the reset button is pressed or the device is reprogrammed.
 
 
 .. image:: images/arduinoide.PNG
