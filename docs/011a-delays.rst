@@ -4,7 +4,7 @@ Delays
 Overview
 --------
 
-Delays are used to stop the progress of the code for a specified amount of time. The code statements inside a function is always executed from top to bottom. A delay stops this progress for the time specified in the delay. The delay function we are using is measured in milliseconds and has a range from 0 to 10,000 milliseconds and only in whole numbers. That means that fractional numbers such as 1.67 or numbers larger than 10,000 cannot be used in the function.
+Delays are used to stop the progress of the code for a specified amount of time. As you should recall, lines of code inside a function are always executed in order from top to bottom. A delay stops this progress for the time specified in the delay. The delay function we are using is measured in milliseconds and has a range from 0 to 10,000 milliseconds and only in whole numbers. That means that fractional numbers such as 1.67 or numbers larger than 10,000 cannot be used in the function.
 
 Below is an example of the delay command. In this example, the delay is set for 1500 milliseconds (or 1.5 seconds).
 
