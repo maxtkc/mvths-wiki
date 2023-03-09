@@ -38,6 +38,7 @@ The following is a list of guides for learning about electronics and software in
    014b-formating-serial-communication
    015-variables
    015b-math
+   015c-bits-and-bytes
    015a-printing-characters
    012c-input-pins
    012a-conditional
