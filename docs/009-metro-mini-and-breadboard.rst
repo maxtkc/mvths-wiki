@@ -8,10 +8,9 @@ In order to do something more interesting with your Metro Mini, you will need to
 
 Power and Ground
 ----------------
+**IMPORTANT** Disconnect your power supply from your breadboard if you have not already done so. Do this now!
 
-IMPORTANT: The Metro Mini you will be using has soldered pins unlike the one in the photos below.
-
-As mentioned in the previous section, the Metro Mini can supply power to your breadboard through its pins 5V and GND. This power comes from the USB that connects your Metro Mini to the computer. Inside all USB cables there are four wires. These provide power (+5V) and ground and two wires for sending and receiving data. This is why you can use your USB cable to charge your phone as well as transfer data. YOU WILL NO LONGER NEED YOUR POWER SUPPLY to supply 5V to your breadboard. **IMPORTANT** Disconnect your power supply from your breadboard if you have not already done so. 
+As mentioned in the previous section, the Metro Mini can supply power to your breadboard through its pins 5V and GND. This power comes from the USB that connects your Metro Mini to the computer. Inside all USB cables there are four wires. These provide power (+5V) and ground and two wires for sending and receiving data. This is why you can use your USB cable to charge your phone as well as transfer data. YOU WILL NO LONGER NEED YOUR POWER SUPPLY to supply 5V to your breadboard. Note: The Metro Mini you will be using has soldered pins unlike the one in the photos below.
 
 .. figure:: images/image51.png
    :alt: 
