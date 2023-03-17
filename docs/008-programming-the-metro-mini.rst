@@ -36,6 +36,7 @@ Exercise:
 
  |image0|
 
+#. Select File/New to open a fresh programming page.
 #. Open the Blink Code File: Select the Blink code file. It can be found under File/Examples/01.Basics/Blink
 #. Select COM Port: Under the Tools/port menu select the highest numbered COM port. If you only see COM1 wait for help from your teacher.
 #. Select Board: Under the Tools/board menu, make sure that the board selected is Arduino/Genuino Uno.
