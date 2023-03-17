@@ -26,7 +26,7 @@ The Metro Mini has 14 digital pins (labeled 0 through 13 as shown below) that ca
 Exercise:
 ~~~~~~~~~
 
-#. Rremove all of your previous circuits before starting this step except for the wires connecting your two ground and power buses.
+#. Remove all of your previous circuits before starting this step except for the wires connecting your two ground and power buses.
 #. Insert the Metro Mini into your breadboard. Again note that the Metro Mini you are using has pins unlike the one shown in the photo. 
 #. Connect the 5V pin from your Metro Mini to the power bus (red) of your breadboard. Use a short wire.
 #. Connect one of the GND pins from your Metro Mini to the ground bus (blue) of your breadboard. You will only need to connect one of the two GND pins.
