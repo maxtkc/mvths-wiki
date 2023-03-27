@@ -20,9 +20,7 @@ Set up
 
 3. Download the code to your board.
 
-.. raw:: html
 
-   <!-- end list -->
 
 3. Open your terminal window.
 4. Note that the code runs at 115200 so you will need to set this baud
@@ -40,34 +38,36 @@ Range Testing
 The following code should provide feedback if the object being measured
 is between 50mm and 100mm from the sensor.
 
-#include "Adafruit\_VL53L0X.h"
+.. code-block:: c
 
-Adafruit\_VL53L0X lox = Adafruit\_VL53L0X();
+   #include "Adafruit\_VL53L0X.h"
 
-int dist;
+   Adafruit\_VL53L0X lox = Adafruit\_VL53L0X();
 
-void setup() {
+   int dist;
+   
+   void setup() {                
+   
+       Serial.begin(115200);
+       
+       lox.begin();
+   }
+   
+   void loop() {
+    VL53L0X\_RangingMeasurementData\_t measure;
 
-  Serial.begin(115200);
+      lox.rangingTest(&measure, false);
 
-  lox.begin();
+      dist = measure.RangeMilliMeter;
 
-}
+     if ((dist < 100) && (dist > 50))
 
-void loop() {
+       Serial.print("In the zone: ");
 
-  VL53L0X\_RangingMeasurementData\_t measure;
+      Serial.println(dist);
 
-  lox.rangingTest(&measure, false);
+     delay(100);
+   
+   }
 
-  dist = measure.RangeMilliMeter;
-
-  if ((dist < 100) && (dist > 50))
-
-    Serial.print("In the zone: ");
-
-  Serial.println(dist);
-
-  delay(100);
-
-}
+   
