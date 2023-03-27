@@ -9,8 +9,11 @@ In this lesson, you will learn how to setup and use a VL53L0X time of flight (TO
 .. figure:: images/image78.png
    :alt: 
 
-Wiring
+Exercise
 ------
+
+1. Connect your VL53L0X to an Arduino Uno or Metro Mini using I2C. You can connect VIN to 5V. 
+
 
 Above is a picture of the VL53L0X  module. Wire the module as follows.
 
