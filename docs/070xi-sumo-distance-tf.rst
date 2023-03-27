@@ -9,30 +9,15 @@ In this lesson, you will learn how to setup and use a VL53L0X time of flight (TO
 .. figure:: images/image78.png
    :alt: 
 
-Exercise
+Set up
 ------
 
-1. Connect your VL53L0X to an Arduino Uno or Metro Mini using I2C. You can connect VIN to 5V. 
+#. Connect your VL53L0X to an Arduino Uno or Metro Mini using I2C. You can connect VIN to 5V. If you have not used an I2C device before, you can review the lesson on I2C devices.
 
+#. Check if the Adafruit_VL53L0X library is installed in your IDE. If not, install this library from Library Manager.
 
-Above is a picture of the VL53L0X  module. Wire the module as follows.
+#. Open the vl53l0x project from Examples/Adafruit_VL53L0X.
 
-GND pins to ground.
-
-VIN pin to 5 volts
-
-SCL pin to A5 on your Arduino or Metro
-
-SDA pin to A4 on your Arduino or Metro
-
-Initial Test
-------------
-
-Follow the instructions below to test that you have wired your module
-correctly.
-
-1. Install the VL53L0X library from Adafruit on your Arduino IDE.
-2. Open the vl53l0x project from Examples.
 3. Download the code to your board.
 
 .. raw:: html
