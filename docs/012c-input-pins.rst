@@ -26,7 +26,7 @@ In order to use a pin as an input or output, you will first need to specify whet
 
 .. code-block:: c
    
-   pinMode(9, OUTPUT); //Set digital pin 9 as an output pin.
+   pinMode(9, INPUT); //Set digital pin 9 as an output pin.
 
 Challenge
 ----
