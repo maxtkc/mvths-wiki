@@ -1,13 +1,10 @@
 Sumo Distance Time of Flight Distance Sensor
 ======================
 
-TOF VL53L0X SENSOR
-
 Overview
 --------
 
-In this lesson, you will learn how to setup and use a VL53L0X time of
-flight (TOF) sensor to measure distance.
+In this lesson, you will learn how to setup and use a VL53L0X time of flight (TOF) sensor to measure distance.
 
 .. figure:: images/image78.png
    :alt: 
