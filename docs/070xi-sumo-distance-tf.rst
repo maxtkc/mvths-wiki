@@ -1,4 +1,4 @@
-Sumo Distance Time of Flight Distance Sensor
+Sumo Distance Sensor TF
 ======================
 
 Overview
