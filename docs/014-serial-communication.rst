@@ -29,7 +29,7 @@ Exercise:
    Serial.print("cat");
 
 3. Upload the code to the microcontroller.
-4. Open the terminal window on our Arduino IDE using the button on the right shown below.
+4. Open the terminal window on our Arduino IDE using the button shown on the far right below. It looks a bit like a magnifying glass.
 
    .. figure:: images/serialmonitor.PNG
       :alt: 
