@@ -31,18 +31,18 @@ You will program your Metro Mini using the Arduino Integrated Development Envir
 Exercise:
 ~~~~~~~~~
 
-#. Make Connection: If you have not already done so, connect the Metro Mini to your computer using a USB cable. You DO NOT need to use your breadboard at this point just plug your Metro Mini directly into the USB cable.
-#. Open IDE: Open the Arduino program. This is the IDE you will be using to program your microcontroller. You can find program in the Start menu with the icon shown below.
+#. If you have not already done so, connect the Metro Mini to your computer using a USB cable. YOu should connect your USB cable to the USB hub on your desk, **NOT** the USB ports directly on your computer. You DO NOT need to use your breadboard at this point just plug your Metro Mini directly into the USB cable.
+#. Open the Arduino program. This is the IDE you will be using to program your microcontroller. You can find program in the Start menu with the icon shown below.
 
  |image0|
 
-#. Select File/New to open a fresh programming page.
-#. Open the Blink Code File: Select the Blink code file. It can be found under File/Examples/01.Basics/Blink
-#. Select COM Port: Under the Tools/port menu select the highest numbered COM port. If you only see COM1 wait for help from your teacher.
-#. Select Board: Under the Tools/board menu, make sure that the board selected is Arduino/Genuino Uno.
-#. Compile Code: Press the compile button to confirm that you code can be compiled. The compile button is the circle with a check inside in the upper left of your screen. If there is an error in your code, you will see a message at the bottom of the screen. If you get an error, ask your teacher for help.
-#. Program Controller: Select the program to download your code to the Metro Mini. The program button is the circle with an arrow inside and just right of the compile button. You should see both the yellow TX LED and the yellow RX LED light as the code is being downloaded.
-#. Check: If you code was downloaded correctly the red light on your Metro Mini should blink on and off once every second.
+#. Select File/New to open a new programming page.
+#. Open the example Blink code file which can be found under File/Examples/01.Basics/Blink
+#. Under the Tools/port menu select the highest numbered COM port. If you only see COM1 wait for help from your teacher.
+#. Under the Tools/board menu, make sure that the board selected is Arduino Uno. If it is not, ask your teacher for help.
+#. Press the compile button to confirm that you code can be compiled. The compile button is the circle with a check inside in the upper left of your screen. If there is an error in your code, you will see a message at the bottom of the screen. If you get an error, ask your teacher for help.
+#. Select the program to upload your code to the Metro Mini. The program button is the circle with an arrow inside and just right of the compile button. You should see both the yellow TX LED and the yellow RX LED light as the code is being downloaded.
+#. If you code was downloaded correctly the red light on your Metro Mini should blink on and off once every second.
 
 TEACHER CHECK \_\_\_\_\_
 
