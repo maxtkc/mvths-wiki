@@ -34,7 +34,7 @@ Exercise:
 #. If you have not already done so, connect the Metro Mini to your computer using a USB cable. YOu should connect your USB cable to the USB hub on your desk, **NOT** the USB ports directly on your computer. You DO NOT need to use your breadboard at this point just plug your Metro Mini directly into the USB cable.
 #. Open the Arduino program. This is the IDE you will be using to program your microcontroller. You can find program in the Start menu with the icon shown below.
 
- |image0|
+   .. figure:: images/image104.png
 
 #. Select File/New to open a new programming page.
 #. Open the example Blink code file which can be found under File/Examples/01.Basics/Blink
@@ -46,4 +46,3 @@ Exercise:
 
 TEACHER CHECK \_\_\_\_\_
 
-.. |image0| image:: images/image104.png
