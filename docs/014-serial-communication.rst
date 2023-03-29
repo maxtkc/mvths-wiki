@@ -34,7 +34,9 @@ Exercise:
    .. figure:: images/serialmonitor.PNG
       :alt: 
    
-If you are successful the word "cat" should be displayed in your terminal window.
+5. If you are successful the word "cat" should be displayed in your terminal window. If you do not see the word "cat" make sure the baud rate on the terminal window is also set to 9600. You can find the baudrate setting on the bottom left of the terminal window as shown below. NOTE: The baud rate set in your code and the baudrate set in the window must match.
+
+   .. figure:: images/Baudrate96.PNG
 
 TEACHER CHECK \_\_\_\_\_
 
