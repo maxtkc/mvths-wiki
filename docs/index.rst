@@ -106,7 +106,7 @@ The following is a list of guides for learning about electronics and software in
    070xf-sumo-line-sensor
    070xg-sumo-line-detector
    070xh-sumo-line-software
-   070xi-sumo-distance-tf
+   070xj-sumo-distance-tf
    070xi-sumo-distance-ir
    053-hobby-servo-motors
    054-duty-cycle
