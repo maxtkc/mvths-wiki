@@ -9,7 +9,7 @@ LEDs are a good example of the kinds of devices you can drive with a microcontro
 Exercise:
 ~~~~~~~~~
 
-#. Follow the schematic below to connect an LED to pin 8 of your microcontroller. 
+#. Follow the schematic below to connect an LED to pin 8 of your microcontroller. Note that this is a suggested circuit for controlling an LED from your microcontroller. On your breadboard, you might find it more convenient to reverse the order of the LED and resistor.
 
    .. figure:: images/image84.png
   
