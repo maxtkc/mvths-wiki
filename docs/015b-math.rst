@@ -38,7 +38,7 @@ Exercise:
 
 #. Create a code file that prints a variable as it counts up from 5.
 
-   #. Initialize a variable to the value of 9. Make sure to place the initialization above your setup function.
+   #. Initialize a variable to the value of 5. Make sure to place the initialization above your setup function.
 
    #. Using the plus operator defined above, add one to the variable in your loop function. This way the variable will continue to count infinitely.
 
