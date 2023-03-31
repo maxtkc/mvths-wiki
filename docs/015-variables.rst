@@ -17,7 +17,7 @@ In order to use a variable in your code, you must first set up the variable so t
    int y = 9;     // This initializes x as a variable with an initial value of 9.
    int dog = -2;  // This initializes dog as a variable with an initial value of -2.
 
-For the time being, you will initalize all variables at the top of your code file, that is above and outside of both the loop and setup functions as shown below.
+For the time being, you will initalize all variables at the top of your code file, that is above and outside of both the loop and setup functions as shown below. Note that setting your varible at the top of your code file makes it a global variable. We will learn more about what that means later.
 
 .. code-block:: c
 
