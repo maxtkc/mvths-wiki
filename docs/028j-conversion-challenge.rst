@@ -1,4 +1,4 @@
-For Loop Challenge
+Conversion Challenge
 =========================
 
 Exercise
