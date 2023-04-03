@@ -56,6 +56,7 @@ The following is a list of guides for learning about electronics and software in
    020c-variable-names
    021-analog-to-digital-conversion
    021i-conversion-factors
+   028j-conversion-challenge
    021a-analog-to-voltage
    022-relational-operators
    023-logical-operators
@@ -67,7 +68,6 @@ The following is a list of guides for learning about electronics and software in
    025b-generating-frequency
    026-piezo-speaker
    026a-tone-function
-   028j-for-loop-challenge
    027-review-challenge
    028-using an-oscilloscope
    028b-dynamic-waveforms
