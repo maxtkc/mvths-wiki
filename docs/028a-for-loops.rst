@@ -13,11 +13,11 @@ In this lesson, you will create *for loops*. *For loops* are one of the key feat
     delay(10);
   }
 
-There are three parts to the for loop. 
+There are three steps to creating a *for loop*. 
 
 :: 
 
-   Set the initial value: x = 0; // x starts with a value of 0
+   Set the initial value: x = 0; // x starts with a value of 0 Note: You can use any number
    Set the limit value: x < 10; // Continue to execute loop while x is less than 10
    Set the rate of change: x - x + 1 // After each time the loop is executed add one to x  
   
@@ -40,8 +40,8 @@ Exercise:
 
    TEACHER CHECK \_\_\_\_\_
 
-#. Place your for loop code into your loop() function and note the difference.
+#. Modify your for loop so that it prints two values in two columns. The first value is a count from 1 to 25. The second column is double the first or as in a count from 2 to 50. 
 
-Challenge
-----------
-Imagine if you placed on grain of rice on the upper left square of a chessboard. Then you placed two grains on the square to its right and four grains on the next square and continued doubling the amount of rice until you reached the last square of the chessboard. How many grains would you have?  Write a for loop that prints the numbers from 1 to 64 in one column and the numnber of grains of rice for each corresponding square in a second column.
+   TEACHER CHECK \_\_\_\_\_
+
+#. Place your for loop code into your loop() function and note the difference.
