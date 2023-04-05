@@ -45,3 +45,7 @@ Exercise:
    TEACHER CHECK \_\_\_\_\_
 
 #. Place your for loop code into your loop() function and note the difference.
+
+Challenge
+---------
+Imagine if you placed on grain of rice on the upper left square of a chessboard. Then you placed two grains on the square to its right and four grains on the next square and continued doubling the amount of rice until you reached the last square of the chessboard. How many grains would you have? Write a for loop that prints the numbers from 1 to 64 in one column and the numnber of grains of rice for each corresponding square in a second column.
