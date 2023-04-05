@@ -46,6 +46,7 @@ The following is a list of guides for learning about electronics and software in
    013-challenge-review
    016-resistor-values
    017-ohms-law
+   017a-ohms-circuit
    018-resistors-and-leds
    019-buttons
    019aa-buttonLED
