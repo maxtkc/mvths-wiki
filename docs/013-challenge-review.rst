@@ -25,7 +25,13 @@ Complete the following six challenges.
 #. Connect three LEDs to any three pins on your microcontroller, except pin 5. Attach a long jump wire to pin 5. Write a program to turn on all three LEDs when pin 5 is connected to ground and turn off all three LEDs when pin 5 is connected to power. 
 
    TEACHER CHECK \_\_\_\_\_
+   
+#. Using a for loop, write a program to blink an LED at a variable rate. The rate should begin by turning the LED on and off for 1ms i.e. 1ms on and 1ms off. The rate should increase to 50ms, or 50ms on and 50ms off. The rate should increment by 1ms. 
 
+#. Using a for loop, write a program to turn on three different LEDs in sequence. No more than one LED should be on at a time. 
+
+ TEACHER CHECK \_\_\_\_\_
+  
 #. Do something interesting!
 
    TEACHER CHECK \_\_\_\_\_
