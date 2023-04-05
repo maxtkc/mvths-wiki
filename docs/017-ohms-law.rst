@@ -3,10 +3,51 @@ Ohms Law
 
 Overview
 
-`Ohms
-law <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.t5bxsyeu98j2&sa=D&ust=1587613173894000>`__ describes
-an important relationship between `voltage, current and
-resistance <https://www.google.com/url?q=https://docs.google.com/document/d/1BmZbXzxnD2j17QToSZ9jeZmnP7burwfksfQq2v4zu-Y/edit%23heading%3Dh.7g89z82u0oqw&sa=D&ust=1587613173895000>`__.
+Ohms law describes an important relationship between voltage, current and resistance. Current is rate of flow of electrons which make your circuits work. Voltage represents a pressure moving current forward. Resistance represents an opposing pressure limiting the flow of current. In a wire you can imagine, voltage pushing current forward and resistance pushing current back. The total flow or current is proportional to the voltage and inversly proportional to the resistance. This relationship is called Ohms law and is represented as follows.
+
+V/R = I
+
+V represents voltage. R respresents resistance and I represents current. The I comes from the French for current. It also important that the units of measurement for Ohm's law are Volts for voltage, Ohms for resistance and Amps for current. In this class we normally talk about Ohms law in the following format.
+
+V = IR. 
+
+Exercise
+---------
+Using Ohm's law you can easily calculate voltage, resistance or current given any two of the three. Calculate the missing values in the table below. Copy and complete the following table in your notebook.
+
+.. list-table:: Ohms Law
+   :widths: 25 25 50 50
+   :header-rows: 1
+
+   * - Circuit
+     - Voltage
+     - Current
+     - Resistance
+   * - 1
+     - 5.00 Volts
+     - 
+     - 100 Ohms
+   * - 2
+     - 3.00 Volts
+     - .020 Amps
+     - 
+   * - 3
+     - 
+     - .005 Amps
+     - 330 Ohms
+   * - 4
+     - 12.00 Volts
+     - .400 Amps
+     - 
+   * - 5
+     - 1.80 Volts
+     - 
+     - 470 Ohms
+   * - 6
+     - 
+     - .250 Amps
+     - 1000 Ohms
+
 Usinng Ohm’s law you can correctly specify the proper resistor for limiting
 current to any device. Most often in the shop, we are using resistors to
 limit current to LEDs. Driving an LED with too low a value resistor (or no resistor) will invariably
@@ -47,41 +88,7 @@ TEACHER CHECK \_\_\_\_
 Challenge
 ---------
 
-Using Ohm’s law calculate the missing value in the table below for the
-example circuit. Copy and complete the following table in your notebook.
 
-.. list-table:: Ohms Law
-   :widths: 25 25 50 50
-   :header-rows: 1
-
-   * - Circuit
-     - Voltage
-     - Current
-     - Resistance
-   * - 1
-     - 5.00 Volts
-     - 
-     - 100 Ohms
-   * - 2
-     - 3.00 Volts
-     - .020 Amps
-     - 
-   * - 3
-     - 
-     - .005 Amps
-     - 330 Ohms
-   * - 4
-     - 12.00 Volts
-     - .400 Amps
-     - 
-   * - 5
-     - 1.80 Volts
-     - 
-     - 470 Ohms
-   * - 6
-     - 
-     - .250 Amps
-     - 1000 Ohms
 
 .. figure:: images/image86.png
    :alt: 
