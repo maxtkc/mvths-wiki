@@ -22,7 +22,7 @@ In the above example if m was initially 3 than the value of m after the addition
 Exercise:
 ~~~~~~~~~
 
-#. Read the following code and determine the final value of r at the bottom of the code. Write this value in your notebook.
+#. Read the following code and determine the final value of r at the bottom of the code. Write this value in your notebook. you do not need to write this code in the Arduino IDE or program your microcontroller.
 
    .. code-block:: c
 
@@ -42,13 +42,14 @@ Exercise:
 
    #. Using the plus operator defined above, add one to the variable in your loop function. This way the variable will continue to count infinitely.
 
-   #. Print out the value of your variable using the serial function.
+   #. Print out the value of your variable using the serial function. The values must be printed in a column and must start at 5.
 
    #. Add a half second delay in your loop so that it does not send data to the serial port too quickly.
+   
 
    TEACHER CHECK \_\_\_\_\_
 
-#. Modify your code so that the variable starts at the value 9 and counts down by one every 500 milliseconds. It should display the values in a column in your terminal window.
+#. Modify your code so that the variable starts at the value 9 and counts down by one every 500 milliseconds. It should display the values in a column in your terminal window and begin at 9.
 
    TEACHER CHECK \_\_\_\_\_
 
