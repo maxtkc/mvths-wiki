@@ -15,7 +15,7 @@ Code
 
 TEACHER CHECK \_\_\_\_\_
 
-2. Set up two LEDs on your breadboard on different pins. Make the LEDs flash alternately (i.e. one is on while the other is off). Both LEDs should never be off at the same time.
+2. Set up two LEDs on your breadboard on different pins. Make the LEDs flash alternately (i.e. one is on while the other is off). Both LEDs should never be off or on at the same time.
 
 TEACHER CHECK \_\_\_\_\_
 
