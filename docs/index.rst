@@ -37,6 +37,7 @@ The following is a list of guides for learning about electronics and software in
    014a-looping-data
    014b-formating-serial-communication
    015-variables
+   015aa-formating
    015b-math
    028a-for-loops
    015c-bits-and-bytes
