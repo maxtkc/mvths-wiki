@@ -19,6 +19,8 @@ The following two lines of code...
 .. code-block:: c
    
    Serial.print("bike\n");
+   
+**NOTE: You cannot do the same when printing variables. When printing a variable, you must use an addtional print statement if you want a new line.**
  
 Initializing
 ------------
