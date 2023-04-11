@@ -15,7 +15,12 @@ The following code will write the word "dog" in a column.
 
 .. code-block:: c
 
-   Serial.print("dog\n"); //This will print the word "dog"
+   Serial.print("dog\n"); //This will print the word "dog" with`
+   
+.. code-block:: c
+
+   Serial.print("dog\t"); //This will print the word "dog"
+   Serial.print("cat"); //This will print the word "dog"
    
 Exercise:
 ~~~~~~~~~
@@ -28,7 +33,7 @@ Exercise:
       robot
       robot
 
-   TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK ____
 
 #. Modify your program so that it prints the word "robot" and the word "engineer" in two columns separated by a tab as shown below. Your code should have one statement for printing "robot" and one statement for printing "engineer".  
 
@@ -40,4 +45,4 @@ Exercise:
    
 #. Modify your program so that there are three columns of words.
 
-   TEACHER CHECK \_\_\_\_\_
+      TEACHER CHECK ____
