@@ -32,14 +32,10 @@ Exercise:
 
 #. Initialize the variable z at the top of your code file and set its initial value to 9.
 
-#. Print the variable to your terminal window using the following command. **NOTE: When you print a variable, you do not use quotation marks.**
+#. Print the variable to your terminal window using the following command. **NOTE: When you print a variable using the Serial commmand, you do not use quotation marks around the variable name.**
 
    .. code-block:: c
 
       Serial.print(z);
- 
-#. Initialize two variables and give them different initial values.
-
-#. Print both values in two colums separated by a tab.
 
 TEACHER CHECK ____
