@@ -15,12 +15,21 @@ The following code will write the word "dog" in a column.
 
 .. code-block:: c
 
-   Serial.print("dog\n"); //This will print the word "dog" with`
+   Serial.print("dog\n"); //This will print the word "dog" with a new line
+   
+The following code will produce a two columns of words separated by a tab. 
    
 .. code-block:: c
 
-   Serial.print("dog\t"); //This will print the word "dog"
-   Serial.print("cat"); //This will print the word "dog"
+   Serial.print("dog\t"); //This will print the word "dog" with a tab
+   Serial.print("cat\n"); //This will print the word "cat" with a new line
+   
+It is also possible to insert grammatical character to separate your columns as shown below.  
+   
+.. code-block:: c
+
+   Serial.print("dog :"); //This will print the word "dog"
+   Serial.print(" cat\n"); //This will print the word "dog"
    
 Exercise:
 ~~~~~~~~~
@@ -43,6 +52,6 @@ Exercise:
       robot    engineer
       robot    engineer
    
-#. Modify your program so that there are three columns of words.
+#. Modify your program so that there are three columns of words separated by hypens.
 
-      TEACHER CHECK ____
+TEACHER CHECK ____
