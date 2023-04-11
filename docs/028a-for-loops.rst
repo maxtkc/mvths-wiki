@@ -36,7 +36,7 @@ Exercise:
 
    TEACHER CHECK \_\_\_\_\_
 
-#. Modify your code so that it counts down by 2 from 94.
+#. Modify your code so that it counts down by 2 from 94 to -2.
 
    TEACHER CHECK \_\_\_\_\_
 
