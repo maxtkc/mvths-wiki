@@ -12,7 +12,6 @@ The following two lines of code...
    
    Serial.print("bike");
    Serial.print('\n');
-   
 
 ...are equivalent to the following one line of code.
 
@@ -20,11 +19,17 @@ The following two lines of code...
    
    Serial.print("bike\n");
    
-**NOTE: You cannot do the same when printing variables. When printing a variable, you must use an addtional print statement if you want a new line.**
- 
-Initializing
-------------
-
-In order to use a variable in your code, you must first set up the variable so the program knows the type and name of the variable. We call this initializing a variable. The following are three examples of how to initialize a variable.
+**NOTE: You cannot do the same when printing variables. When printing a variable, you must use an addtional print statement if you want a new line or using a different print statement as shown below.**
 
 .. code-block:: c
+   
+   Serial.println(x);
+   
+Additionally it is possible to print grammatical characters using single quotes.
+
+.. code-block:: c
+   
+   Serial.print(':'); //Prints a colon
+   Serial.print(','); //Prints a comma
+   Serial.print(' '); //Prints a space
+ 
