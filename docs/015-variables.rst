@@ -32,7 +32,7 @@ Exercise:
 
 #. Initialize the variable z at the top of your code file and set its initial value to 9.
 
-#. Print the variable to your terminal window using the following command.
+#. Print the variable to your terminal window using the following command. **NOTE: When you print a variable, you do not use quotation marks.**
 
    .. code-block:: c
 
