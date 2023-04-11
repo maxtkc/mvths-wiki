@@ -1,4 +1,4 @@
-New Line and Tab
+Formatting Text
 ==============================
 
 Overview
@@ -9,19 +9,13 @@ In order to make the information you are sending to the terminal window more eas
 Columns and Separators
 ---------------------
 
-As you may have noted in the previous lesson, the word "cat" was displayed across the screen with no spaces making it difficult to read. You can display text in a column by printing a command character. There are two command characters available in the Serial function. One is a new line represented by '\n' and the other is a tab represented by '\t'. 
+As you may have noted in the previous lesson, the word "cat" was displayed across the screen with no spaces making it difficult to read. You can format text by adding control characters at the end of the text.  The addition of '\n' prodduces a new line and the addtion of '\t' produces a tab.
 
-.. code-block:: c
-
-   Serial.print('\t');		//produces a tab
-   Serial.print('\n');		//produces a new line
-   
 The following code will write the word "dog" in a column. 
 
 .. code-block:: c
 
-   Serial.print("dog"); //This will print the word "dog"
-   Serial.print('\n');  //This will create a new line
+   Serial.print("dog\n"); //This will print the word "dog"
    
 Exercise:
 ~~~~~~~~~
