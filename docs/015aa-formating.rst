@@ -1,5 +1,5 @@
-Formating
-=========
+Formating Variables
+====================
 
 Overview
 --------
