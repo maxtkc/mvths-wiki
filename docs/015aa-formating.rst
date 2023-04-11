@@ -4,32 +4,27 @@ Formating Variables
 Overview
 --------
 
-The following are some more techniques for formating variables which are slightly different for formating text. The first is that the command characters can be placed inside the text of your print function. The second is that you can print gramatical characters with single quotes.
+The following are some  techniques for formating variables which are slightly different because the command characters cannot be placed inside your print function.
 
-The following two lines of code...
-
-.. code-block:: c
-   
-   Serial.print("bike");
-   Serial.print('\n');
-
-...are equivalent to the following one line of code.
+For example, assuming there is a variable named x, you could print x in a column by using the following two statements.
 
 .. code-block:: c
    
-   Serial.print("bike\n");
-   
-**NOTE: You cannot do the same when printing variables. When printing a variable, you must use an addtional print statement if you want a new line or using a different print statement as shown below.**
+   Serial.print(x);        //Print the value of the variable x
+   Serial.print('\n');     //Printe a new line.
+
+Alternatively, you can using an additional command *Serial.println()* to print a new line after you print the variable. The following will also print the variable x in a single column.
 
 .. code-block:: c
    
    Serial.println(x);
    
-Additionally it is possible to print grammatical characters using single quotes.
+Exercise
+------------
+
+Print the following text and number as a variable in a column in your serial window. Note the number 7 should be printed as a variable.
 
 .. code-block:: c
    
-   Serial.print(':'); //Prints a colon
-   Serial.print(','); //Prints a comma
-   Serial.print(' '); //Prints a space
- 
+  New value = 7
+  New value = 7
