@@ -18,7 +18,9 @@ Use Ohms law to calculate the amount of current flowing in the three circuits sh
  
 TEACHER CHECK \_\_\_\_
 
-Use Ohms law to calculate the correct resistor for the three circuits shown below. In each circuit, your target current is 15mA. Once you find the exact value, select the closest match from the table above. Copy and complete the following circuits in your notebook. Write the resistor value next to each circuit. Remember to include the correct units.
+Use Ohms law to calculate the correct resistor for the three circuits shown below. Based on the target current values below. Once you find the exact value, select the closest match from the table above. Copy and complete the following circuits in your notebook. Write the resistor value next to each circuit. Remember to include the correct units.
+
+1. 20ma        2. 15ma       3. 45ma
 
 .. figure:: images/3Rwout.PNG
    :width: 400px
