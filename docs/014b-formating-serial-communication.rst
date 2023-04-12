@@ -28,8 +28,9 @@ It is also possible to insert grammatical character to separate your columns as 
    
 .. code-block:: c
 
-   Serial.print("dog :"); //This will print the word "dog"
-   Serial.print(" cat\n"); //This will print the word "dog"
+   //Together this will print "dog : cat"
+   Serial.print("dog :"); 
+   Serial.print(" cat\n"); 
    
 Exercise:
 ~~~~~~~~~
