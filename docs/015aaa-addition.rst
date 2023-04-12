@@ -27,18 +27,27 @@ Exercise
 #. In your loop function, add r and 4 as shown above. 
 #. Print r in a column your serial monitor.
 
-TEACHER CHECK ____
+   TEACHER CHECK ____
 
 #. Move the addition of r and 4 into your print statement as shown below. 
 
+   .. code-block:: c
+ 
+      Serial.println(r + 4);
+  
+  
+   TEACHER CHECK ____
+   
+#. Using the example above, write a program that prints a column of values starting at 6 and increasing by 3 indefinitely. 
+
 .. code-block:: c
  
-  Serial.println(r + 4);
-  
-  
-TEACHER CHECK ____
-
-#. 
+  6
+  9
+  12
+  15
+  18
+  ...
   
 In the above example if m was initially 3 than the value of m after the addition is 7. You might wonder why you cannot just write m + 4. The only way to set or change the value of a variable is with the equals sign. Adding 4 to m does create a new value, but does not change the value of m. Essentially, you need to add 4 to m and THEN put this new value into m. The following are examples of addition, subtraction, multipication and division.
 
