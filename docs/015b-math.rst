@@ -28,4 +28,6 @@ Exercise:
 
    TEACHER CHECK ____
    
-#. Write a program that produces two columns of numbers. The numbers in the first column can increase by any value you choose. The numbers in the second column should be twice the value of the numbers in the first column. This program should only use **one variable**. 
+#. Write a program that produces two columns of numbers. The numbers in the first column can increase by any value you choose. The numbers in the second column should be twice the value of the numbers in the first column. This program should only use **one variable**. Remember from the previous lesson that you can perform a mathematical operation, (addition, subtraction, etc.) with a variable without changing its value. 
+
+   TEACHER CHECK ____
