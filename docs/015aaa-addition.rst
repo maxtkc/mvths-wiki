@@ -4,11 +4,22 @@ Addition
 Overview
 --------
 
-It is possible to perform most mathematical operations in your code but in this lesson, we are going to start with addition. The following is an example of how to add 4 to the variable m. It is **important** that while this operation does result in a value of 6 it does **NOT** change the value of m.
+It is possible to perform most mathematical operations in your code, but in this lesson we are going to start with addition. The following is an example of how to add 4 to the variable m. It is **important** that while this operation does result in a value of 6 it does **NOT** change the value of m. In the exercises below, you will see that you can add a value to a variable without changing the variable. This can be very useful. 
 
 .. code-block:: c
  
-  m + 4;
+ int m = 6;
+ 
+  m + 4;  //4 is added to m which results in a total of 10, but the value of m remains 6.
+  
+  
+In the following example, m and 4 are added together and the result of this operation is placed into m. In this case, m has a new value.
+
+.. code-block:: c
+ 
+ int m = 6;
+ 
+  m = m + 4;  //4 is added to m and this value is now placed in m, so the new value of m is 10
   
 Exercise
 ---------
@@ -22,10 +33,12 @@ TEACHER CHECK ____
 
 .. code-block:: c
  
-  Serial.println(m + 4);
+  Serial.println(r + 4);
   
   
 TEACHER CHECK ____
+
+#. 
   
 In the above example if m was initially 3 than the value of m after the addition is 7. You might wonder why you cannot just write m + 4. The only way to set or change the value of a variable is with the equals sign. Adding 4 to m does create a new value, but does not change the value of m. Essentially, you need to add 4 to m and THEN put this new value into m. The following are examples of addition, subtraction, multipication and division.
 
