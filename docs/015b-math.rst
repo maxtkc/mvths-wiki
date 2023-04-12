@@ -4,13 +4,7 @@ Math
 Overview
 --------
 
-It is possible to perform most mathematical operations in your code. The most common operations are addition, subtraction, multiplication and division of variables. The following shows variable addition or adding 4 to the original value of m.
-
-.. code-block:: c
- 
-  m = m + 4;
-  
-In the above example if m was initially 3 than the value of m after the addition is 7. You might wonder why you cannot just write m + 4. The only way to set or change the value of a variable is with the equals sign. Adding 4 to m does create a new value, but does not change the value of m. Essentially, you need to add 4 to m and THEN put this new value into m. The following are examples of addition, subtraction, multipication and division.
+It is possible to perform most mathematical operations in your code. The most common operations are addition, subtraction, multiplication and division of variables. The following are some examples.
 
 .. code-block:: c
 
@@ -22,37 +16,16 @@ In the above example if m was initially 3 than the value of m after the addition
 Exercise:
 ~~~~~~~~~
 
-#. Read the following code and determine the final value of r at the bottom of the code. Write this value in your notebook. you do not need to write this code in the Arduino IDE or program your microcontroller.
+#. Write a program that produces a column of numbers starting at 2 and increaseing by a factor of 2 i.e. 2, 4, 8, etc. Do not forget to include a short delay.
 
-   .. code-block:: c
+   TEACHER CHECK ____
 
-     int z = 9;    //Set the initial value of z to 9
-     int r = 1;    //Set the initial value of r to 1;
-  
-     void setup() {
-       z = z + 5;    //Add 5 to z
-       r = z;        //Place the value of z into r
-     }
+#. Modify your to produce a column of numbers starting at 9 and decreasing by total of 3. 
 
-   TEACHER CHECK \_\_\_\_\_
+   TEACHER CHECK ____
 
-#. Create a code file that prints a variable as it counts up from 5.
+#. Write a program that produces two columns of numbers based on two different variables. One column should start at 6 and count up by 2. The second column should start at 50 and count down by 2. 
 
-   #. Initialize a variable to the value of 5. Make sure to place the initialization above your setup function.
-
-   #. Using the plus operator defined above, add one to the variable in your loop function. This way the variable will continue to count infinitely.
-
-   #. Print out the value of your variable using the serial function. The values must be printed in a column and must start at 5.
-
-   #. Add a half second delay in your loop so that it does not send data to the serial port too quickly.
+   TEACHER CHECK ____
    
-
-   TEACHER CHECK \_\_\_\_\_
-
-#. Modify your code so that the variable starts at the value 9 and counts down by one every 500 milliseconds. It should display the values in a column in your terminal window and begin at 9.
-
-   TEACHER CHECK \_\_\_\_\_
-
-#. Modify your code so that there are two variables x and y. The variable x should start at 6 and count up by 2. The variable y should start at 50 and count down by 2. The variables should be displayed in two columns in your terminal window.
-
-   TEACHER CHECK \_\_\_\_\_
+#. Write a program that produces two columns of numbers. The numbers in the first column can increase by any value you choose. The numbers in the second column should be twice the value of the numbers in the first column. This program should only use **one variable**. 
