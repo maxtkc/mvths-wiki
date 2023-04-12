@@ -1,14 +1,31 @@
-Math
+Addition
 =========
 
 Overview
 --------
 
-It is possible to perform most mathematical operations in your code. The most common operations are addition, subtraction, multiplication and division of variables. The following shows variable addition or adding 4 to the original value of m.
+It is possible to perform most mathematical operations in your code but in this lesson, we are going to start with addition. The following is an example of how to add 4 to the variable m. It is **important** that while this operation does result in a value of 6 it does **NOT** change the value of m.
 
 .. code-block:: c
  
-  m = m + 4;
+  m + 4;
+  
+Exercise
+---------
+#. Initialize a variable r at the top of your code and set its value to 6. 
+#. In your loop function, add r and 4 as shown above. 
+#. Print r in a column your serial monitor.
+
+TEACHER CHECK ____
+
+#. Move the addition of r and 4 into your print statement as shown below. 
+
+.. code-block:: c
+ 
+  Serial.println(m + 4);
+  
+  
+TEACHER CHECK ____
   
 In the above example if m was initially 3 than the value of m after the addition is 7. You might wonder why you cannot just write m + 4. The only way to set or change the value of a variable is with the equals sign. Adding 4 to m does create a new value, but does not change the value of m. Essentially, you need to add 4 to m and THEN put this new value into m. The following are examples of addition, subtraction, multipication and division.
 
