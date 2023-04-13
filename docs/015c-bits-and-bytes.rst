@@ -11,7 +11,50 @@ A byte is simply a term that refers to 8 bits. There are a number of stories abo
 
 States
 --------
+How many values can be represened by one bit? A single bit has only two states, so a total of two values can be presented by one bit. These states are represented as 0 and 1. With three bits, as shown below, you can represent 8 possible values. This correlates to the numbers 0 to 7. Note that with 8 possible values the highest number you can represent is one less than eight. That is because zero is set as the first value. 
 
-How much information can be stored in a bit? 
+With 8 bits you can represent 256 possible values and the highest value you can represent is 255.
 
+
+.. list-table:: Bit States
+   :widths: 25 25 50 50
+   :header-rows: 1
+
+   * - 0
+     - 1
+     - 2
+     - value
+   * - 0
+     - 0
+     - 0
+     - Zero
+   * - 0
+     - 0
+     - 1
+     - One
+   * - 0
+     - 1
+     - 0
+     - Two
+   * - 0
+     - 1
+     - 1
+     - Three
+   * - 1
+     - 0
+     - 0
+     - Four
+   * - 1
+     - 0
+     - 1
+     - Five
+   * - 1
+     - 1
+     - 0
+     - Six
+   * - 1
+     - 1
+     - 1
+     - Seven
+  
 
