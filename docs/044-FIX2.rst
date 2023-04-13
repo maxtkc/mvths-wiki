@@ -5,18 +5,18 @@ Overview
 
 --------
 
-Conditionals offer a way for your code to make decisions. In the real world, an example of a conditional might be, if it is cold put on a sweater. A conditional in code looks like the following (see below). In the following code, the condition x == 5 is evaluated as either true or false. 
+Conditionals offer a way for your code to make decisions. In the real world, an example of a conditional might be, if it is cold put on a sweater. A conditional in code looks like the following (see below). In this code the condition x == 5 is evaluated. If it true, the code inside the curly braces runds. **NOTE:** the double equals sign is used when comparing two values.
 
 .. code-block:: c
    
    if (x == 5) {                //Checks if this condition is true (i.e. does x equal 5). Note double equals sign
-       Serial.print("true");
-                  //If the condition is true than any lines of code placed between the two curly braces are executed.
+       Serial.print("true");    //If the condition is true than any lines of code placed between the two curly braces are executed.
+                  
    }
 
-**Important:** Note the double equals sign is used to evaluate a con.. The code x = 5 tells the program to set x to the value 5. The code x == 5 tells the program to compare the value of x and 5. 
+In addtion to checking if two values are equal, you came make a variety of comparisons using the relational operators shown below.
    
-.. list-table:: Conditionals
+.. list-table:: 
    :widths: 25 25 50
    :header-rows: 1
 
@@ -44,21 +44,13 @@ Conditionals offer a way for your code to make decisions. In the real world, an 
      - x != 5
    
 
-   
-In addition to the single state  *if*, you can also have a second state represented by *else*. The following is an example of code that has two possible states based on the evaluation of the initial condition.
-
-.. code-block:: c
-   
-   if (x == 5) {                //Checks if this condition is true (i.e. does x equal 5). 
-       //If the condition is true than lines placed here are executed.
-   } else {
-    //If the condition is false than this lines placed here are executed.
-   }
-     
+  
 Challenge
 ----------
 
-#. Write a program to test the value of a variable. Initialize a variable and set its initial value to 6. Using a conditional, check if the value is in fact 6. If the value is 6  then print "true" in your serial monitor.
+#. Write a program that includes a variable slowly increasing in value. Print the value to your serial monitor. When then variable reaches a set value, you should print "true" in your serial monitor. 
+
+#. Modify your program so that the monitor displays "true" when the value is below your set point and "false" when above your set point.
 
 #. Connect pin 6 to ground via a long jump wire. Modify your program to print "true" only if pin 6 is connected to power.
 
