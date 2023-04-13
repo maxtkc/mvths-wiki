@@ -6,12 +6,8 @@ Overview
 
 In this lesson, you will create *for loops*. *For loops* are one of the key features of any programming language. They allow you to increment or decrement a variable over a precise range of numbers. The following is a basic a example of a for loop that prints the numbers 0 to 9 in your terminal window. IMPORTANT: A *for loop* should be placed inside one of your functions, either setup or loop. They are not functions and cannot stand on their own in your code.
 
-.. code-block:: C
-  
-  for (x = 0; x < 10; x = x + 1) {
-    Serial.println(x);
-    delay(10);
-  }
+.. image:: images/forloopwd2.PNG
+      :width: 800px
 
 There are three steps to creating a *for loop*. 
 
@@ -19,7 +15,11 @@ There are three steps to creating a *for loop*.
 
    Set the initial value: x = 0; // x starts with a value of 0 Note: You can use any number
    Set the limit value: x < 10; // Continue to execute loop while x is less than 10
-   Set the rate of change: x - x + 1 // After each time the loop is executed add one to x  
+   Set the rate of change: x = x + 1 // After each time the loop is executed add one to x  
+   
+**IMPORANT** You must initlize any variable before you use it in your code.
+   
+
   
 Exercise:
 ~~~~~~~~~
@@ -40,7 +40,13 @@ Exercise:
 
    TEACHER CHECK \_\_\_\_\_
 
-#. Modify your for loop so that it prints two values in two columns. The first value is a count from 1 to 25. The second column is double the first or as in a count from 2 to 50. 
+#. Modify your for loop so that it prints two values in two columns. The first value is a count from 1 to 25. The second column is double the first or as in a count from 2 to 50 as shown below. This can be done with a single variable. Refer to the last exercise in the previous lesson.
+
+   ::
+
+      1  2
+      2  4
+      3  6
 
    TEACHER CHECK \_\_\_\_\_
 
@@ -48,4 +54,6 @@ Exercise:
 
 Challenge
 ----------
-Imagine if you placed on grain of rice on the upper left square of a chessboard. Then you placed two grains on the square to its right and four grains on the next square and continued doubling the amount of rice until you reached the last square of the chessboard. How many grains would you have? Write a for loop that prints the numbers from 1 to 64 in one column and the numnber of grains of rice for each corresponding square in a second column.
+There are 64 squares on a chessboard. Imagine if you placed on grain of rice on the upper left square of a chessboard. Then you placed two grains on the square to its right and four grains on the next square and continued doubling the amount of rice until you reached the last square of the chessboard. How many grains would you have? Guess a number and write it in your notebook.
+
+Write a for loop that prints the numbers from 1 to 64 in one column and the numnber of grains of rice for each corresponding square in a second column.
