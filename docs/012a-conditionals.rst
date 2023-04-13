@@ -43,8 +43,6 @@ In addtion to checking if two values are equal, you came make a variety of compa
      - is not equal to
      - x != 5
    
-
-  
 Challenge
 ----------
 
@@ -52,9 +50,7 @@ Challenge
 
 #. Modify your program so that the monitor displays "true" when the value is below your set point and "false" when above your set point.
 
-#. Connect pin 6 to ground via a long jump wire. Modify your program to print "true" only if pin 6 is connected to power.
+#. Connect pin 6 to ground via a long jump wire. Modify your program to print "true" if pin 6 is connected to power.
 
-#. Modify your code to print "true" if pin 6 is connected to power and "false" if connected to ground.
-
-TEACHER CHECK \_\_\_\_\_
+TEACHER CHECK ____
 
