@@ -45,7 +45,7 @@ Exercise:
 
    TEACHER CHECK ___
  
-#. **Super Challenge** Modify your code file to print a letter in a single column in your serial monitor, but only using the Serial.print() function, NOT Serail.println(). **HINT:** LINEFEED in the ASCII table sets a new line in your serial monitor.
+#. **Challenge** Modify your code file to print a letter in a single column in your serial monitor, but only using the Serial.print() function, NOT Serail.println(). **HINT:** LINEFEED in the ASCII table sets a new line in your serial monitor.
 
 
 
