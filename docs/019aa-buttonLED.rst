@@ -6,10 +6,10 @@ Overview
 
 In this lesson you will use a button to turn on an LED. But unlike in previous examples, you will not directly control the LED with the button. Your button will communicate with your microcontroller which will in turn communicate with your LED.
 
+
+
 Exercise:
 ~~~~~~~~~
-
-#. Set pin 7 as input.
 
 #. Connect the output from your button (the point at which you measured voltage in the previous section) to the pin 7.
 
@@ -27,10 +27,8 @@ Exercise:
 
    TEACHER CHECK ___
      
-#. Add an LED to your circuit. **REMEMBER** to include a resistor with your LED.
-
-#. Write a program to flash the LED.
+#. Add an LED to your circuit. **IMPORTANT:** The LED should NOT be connected directly to your button. This is a completely separate LED circuit connected to a separate digital pin on your controller. **REMEMBER** to include a resistor with your LED.
 
    TEACHER CHECK ___
 
-#. Modify your code to turn on the LED when the button is pressed and off when the button is not pressed.
+#. Write a program to turn on the LED when the button is pressed and off when the button is not pressed.
