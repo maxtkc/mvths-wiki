@@ -13,7 +13,7 @@ The basic character set is represented by the  or ASCII table (shown below). Thi
 
 Under the Char columns you can see all letters of the alphabet in both lower case and upper case as well as a variety of punctuation and numbers.  The table provides way for your microcontroller and computer to have a common language for converting numbers to characters. Note that for each character under the Char columns there is a corresponding number in decimal that represents that character. For example, the decimal number 67 represents the character capital C, and the decimal number 51 represents thecharacter 3. 
 
-In addition to printed characters you can see some control characters listed such as LINE FEED and CARRIAGE RETURN n the lower portion of the table. Since this table was first developed prior to the advent of modern computers, many of the control characters between 0 and 32 are no longer used. 
+In addition to printed characters you can see some control characters listed such as LINE FEED, CARRIAGE RETURN, and HORIZONTAL TAB in the initial portion of the table. Since this table was first developed prior to the advent of modern computers, many of the control characters between 0 and 32 are no longer used. 
 
 The following shows examples of how you might initialize a variable to hold a character. In the previous lesson, you learned about the variable type int which is designed to store whole numbers. In addition, there are many other variable types including char. The variable type char is used to store characters. 
 
@@ -33,15 +33,19 @@ It is worth noting that the actual values of variables above are stored in their
 Exercise:
 ~~~~~~~~~
 
-#. Initialize a new variable using the char type and set its initial value to a character. Print this charater repeatedly in a column in you serial monitor. Make sure to include a short delay so that the serial monitor does not crash.
+#. Initialize a new variable using the char type
 
-#. Initialize a new variable using the char type and set its initial value to a number that represents a character in the ASCII table. Again, print this character in a column.
+#. Set the initial value of the new variable to a character i.e. a letter, number or punctuation mark. Remember to use single quotes.
 
-#. Modify your code so that your variable is initialized to an exclamation point (33 in the ASCII table). In your loop function increase this variable by one each time through the loop. Now print the variable.
+#. Print this charater repeatedly in a column in you serial monitor. 
+
+#. Initialize a new variable using the char type, but this time set its initial value to a number that represents a character in the ASCII table. Again, print this character in a column.
+
+#. Modify your code so that your variable is initialized to an exclamation point. You can use either '!' or the number that refers to this character. In your loop function increase this variable by one each time through the loop. Now print the variable.
 
    TEACHER CHECK ___
  
-#. **Super Challenge** Modify your code file to print a letter in a single column in your serial monitor, but only using the Serial.print() function, NOT Serail.println(). A hint is that LINEFEED in the ASCII table sets a new line in your serial monitor.
+#. **Super Challenge** Modify your code file to print a letter in a single column in your serial monitor, but only using the Serial.print() function, NOT Serail.println(). **HINT:** LINEFEED in the ASCII table sets a new line in your serial monitor.
 
 
 
