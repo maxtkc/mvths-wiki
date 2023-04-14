@@ -28,7 +28,7 @@ Complete the following six challenges.
    
 #. Using a for loop, write a program to blink an LED at a variable rate. The rate should begin by turning the LED on and off for 1ms i.e. 1ms on and 1ms off. The rate should increase to 50ms, or 50ms on and 50ms off. The rate should increment by 1ms. 
 
-#. Using a for loop, write a program to turn on three different LEDs in sequence. No more than one LED should be on at a time. (NEEDS ATTENTION)
+#. Using a for loop, write a program to turn on three different LEDs in sequence. No more than one LED should be on at a time. **Hint:** You will need to use the variable in your for loop to control which LED is turned on. For example, if the variable in your for loop is x than you can *digitalWrite(x, HIGH);*
 
  TEACHER CHECK \_\_\_\_\_
   
