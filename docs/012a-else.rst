@@ -1,4 +1,4 @@
-If Else
+Conditionals (if else)
 =============
 
 Overview
