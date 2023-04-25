@@ -7,7 +7,7 @@ In this lesson you are going to learn about resistors in circuits and using Ohms
 
 **Common resistor values:** While you can purcahse a resistor with just about any value there are a set of commonly found values. The table below lists some of these values.
 
-.. figure:: images/commonR.PNG
+.. figure:: images/standardRvalues.PNG
 
 
 Challenge
