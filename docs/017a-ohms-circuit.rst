@@ -1,7 +1,7 @@
 Ohms Law with Resistors
 ======================
 
-In this lesson you are going to learn about resistors in circuits and using Ohms law to calculate both current and resistance values.
+In this lesson you are going to learn about using Ohms law to calculate both current and resistance values.
 
 **Reading resistor values:** Note that the values beginning with R are an artifact of the schematic software used to make these circuits. R2 just a label for that resistor. The value of the resistor is indicated either with an R or K at the end of the number, and this is a bit confusing. An R at the end of the number just means that this is a resistor value. So, 470R means 470 ohms. A K at the end of the number indicates engineering notation. So, 470K means 470,000 ohms.
 
