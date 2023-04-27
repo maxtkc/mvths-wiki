@@ -6,6 +6,8 @@ Overview
 
 In this project you will design and build a mini sumo robot for competition. Your robot must be designed according to the following specifications which are based on the international standards for the mini class of sumo robots. 
 
+MICROCONTROLLERS MUST USE SOCKET HEADERS TO CONNECT TO BOARD.
+
 Requirements 
 --------------
 
