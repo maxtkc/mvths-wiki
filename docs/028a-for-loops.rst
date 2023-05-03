@@ -40,7 +40,7 @@ Exercise:
 
    TEACHER CHECK \_\_\_\_\_
 
-#. Modify your for loop so that it prints two values in two columns. The first value is a count from 1 to 25. The second column is double the first or as in a count from 2 to 50 as shown below. This can be done with a single variable. Refer to the last exercise in the previous lesson.
+#. Modify your for loop so that it prints two values in two columns. The first value is a count from 1 to 25. The second column is double the first or as in a count from 2 to 50 as shown below. You should do this with only ONE for loop. Also, this can be done with a single variable. Refer to the last exercise in the previous lesson.
 
    ::
 
