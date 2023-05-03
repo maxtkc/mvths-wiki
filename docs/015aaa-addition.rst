@@ -24,18 +24,15 @@ In the following example, m and 4 are added together and the result of this oper
 Exercise
 ---------
 #. Initialize a variable r at the top of your code and set its value to 6. 
-#. In your loop function, add r and 4 as shown above. 
+#. In your loop function, add r and 4 without modifying the value of r. 
 #. Print r in a column your serial monitor.
 #. **IMPORTANT:** Make sure to include a delay of at least 10ms so the serial communication does not crash your serial monitor.
+#. Write the value printed in your serial monitor.
 
    TEACHER CHECK ____
 
-#. Move the addition of r and 4 into your print statement as shown below. 
-
-   .. code-block:: c
- 
-      Serial.println(r + 4);
-  
+#. Move the addition statement you just wrote into your print statement. 
+#. Write the value printed in your serial monitor.
   
    TEACHER CHECK ____
    
