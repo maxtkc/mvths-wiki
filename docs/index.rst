@@ -41,6 +41,9 @@ The following is a list of guides for learning about electronics and software in
    015aaa-addition
    015b-math
    028a-for-loops
+   040a-bits
+   040-binary
+   040c-print-binary
    015c-bits-and-bytes
    015a-printing-characters
    012c-input-pins
