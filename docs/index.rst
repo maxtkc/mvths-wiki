@@ -92,7 +92,6 @@ The following is a list of guides for learning about electronics and software in
    037a-neopixel-challenge-one
    037c-neopixel-challenge-two
    037d-arrays
-   040-binary
    042-de-bounce-button
    055-analogwrite
    042b-button-software
