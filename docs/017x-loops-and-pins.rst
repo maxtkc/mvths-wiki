@@ -16,9 +16,10 @@ Exercise
 
 #. Use the variable in your for loop to turn on the LEDs on pins 3, 4, 5, 6. 
 
-TEACHER CHECK
+   TEACHER CHECK
 
 #. Add a delay in your for loop, so that the LEDs appear to turn on in sequence as in 3, then 4, etc.
 
 #. Add a second for loop to your code to turn off the LEDs including a delay so that they they appear to turn off in the opposite sequence, 6, then 5, etc.
 
+   TEACHER CHECK
