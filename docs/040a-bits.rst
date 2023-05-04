@@ -37,4 +37,4 @@ Since each bit can only represent two states (0 and 1) they are not very useful 
      - 1
      - 3
  
- It is useful to note that the number of possible states grows rapidly. Sixteen bits can represent 65,536 states. Sixty-four bits can represent over 18 quintillion states, a number so large it is hard to comprehend.
+It is useful to note that the number of possible states grows rapidly. Sixteen bits can represent 65,536 states. Sixty-four bits can represent over 18 quintillion states, a number so large it is hard to comprehend.
