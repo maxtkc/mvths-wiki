@@ -38,6 +38,13 @@ Exercise
 --------
 #. Copy the binary portion of the above table in your notebook, leaving out the zeros and ones. 
 #. On this table write the numbers 10, 30, 35, 112, and 87 in binary.
+#. In your note book copy the following numbers in binary and provide their decimal equivalent. 
+
+.. code-block:: C
+
+   00101010
+   00111100
+   01000001
 
 You can use the serial print command to print numbers in binary as well as decimal. The following print command will print a number in decimal by default.
 
