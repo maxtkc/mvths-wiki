@@ -15,7 +15,7 @@ Digital devices such as computers may contain billions of transistors. These tra
 
 Bits and Binary
 ---------------
-Since each bit can only represent two states (0 and 1) they are not very useful by themselves. By collecting bits into larger groups though, we can represent much larger numbers. For example, two bits can represent four states as shown in the table below. Three bits can represent 8 states and so on.
+Since each bit can only represent two states (0 and 1) they are not very useful by themselves. By collecting bits into larger groups though, we can represent much larger numbers. For example, two bits can represent four states as shown in the table below. Three bits can represent 8 states and so on. 
 
 .. list-table:: States
    :widths: 25 25 50
@@ -37,3 +37,4 @@ Since each bit can only represent two states (0 and 1) they are not very useful 
      - 1
      - 3
  
+ It is useful to note that the number of possible states grows rapidly. Sixteen bits can represent 65,536 states. Sixty-four bits can represent over 18 quintillion states, a number so large it is hard to comprehend.
