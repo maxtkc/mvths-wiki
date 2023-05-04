@@ -1,4 +1,9 @@
-You can use the serial print command to print numbers in binary as well as decimal. The following print command will print a number in decimal by default.
+Printing Binary
+======
+
+Overview
+--------
+By default, the print command prints numbers in decimal. By adding a second argument to the print command, you can print numbers in binary. 
 
 .. code-block:: C
 
