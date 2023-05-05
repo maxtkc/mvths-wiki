@@ -12,7 +12,7 @@ In this lesson, you will review using the loop function to blink and LED. The fo
 Exercise:
 ~~~~~~~~~
 
-#. Add an LED to your board if there is not already one on there. Don't forget to use a resistor! Write a program to blink the LED using code shown above. Use a delay that is large enough that you can see the LED flash on and off.
+#. Add an LED to your board if there is not already one on there. Don't forget to use a resistor! Write a program to blink the LED using code shown above. Use a delay that is LARGE enough that you can see the LED flash on and off.
 
    **IMPORTANT NOTE:** You should generally avoid using digital pins 0 and 1 as either inputs or outputs. Using these pins might interfere with the programming of your device.
 
