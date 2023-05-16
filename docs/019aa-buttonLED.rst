@@ -9,7 +9,7 @@ In this lesson you will use a button to turn on an LED. But unlike in previous e
 Exercise:
 ~~~~~~~~~
 
-#. Connect the output from your button (the point at which you measured voltage in the previous section) to the pin 7. *IMPORTANT* If you do not have a button circuit set up on your breadbaord, review the previous lesson to set up a button on your breadboard.
+#. Connect the output from your button (the point at which you measured voltage in the previous section) to the pin 7. **IMPORTANT** If you do not have a button circuit set up on your breadbaord, review the previous lesson to set up a button on your breadboard.
 
 #. Write a program to read the value of the button and display it in your serial monitor. Below is the function you can use to read a value on pin 7 and place it into the variable x. The value of x should be displayed continuously in a column in your serial monitor.
 
