@@ -1,8 +1,7 @@
 Challenge Review
 =========================
 
-
-Challenges
+Challenge
 ----------
 There are 64 squares on a chessboard. Imagine if you placed on grain of rice on the upper left square of a chessboard. Then you placed two grains on the square to its right and four grains on the next square and continued doubling the amount of rice until you reached the last square of the chessboard. How many grains would you have? Guess a number and write it in your notebook.
 
