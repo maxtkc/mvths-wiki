@@ -56,11 +56,11 @@ The following is a list of guides for learning about electronics and software in
    018-resistors-and-leds
    019-buttons
    019aa-buttonLED
-   019a-voltage-dividers
-   020-potentiometers
    020a-other-variables
    020b-floats
    020c-variable-names
+   019a-voltage-dividers
+   020-potentiometers
    021-analog-to-digital-conversion
    021i-conversion-factors
    028j-conversion-challenge
