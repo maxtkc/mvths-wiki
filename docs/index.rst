@@ -59,6 +59,7 @@ The following is a list of guides for learning about electronics and software in
    020a-other-variables
    020b-floats
    020c-variable-names
+   020d-challenge-review
    019a-voltage-dividers
    020-potentiometers
    021-analog-to-digital-conversion
