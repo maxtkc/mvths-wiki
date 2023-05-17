@@ -25,7 +25,7 @@ Exercise:
 
    TEACHER CHECK \_\_\_
 
-#. Print two columns of numbers, one in decimal and one in binary. These numbers should increment from 0 and have a .3 second delay between increments.
+#. Print two columns of numbers, one in decimal and one in binary. These numbers should start at zero and increment by one and have a .3 second delay between increments.
 
    TEACHER CHECK \_\_\_\_
 
