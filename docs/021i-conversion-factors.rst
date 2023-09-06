@@ -17,7 +17,7 @@ For example, if you wanted to know how many bars would be represented by 60dB yo
 Exercise:
 ~~~~~~~~~
 
-#. Find the conversion factor for each of the ranges listed below. Complete the table in your notebook.
+#. Find the conversion factor for each of the ranges listed below. Round your answer to the nearest 100th. Complete the table in your notebook.
 
    .. list-table:: 
       :widths: 25 25 50
@@ -36,7 +36,7 @@ Exercise:
         - 0 to 10
         - 
 
-#. Find the converstion factors for the ranges listed below. Note that in the following table, the ranges do not begin with zero as they do in the table above. Finding the conversion factor simply means taking the difference between start and end points in each range. For example, using a source range of 10 to 50 and target to a range of 0 to 90, you would use 40 for the source range and 90 for the target range.  Therefore the scale factor equals 90 divided by 40 or 2.25. 
+#. Find the converstion factors for the ranges listed below. Round to the nearest hundreth. Note that in the following table, the ranges do not begin with zero as they do in the table above. Finding the conversion factor simply means taking the difference between start and end points in each range. For example, using a source range of 10 to 50 and target to a range of 0 to 90, you would use 40 for the source range and 90 for the target range.  Therefore the scale factor equals 90 divided by 40 or 2.25. 
 
    .. list-table::
       :widths: 25 25 50
