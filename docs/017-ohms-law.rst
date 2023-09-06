@@ -13,7 +13,7 @@ V = IR.
 
 Exercise
 ---------
-Using Ohm's law you can easily calculate voltage, resistance or current given any two of the three. Calculate the missing values in the table below. Copy and complete the following table in your notebook. Noee that the last row contains the units milliamps, so you wil need to convert this unit to amps before using Ohms law.
+Using Ohm's law you can easily calculate voltage, resistance or current given any two of the three. Calculate the missing values in the table below. Copy and complete the following table in your notebook. Noee that the last row contains the units milliamps, so you wil need to convert this unit to amps before using Ohms law. Please round any fractions to the nearest thousandth.
 
 .. list-table:: Ohms Law
    :widths: 25 25 50 50
@@ -49,5 +49,5 @@ Using Ohm's law you can easily calculate voltage, resistance or current given an
      - 1000 Ohms
    * - 7
      - 
-     - 30 mAs
+     - 30 milliamps
      - 330 Ohms
