@@ -4,7 +4,7 @@ Other Variables
 Overview
 --------
 
-So far you have initialized all of your variables as ints. An int within the Arduino IDE defines a type of variable that has a total of 16-bits. This means there are 16 bits of storage reserved for this variable. ints are also signed. This means the variable can be a negative or positive number.
+So far you have initialized all of your variables as ints. An int, when compiled for the Arudino Uno, Metro Mini or any board based on an 8-bit Atmel processor, defines a type of variable that has a total of 16-bits. (For SAMD-based boards the value is 32-bits). This means there are 16 bits of storage reserved for this variable. ints are also signed. This means the variable can be a negative or positive number.
 
 .. code-block:: c
 
