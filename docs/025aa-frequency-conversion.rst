@@ -20,9 +20,9 @@ Exercise
    .. figure:: images/period-wave2.png
    
 
-#. Using the equations shown above for converting frequency to period and vice versa, complete the following two tables in your notebook. Note that the units of Hertz are cycles per second and as a result the equation you are using produces units of seconds. Make sure to use CORRECT units and round to the nearest thousandth. The table also includes a column for converting seconds to milliseconds. 
+#. Using the equations shown above for converting frequency to period and vice versa, complete the following two tables in your notebook. Note that the units of Hertz are cycles per second and as a result the equation you are using produces units of seconds. The table also includes a column for converting seconds to milliseconds. 
 
-Find the period of the wave
+Find the period of the wave. Round to the nearest one millionth for seconds and make sure to include units.
 
 +-------------+-----------------------+----------------------------+
 | Frequency   | Period (in seconds)   | Period (in milliseconds)   |
@@ -36,7 +36,7 @@ Find the period of the wave
 | 2.7 kHz     |                       |                            |
 +-------------+-----------------------+----------------------------+
 
-Find the frequency of the wave
+Find the frequency of the wave. Round to the nearest one hundredth for frequency.
 
 +----------+------------------------+---------------------+
 | Period   | Period ( in seconds)   | Frequency (in Hz)   |
