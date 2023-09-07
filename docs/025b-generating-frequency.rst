@@ -41,7 +41,7 @@ Now we can use the resulting times for the two delays in our loop.
 Exercise:
 ~~~~~~~~~
 
-Complete the table below in your notebook. Write a program to generate each frequency and measure the frequency with your multimeter to confirm. Demonstrate one of these frequencies for your teacher. 
+Complete the table below in your notebook. Round your period values to the nearest one millionth. Remember that your delay value is half your period, since you will be using one delay for the high time and one delay for the low time. Round your delay values to the nearest whole number. Write a program to generate each frequency and measure the frequency with your multimeter to confirm. Demonstrate one of these frequencies for your teacher. 
 
 .. list-table:: Generating Frequencies
    :widths: 25 25 50
