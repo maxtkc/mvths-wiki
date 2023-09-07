@@ -13,7 +13,7 @@ Exercise
 
 #. Set up your potentiometer as described in the section on potentiometers. Measure the voltage output using a multimeter.
    
-#. Complete the following table in your notebook. The two columns represent a source range and the steps column represent a target range. Using the formula you learned in the previous lesson, you can find the Volts per step, or conversion factor. Note that the last row represents the actual values of your microcontroler. The range for your potentiometer is 0V to 5V and the analog converter on your microcontroller has a range of 1024 steps. Round your answers to the nearest 1000th. 
+#. Complete the following table in your notebook. The two columns represent a source range and the steps column represent a target range. Using the formula you learned in the previous lesson, you can find the Volts per step, or conversion factor. Note that the last row represents the actual values of your microcontroler. The range for your potentiometer is 0V to 5V and the analog converter on your microcontroller has a range of 1024 steps. Round your answers to the nearest 1000th and don't forget to include units.
 
    +---------------+----------------+---------+------------------+
    | Low Voltage   | High Voltage   | Steps   | Volts per Step   |
