@@ -18,7 +18,7 @@ Exercise
 
 #. Subtract the voltage drop of the LED from the circuit to get the exact voltage across the resistor.
 #. Use Ohm’s law to determine the correct resistor value for the target current you are trying to achieve in the circuit.
-#. Complete the following table in your notebook rounding to the nearest whole number. NOTE: The circuit must supply enough voltage to drive the LED forward. If it does not, indicate that in your notebook.
+#. Complete the following table in your notebook rounding to the nearest whole number and again selecting the closest resistor value from the table in the previous lesson. NOTE: The circuit must supply enough voltage to drive the LED forward. If it does not, indicate that in your notebook.
 
 .. list-table:: Resistor Selection
    :widths: 25 25 50 50
