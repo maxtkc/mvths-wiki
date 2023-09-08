@@ -10,9 +10,9 @@ The following is an example of a very simple function that accepts a value, mult
 .. code:: 
 
    
-   int times_two(int val) {  //Returns an int and accepts an int in *val*
-      val *= 2;               //Multiplies *val* by 2.
-      return val;             //Returns the value of *val* to the calling function.
+   int times_two(int value) {  //Returns an int and accepts an int in *value*
+      value *= 2;               //Multiplies *value* by 2.
+      return value;             //Returns the value of *value* to the calling function.
    }
 
 Passing a value to this function would look like the following.
