@@ -22,4 +22,6 @@ In order to make sure you continue to keep track of your files you will need to 
 
   .. figure:: images/newrepo.PNG
       :width: 800px
+
+
 .. code-block:: c
