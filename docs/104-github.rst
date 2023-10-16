@@ -20,8 +20,8 @@ In order to make sure you continue to keep track of your files you will need to 
    #. README: Make sure to select this check box.
    #. You can ignore the remaining items and just click Create repository. 
 
-      .. figure:: images/newrepo.PNG
-         :width: 800px
+   .. figure:: images/newrepo.PNG
+      :width: 800px
 
 
 
