@@ -1,4 +1,4 @@
-Create a Repository with Github Desktop
+Add to a Repository with Github Desktop
 =================
 
 Overview
