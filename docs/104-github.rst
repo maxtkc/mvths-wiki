@@ -10,7 +10,7 @@ In order to make sure you continue to keep track of your files you will need to 
 #. Under File select Options and Accounts. Make sure Gitdesktop is set up with your github account. If not, sign in under your account.
 
    .. figure:: images/fileoptions.PNG
-      :width: 800px
+      :width: 600px
 
 #. File Create New Repository
 
@@ -21,7 +21,7 @@ In order to make sure you continue to keep track of your files you will need to 
    #. You can ignore the remaining items and just click Create repository. 
 
    .. figure:: images/newrepo.PNG
-      :width: 800px
+      :width: 400px
 
 
 
