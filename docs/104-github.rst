@@ -46,3 +46,9 @@ Add Code Files to your Repository
 
    .. figure:: images/newfiles.PNG
       :width: 400px
+
+#. Before commiting these changes, you must add a summary. A description is optional. 
+#. Select Commit to main. 
+
+   .. figure:: images/commit.PNG
+      :width: 400px
