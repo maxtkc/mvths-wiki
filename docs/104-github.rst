@@ -21,9 +21,7 @@ In order to make sure you continue to keep track of your files you will need to 
    #. You can ignore the remaining items and just click Create repository. 
 
 
-#. tewo
-
-.. figure:: images/newrepo.PNG
+  .. figure:: images/newrepo.PNG
       :width: 800px
 
 
