@@ -104,6 +104,9 @@ The following is a list of guides for learning about electronics and software in
    045-autodesk-eagle
    046-rules-for-milling-boards
    047-post-milling
+   104-git-create
+   105-git-add
+   106-git-clone
    047a-light-display-project
    070xa-sumo-robot
    070xb-motor-control
