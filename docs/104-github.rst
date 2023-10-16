@@ -1,11 +1,11 @@
-Using GitHub
+Create a Repository with Github Desktop
 =================
 
 Overview
 ---------
 In order to make sure you continue to keep track of your files you will need to learn to use GitHub.
 
-Create a respoitory
+Create a Repository
 -------------------
 #. Log into your Github account
 #. Open Gitdesktop
@@ -59,3 +59,5 @@ Add Code Files to your Repository
       :width: 600px
 
 #. Open your respository on Github to confirm that your new files are stored in your new respository.
+
+
