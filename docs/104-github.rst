@@ -33,3 +33,5 @@ In order to make sure you continue to keep track of your files you will need to 
 
    .. figure:: images/publishrepo.PNG
       :width: 400px
+
+#. Go to your Github account and make sure the new repository you created showed up in your respository list.
