@@ -8,4 +8,4 @@ In order to make sure you continue to keep track of your files you will need to 
 #. Under File select Clone a repository.
 
    .. figure:: images/clone.PNG
-      :width: 600px
+      :width: 400px
