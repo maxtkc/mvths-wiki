@@ -52,3 +52,8 @@ Add Code Files to your Repository
 
    .. figure:: images/commit.PNG
       :width: 400px
+
+#. The last step is to select Push origin. 
+
+   .. figure:: images/psuh.PNG
+      :width: 400px
