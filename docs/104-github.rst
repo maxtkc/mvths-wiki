@@ -32,4 +32,4 @@ In order to make sure you continue to keep track of your files you will need to 
 #. You can add a description and you should uncheck the Keep this code private box.
 
    .. figure:: images/publishrepo.PNG
-      :width: 600px
+      :width: 400px
