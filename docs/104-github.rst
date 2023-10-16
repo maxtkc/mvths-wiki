@@ -26,6 +26,10 @@ In order to make sure you continue to keep track of your files you will need to 
 
 #. Select Publish repository when back on the main screen.
 
-
    .. figure:: images/publish.PNG
+      :width: 600px
+
+#. You can add a description and you should uncheck the Keep this code private box.
+
+   .. figure:: images/publishrepo.PNG
       :width: 600px
