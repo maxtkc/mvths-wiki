@@ -5,7 +5,8 @@ Overview
 ---------
 In order to make sure you continue to keep track of your files you will need to learn to use GitHub.
 
-
+Create a respoitory
+-------------------
 #. Log into your Github account
 #. Open Gitdesktop
 #. Under File select Options and Accounts. Make sure Gitdesktop is set up with your github account. If not, sign in under your account.
@@ -35,3 +36,8 @@ In order to make sure you continue to keep track of your files you will need to 
       :width: 400px
 
 #. Go to your Github account and make sure the new repository you created showed up in your respository list.
+
+Add Files to your Repository
+------------------------------
+
+
