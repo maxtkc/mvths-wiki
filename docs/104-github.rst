@@ -53,7 +53,9 @@ Add Code Files to your Repository
    .. figure:: images/commit.PNG
       :width: 400px
 
-#. The last step is to select Push origin. 
+#. The last step is to select Push origin. This final step will push your updated code to your repository on Github.
 
    .. figure:: images/psuh.PNG
-      :width: 400px
+      :width: 600px
+
+#. Open your respository on Github to confirm that your new files are stored in your new respository.
