@@ -23,7 +23,7 @@ Create a respoitory
    #. You can ignore the remaining items and just click Create repository. 
 
    .. figure:: images/newrepo.PNG
-      :width: 400px
+      :width: 400px 
 
 #. Select Publish repository when back on the main screen.
 
