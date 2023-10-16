@@ -3,9 +3,14 @@ Clone a Repository with Github Desktop
 
 Overview
 ---------
-In order to make sure you continue to keep track of your files you will need to learn to use GitHub.
+Cloning is how you move a repository from Github to your desktop computer. 
 
-#. Under File select Clone a repository.
+#. Under File select Clone repository.
 
    .. figure:: images/clone.PNG
       :width: 400px
+
+#. Scroll through your list of repositories and select the one you want to clone. 
+#. Choose a local path where you want your repository to be stored. 
+#. Select Clone. 
+#. Navigate to your local directory to confirm that the file you cloned from Github is in that directory. 
