@@ -37,7 +37,12 @@ Create a respoitory
 
 #. Go to your Github account and make sure the new repository you created showed up in your respository list.
 
-Add Files to your Repository
+Add Code Files to your Repository
 ------------------------------
 
+#. Open a project in the Arduino IDE
+#. Select File/Save As and navigate to your new repository directory. 
+#. Click on Gitdesktop and you should now see the new files listed on the left side of the window. 
 
+   .. figure:: images/newfiles.PNG
+      :width: 400px
