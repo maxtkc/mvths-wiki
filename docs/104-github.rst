@@ -18,6 +18,7 @@ In order to make sure you continue to keep track of your files you will need to 
    #. Description: A description is optional
    #. Local path: You can select a local path or leave the default. This is where the respository will be stored on your local computer. 
    #. README: Make sure to select this check box.
+   #. You can ignore the remaining items and just click Create repository. 
 
 
 #. tewo
