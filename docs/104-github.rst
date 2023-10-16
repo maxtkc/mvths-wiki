@@ -28,4 +28,4 @@ In order to make sure you continue to keep track of your files you will need to 
 
 
    .. figure:: images/publish.PNG
-      :width: 400px
+      :width: 600px
