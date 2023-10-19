@@ -8,7 +8,7 @@ While breadboards are good for initial prototyping of an electronic circuit, the
 
 This first link is to a YouTube video created by Autodesk and describing to create a schematic and then a circuit board.
 
-`Schematic Basics <https://www.autodesk.com/products/eagle/blog/schematic-basics-part-1/>`__
+`Schematics andcCircuit boards <https://help.autodesk.com/view/fusion360/ENU/courses/AP-FUSION-360-ELECTRONICS-OVERVIEW>`__
 
 This second link is to a video describing how to create your own parts in your own custom library. 
 
