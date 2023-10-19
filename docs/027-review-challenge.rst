@@ -8,7 +8,7 @@ Challenge:
 
    TEACHER CHECK \_\_\_\_
 
-#. Modify your code so that it produces a fixed frequency. Choose any frequency you like. Now change the duration of the tone (the delay) over time. Specifically, use the variable in the for loop to change the duration of the delay used to set the duration of the tone. You will need to turn the tone on and off and have a delay after the on cycle and after the off cycle.
+#. Modify your code so that it produces a fixed frequency. Choose any frequency you like. Now change the duration of the tone (the delay) over time. Specifically, use the variable in the for loop to change the duration of the delay used to set the duration of the tone. Additionally, you will need to turn the tone off and provide another delay, i.e. the tone will turn on for a period of time (delay) and off for a period of time (delay).
 
    TEACHER CHECK \_\_\_\_
 
