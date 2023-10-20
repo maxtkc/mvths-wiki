@@ -9,7 +9,7 @@ In this lesson, you will create waves that change over time, display them on you
 Exercise:
 ~~~~~~~~~
 
-#. Write a program that creates a waveform, but nstead of using fixed values for the delay values (HIGH and LOW) use a two variables, one for each delay. Initialize these variables at the top of your code. Set both to 400.  Make sure to use *delayMicroseconds()* for your two delays. Display your waveform on your scope. 
+#. Write a program that creates a waveform, but instead of using fixed values for the delay values (HIGH and LOW) use a two variables. See example below. Initialize these variables at the top of your code. Set both to 400.  Make sure to use *delayMicroseconds()* for your two delays. Display your waveform on your scope. 
 
 .. code-block:: C
 
