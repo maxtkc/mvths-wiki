@@ -11,11 +11,11 @@ Exercise:
 
 #. Write a program that creates a waveform, but instead of using fixed values for the delay values (HIGH and LOW) use a two variables. See example below. Initialize these variables at the top of your code. Set both to 400.  Make sure to use *delayMicroseconds()* for your two delays. Display your waveform on your scope. 
 
-.. code-block:: C
+   .. code-block:: C
 
    delayMicroseconds(400); //Fixed 400us delay
 
-.. code-block:: C
+   .. code-block:: C
 
    delayMicroseconds(x); //A variable delay based on the value of x
 
