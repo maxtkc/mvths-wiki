@@ -1,3 +1,4 @@
 docutils
 urllib3<2
 recommonmark
+sphinx-rtd-theme
