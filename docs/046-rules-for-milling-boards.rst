@@ -6,10 +6,15 @@ Overview
 
 Once you have finished the tutorials, you are ready to design your circuit using Eagle. Follow the steps below when designing your board.
 
-1. Make sure the breadboard version of your circuit includes all of the parts you need and is working correctly. Do not add anything to your Eagle circuit that you have not already testing on your breadboard.
-2. If your circuit includes a microcontroller, make sure you have a way
-   to power your board without using the programming cable.
-3. Label all signal wires. This will make it much easier to debug your
+#. **Complete Breadboard:** Make sure the breadboard version of your circuit includes all of the parts you need including power and is working correctly. Do not add anything to your Eagle circuit that you have not already testing on your breadboard.
+
+#. **Parts:** Make sure to only select through-hole parts (not surface mount) for all of your components.
+
+#. **Power and Ground:** Make sure to include power and ground symbols on your on your schematic. Make sure your power symbols face up and your ground symbols face down.
+
+#. **Mirror:** Make sure you schematic mirrors exactly the connections on your breadboard.
+
+Make sure your schematic includes Label all signal wires. This will make it much easier to debug your
    board file when something goes wrong. If your circuit includes a
    microcontroller, make sure to use wire labels for RX and TX.
 4. In the Eagle schematic, set the default trace width, drill diameter
