@@ -12,11 +12,9 @@ Once you have finished the tutorials, you are ready to design your circuit using
 
    .. figure:: images/dipsmt.PNG
 
-
 #. **Power and Ground:** Make sure to include power and ground symbols on your on your schematic. Make sure your power symbols face up and your ground symbols face down.
 
    .. figure:: images/upandown.png
-
 
 #. **Mirror Design:** Make sure your schematic mirrors exactly the connections on your breadboard.
 
@@ -27,6 +25,10 @@ Once you have finished the tutorials, you are ready to design your circuit using
 #. **Right Angles:** Make sure all your wires on your schematic run at right angles. NOT like the example below.
 
    .. figure:: images/bentwire.PNG
+
+#. **Junctions:** Junctions should only exist between two connected wires. Never on a single wire or at a pin. 
+
+   .. figure:: images/junctions.PNG
 
 Make sure your schematic includes Label all signal wires. This will make it much easier to debug your
    board file when something goes wrong. If your circuit includes a
