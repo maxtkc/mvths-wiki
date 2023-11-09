@@ -24,7 +24,9 @@ Once you have finished the tutorials, you are ready to design your circuit using
 
    .. figure:: images/crosswire.PNG
 
-#. 
+#. **Right Angles:** Make sure all your wires on your schematic run at right angles. NOT like the example below.
+
+   .. figure:: images/bentwire.PNG
 
 Make sure your schematic includes Label all signal wires. This will make it much easier to debug your
    board file when something goes wrong. If your circuit includes a
