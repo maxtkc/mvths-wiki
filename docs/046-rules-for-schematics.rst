@@ -4,7 +4,7 @@ Rules for Schematics
 Overview
 --------
 
-Once you have finished the tutorials, you are ready to design your circuit using Eagle. Follow the steps below when designing your board.
+Once you have finished the tutorials, you are ready to design your circuit using Fusion 360. Follow the steps below when designing your schematics.
 
 #. **Complete Breadboard:** Make sure the breadboard version of your circuit includes all of the parts you need including power and is working correctly. Do not add anything to your Eagle circuit that you have not already testing on your breadboard.
 
