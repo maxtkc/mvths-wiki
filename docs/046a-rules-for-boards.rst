@@ -16,6 +16,11 @@ Once you have finished the tutorials, you are ready to design your circuit using
 
 #. **Routing:** Route your board on the bottom side only. 
 
+
+
+
+NOTES
+-------
 6. Use 90 degree bent headers for all your wire-to-board connections.
    The traces on these boards are weak and using bent headers will
    substantially reduces failures due to broken traces.
