@@ -102,7 +102,7 @@ The following is a list of guides for learning about electronics and software in
    043a-Programming-Breadboard-Arduino
    044-using-a-breadboard-arduino
    045-autodesk-eagle
-   046-rules-for-milling-boards
+   046-rules-for-schematics
    047-post-milling
    104-git-create
    105-git-add
