@@ -1,4 +1,12 @@
-Make sure your schematic includes Label all signal wires. This will make it much easier to debug your
+Rules for Boards
+====================
+
+Overview
+--------
+
+Once you have finished the tutorials, you are ready to design your circuit using Eagle. Follow the steps below when designing your board.
+
+#. **Complete Breadboard:** Make sure the breadboard version of your circuit includes all of the parts you need including power and is working correctly. Do not add anything to your Eagle circuit that you have not already testing on your breadboard.Make sure your schematic includes Label all signal wires. This will make it much easier to debug your
    board file when something goes wrong. If your circuit includes a
    microcontroller, make sure to use wire labels for RX and TX.
 4. In the Eagle schematic, set the default trace width, drill diameter
