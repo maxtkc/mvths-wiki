@@ -30,6 +30,13 @@ Once you have finished the tutorials, you are ready to design your circuit using
 
    .. figure:: images/junctions.PNG
 
+#. **Labels:** Label all signal wires with names that describe their function.
+
+   .. figure:: images/labelwires.PNG
+
+#. **ERC:** Make sure to run an ERC (electronic rule check) before finalizing your schematic. 
+
+
 Make sure your schematic includes Label all signal wires. This will make it much easier to debug your
    board file when something goes wrong. If your circuit includes a
    microcontroller, make sure to use wire labels for RX and TX.
