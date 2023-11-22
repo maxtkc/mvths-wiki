@@ -6,37 +6,27 @@ Overview
 
 Once you have finished the tutorials, you are ready to design your circuit using Eagle. Follow the steps below when designing your board.
 
-#. **Complete Breadboard:** Make sure the breadboard version of your circuit includes all of the parts you need including power and is working correctly. Do not add anything to your Eagle circuit that you have not already testing on your breadboard.Make sure your schematic includes Label all signal wires. This will make it much easier to debug your
-   board file when something goes wrong. If your circuit includes a
-   microcontroller, make sure to use wire labels for RX and TX.
-4. In the Eagle schematic, set the default trace width, drill diameter
-   and pad clearance to 18mil. You can find these settings in the Net
-   classes window under the File menu.
-5. Add all of your parts to the board and wire them exactly as they are
-   wired on your breadboard.
+#. **Trace Specifications:** Make sure all of your trace widths are at least 18 mils. Your drill diameter and pad clearance should also be set to 18 mils. 
+
+#. **Through-hole Parts:** Make sure all of your parts are through-hole and not surface mount.
+
+#. **Pad Dimensions:** All pads must have a drill size of at least 40 mils,  a diameter of at least 65 mils, and a shape of long.
+
+#. **DRC:** You must load the correct (OtherMill_32) DRC for your board. Make sure to run a rule check after loading the DRC. 
+
+#. **Routing:** Route your board on the bottom side only. 
+
 6. Use 90 degree bent headers for all your wire-to-board connections.
    The traces on these boards are weak and using bent headers will
    substantially reduces failures due to broken traces.
 7. Make sure to include a test point for ground on your board. This will
    make it much easier to debug with a meter.
-8. Run an ERC to make sure that all your nets are connected correctly.
-   Fix any problems on your schematic until there are no ERC errors. If
-   you have an ERC error, your board will not cut correctly.
+8. 
 9. Make sure that all pads for all components are set to the following
    specifications. You will likely need to change the pad size for most,
    if not every, component you find in the existing libraries.
 
-.. raw:: html
 
-   <!-- end list -->
-
-1. Drill = 40mil
-2. Diameter = 65mil
-3. Shape = long
-
-.. raw:: html
-
-   <!-- end list -->
 
 10. When making a new part in your library, make sure to include lines
     showing the dimension of your part.
