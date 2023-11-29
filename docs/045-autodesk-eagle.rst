@@ -12,7 +12,7 @@ This first link is to a YouTube video created by Autodesk and describing to crea
 
 This second link is to a video describing how to create your own parts in your own custom library. 
 
-`Making Libraries <https://www.youtube.com/watch?v=xNIEXCimRSg&t=1s&ab_channel=AutodeskFusion>`__
+`Making Libraries <https://www.youtube.com/watch?v=xNIEXCimRSg&list=PLmA_xUT-8UlKE-U-eEqrkNEI7rd1fUnLY&ab_channel=AutodeskFusion>`__
 
 
 
