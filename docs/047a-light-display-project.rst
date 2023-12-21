@@ -41,7 +41,7 @@ Design
 
   #. LEDS: You may use a maximum of 8 LEDs. You may use either an LED strip or individual LEDs. The LEDs or strip must be mounted securely inside of the box.
 
-  #. Circuit: The circuit must be made on an etched circuit board. The base must include mounting hardware or brackets for the circuit board. 
+  #. Circuit: The circuit must be made on an etched circuit board. The base must include mounting hardware or brackets for the circuit board. The circuit must include two headers for power and ground and two headers for RX and TX, so that it can be reprogrammed in circuit.
 
   #. Software: The color of the lights must change based on an internal timing routine or external factors such as temperature or proximity.
 
