@@ -52,7 +52,7 @@ Project Criteria
 
 #. Do not use any of the mounting brackets in the shop. Instead, make and print your own brackets.
 
-@. Do not use any parts designed for breadboards. Instead use only parts designed for PCBs. This includes jump wires.
+#. Do not use any parts designed for breadboards. Instead use only parts designed for PCBs. This includes jump wires.
 
 #. Your design should have only one sensor. Select from the following list. 
 
