@@ -48,6 +48,16 @@ Project Criteria
 
 #. Software: The color of the lights must change based on an internal timing routine or external factors such as temperature or proximity.
 
+#. Minimize the use of bolts. Panels should be glued together where they don't need to be removed. 
+
+#. Do not use any of the mounting brackets in the shop. Instead, make and print your own brackets.
+
+@. Do not use any parts designed for breadboards. Instead use only parts designed for PCBs. This includes jump wires.
+
+#. Your design should have only one sensor. Select from the following list. 
+
+#. All PCB designs should be able to be reprogrammed.
+
 
 
 
