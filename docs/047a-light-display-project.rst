@@ -58,6 +58,10 @@ Project Criteria
 
 #. All PCB designs should be able to be reprogrammed.
 
+#. Determine size of standoff to use with PCB.
+
+#. Learn to use guide to find hole sizes. 
+
 
 
 
