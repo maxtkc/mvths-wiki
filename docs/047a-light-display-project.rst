@@ -38,7 +38,7 @@ Project Criteria
 
 #. Panel: The plastic panel will be made from clear 1/8” acrylic. The overall size of material is limited to 64 square inches. The panel must fit neatly and firmly in the box (i.e. no wobble).
   
-#. Base: The base may be constructed from wood, metal or plastic. The overall external surface area of the base is limited to 100 square inches. Any edge joints should be smooth and seamless. The box must include access to the internal electronics.
+#. Base: The base may be constructed from wood, metal or plastic. The overall external surface area is limited to 100 square inches. Any edge joints should be smooth and seamless. The box must include access to the internal electronics.
   
 #. External: All inputs such as buttons or sensors should be neatly mounted to face of the base. All external parts on the box should be clearly labeled with rasterized graphics. The base should include an externally accessible USB mount for power.
 
