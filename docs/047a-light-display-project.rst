@@ -60,6 +60,8 @@ Project Criteria
 
 #. Determine size of standoff to use with PCB.
 
+#. Use crimp connectors for disconnecting wires. Use solid core 22g for potentiometers. Use stranded for crimping.
+
 #. Learn to use guide to find hole sizes. 
 #. keep holes not directly next to edge
 #. place all components centered on grid if possible.
