@@ -65,6 +65,7 @@ Project Criteria
 #. Learn to use guide to find hole sizes. 
 #. keep holes not directly next to edge
 #. place all components centered on grid if possible.
+# make sure to use one-sided board not copper on both sides
 
 
 
