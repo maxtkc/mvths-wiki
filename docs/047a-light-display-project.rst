@@ -75,6 +75,7 @@ Project Criteria
    #. Pin one not connected to ground
    #. Resonator pins conneted 
    #. Switch shorted.
+   #. Middle resonator pin must be attached to ground
 
 
 
