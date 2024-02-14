@@ -1,3 +1,4 @@
+
 LIGHT DISPLAY PROJECT
 ====================
 
@@ -68,7 +69,12 @@ Project Criteria
 # make sure to use one-sided board not copper on both sides
 
 #. Troubleshoot board.
+
    #. Five volts between pins 6 and 7
+   #. Five volts on pin one
+   #. Pin one not connected to ground
+   #. Resonator pins conneted 
+   #. Switch shorted.
 
 
 
