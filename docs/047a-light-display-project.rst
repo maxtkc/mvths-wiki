@@ -67,6 +67,7 @@ Project Criteria
 #. keep holes not directly next to edge
 #. place all components centered on grid if possible.
 # make sure to use one-sided board not copper on both sides
+#. Hot glue secure all connector pins on your circuit board.
 
 #. Troubleshoot board.
 
