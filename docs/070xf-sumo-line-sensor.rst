@@ -21,16 +21,29 @@ Specifications
 -------
 The sensor has three pins for power (labeled VCC), ground (labeled GND) and signal (labeled OUT). The sensor operates from 2.9 V to 5.5 V. The output signal is analog and should be connected to an analog port. While the sensor can detect objects from 30mm, it works optimally at 5mm.
 
-Exercises
+Set up
 --------
-#. If the sensor is soldered, you may solder three wires to the sensor or a right angle header. 
-#. Connect the sensor to power and ground on your breadboard.
-#. Connect the signal lead (OUT) to a multimeter.
-#. Record the highest and lowest values in your notebook. Include correct units.
+#. If the three control pins (VCC, GND, OUT) are not soldered, you can solder either three wires to the sensor or a right angle header. 
+#. Connect the sensor to your breadboard, connecting VCC to the 5V bus and GND to ground.
 
-   - Lowest value: ________
+Testing
+--------
+Using a multimeter, test that your sensor is working correctly.
+
+#. Connect the signal lead (OUT) of the sensor to the input lead of your multimeter and the ground lead to ground. I recommend using the alligator leads for this.
+#. Set the meter to measure voltage. 
+#. Power your circuit with either a USB cable or your battery supply.
+#. Place a light or white object infront of your sensor and note the voltage.
+#. Place a dark or black object infront of your sensor and note the voltage. 
+#. Is the voltage higher or lower with a white object infront of the sensor?
+#. Does it matter how far away the objects are from the sensor?
+#. Repeat your tests at approximately 5mm which is the ideal sensing range for the sensor. 
+
+#. Record the highest and lowest voltage values in your notebook. Include correct units.
+
+   - Lowest voltage value: ________
    
-   - Highest value: ________
+   - Highest voltage value: ________
    
 #. One of the problems with testing the reflectance sensor is that it responds not only to the IR light from the emitter, but to stray IR light all over the room. Sunlight and incandescent lights emit IR light along with other wavelengths of the light spectrum. This stray light can "fool" your sensor. Record the value of the sesnor facing a window and facing a reflective surface (i.e. reflecting light from the room).
 
