@@ -27,9 +27,11 @@ Challenge
 
 Construct a connector to safely power your logic and motors from a Lipo battery.  
 
-#. Collect a pre-wired JST connector that mates with your battery.
+#. Find a 7.4V 1000 mah batter from the Balanced Charged side of the blue battery bin.
 
-#. Crimp a two-pin non-polarized connect the red and white leads at the opposite end of the JST connector. 
+#. Collect a pre-wired JST connector that mates with your battery from the JST battery lead draw in the grey cabinet.
+
+#. Crimp a two-pin polarized connector the red and black leads at the opposite end of the JST connector. 
 
 #. Add a right angle connector to your breadboard in line with Vin and ground on your Metro Mini or equivalent device.
 
