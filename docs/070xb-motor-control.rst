@@ -1,4 +1,4 @@
-Sumo Motor Control
+STEP ONE: Motor Control
 =============================
 
 Overview
