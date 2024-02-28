@@ -25,6 +25,8 @@ The following are important steps to take to ensure that your batteries and your
 Battery Connector
 ~~~~~~~~~
 
+#. Download a motor control program to your Metro Mini.
+
 #. Unplug your circuit from the USB hub.
 
 #. Remove the power supply leads from your circuit. Leave the long jump wire connecting VIN from the MD17A to the Vin of the Metro Mini.
@@ -35,9 +37,13 @@ Battery Connector
 
    #. Collect a pre-wired JST connector that mates with your battery from the JST battery lead draw in the grey cabinet.
 
-   #. Crimp a two-pin polarized connector the red and black leads at the opposite end of the JST connector. 
+   #. Crimp a two-pin polarized connector the red and black leads at the opposite end of the JST connector. Making sure the red lead is on the left and the black lead is on the right when looking from above.
 
-#. Add a right angle connector to your breadboard in line with Vin and ground on your Metro Mini or equivalent device.
+#. Add a right angle connector to your breadboard in line with VIN and GND of the MD17A.
 
-#. Connect your two-pin header. Make sure it is correctly polarized and hot glue it into place.
+#. Ask for a teacher check.
+
+#. Connect the battery to your breadboard *making sure* that the read lead is connected to the VIN of the MD17A and the black lead is connected to the GND.
+
+
 
