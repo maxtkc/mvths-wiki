@@ -80,21 +80,6 @@ The following table describes the control logic for the MD17A. By applying HIGH 
      - HIGH
      - Break
 
-Exercise:
-~~~~~~~~~
 
-#. Set up your breadboard with the MD17A following the table for making connections for one motor. 
-    * Connect GND to the ground on your breadboard. 
-    * Connect VIN to the red lead on your bench supply. (NOT TO THE RED BUS ON YOUR BREADBOARD)
-    * Connect AOUT1 to one motor lead. (It does not matter which one)
-    * Connect AOUT2 to the other motor lead.
-    * Connect INA1 to one side of a long jump wire. 
-    * Connect INA2 to one side of another long jump wire. 
-    * Connect the black lead on your bench supply to the ground bus on your breadboard.
-    * Make sure you have a Metro Mini or Arduino supplying 5V and ground to your breadboard.
-    
-#. Using the long jump wires connected to INA1 and INA2 and the table above as a guide, control the direction of your motor just using the 5V and ground bus on your breadboard. 
-
-#. Using a Metro Mini or Arduino, use software to control your motor. Note that HIGH in software is equivalent to the 5V on your breadboard. Write a program to drive your motor clockwise for 3 seconds and the counterclockwise for 3 seconds.
  
 
