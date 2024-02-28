@@ -113,7 +113,7 @@ The following is a list of guides for learning about electronics and software in
    070xb-motor-control
    070xl-sumo-steps
    070xm-sumo-software-control
-   070xc-motor-defines
+   070xc-sumo-two-motors
    070xd-motor-control-functions
    070xe-sumo-battery
    070xf-sumo-line-sensor
