@@ -115,8 +115,8 @@ The following is a list of guides for learning about electronics and software in
    070xm-sumo-software-control
    070xc-sumo-two-motors
    070xn-sumo-single-supply
-   070xd-motor-control-functions
    070xe-sumo-battery
+   070xd-motor-control-functions
    070xf-sumo-line-sensor
    070xg-sumo-line-detector
    070xh-sumo-line-software
