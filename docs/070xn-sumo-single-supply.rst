@@ -10,6 +10,10 @@ Set Up
 ~~~~~~~~~
 #. Download a program that controls your motors in some fashion.
 #. Unplug your Metro Mini from the USB port.
+#. Confirm that your power supply is still set to 8 volts.
 #. Turn off your power supply, but leave the connections from the power supply to the board intact. 
-#. 
+#. Use a long jump wire to connect the VIN on your MD17A to the Vin on your Metro Mini.
+#. Ask a teacher to check your circuit.
+#. Turn on the power supply. The program you downloaded should now be running.
+
 
