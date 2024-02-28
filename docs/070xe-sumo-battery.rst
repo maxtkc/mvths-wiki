@@ -1,10 +1,10 @@
-Sumo Battery
+STEP SIX: Battery Power
 ===============
 
 Overview
 --------
 
-Batteries offer a great way to power mobile robotic devices. Many are easily rechargeable and can provide large amounts of current for motors and other high current devices. There are many types of batteries defined by their chemistry. The common non-rechargable AAA or AA batteries are alkaline. Many AAA or AA rechargeable batteries are either nickel metal hydroxide (Ni-Mh) or nickel–cadmium (Ni-Cd). The batteries found in cell phones, laptops and electric cars are typically are either lithium-ion (Li-ion) or lithium-polymer (Li-Po). 
+In this lesson, you will learn to use a battery to control your motor control circuit. Batteries offer a great way to power mobile robotic devices. Many are easily rechargeable and can provide large amounts of current for motors and other high current devices. There are many types of batteries defined by their chemistry. The common non-rechargable AAA or AA batteries are alkaline. Many AAA or AA rechargeable batteries are either nickel metal hydroxide (Ni-Mh) or nickel–cadmium (Ni-Cd). The batteries found in cell phones, laptops and electric cars are typically are either lithium-ion (Li-ion) or lithium-polymer (Li-Po). 
 
 For the most part, we use Lithium Polymer (LiPo) batteries in our projects. The advantage of these sorts of batteries are that they can provide a large amount of power for their size and weight. They can be recharged quickly and can last much longer than other types of storage batteries. **DANGER:** The disadvantage is that if they are not managed carefully they can catch fire or even explode. *Explosions are bad.*
 
@@ -22,16 +22,20 @@ The following are important steps to take to ensure that your batteries and your
 
 - **Storage Charge:** Before returning a battery to storage it should be correctly discharged to a storage state selecting the Storage Charge state on the battery charger.
 
-Challenge
+Battery Connector
 ~~~~~~~~~
 
-Construct a connector to safely power your logic and motors from a Lipo battery.  
+#. Unplug your circuit from the USB hub.
 
-#. Find a 7.4V 1000 mah batter from the Balanced Charged side of the blue battery bin.
+#. Remove the power supply leads from your circuit. Leave the long jump wire connecting VIN from the MD17A to the Vin of the Metro Mini.
 
-#. Collect a pre-wired JST connector that mates with your battery from the JST battery lead draw in the grey cabinet.
+#. Construct a connector to safely power your logic and motors from a Lipo battery.  
 
-#. Crimp a two-pin polarized connector the red and black leads at the opposite end of the JST connector. 
+   #. Find a 7.4V 1000 mah batter from the Balanced Charged side of the blue battery bin.
+
+   #. Collect a pre-wired JST connector that mates with your battery from the JST battery lead draw in the grey cabinet.
+
+   #. Crimp a two-pin polarized connector the red and black leads at the opposite end of the JST connector. 
 
 #. Add a right angle connector to your breadboard in line with Vin and ground on your Metro Mini or equivalent device.
 
