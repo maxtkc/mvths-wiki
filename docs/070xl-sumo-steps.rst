@@ -25,6 +25,12 @@ You will be using your bench power supply to power your motor. Motors draw far t
 
    #. Connect the black lead to the black or ground socket on your bench supply.
    #. Using a long jumpwire connect the alligator clip of the black lead to the ground bus of your breadboard. Normally when using two power supplies, you need to connect the grounds of both power supplies together.
+   #. Now connect the read lead from the red socket on your bench supply to the VIN pin of the MD17A.
+
+#. Have your teacher check your circuit. 
+
+Driving the Motor
+----------------
 
 
 
