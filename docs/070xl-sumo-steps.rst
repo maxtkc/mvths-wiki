@@ -31,6 +31,11 @@ You will be using your bench power supply to power your motor. Motors draw far t
 
 Driving the Motor
 ----------------
+You will now be able to the motor on and off and control its direction.
+
+#. Power up your Metro Mini with the USB cable.
+#. Turn on the power supply. At this point your motor should be turning either clockwise or counterclockwise.
+#. Following the Control Logic table in the previous lesson, use wires connected to AIN2 and AIN1 to turn the motor on and off and control its direction.
 
 
 
