@@ -183,7 +183,7 @@ The following is a list of guides for learning about electronics and software in
    100-complex-logic-circuits
    101-measuring-current
    102-microcontrollers
- 
+  
 
 Indices and tables
 ==================
