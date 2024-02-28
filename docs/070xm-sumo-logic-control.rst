@@ -12,6 +12,6 @@ Instead of conneting pins AIN2 and AIN1 directly to power or ground, connect eac
 The Code
 -------
 #. Write a program to drive one motor clockwise for three seconds and then stop. Don't forget to set the pinMode for each pin. Are these going to be inputs or outputs? You should know this.
-@. Write a program to dive one motor clockwise for three seconds and then counter clockwise for three seconds, repeating.
+#. Write a program to dive one motor clockwise for three seconds and then counter clockwise for three seconds, repeating.
 #. Modify the above code so that the motor stops for two seconds between each time it changes direction.
 
