@@ -20,7 +20,7 @@ The Power Supply
 You will be using your bench power supply to power your motor. Motors draw far too much current to be driving by the 5V logic of the USB and trying to draw this much power from the USB or your microcontroller would likely dammage both. In addtion, the motors run on higher voltages than are safe for your microcontroller. For these reasons, you need to be very careful about adding the bench power to your circuit. 
 
 #. Turn on the power supply and set the voltage to 8 volts. 
-# Turn off the power supply.
+#. Turn off the power supply.
 #. Using leads with alligator clips connect the bench supply to your circuit.
 
    #. Connect the black lead to the black or ground socket on your bench supply.
