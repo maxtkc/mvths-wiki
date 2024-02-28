@@ -43,7 +43,5 @@ Battery Connector
 
 #. Ask for a teacher check.
 
-#. Connect the battery to your breadboard *making sure* that the read lead is connected to the VIN of the MD17A and the black lead is connected to the GND.
-
-
+#. Connect the battery to your breadboard *making sure* that the read lead is connected to the VIN of the MD17A and the black lead is connected to the GND. The program you downloaded should be running.
 
