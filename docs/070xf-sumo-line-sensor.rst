@@ -38,27 +38,3 @@ Using a multimeter, test that your sensor is working correctly.
 #. Is the voltage higher or lower with a white object infront of the sensor?
 #. Does it matter how far away the objects are from the sensor?
 #. Repeat your tests at approximately 5mm which is the ideal sensing range for the sensor. 
-
-
-
-
-#. Record the highest and lowest voltage values in your notebook. Include correct units.
-
-   - Lowest voltage value: ________
-   
-   - Highest voltage value: ________
-   
-#. One of the problems with testing the reflectance sensor is that it responds not only to the IR light from the emitter, but to stray IR light all over the room. Sunlight and incandescent lights emit IR light along with other wavelengths of the light spectrum. This stray light can "fool" your sensor. Record the value of the sesnor facing a window and facing a reflective surface (i.e. reflecting light from the room).
-
-   - Facing window: __________
-   
-   - Facing reflective surface: ________
-
-#. As noted above, the value on the signal lead (OUT) is proportional to how much light is reflected from the emitter to the receiver. Using various reflective and non-reflective material, determine if the value (voltage) increases or decreases based on reflectivity. Essentially, the white line is meant to reflect IR light back into the sensor and the black ring is meant to not reflect IR light. You need to determine if you should see a higher voltage when the sensor is over while or when the sensor is over black. Record your findings in your notebook.
-
-   - White surface: _________________
-   
-   - Black surface: _________________
-   
-
-
