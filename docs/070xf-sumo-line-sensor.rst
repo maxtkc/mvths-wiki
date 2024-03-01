@@ -1,4 +1,4 @@
-Sumo Line Sensor
+STEP SEVEN: Line Sensor Setup
 ======================
 
 Overview
