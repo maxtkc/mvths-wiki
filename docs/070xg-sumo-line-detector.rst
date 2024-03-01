@@ -1,31 +1,28 @@
-Sumo Line Detector
+STEP EIGHT: Calibrate Line Sensor
 ======================
 
 Overview
 --------
 
-In this lesson, you will learn how to use a QTR-MD-01A Reflectance Sensor with your robot. As you noted in the previous lesson, stray light can easily affect the signal value of your sensor. In order to get an accurate reading, you will need to mount this sensor at its optimal distance from the surface you are testing. 
+In this lesson, you will learn how to calibrate your QTR-MD-01A Reflectance Sensor so that it will work reliably with your sumo robot.
 
-Exercises
+Set Up
 ---------
+Mock up a test stand for your sensor. 
 
-#. Using materials such as cardboard or chipboard, create a mount for your sensor that keeps it about 5mm from the surface of your table. You may also want to shroud it from stray light. 
+#. If you have done this already, set up your sensor with a multimeter. You can refer to the previous lesson if you need help.
 
-#. Create a test card which includes a black and white surface. This can be done with an index card and tape, but note that not all white surfaces reflect eqaully and not all black surfaces reflect equally. Check out the surface of the sumo table as a reference.
+#. Using materials such as cardboard or chipboard, create a mount for your sensor that sets it about 5mm from the surface of your table. You may also want to shroud it from stray light. 
 
-#. Using your new set up, record voltage values in your notebook for the black and white surfaces.
+#. Create a test card which includes a black and white surface that best mimics the surface of the sumo ring. This can be done with an index card and tape, but note that not all white surfaces reflect eqaully and not all black surfaces reflect equally. Check out the surface of the sumo table as a reference.
 
-   - White surface: ______
-   
-   - Black surface: ______
+#. Place the white surface under the sensor and record voltage range in your notebook. It is likely you will not get just one voltage but a small range. Repeat this process for the black surface.
    
 #. Now connect the output from your sensor to an analog port on your microcontroller. 
 
 #. Write a program to display these values on your serial monitor.
 
-#. Repeat the test above and record the values in your notebook from your serial monitor.
+#. Again, record the range of analog values in your notebook for both the white and black surfaces.
 
-   - White surface: ______
-   
-   - Black surface: ______
+#. Confirm you results with a teacher. 
 
