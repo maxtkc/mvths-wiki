@@ -33,11 +33,14 @@ Using a multimeter, test that your sensor is working correctly.
 #. Connect the signal lead (OUT) of the sensor to the input lead of your multimeter and the ground lead to ground. I recommend using the alligator leads for this.
 #. Set the meter to measure voltage. 
 #. Power your circuit with either a USB cable or your battery supply.
-#. Place a light or white object infront of your sensor and note the voltage.
-#. Place a dark or black object infront of your sensor and note the voltage. 
+#. Place a light or white object infront of your sensor and record the voltage.
+#. Place a dark or black object infront of your sensor and record the voltage. 
 #. Is the voltage higher or lower with a white object infront of the sensor?
 #. Does it matter how far away the objects are from the sensor?
 #. Repeat your tests at approximately 5mm which is the ideal sensing range for the sensor. 
+
+
+
 
 #. Record the highest and lowest voltage values in your notebook. Include correct units.
 
