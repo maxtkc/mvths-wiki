@@ -68,6 +68,9 @@ Project Criteria
 #. place all components centered on grid if possible.
 # make sure to use one-sided board not copper on both sides
 #. Hot glue secure all connector pins on your circuit board.
+#. crimp to stranded not solid core wire.
+#. use right angle pins.
+#. hot glue all pins.
 
 #. Troubleshoot board.
 
