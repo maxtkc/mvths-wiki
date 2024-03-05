@@ -20,7 +20,7 @@ The following are a list of requirements for the design of your robot.
 - **Circuit:** The final robot may not use a breadboard. All electronics may be soldered directly or part of a custom designed PCB.
 - **Motor controller:** An MD17A motor controller module will be provided to drive the robots motors. Alternatives are allowed.
 - **Motors:** The robot will use standard DC plastic geared motors. You will have a choice between two gear ratios either 120:1 or 200:1. Alternative: You may use motors after consulting with a teacher.
-- **Wheels:** No wheels will be provided. These can be custom made using any material.
+- **Wheels:** No wheels will be provided. These can be custom made using any material. There are CAD guides for wheels.
 - **Tires:** O-rings in 2 inch or 3 inch diameters will be provided for use as tires. Alternatively, you may custom cast your own tires.
 - **Battery:** The robot will be use a 7.2 Volt LiPo battery which has a capacity of 1000mAh. The robot must include a secure holder for the battery.
 - **Line sensors:** Two QTR-1A photo-reflective sensors will be provided for tracking lines. Additional sensors and alternative sensors may be used. 
