@@ -1,10 +1,10 @@
-STEP ONE: Motor Control
+STEP ONE: Motor Control Overview
 =============================
 
 Overview
 --------
 
-The MD17A is the default motor controller for the sumo robotics competition. This is a small dual motor control module made by Pololu and based on the DRV8833 motor driver IC. The following are features of this motor module. You can find more information about the module on the Pololu site `here <https://www.pololu.com/product/2130>`__. If you need to solder pins into your MD17A, please contact your teacher before soldering.
+This page provices an overview of motor control for the sumo robot. The MD17A is the default motor controller for the sumo robotics competition. This is a small dual motor control module made by Pololu and based on the DRV8833 motor driver IC. The following are features of this motor module. You can find more information about the module on the Pololu site `here <https://www.pololu.com/product/2130>`__. If you need to solder pins into your MD17A, please contact your teacher before soldering.
 
 - Dual-H-bridge motor driver: can drive two DC motors or one bipolar stepper motor
 - Operating voltage: 2.7‌‌ V to 10.8 V
@@ -50,7 +50,7 @@ The following table lists the functions of each pin as shown in the image above.
 
 Hook Up Diagram
 ----------------
-The following is a hook up diagram for using the MD17A. For this lesson, you will be use two seperate voltage supplies. One at 5V for logic provided by the USB and the other at 8V for the motors provided by your bench supply. Because the 8V could damage your logic circuit, it is imporant that this voltage is **only** applied to the VIN pin of the MD17A and as shown in the diagram.
+The following is a hook up diagram for using the MD17A. In the next lesson, you will be use two seperate voltage supplies. One at 5V for logic provided by the USB and the other at 8V for the motors provided by your bench supply. Because the 8V could damage your logic circuit, it is imporant that this voltage is **only** applied to the VIN pin of the MD17A and as shown in the diagram.
 
 .. image:: images/MD17a.png
 
