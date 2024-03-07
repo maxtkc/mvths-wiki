@@ -8,7 +8,7 @@ Ultimately, your robot is going to need to be battery powered, so that it is not
 
 Set Up
 ~~~~~~~~~
-#. Download a program that controls your motors in some fashion.
+#. Write a program that controls your motors in some fashion.
 #. Unplug your Metro Mini from the USB port.
 #. Confirm that your power supply is still set to 8 volts.
 #. Turn off your power supply, but leave the connections from the power supply to the board intact. 
