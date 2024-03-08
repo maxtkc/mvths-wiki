@@ -30,7 +30,7 @@ Testing
 --------
 Using a multimeter, test that your sensor is working correctly.
 
-#. Connect the signal lead (OUT) of the sensor to the input lead of your multimeter and the ground lead to ground. I recommend using the alligator leads for this.
+#. Connect the signal lead (OUT) of the sensor to the red lead of your multimeter and the black (ground) lead to ground. I recommend using the alligator leads for this.
 #. Set the meter to measure voltage. 
 #. Power your circuit with either a USB cable or your battery supply.
 #. Place a light or white object infront of your sensor and record the voltage.
