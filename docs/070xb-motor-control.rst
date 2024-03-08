@@ -50,7 +50,7 @@ The following table lists the functions of each pin as shown in the image above.
 
 Hook Up Diagram
 ----------------
-The following is a hook up diagram for using the MD17A. In the next lesson, you will be use two seperate voltage supplies. One at 5V for logic provided by the USB and the other at 8V for the motors provided by your bench supply. Because the 8V could damage your logic circuit, it is imporant that this voltage is **only** applied to the VIN pin of the MD17A and as shown in the diagram.
+The following is a hook up diagram for using the MD17A that you will need for the next lesson. Note that it uses two seperate voltage supplies. One at 5V for logic provided by the USB and the other at 8V for the motors provided by your bench supply. Because the 8V could damage your logic circuit, it is imporant that this voltage is **only** applied to the VIN pin of the MD17A and as shown in the diagram.
 
 .. image:: images/MD17a.png
 
