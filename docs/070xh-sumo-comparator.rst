@@ -1,4 +1,4 @@
-STEP TEN: Sumo Line Software
+STEP TWELVE: Sumo Comparator
 ======================
 
 Overview
