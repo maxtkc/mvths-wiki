@@ -14,14 +14,18 @@ The reflectance sensor you will be using to detect lines includes both an IR emi
 .. image:: images/proximitysensor.PNG
       :width: 400px
 
+Below is a schematic diagram of a reflectance sensor. Note that it is a fairly simple device consisting of a IR LED (emitter) and an IR phototransistor (receiver). 
+
+.. image:: images/linesensorschematic.PNG
+      :width: 400px
+
 Below is an image of the QTR-MD-01A sensor you will be using . Ulitmately, you will place two of these sensors on the bottom front of your robot facing down. 
 The schematic for the sensor is shown below as well. On the left side of the schematic is the IR emitter which sends out infrared light. On the right of the schematic is the phototransistor which senses infrared light. The voltage at the OUT pin varies depending on how much infrared light is reflected from the IR emitter. You can check out the `product page <https://www.pololu.com/product/2458>`__  for additional information. 
 
 .. image:: images/linesensor.PNG
       :width: 400px
 
-.. image:: images/linesensorschematic.PNG
-      :width: 400px
+
       
 Specifications
 -------
