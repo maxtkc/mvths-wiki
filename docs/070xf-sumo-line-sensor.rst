@@ -30,8 +30,8 @@ The sensor has three pins for power (labeled VCC), ground (labeled GND) and sign
 
 Set up
 --------
-#. If the three control pins (VCC, GND, OUT) are not soldered, you can solder either three wires to the sensor or a right angle header. 
-#. Connect the sensor to your breadboard, connecting VCC to the 5V bus and GND to ground.
+#. If the three control pins (VCC, GND, OUT) are not soldered, you can solder a three pin header. Make sure to use headers from (for PCB) box (shorter) not the (for breadboard) box.
+#. Connect the sensor to your breadboard, connecting VCC to the 5V bus and GND to ground. For initial testing, you can have your sensor facing up. Just note that it will detect IR light in the room as well as that reflected from the emitter.
 
 Testing
 --------
