@@ -13,9 +13,10 @@ Exercise
 
 #. Write a program to read the value from your analog port and print it in the serial monitor.
 
+#. Test the sensor with the white and black test card you made in the previous lesson.
+
+#. Next to the notes you made in your notebook in the previous lesson, record the analog value range for white and black. 
 
 
 
-
-*Exercise*: Using the data you collected in the previous lesson for serial monitor values over black and white surfaces, write a program that displays in the terminal window the word "white" when the sensor is over a white surface and "black" when the sensor is over a black surface.
 
