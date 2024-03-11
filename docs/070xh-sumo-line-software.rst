@@ -1,4 +1,4 @@
-STEP NINE: Sumo Line Software
+STEP TEN: Sumo Line Software
 ======================
 
 Overview
