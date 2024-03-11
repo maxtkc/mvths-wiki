@@ -10,7 +10,9 @@ Set Up
 ---------
 Mock up a test stand for your sensor. 
 
-#. If you have done this already, set up your sensor with a multimeter. You can refer to the previous lesson if you need help.
+#. Connect your sensor to your breadboard via three long jumpwires. 
+
+#. Set up your sensor with a multimeter. You can refer to the previous lesson if you need help.
 
 #. Using materials such as cardboard or chipboard, create a mount for your sensor that sets it about 5mm from the surface of your table. You may also want to shroud it from stray light. 
 
