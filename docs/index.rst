@@ -121,7 +121,7 @@ The following is a list of guides for learning about electronics and software in
    070xq-sumo-sensor-software
    070xo-sumo-sensor-read
    070xp-sumo-sensor-digital
-   070xh-sumo-line-software
+   070xh-sumo-comparator
    070xi-sumo-distance-ir
    070xj-sumo-distance-tf
    070xk-sumo-soft-switch
