@@ -4,12 +4,18 @@ STEP SEVEN: Line Sensor Setup
 Overview
 --------
 
-In this lesson, you will learn how to use a QTR-MD-01A Reflectance Sensor to distinguish between light and dark surfaces. Specifically, this sensor will be used to detect the white line on the outside of the sumo ring.
+In this lesson, you will learn how to use a QTR-MD-01A Reflectance Sensor to distinguish between light and dark surfaces. Specifically, this sensor will be used to detect the white line on the outside of the sumo ring. Below is an example of the sumo ring used in this contest.
 
 .. image:: images/sumoring.PNG
       :width: 400px
 
-The QTR-MD-01A sensor (shown below) includes a photo emitter and sensor pair as well as well as other necessary components. The schematic for the sensor is shown below as well. On the left side of the schematic is the IR emitter which sends out infrared light. On the right of the schematic is the phototransistor which senses infrared light. The voltage at the OUT pin varies depending on how much infrared light is reflected from the IR emitter. You can check out the `product page <https://www.pololu.com/product/2458>`__  for additional information. 
+The reflectance sensor you will be using to detect lines includes both an IR emitter and IR receiver. IR refers to light in the infrared spectrum, just above red and just outside of the visible spectrum. The diagram below shows an example of how reflectance sensors work. The detector on the left side of the diagram is triggered when it detects infrared light. There is lots of infrared light in the classroom, so it will dectect that as well. It is designed to be used very close to the surface of an object, so mostly it dectects only light from the LED emitter on the right. For the sensor to dectect infrared light from the emitter, it must reflet off a surface. In the case of white, a lot of infrared light is reflected. In the case of black not enough infrared light is reflected to trigger the sensor. 
+
+.. image:: images/proximitysensor.PNG
+      :width: 400px
+
+The QTR-MD-01A sensor (shown below) includes a photo emitter and sensor pair as well as well as other necessary components. Ulitmately, you will place two of these sensors on the bottom front of your robot facing down. 
+The schematic for the sensor is shown below as well. On the left side of the schematic is the IR emitter which sends out infrared light. On the right of the schematic is the phototransistor which senses infrared light. The voltage at the OUT pin varies depending on how much infrared light is reflected from the IR emitter. You can check out the `product page <https://www.pololu.com/product/2458>`__  for additional information. 
 
 .. image:: images/linesensor.PNG
       :width: 400px
