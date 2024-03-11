@@ -118,6 +118,7 @@ The following is a list of guides for learning about electronics and software in
    070xe-sumo-battery
    070xf-sumo-line-sensor
    070xg-sumo-line-detector
+   0x70xq-sumo-sensor-software
    070xo-sumo-sensor-read
    070xp-sumo-sensor-digital
    070xh-sumo-line-software
