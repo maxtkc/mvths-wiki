@@ -26,7 +26,7 @@ Below is an image of the QTR-MD-01A sensor you will be using. The black box with
 
 Specifications
 -------
-The sensor has three pins for power (labeled VCC), ground (labeled GND) and signal (labeled OUT). The sensor operates from 2.9 V to 5.5 V. The output signal is analog and should be connected to an analog port. While the sensor can detect objects from 30mm, it works optimally at 5mm.
+The sensor has three pins for power (labeled VCC), ground (labeled GND) and signal (labeled OUT). The sensor can operate from 2.9 V to 5.5 V. The output signal (from pin OUT) is analog and should be connected to an analog port. While the sensor can detect objects from 30mm, it works optimally at 5mm.
 
 Set up
 --------
