@@ -1,4 +1,4 @@
-STEP NINE: Sumo Analog Sensor
+STEP TEN: Sumo Analog Sensor
 ======================
 
 Overview
