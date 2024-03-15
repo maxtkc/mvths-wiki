@@ -18,6 +18,12 @@ Below is the pin diagram for an LM339. The LM339 used in the circuit above, is a
    :width: 400
    :alt:
 
+Below is a schematic showing the LM339 using two potentiomenters as inputs. 
+
+.. figure:: images/LM339withpot.PNG
+   :width: 400
+   :alt:
+
 
 Exercise
 --------
