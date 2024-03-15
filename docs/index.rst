@@ -140,6 +140,7 @@ The following is a list of guides for learning about electronics and software in
    063-challenge-review
    064-photo-reflector-pair
    065-comparator
+   065a-comparatortwo
    066-photo-reflector-module
    050-keypads
    052-keypad-and-code
