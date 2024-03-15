@@ -18,6 +18,12 @@ Below is the pin diagram for an LM339. The LM339 used in the circuit above, is a
    :width: 400
    :alt:
 
+
+Exercise
+--------
+
+#. Place an LM399 on your breadboard.
+#. Connect the 
 The following circuit shows a compartor being used in circuit. Note that the Vref is being controlled by a potentiometer. This way, it is easy to set the threshold voltage to any value between 0 V and 5 V. In this circuit the Vi is being controlled by a resistive light sensor as you have seen in previous lessons. The voltage on Vi changes depending on the amount of light that falls on the sensor. The Vo is tied to an LED, so you can easily and visually determine if the threshold voltage has been tripped. 
 
 .. figure:: images/LM339circuit.PNG
