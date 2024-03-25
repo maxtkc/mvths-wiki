@@ -1,4 +1,4 @@
-STEP THIRTEEN: Sumo Comparator
+STEP THIRTEEN: First Prototype
 ======================
 
 Overview
