@@ -1,10 +1,7 @@
-STEP TWELVE: Sumo Comparator
+STEP THIRTEEN: Sumo Comparator
 ======================
 
 Overview
 --------
 
-In this lesson, you will learn how to use a comparator to control your sensor. This is method provides the most accurate results and allows you to adjust easily for changes in ambient light or changes in the surface you are detecting. It also allows you to use interrupts in your code. The downside is that it requires a more complex circuit. 
-
-Exercise
---------
+At this point, you should be focusing on creating a prototype sumo bot that can navigate around the sumo ring without falling off. You now have all the sensors (two down sensors), motor control and battery control you need for this task. Try to write some code that cause your robot to back up and turn when it "sees" a white line. At the same time, you should be building a frame and wheels to carry your electronics. You do not need to create a circuit board at this point. Just create something that can hold the electronics.
