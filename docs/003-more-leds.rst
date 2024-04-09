@@ -24,4 +24,6 @@ Following the schematic below, create a circuit to light three LEDs in series on
 .. figure:: images/seriesled.PNG
    :alt: 
 
+How many LEDs can you light with 12V? Does it matter which color?
+
 TEACHER CHECK \_\_\_\_
