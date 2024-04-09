@@ -12,9 +12,7 @@ Note that it has four leads (or legs). This can make it **VERY** confusing to us
 
    Momentary Switch
 
-Below are two diagrams from the datasheet for the momentary switch. Note that every component you use in this shops has a datasheet. Many are only a single page but the longest are over 600 pages. In the image on the left in the small box labeled "CIRCUIT DIAGRAM" is a schematic representation of the button. That is, it does not represent a functional versus physical representation of the button. The image on the right shows a physical represenation of the button.
-
-In the schematic diagram the leads (or legs) are numbered 1 through 4. You can also see that leads 1 and 2 are connected. There is electrically no difference between these leads. Connecting a component to lead 1 is identical to connecting a component to lead 2. The same can be said for leads 3 and 4. 
+Below are two diagrams from the datasheet for the momentary switch. I both diagrams you can see that pins 1 and 2 are connected and pins 3 and 4 are connected. These pairs act as single pins. It does not matter if you wire up your circuit to pin 1 or 2 since they act as the same pin. The same is true for pins 3 and 4. 
 
 Now notice that the physical diagram on the right is also numbered 1 through 4. These numbers coorespond directly to the schematic. Leads 1 and 2 are internally connected. Leads 3 and 4 are internally connected. 
 
