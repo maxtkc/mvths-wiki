@@ -19,6 +19,7 @@ The following is a list of guides for learning about electronics and software in
    003-more-leds
    004b-long-jumper
    004-simple-switch
+   004c-continuity
    005-the-power-bus
    005a-shortjumps
    005b-breadboard-convention
