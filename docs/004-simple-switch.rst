@@ -18,7 +18,11 @@ Below are two diagrams from the datasheet for the momentary switch. I both diagr
 
 Exercise:
 ~~~~~~~~~
-#. Place your button across the middle of your breadboard. As in over the gap in the middle of your breadbaord so that two leads (legs) are on one side and two leads are on the other. 
+#. Place your button across the middle of your breadboard, so that it straddles the gap in the middle of your breadbaord with two leads (legs) are on one side and two leads are on the other. 
+
+#. Using a mulitmeter, test the button's continuity. 
+
+
 
 #. Using your breadboard, complete the following circuit which uses a switch to turn on and off an LED. When placing your button on the breadboard make sure not to short the two sides, (1 and 2) and (3 and 4) by placing them in a connected row or column. NOTE: Since it is difficult to connect an alligator clip directly to the leads on the button, you should consider using a long jump wire as described in the previous unit.
 
