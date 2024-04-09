@@ -1,12 +1,13 @@
 Button Circuit
-=============
+===============
 
 Overview
 --------
 
 In this lesson, you will use a momentary switch to turn on and off an LED. Like all switches, a momentary switch is able to complete or disconnect a circuit with the press of a button. 
 
-
+Exercise:
+~~~~~~~~~
 
 #. Using your breadboard, complete the following circuit which uses a switch to turn on and off an LED. When placing your button on the breadboard make sure not to short the two sides, (1 and 2) and (3 and 4) by placing them in a connected row or column. NOTE: Since it is difficult to connect an alligator clip directly to the leads on the button, you should consider using a long jump wire as described in the previous unit.
 
