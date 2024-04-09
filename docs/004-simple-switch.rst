@@ -6,7 +6,7 @@ Overview
 
 In this lesson, you will use a momentary switch to turn on and off an LED. Like all switches, a momentary switch is able to complete or disconnect a circuit with the press of a button. A momentary switch is named for the fact that it is only connected (completing the circuit) when the button is pressed or momentarily. When the button is released the circuit is disconnected. Below is a picture of a momentary switch.
 
-Note that it has four leads (or legs). This can make it confusing to use since you only need two leads (or legs) to open and close a circuit, but which ones. This is explained below.
+Note that it has four leads (or legs). This can make it **VERY** confusing to use since you only need two leads (or legs) to open and close a circuit, but which ones. Learning this now is important because it is easy to make mistakes latter on when you use these in your projects.
 
 .. figure:: images/image89.png
 
