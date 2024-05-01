@@ -22,6 +22,6 @@ Exercise:
 ~~~~~~~~~
 #. Place your button across the middle of your breadboard, so that it straddles the gap in the middle of your breadbaord with two leads (legs) are on one side and two leads are on the other. 
 
-#. Follow the next lesson to test the button's continuity using a mulitmeter,
+#. Follow the next lesson to test the button's continuity using a mulitmeter.
 
 
