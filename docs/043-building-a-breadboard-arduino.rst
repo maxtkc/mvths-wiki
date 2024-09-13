@@ -46,7 +46,7 @@ You will now build a working version of the Metromini or Arduino Uno using indiv
 Breadboard Schematic
 --------------------
 
-The following is the basic microcontroller circuit. Carefully construct this circuit on your breadboard. Make sure to use short wires for your all your connections. Neatness counts! **Important**: The numbers on the IC1 correspond to order of the pins on the actual IC. All ICs start their pin counts at 1 under a notch or divit. The counting always continues in a counterclockwise direction around the IC. An example is below.
+The following is the basic microcontroller circuit. Carefully construct this circuit on your breadboard. Make sure to use short wires for your all your connections. Neatness counts! **Important**: The numbers on the IC1 correspond to order of the pins on the actual IC. All ICs start their pin counts at 1 under a notch or divit. The counting always continues in a counterclockwise direction around the IC. An example is below (Note: the example IC in the picture is not an ATMega328).
 
 .. figure:: images/countingpins.png
 
