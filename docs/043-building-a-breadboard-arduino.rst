@@ -1,4 +1,4 @@
-Building A Breadboard Arduino
+STEP ONE: Building A Breadboard Arduino
 =============================
 
 Overview
