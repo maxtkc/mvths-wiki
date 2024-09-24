@@ -1,4 +1,4 @@
-Programming A Breadboard Arduino
+STEP TWO: Programming A Breadboard Arduino
 =============================
 
 Overview
