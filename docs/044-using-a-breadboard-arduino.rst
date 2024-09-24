@@ -1,4 +1,4 @@
-Using A Breadboard Arduino
+STEP THREE: Using A Breadboard Arduino
 ==========================
 
 Overview
