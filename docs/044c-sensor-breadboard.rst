@@ -10,8 +10,7 @@ Exercises
 ~~~~~~~~
 
 #. Add a potentiometer to your breadboard and write a program to change the brightness of all eight LEDs based on the value of the potentiometer.
-
 #. Add a light sensor to your board and write a program to turn on the LEDs when you place your hand over the sensor.
-
 #. Add a temperature sensor to your board and write a program to turn on the LEDs when it reaches a specific temperature.
+#. Write a demo program that you might consider using for your light box.
 
