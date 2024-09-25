@@ -1,11 +1,9 @@
-STEP THREE: Using A Breadboard Arduino
+STEP FOUR: Adding Neopixel to Breadboard Arduino
 ==========================
 
 Overview
 --------
 
-There are a few differences between using a breadboard-based Arduino versus a Metromini or Arduino Uno. One is that the ATMega328 does not have the pin names conveniently labeled on the IC. The second is that it cannot be directly powered without by a USB cable. Both issues are addressed below.
+In this lesson you will add a neopixel stick to your breadboard Arduino. Your final lightbox will not use a neopixel stick but will use a section of an LED light strip like the kind people put up in their rooms. These LED light strips use the exact same LEDs, specifically neopixels, that are used in the neopixel strip. Soldering the connections to LED light strips can be difficult so we will start with using the neopixel strips for testing.
 
-**Pin Names**: The Metromini and Arduino Uno both have labels to indicate which pins are assigned to digital 0  through digital 13 and analog 0 through analog 5. In order to use these pins correctly with the ATMega328 microcontroller on a breadboard, you will need to learn which of the “Arduino specific” pins are assigned to the actual pins on the microcontroller. 
 
-.. figure:: images/ATmega328-Pinout.png
