@@ -103,6 +103,7 @@ The following is a list of guides for learning about electronics and software in
    043-building-a-breadboard-arduino
    043a-Programming-Breadboard-Arduino
    044-using-a-breadboard-arduino
+   044a-LED-breadboard
    045-autodesk-eagle
    046-rules-for-schematics
    046a-rules-for-boards
