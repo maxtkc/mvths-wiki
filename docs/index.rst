@@ -106,6 +106,7 @@ The following is a list of guides for learning about electronics and software in
    044a-LED-breadboard
    044b-button-breadboard
    044c-sensor-breadboard
+   044d-usb-power
    045-autodesk-eagle
    046-rules-for-schematics
    046a-rules-for-boards
