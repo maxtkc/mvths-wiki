@@ -11,6 +11,7 @@ Exercises
 
 #. Add an button to your breadboard.
 
-
 #. Write a program to make all eight LEDs turn on when you press the button. 
+#. Write a program to toggle the lights, so that the go on after one press and then go off after the second press.
+#. Write a program to make all eight LEDs change color while the button is pressed.
 
