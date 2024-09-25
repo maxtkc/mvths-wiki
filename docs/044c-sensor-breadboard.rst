@@ -1,4 +1,4 @@
-STEP SIX: Adding button to Breadboard Arduino
+STEP SIX: Adding sensors to Breadboard Arduino
 ==========================
 
 Overview
