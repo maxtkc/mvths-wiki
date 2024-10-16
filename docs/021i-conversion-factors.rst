@@ -36,7 +36,7 @@ Exercise:
         - 0 to 10
         - 
 
-#. Find the converstion factors for the ranges listed below. Round to the nearest hundreth. Note that in the following table, the ranges do not begin with zero as they do in the table above. Finding the conversion factor simply means taking the difference between start and end points in each range, and then subtracting offset i.e. starting value. For example, using a source range of 10 to 50 and target to a range of 0 to 90, you would use 40 for the source range and 90 for the target range. Therefore the scale factor equals 90 divided by 40 or 2.25 - 10. 
+#. Find the converstion factors for the ranges listed below. Round to the nearest hundreth. Note that in the following table, the ranges do not begin with zero as they do in the table above. Finding the conversion factor simply means taking the difference between start and end points in each range, and then subtracting offset i.e. starting value. For example, using a source range of 10 to 50 and target to a range of 0 to 90, you would use 40 for the source range and 90 for the target range, and then subtract the offset. Therefore the scale factor equals 90 divided by 40 or 2.25 - 10. 
 
    .. list-table::
       :widths: 25 25 50
