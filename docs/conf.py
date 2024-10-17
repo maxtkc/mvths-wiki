@@ -24,13 +24,11 @@ author = 'Max, Sam'
 # The full version, including alpha/beta/rc tags
 release = '0'
 
-html_context = {
-    "display_github": True, # Integrate GitHub
-    "github_user": "maxtkc", # Username
-    "github_repo": "mvths-wiki", # Repo name
-    "github_version": "master", # Version
-    "conf_py_path": "/docs/", # Path in the checkout to the docs root
-}
+# Tell Jinja2 templates the build is running on Read the Docs
+if os.environ.get("READTHEDOCS", "") == "True":
+    if "html_context" not in globals():
+        html_context = {}
+    html_context["READTHEDOCS"] = True
 
 # -- General configuration ---------------------------------------------------
 
