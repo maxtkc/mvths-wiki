@@ -33,9 +33,9 @@ Use the following components and tools to light an LED.
 
 Exercise:
 ~~~~~~~~~
-#. using the tools and components described above try to light your LED. It will take some experimentation. It is possible to destroy the LED if it is not connected correctly, but again that is the price of experimentation. It is also possible that some of the LEDs are already broken. Try working with a few until you get one to light. 
+#. Using your bench supply for power try to connect the resistor and LED in such a way that the LED is lit. It will take some experimentation. It is possible to destroy the LED if you power it without the resistor or it is not connected correctly, but again that is the price of experimentation. It is also possible that some of the LEDs are already broken. Try working with a few until you get one to light. 
 
-   Below is a schematic for a circuit that will light an LED. A schematic is a symbolic representation of the circuit. You will learn more about these in future lessons, but for now you can use this as a guide. 
+   Below is a schematic for a circuit that will light an LED. A schematic is a symbolic representation of the circuit. You will learn more about these in future lessons, but for now see if you can decipher the symbols and use this as a guide. 
 
 
    .. figure:: images/image107.png
