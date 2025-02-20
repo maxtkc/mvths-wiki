@@ -20,7 +20,7 @@ This image shows a diagram of how the rows and columns of the breadboard are con
 Exercise:
 ~~~~~~~~~
 
-Construct the following three circuits on your breadboard. Using what you just learned about breadboards, use the breadboard to make connections between your components. You can set up all three circuits at once or demonstrate them individually. Note that one of the circuits will not light the LED. Construct it anyway just to show you know how to make connections and follow circuit diagrams.
+Using what you just learned about breadboards construct the following three circuits on your breadboard all at once or individually. Make sure to show your teacher each circuit. In the previous circuit you needed to use your fingers to hold the circuit together. Using the breadboard you should be able to set up the circuit so that it does not require you to hold it. The breadboard can be used to connect the wire leads from the resistor and LED. Note that one of the circuits will not light the LED. Construct it anyway just to show you know how to make connections and follow circuit diagrams.
 
 IMPORTANT: Do not attempt to put two wires in one hole.
 
