@@ -1,7 +1,7 @@
-STEP THIRTEEN: First Prototype
+STEP FIFTEEN: First Base
 ======================
 
 Overview
 --------
 
-At this point, you should be focusing on creating a simple prototype sumo bot that can navigate around the sumo ring without falling off. This prototype will need to include a base to hold the motors, two wheels that attach to your motors, a simple caster and a mount to hold your each of your two down sensors. All of this will be covered in the next lessons. 
+The quickest way to create a base for your robot for testing is to design one in two dimensions that can be cut on the laser cutter. This base should include a place to mount the motors, the caster wheel and the down facing sensors.
