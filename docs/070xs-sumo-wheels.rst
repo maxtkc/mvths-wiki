@@ -1,7 +1,7 @@
-STEP THIRTEEN: First Prototype
+STEP FOURTEEN: Prototype Wheels
 ======================
 
 Overview
 --------
 
-At this point, you should be focusing on creating a simple prototype sumo bot that can navigate around the sumo ring without falling off. This prototype will need to include a base to hold the motors, two wheels that attach to your motors, a simple caster and a mount to hold your each of your two down sensors. All of this will be covered in the next lessons. 
+The first step in creating the protype robot is designing and printing a set of wheels. The wheels can be of any dimension as long as they can fit within th overall dimensions of the sumo bot. 
