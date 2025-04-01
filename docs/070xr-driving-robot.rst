@@ -4,5 +4,4 @@ STEP THIRTEEN: First Prototype
 Overview
 --------
 
-MAKE A SIMPLE PROTOTYPE. TEST IT ON THE RING. LEARN THROUGH RAPID PROTOTYPING--TRIAL AND ERROR.
-At this point, you should be focusing on creating a prototype sumo bot that can navigate around the sumo ring without falling off. You now have all the sensors (two down sensors), motor control and battery control you need for this task. Try to write some code that cause your robot to back up and turn when it "sees" a white line. At the same time, you should be building a frame and wheels to carry your electronics. You do not need to create a circuit board at this point. Just create something that can hold the electronics.
+At this point, you should be focusing on creating a simple prototype sumo bot that can navigate around the sumo ring without falling off. This prototype will need to include a base to hold the motors, two wheels that attach to your motors, a simple caster and a mount to hold your each of your two down sensors. All of this will be covered in the next lessons. 
