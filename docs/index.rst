@@ -128,10 +128,10 @@ The following is a list of guides for learning about electronics and software in
    070xo-sumo-sensor-read
    070xp-sumo-sensor-digital
    070xh-sumo-comparator
+   070xr-driving-robot
    070xs-sumo-wheels
    070xt-base
    070xu-caster
-   070xr-driving-robot
    070xi-sumo-distance-ir
    070xj-sumo-distance-tf
    070xk-sumo-soft-switch
